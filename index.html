@@ -1187,9 +1187,9 @@ body {
   <div class="modal" style="position:relative;text-align:center;">
     <button class="modal-close" onclick="closeDatePicker()">✕</button>
     <div class="date-picker-header">
-      <button class="date-picker-nav" onclick="pickerMonth(-1)">◀</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(-1)">◀</button>
       <span class="month-year" id="pickerMonthYear"></span>
-      <button class="date-picker-nav" onclick="pickerMonth(1)">▶</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(1)">▶</button>
     </div>
     <div class="date-picker-grid" id="datePickerGrid"></div>
   </div>
@@ -2045,7 +2045,7 @@ function renderDatePicker() {
   grid.innerHTML = html;
 }
 
-function pickerMonth(dir) {
+function navigatePickerMonth(dir) {
   pickerMonth += dir;
   if (pickerMonth > 11) { pickerMonth = 0; pickerYear++; }
   if (pickerMonth < 0) { pickerMonth = 11; pickerYear--; }
