@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:41:53.506Z",
+  "exportedAt": "2026-06-25T23:43:16.683Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -307,6 +307,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-25T23:41:51.505Z"
+    },
+    {
+      "id": "r_1782430994671_m2le",
+      "title": "מערכת ניהול אישי.",
+      "description": "כולל גיבוי אוטומטי בענן כמו ב\"ניהול כסף\".",
+      "time": "15:00",
+      "duration": 60,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-25T23:43:14.671Z"
     }
   ],
   "suggestions": {
