@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T21:59:03.871Z",
+  "exportedAt": "2026-06-25T21:59:39.987Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -39,7 +39,11 @@
       "createdAt": "2026-06-25T21:59:01.865Z"
     }
   ],
-  "suggestions": {},
+  "suggestions": {
+    "2026-06-28": {
+      "r_1782423817363_xrim": "postponed"
+    }
+  },
   "settings": {
     "autoSync": true
   }
