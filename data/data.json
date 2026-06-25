@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:40:17.294Z",
+  "exportedAt": "2026-06-25T23:41:13.421Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -287,26 +287,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T23:36:00.894Z"
-    },
-    {
-      "id": "r_1782430760835_q9yy",
-      "title": "פל\"נ",
-      "description": "מתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          0,
-          2,
-          4
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T23:39:20.835Z"
     }
   ],
   "suggestions": {
