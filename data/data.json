@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:33:56.861Z",
+  "exportedAt": "2026-06-25T23:34:12.472Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -272,6 +272,21 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T23:17:15.433Z"
+    },
+    {
+      "id": "r_1782430450460_6zm1",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T23:34:10.460Z"
     }
   ],
   "suggestions": {
