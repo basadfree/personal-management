@@ -1526,6 +1526,15 @@ function init() {
   loadState();
   renderWeek();
   renderDay();
+  const token = getGithubToken();
+  const sha = getSha();
+  if (token && sha) {
+    setSyncStatus('synced', 'נשמר בענן');
+  } else if (token) {
+    setSyncStatus('', 'מקומי');
+  } else {
+    setSyncStatus('', 'מקומי');
+  }
 }
 
 // ===== STATE PERSISTENCE =====
