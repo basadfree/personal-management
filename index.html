@@ -1329,7 +1329,7 @@ async function syncToGitHub(showToast = true) {
   try {
     let sha = getSha();
     if (!sha) {
-      const getRes = await fetch(baseUrl + `?ref=main`, { method: 'GET', headers });
+      const getRes = await fetch(baseUrl + `?ref=master`, { method: 'GET', headers });
       if (getRes.ok) {
         const getData = await getRes.json();
         sha = getData.sha;
@@ -1339,7 +1339,7 @@ async function syncToGitHub(showToast = true) {
     const body = {
       message: `גיבוי אוטומטי ${new Date().toLocaleString('he-IL')}`,
       content,
-      branch: 'main'
+      branch: 'master'
     };
     if (sha) body.sha = sha;
 
