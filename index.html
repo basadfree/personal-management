@@ -1305,9 +1305,9 @@ body {
 
   <!-- Week Nav -->
   <div class="week-nav">
-    <button class="week-nav-btn" onclick="moveWeek(-1)" title="שבוע קודם">◀</button>
+    <button class="week-nav-btn" onclick="moveWeek(-1)" title="שבוע קודם">▶</button>
     <div class="week-days" id="weekDays"></div>
-    <button class="week-nav-btn" onclick="moveWeek(1)" title="שבוע הבא">▶</button>
+    <button class="week-nav-btn" onclick="moveWeek(1)" title="שבוע הבא">◀</button>
     <button class="today-btn" onclick="goToToday()">היום</button>
   </div>
 
@@ -1475,9 +1475,9 @@ body {
   <div class="modal" style="position:relative;text-align:center;">
     <button class="modal-close" onclick="closeDatePicker()">✕</button>
     <div class="date-picker-header">
-      <button class="date-picker-nav" onclick="navigatePickerMonth(-1)">◀</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(-1)">▶</button>
       <span class="month-year" id="pickerMonthYear"></span>
-      <button class="date-picker-nav" onclick="navigatePickerMonth(1)">▶</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(1)">◀</button>
     </div>
     <div class="date-picker-grid" id="datePickerGrid"></div>
     <div id="pickerTimeRow" style="display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--card-border);">
