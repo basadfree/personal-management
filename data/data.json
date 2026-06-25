@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:34:12.472Z",
+  "exportedAt": "2026-06-25T23:34:30.942Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -251,9 +251,9 @@
       "id": "r_1782428345440_40ce",
       "title": "פנקסים.",
       "description": "10*40=6:40.",
-      "time": "09:00",
+      "time": "",
       "duration": 30,
-      "date": "2026-06-26",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
