@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:16:47.726Z",
+  "exportedAt": "2026-06-25T23:17:17.440Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -256,6 +256,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:59:05.440Z"
+    },
+    {
+      "id": "r_1782429435433_65q8",
+      "title": "כלומר",
+      "description": "באמת",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-25T23:17:15.433Z"
     }
   ],
   "suggestions": {
