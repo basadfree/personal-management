@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:34:30.942Z",
+  "exportedAt": "2026-06-25T23:34:55.638Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -246,19 +246,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:55:06.322Z"
-    },
-    {
-      "id": "r_1782428345440_40ce",
-      "title": "פנקסים.",
-      "description": "10*40=6:40.",
-      "time": "",
-      "duration": 30,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:59:05.440Z"
     },
     {
       "id": "r_1782429435433_65q8",
