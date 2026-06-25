@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:17:51.178Z",
+  "exportedAt": "2026-06-25T23:18:06.015Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -261,9 +261,9 @@
       "id": "r_1782429435433_65q8",
       "title": "כלומר",
       "description": "באמת",
-      "time": "10:00",
+      "time": "",
       "duration": 30,
-      "date": "2026-06-26",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
