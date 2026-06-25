@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:43:58.944Z",
+  "exportedAt": "2026-06-25T23:45:21.278Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -320,6 +320,21 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T23:43:14.671Z"
+    },
+    {
+      "id": "r_1782431119274_jv12",
+      "title": "מקלחת לכבוד שבת",
+      "description": "",
+      "time": "00:30",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "weekly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T23:45:19.274Z"
     }
   ],
   "suggestions": {
