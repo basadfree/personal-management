@@ -1,7 +1,30 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T21:35:30.937Z",
-  "results": [],
+  "exportedAt": "2026-06-25T21:43:39.369Z",
+  "results": [
+    {
+      "id": "r_1782423817363_xrim",
+      "title": "שמו\"ת",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T21:43:37.363Z"
+    }
+  ],
   "suggestions": {},
   "settings": {
     "autoSync": true
