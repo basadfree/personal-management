@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:23:31.313Z",
+  "exportedAt": "2026-06-25T23:31:42.470Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -172,15 +172,16 @@
     },
     {
       "id": "r_1782425635431_87t8",
-      "title": "סידור המטרות.",
+      "title": "סידור המטרות, והתוצאות מיומן גוגל.",
       "time": "08:30",
-      "duration": 40,
+      "duration": 60,
       "date": "2026-06-26",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
-      "createdAt": "2026-06-25T22:13:55.431Z"
+      "createdAt": "2026-06-25T22:13:55.431Z",
+      "description": ""
     },
     {
       "id": "r_1782425903402_78o3",
