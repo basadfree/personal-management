@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:43:16.683Z",
+  "exportedAt": "2026-06-25T23:43:40.614Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -314,7 +314,7 @@
       "description": "כולל גיבוי אוטומטי בענן כמו ב\"ניהול כסף\".",
       "time": "15:00",
       "duration": 60,
-      "date": "2026-06-26",
+      "date": "2026-06-25",
       "completed": false,
       "archived": false,
       "recurrence": null,
