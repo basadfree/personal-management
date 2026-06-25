@@ -1,0 +1,8 @@
+# נתונים מקומיים
+data/
+!data/data.json
+
+# קבצי מערכת
+*.log
+.DS_Store
+Thumbs.db
