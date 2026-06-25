@@ -712,6 +712,253 @@ body {
   color: #fff;
 }
 
+.task-reschedule {
+  display: flex;
+  align-items: center;
+  padding: 0 4px 0 8px;
+}
+.task-reschedule-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--card-border);
+  background: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--text3);
+}
+.task-reschedule-btn:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.task-desc {
+  font-size: 12px;
+  color: var(--text2);
+  margin-top: 3px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.task-card.completed .task-desc {
+  display: none;
+}
+
+/* Duration-based sizing */
+.task-card.duration-xs { min-height: 36px; }
+.task-card.duration-xs .task-time { padding: 4px 8px 4px 4px; min-width: 44px; }
+.task-card.duration-xs .task-time-main { font-size: 13px; }
+.task-card.duration-xs .task-time-duration { display: none; }
+.task-card.duration-xs .task-body { padding: 4px 4px 4px 8px; }
+.task-card.duration-xs .task-title { font-size: 13px; }
+.task-card.duration-xs .task-select { padding: 0 6px 0 4px; }
+.task-card.duration-xs .task-complete { padding: 0 6px; }
+.task-card.duration-xs .task-complete-btn { width: 22px; height: 22px; font-size: 11px; }
+.task-card.duration-xs .task-reschedule { padding: 0 2px 0 4px; }
+.task-card.duration-xs .task-reschedule-btn { width: 22px; height: 22px; font-size: 11px; }
+
+.task-card.duration-sm { min-height: 48px; }
+.task-card.duration-sm .task-time { padding: 8px 8px 8px 4px; }
+.task-card.duration-sm .task-time-main { font-size: 15px; }
+.task-card.duration-sm .task-body { padding: 8px 4px 8px 12px; }
+.task-card.duration-sm .task-title { font-size: 14px; }
+
+.task-card.duration-md { min-height: 64px; }
+.task-card.duration-md .task-time { padding: 14px 10px 14px 4px; }
+.task-card.duration-md .task-body { padding: 14px 4px 14px 12px; }
+
+.task-card.duration-lg { min-height: 80px; }
+.task-card.duration-lg .task-time { padding: 18px 12px 18px 4px; }
+.task-card.duration-lg .task-body { padding: 18px 4px 18px 12px; }
+
+/* Completed task collapse */
+.task-card.completed {
+  min-height: 0 !important;
+  max-height: 38px;
+  opacity: 0.5;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.task-card.completed.duration-xs { max-height: 28px; }
+.task-card.completed .task-body { padding: 6px 4px 6px 12px; }
+.task-card.completed .task-time { padding: 6px 8px 6px 4px; min-width: 44px; }
+.task-card.completed .task-time-main { font-size: 13px; }
+.task-card.completed .task-time-duration { display: none; }
+.task-card.completed .task-meta { display: none; }
+.task-card.completed .task-title { font-size: 13px; font-weight: 500; }
+.task-card.completed .task-select { padding: 0 6px 0 4px; }
+.task-card.completed .task-complete { padding: 0 6px; }
+.task-card.completed .task-complete-btn { width: 22px; height: 22px; font-size: 11px; }
+.task-card.completed .task-reschedule { padding: 0 2px 0 4px; }
+.task-card.completed .task-reschedule-btn { width: 22px; height: 22px; font-size: 11px; }
+.task-card.completed .task-desc { display: none; }
+
+/* Sync status indicator */
+.sync-status {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text3);
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: var(--surface-hover);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.sync-status.syncing {
+  color: var(--accent);
+  background: var(--accent-light);
+}
+.sync-status.synced {
+  color: var(--success);
+  background: var(--success-light);
+}
+.sync-status.error {
+  color: var(--danger);
+  background: var(--danger-light);
+}
+.sync-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text3);
+}
+.sync-status.syncing .sync-status-dot {
+  background: var(--accent);
+  animation: pulse 1s infinite;
+}
+.sync-status.synced .sync-status-dot { background: var(--success); }
+.sync-status.error .sync-status-dot { background: var(--danger); }
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* Unscheduled tasks */
+.unscheduled-section {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+}
+.unscheduled-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  background: var(--surface-hover);
+  transition: var(--transition);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text2);
+  border: none;
+  width: 100%;
+}
+.unscheduled-header:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.unscheduled-header .arrow {
+  transition: transform 0.2s;
+  font-size: 12px;
+}
+.unscheduled-header.open .arrow {
+  transform: rotate(90deg);
+}
+.unscheduled-body {
+  display: none;
+  margin-top: 8px;
+}
+.unscheduled-body.open { display: block; }
+.unscheduled-body .task-list { gap: 6px; }
+.unscheduled-empty {
+  text-align: center;
+  padding: 20px;
+  color: var(--text3);
+  font-size: 13px;
+}
+.unscheduled-count {
+  font-size: 11px;
+  color: var(--text3);
+  margin-right: auto;
+}
+
+/* Reschedule popup */
+.reschedule-popup {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  z-index: 100;
+  padding: 6px;
+  display: none;
+  min-width: 140px;
+}
+.reschedule-popup.open { display: block; }
+.reschedule-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: var(--radius-xs);
+  color: var(--text);
+  transition: var(--transition);
+}
+.reschedule-option:hover {
+  background: var(--surface-hover);
+  color: var(--primary);
+}
+
+/* Duration display */
+.duration-display {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text3);
+}
+.duration-display.hours-minutes {
+  color: var(--text2);
+}
+
+/* Form textarea */
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--surface);
+  transition: var(--transition);
+  resize: vertical;
+  min-height: 60px;
+}
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
 /* ===== BATCH BAR ===== */
 .batch-bar {
   position: fixed;
@@ -1039,6 +1286,10 @@ body {
       <div class="header-title">ניהול <span>אישי</span></div>
     </div>
     <div class="header-actions">
+      <div class="sync-status" id="syncStatusIndicator" title="סטטוס סנכרון">
+        <span class="sync-status-dot"></span>
+        <span id="syncStatusText">מקומי</span>
+      </div>
       <button class="btn-icon" onclick="openSettings()" title="הגדרות">⚙️</button>
       <button class="btn-icon" onclick="showDatePicker()" title="בחר תאריך">📅</button>
     </div>
@@ -1073,13 +1324,23 @@ body {
       </div>
     </div>
     <div class="form-row">
+      <div class="form-group" style="flex:3">
+        <label>תיאור (אופציונלי)</label>
+        <textarea id="taskDescription" placeholder="פרטים נוספים על התוצאה..." rows="2"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
       <div class="form-group">
         <label>שעה</label>
         <input type="time" id="taskTime" value="09:00">
       </div>
-      <div class="form-group">
-        <label>משך (דקות)</label>
-        <input type="number" id="taskDuration" value="30" min="1" max="1440">
+      <div class="form-group" style="flex:0.7">
+        <label>שעות</label>
+        <input type="number" id="taskDurationHours" value="0" min="0" max="24">
+      </div>
+      <div class="form-group" style="flex:0.7">
+        <label>דקות</label>
+        <input type="number" id="taskDurationMinutes" value="30" min="0" max="59">
       </div>
     </div>
     <div class="form-row">
@@ -1119,6 +1380,18 @@ body {
     <div class="task-list-empty">
       <div class="empty-icon">📋</div>
       <div>אין תוצאות להיום<br><span style="font-size:13px;color:var(--text3)">לחץ על "הוסף תוצאה חדשה" כדי להתחיל</span></div>
+    </div>
+  </div>
+
+  <!-- Unscheduled Tasks -->
+  <div class="unscheduled-section" id="unscheduledSection">
+    <button class="unscheduled-header" id="unscheduledToggle" onclick="toggleUnscheduled()">
+      <span>📥 מאגר תוצאות ללא תאריך</span>
+      <span class="unscheduled-count" id="unscheduledCount">0</span>
+      <span class="arrow">▶</span>
+    </button>
+    <div class="unscheduled-body" id="unscheduledBody">
+      <div class="task-list" id="unscheduledList"></div>
     </div>
   </div>
 </div>
@@ -1312,14 +1585,17 @@ async function syncToGitHub(showToast = true) {
   const parts = repo.split('/');
   if (parts.length !== 2 || !parts[0] || !parts[1]) {
     if (showToast) toast('❌ פורמט מאגר לא תקין. השתמש: בעל-אתר/שם-המאגר', 'error');
+    setSyncStatus('error', 'שגיאה');
     return false;
   }
   const [owner, repoName] = parts;
 
   if (!token) {
     if (showToast) toast('❌ לא הוגדר טוקן גיטאב. הגדר בהגדרות.', 'error');
+    setSyncStatus('', 'מקומי');
     return false;
   }
+  setSyncStatus('syncing', 'שומר…');
   if (showToast) toast('☁️ מסנכרן לענן...', 'info');
 
   const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
@@ -1354,12 +1630,15 @@ async function syncToGitHub(showToast = true) {
       if (data.content?.sha) setSha(data.content.sha);
       if (showToast) toast('✅ הנתונים סונכרנו לענן!', 'success');
       document.getElementById('syncStatus').textContent = 'מסונכרן: ' + new Date().toLocaleString('he-IL');
+      setSyncStatus('synced', 'נשמר בענן');
       return true;
     }
     if (showToast) toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
+    setSyncStatus('error', 'שגיאה');
     return false;
   } catch (e) {
     if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
+    setSyncStatus('error', 'שגיאה');
     return false;
   }
 }
@@ -1368,6 +1647,7 @@ function debouncedSync() {
   if (!state.settings.autoSync) return;
   const token = getGithubToken();
   if (!token) return;
+  setSyncStatus('syncing', 'שומר…');
   clearTimeout(syncTimer);
   syncTimer = setTimeout(() => syncToGitHub(false), 2000);
 }
@@ -1375,6 +1655,14 @@ function debouncedSync() {
 function toggleAutoSync(enabled) {
   state.settings.autoSync = enabled;
   saveState();
+}
+
+function setSyncStatus(status, text) {
+  const el = document.getElementById('syncStatusIndicator');
+  const textEl = document.getElementById('syncStatusText');
+  el.className = 'sync-status';
+  if (status) el.classList.add(status);
+  if (text) textEl.textContent = text;
 }
 
 // ===== DATE HELPERS =====
@@ -1433,7 +1721,7 @@ function renderWeek() {
     const dayStr = getDateStr(day);
     const isToday = isSameDay(day, today);
     const isActive = dayStr === selectedStr;
-    const count = state.results.filter(r => r.date === dayStr && !r.archived).length;
+    const count = state.results.filter(r => r.date === dayStr && !r.archived && !r.completed).length;
 
     const btn = document.createElement('button');
     btn.className = 'week-day' + (isActive ? ' active' : '') + (isToday ? ' today' : '');
@@ -1564,6 +1852,7 @@ function acceptSuggestion(resultId) {
   const newResult = {
     id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
     title: source.title,
+    description: source.description || '',
     time: source.time,
     duration: source.duration,
     date: dateStr,
@@ -1645,8 +1934,10 @@ function toggleTaskForm() {
 
 function resetForm() {
   document.getElementById('taskTitle').value = '';
+  document.getElementById('taskDescription').value = '';
   document.getElementById('taskTime').value = '09:00';
-  document.getElementById('taskDuration').value = '30';
+  document.getElementById('taskDurationHours').value = '0';
+  document.getElementById('taskDurationMinutes').value = '30';
   editingId = null;
   recurrenceType = '';
   recurrenceDays = [];
@@ -1688,8 +1979,11 @@ function saveTask() {
     return;
   }
 
+  const description = document.getElementById('taskDescription').value.trim();
   const time = document.getElementById('taskTime').value || '09:00';
-  const duration = parseInt(document.getElementById('taskDuration').value) || 30;
+  const hours = parseInt(document.getElementById('taskDurationHours').value) || 0;
+  const minutes = parseInt(document.getElementById('taskDurationMinutes').value) || 0;
+  const duration = hours * 60 + minutes;
   const dateStr = getDateStr(currentDate);
 
   let recurrence = null;
@@ -1705,10 +1999,10 @@ function saveTask() {
   }
 
   if (editingId) {
-    // Edit existing
     const idx = state.results.findIndex(r => r.id === editingId);
     if (idx >= 0) {
       state.results[idx].title = title;
+      state.results[idx].description = description;
       state.results[idx].time = time;
       state.results[idx].duration = duration;
       state.results[idx].recurrence = recurrence;
@@ -1716,10 +2010,10 @@ function saveTask() {
     editingId = null;
     toast('✅ התוצאה עודכנה', 'success');
   } else {
-    // New task
     const result = {
       id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
       title,
+      description,
       time,
       duration,
       date: dateStr,
@@ -1738,6 +2032,7 @@ function saveTask() {
   toggleTaskForm();
   renderWeek();
   renderDay();
+  renderUnscheduledTasks();
 }
 
 function toggleComplete(id) {
@@ -1755,8 +2050,11 @@ function startEdit(id) {
 
   editingId = id;
   document.getElementById('taskTitle').value = result.title;
+  document.getElementById('taskDescription').value = result.description || '';
   document.getElementById('taskTime').value = result.time || '09:00';
-  document.getElementById('taskDuration').value = result.duration || 30;
+  const dur = result.duration || 0;
+  document.getElementById('taskDurationHours').value = Math.floor(dur / 60);
+  document.getElementById('taskDurationMinutes').value = dur % 60;
 
   // Set recurrence
   recurrenceType = result.recurrence ? result.recurrence.type : '';
@@ -1802,20 +2100,24 @@ function renderDay() {
     container.innerHTML = results.map(r => {
       const isSelected = selectedIds.has(r.id);
       const timeDisplay = r.time ? r.time.slice(0, 5) : '--:--';
-      const durationDisplay = r.duration ? `${r.duration}′` : '';
+      const dur = r.duration || 0;
+      const durClass = dur <= 5 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
       const recurringBadge = r.recurrence ? `<span class="task-tag recurring">🔄 ${getRecurrenceLabel(r.recurrence)}</span>` : '';
       const suggestionBadge = r.sourceId ? `<span class="task-tag">💡 הוצע</span>` : '';
+      const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
+      const durationLabel = formatDuration(r.duration);
       return `
-        <div class="task-card ${r.completed ? 'completed' : ''} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
+        <div class="task-card ${durClass} ${r.completed ? 'completed' : ''} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
           <div class="task-select">
             <input type="checkbox" ${isSelected ? 'checked' : ''} onchange="toggleSelect('${r.id}')" onclick="event.stopPropagation()">
           </div>
           <div class="task-time">
             <span class="task-time-main">${timeDisplay}</span>
-            ${durationDisplay ? `<span class="task-time-duration">${durationDisplay}</span>` : ''}
+            ${durationLabel ? `<span class="task-time-duration">${durationLabel}</span>` : ''}
           </div>
           <div class="task-body" onclick="startEdit('${r.id}')">
             <div class="task-title">${escHtml(r.title)}</div>
+            ${descHtml}
             <div class="task-meta">
               ${recurringBadge}
               ${suggestionBadge}
@@ -1826,6 +2128,13 @@ function renderDay() {
               ${r.completed ? '✓' : ''}
             </button>
           </div>
+          <div class="task-reschedule" style="position:relative">
+            <button class="task-reschedule-btn" onclick="event.stopPropagation();toggleReschedule('${r.id}')" title="תזמן ליום אחר">↻</button>
+            <div class="reschedule-popup" id="reschedule_${r.id}">
+              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','tomorrow')">📅 מחר</button>
+              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','picker')">📅 בחר תאריך</button>
+            </div>
+          </div>
         </div>
       `;
     }).join('');
@@ -1833,6 +2142,7 @@ function renderDay() {
 
   renderSuggestions();
   updateBatchBar();
+  renderUnscheduledTasks();
 }
 
 // ===== BATCH OPERATIONS =====
@@ -1880,6 +2190,7 @@ function batchDuplicate() {
     const newResult = {
       id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
       title: r.title + ' (עותק)',
+      description: r.description || '',
       time: r.time,
       duration: r.duration,
       date: dateStr,
@@ -1945,6 +2256,107 @@ function batchShiftTime() {
   saveState();
   renderDay();
   toast(`⏰ ${toShift.length} תוצאות נדחו ב־${minutes} דקות`, 'success');
+}
+
+// ===== RESCHEDULE =====
+let rescheduleOpenId = null;
+
+function toggleReschedule(id) {
+  if (rescheduleOpenId === id) {
+    document.getElementById('reschedule_' + id).classList.remove('open');
+    rescheduleOpenId = null;
+    return;
+  }
+  document.querySelectorAll('.reschedule-popup').forEach(p => p.classList.remove('open'));
+  document.getElementById('reschedule_' + id).classList.add('open');
+  rescheduleOpenId = id;
+}
+
+function scheduleForDate(id, when) {
+  document.querySelectorAll('.reschedule-popup').forEach(p => p.classList.remove('open'));
+  rescheduleOpenId = null;
+  const result = state.results.find(r => r.id === id);
+  if (!result) return;
+
+  if (when === 'tomorrow') {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const newDateStr = getDateStr(tomorrow);
+    const newResult = {
+      id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+      title: result.title,
+      description: result.description,
+      time: result.time,
+      duration: result.duration,
+      date: newDateStr,
+      completed: false,
+      archived: false,
+      recurrence: null,
+      sourceId: result.sourceId || result.id,
+      createdAt: new Date().toISOString()
+    };
+    state.results.push(newResult);
+    saveState();
+    renderDay();
+    toast(`📅 התוצאה תוזמנה למחר (${formatDateDisplay(newDateStr)})`, 'success');
+  } else if (when === 'picker') {
+    movePending = true;
+    pendingRescheduleSourceId = id;
+    showDatePicker();
+  }
+}
+
+let pendingRescheduleSourceId = null;
+
+// ===== UNSCHEDULED TASKS =====
+let unscheduledOpen = false;
+
+function toggleUnscheduled() {
+  unscheduledOpen = !unscheduledOpen;
+  document.getElementById('unscheduledBody').classList.toggle('open', unscheduledOpen);
+  document.getElementById('unscheduledToggle').classList.toggle('open', unscheduledOpen);
+  if (unscheduledOpen) renderUnscheduledTasks();
+}
+
+function renderUnscheduledTasks() {
+  const results = state.results.filter(r => (!r.date || r.date === '') && !r.archived);
+  const container = document.getElementById('unscheduledList');
+  const countEl = document.getElementById('unscheduledCount');
+  countEl.textContent = results.length;
+
+  if (results.length === 0) {
+    container.innerHTML = `<div class="unscheduled-empty">אין תוצאות ללא תאריך</div>`;
+    return;
+  }
+
+  container.innerHTML = results.map(r => {
+    const isSelected = selectedIds.has(r.id);
+    const dur = r.duration || 0;
+    const durClass = dur <= 5 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
+    const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
+    const durationLabel = formatDuration(r.duration);
+    return `
+      <div class="task-card ${durClass} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
+        <div class="task-select">
+          <input type="checkbox" ${isSelected ? 'checked' : ''} onchange="toggleSelect('${r.id}')" onclick="event.stopPropagation()">
+        </div>
+        <div class="task-time">
+          <span class="task-time-main">--:--</span>
+          ${durationLabel ? `<span class="task-time-duration">${durationLabel}</span>` : ''}
+        </div>
+        <div class="task-body" onclick="assignUnscheduledDate('${r.id}')">
+          <div class="task-title">${escHtml(r.title)}</div>
+          ${descHtml}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function assignUnscheduledDate(id) {
+  movePending = true;
+  pendingRescheduleSourceId = id;
+  showDatePicker();
 }
 
 // ===== SETTINGS =====
@@ -2054,6 +2466,39 @@ function navigatePickerMonth(dir) {
 
 function pickDate(dateStr) {
   if (movePending) {
+    if (pendingRescheduleSourceId) {
+      const source = state.results.find(r => r.id === pendingRescheduleSourceId);
+      if (source) {
+        // If source has no date (unscheduled pool), move it to the date
+        if (!source.date || source.date === '') {
+          source.date = dateStr;
+          toast(`📅 התוצאה שובצה ל־${formatDateDisplay(dateStr)}`, 'success');
+        } else {
+          // Otherwise, create a copy (reschedule)
+          const newResult = {
+            id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+            title: source.title,
+            description: source.description,
+            time: source.time,
+            duration: source.duration,
+            date: dateStr,
+            completed: false,
+            archived: false,
+            recurrence: null,
+            sourceId: source.sourceId || source.id,
+            createdAt: new Date().toISOString()
+          };
+          state.results.push(newResult);
+          toast(`📅 התוצאה תוזמנה ל־${formatDateDisplay(dateStr)}`, 'success');
+        }
+        saveState();
+        renderDay();
+      }
+      movePending = false;
+      pendingRescheduleSourceId = null;
+      closeDatePicker();
+      return;
+    }
     handleDatePickForMove(dateStr);
     closeDatePicker();
     return;
@@ -2083,6 +2528,15 @@ function toast(msg, type = 'info') {
 }
 
 // ===== UTILITY =====
+function formatDuration(minutes) {
+  if (!minutes || minutes <= 0) return '';
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  if (h > 0 && m > 0) return `${h}ש ${m}דק`;
+  if (h > 0) return `${h}שה`;
+  return `${m}דק`;
+}
+
 function escHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
