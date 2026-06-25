@@ -2362,7 +2362,7 @@ function renderUnscheduledTasks() {
     const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
     const durationLabel = formatDuration(r.duration);
     return `
-      <div class="task-card ${durClass} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
+      <div class="task-card ${durClass} ${isSelected ? 'selected' : ''}" data-id="${r.id}" style="position:relative">
         <div class="task-select">
           <input type="checkbox" ${isSelected ? 'checked' : ''} onchange="toggleSelect('${r.id}')" onclick="event.stopPropagation()">
         </div>
@@ -2370,16 +2370,37 @@ function renderUnscheduledTasks() {
           <span class="task-time-main">--:--</span>
           ${durationLabel ? `<span class="task-time-duration">${durationLabel}</span>` : ''}
         </div>
-        <div class="task-body" onclick="assignUnscheduledDate('${r.id}')">
+        <div class="task-body" onclick="showUnscheduledMenu('${r.id}')">
           <div class="task-title">${escHtml(r.title)}</div>
           ${descHtml}
+        </div>
+        <div class="reschedule-popup" id="unschedMenu_${r.id}">
+          <button class="reschedule-option" onclick="closeUnscheduledMenu();startEdit('${r.id}')">✏️ עריכה</button>
+          <button class="reschedule-option" onclick="assignUnscheduledDate('${r.id}')">📅 בחירת תאריך ושעה</button>
         </div>
       </div>
     `;
   }).join('');
 }
 
+function showUnscheduledMenu(id) {
+  document.querySelectorAll('.reschedule-popup').forEach(p => p.classList.remove('open'));
+  document.getElementById('unschedMenu_' + id).classList.add('open');
+}
+
+function closeUnscheduledMenu() {
+  document.querySelectorAll('.reschedule-popup').forEach(p => p.classList.remove('open'));
+  rescheduleOpenId = null;
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.reschedule-popup') && !e.target.closest('.task-reschedule-btn') && !e.target.closest('.unscheduled-section .task-body')) {
+    closeUnscheduledMenu();
+  }
+});
+
 function assignUnscheduledDate(id) {
+  closeUnscheduledMenu();
   movePending = true;
   pendingRescheduleSourceId = id;
   showDatePicker();
