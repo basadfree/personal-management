@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:11:52.538Z",
+  "exportedAt": "2026-06-26T09:28:01.402Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -530,6 +530,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782464506024_rqnb"
+    },
+    {
+      "name": "תנ\"ך",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782463932659_pw5v",
+      "startDate": "2026-06-16",
+      "endDate": "2026-08-13",
+      "description": "מויקרא ז' עד יהושע ג', כולל מספר שאלות בהחוזר לכל ספר שהושלם.\n\nמ-י\"ג תמוז עד כ\"ט אב: 47 ימים.\n\n2 פרקים ליום.\n\nכלומר, 94 פרקים.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782466079400_w4mv"
     }
   ],
   "objectives": [
@@ -567,6 +578,34 @@
       "derech": "10",
       "status": "active",
       "goalId": "g_1782464506024_rqnb"
+    },
+    {
+      "id": "o_1782465511117_bbmn",
+      "name": "ויקרא + החוזר",
+      "derech": "21 פרקים.",
+      "status": "active",
+      "goalId": "g_1782466079400_w4mv"
+    },
+    {
+      "id": "o_1782465533534_pyl4",
+      "name": "במדבר + חוזר",
+      "derech": "36 פרקים.",
+      "status": "active",
+      "goalId": "g_1782466079400_w4mv"
+    },
+    {
+      "id": "o_1782465563205_v08s",
+      "name": "דברים + החוזר",
+      "derech": "34 פרקים",
+      "status": "active",
+      "goalId": "g_1782466079400_w4mv"
+    },
+    {
+      "id": "o_1782465721335_6sd6",
+      "name": "יהושע",
+      "derech": "3 פרקים.",
+      "status": "active",
+      "goalId": "g_1782466079400_w4mv"
     }
   ],
   "settings": {
