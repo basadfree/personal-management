@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:51:30.615Z",
+  "exportedAt": "2026-06-26T11:16:30.705Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -648,6 +648,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782470509226_idcs"
+    },
+    {
+      "name": "שינה וקימה.",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464120559_dk9g",
+      "startDate": "",
+      "endDate": "",
+      "description": "2 הימים לישון (להיות במיטה) \nמקס' ב-11:20 בלילה. שאיפה ל-11:00.\n\nקימה",
+      "status": "active",
+      "single": false,
+      "id": "g_1782472588700_qx46"
     }
   ],
   "objectives": [
