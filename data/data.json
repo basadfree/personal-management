@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:26:17.532Z",
+  "exportedAt": "2026-06-26T11:27:49.475Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -670,6 +670,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782473125865_44f2"
+    },
+    {
+      "name": "חד אופן",
+      "periodId": "",
+      "typeId": "",
+      "startDate": "",
+      "endDate": "",
+      "description": "30 פעמים ג'אלינג על חד אופן על המקום.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782473267471_rqz1"
     }
   ],
   "objectives": [
@@ -1106,6 +1117,34 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473244205_u1ht",
+      "name": "10",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1"
+    },
+    {
+      "id": "o_1782473246769_8luu",
+      "name": "17",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1"
+    },
+    {
+      "id": "o_1782473251295_20tr",
+      "name": "25",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1"
+    },
+    {
+      "id": "o_1782473260552_o8g8",
+      "name": "30",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1"
     }
   ],
   "settings": {
