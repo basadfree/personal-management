@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T02:55:06.479Z",
+  "exportedAt": "2026-06-26T02:55:53.165Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -396,6 +396,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:04.473Z"
+    },
+    {
+      "id": "r_1782442551153_zpl2",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T02:55:51.153Z"
     }
   ],
   "suggestions": {
