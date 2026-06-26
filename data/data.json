@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T02:56:56.477Z",
+  "exportedAt": "2026-06-26T02:58:30.029Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -394,6 +394,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:51.153Z"
+    },
+    {
+      "id": "r_1782442708026_qijm",
+      "title": "מלווה מלכה",
+      "description": "",
+      "time": "20:30",
+      "duration": 30,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "weekly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T02:58:28.026Z"
     }
   ],
   "suggestions": {
