@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T04:30:01.628Z",
+  "exportedAt": "2026-06-26T04:30:25.536Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -185,14 +185,15 @@
     {
       "id": "r_1782426023645_a4p8",
       "title": "זמן אפס. 100 - 150. 50 ע\"מ 3 ד\"ק לע\"מ.",
-      "time": "07:30",
+      "time": "08:30",
       "duration": 150,
       "date": "2026-06-26",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
-      "createdAt": "2026-06-25T22:20:23.645Z"
+      "createdAt": "2026-06-25T22:20:23.645Z",
+      "description": ""
     },
     {
       "id": "r_1782426191371_mn4b",
