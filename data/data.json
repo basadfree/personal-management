@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:47:43.121Z",
+  "exportedAt": "2026-06-26T09:48:15.572Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -543,8 +543,8 @@
       "name": "גמרא",
       "periodId": "gp_1782463458192_i8vh",
       "typeId": "gt_1782463932659_pw5v",
-      "startDate": "2026-06-16",
-      "endDate": "2026-08-13",
+      "startDate": "",
+      "endDate": "",
       "description": "51 כרטיסיות בהחוזר, זה יוצא בממוצע כרטיסייה אחת ליום, ללא ימי שבת. במוצאי שבת אפשר להשלים אם צריך.",
       "status": "active",
       "single": false,
