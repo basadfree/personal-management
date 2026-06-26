@@ -1312,6 +1312,233 @@ body {
   border: 1px solid var(--primary);
 }
 
+/* ===== TABS ===== */
+.tab-bar {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.tab-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text2);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.tab-btn:hover { background: var(--surface-hover); color: var(--text); }
+.tab-btn.active { background: var(--primary); color: #fff; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* ===== GOALS ===== */
+.goals-header-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.goals-section {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.goals-section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--surface-hover);
+  border-bottom: 1px solid var(--card-border);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.goals-section-header:hover { background: var(--primary-light); }
+.goals-section-header .arrow { transition: transform 0.2s; font-size: 12px; margin-left: auto; }
+.goals-section-header.open .arrow { transform: rotate(90deg); }
+.goals-section-body { display: none; padding: 12px; }
+.goals-section-body.open { display: block; }
+
+.period-card {
+  padding: 12px 14px;
+  background: var(--surface-hover);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+  transition: var(--transition);
+}
+.period-card:hover { border-color: var(--primary); }
+.period-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.period-card-title { font-size: 15px; font-weight: 600; flex: 1; }
+.period-card-dates { font-size: 12px; color: var(--text2); }
+.period-card-status {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.period-card-status.completed { background: var(--success-light); color: #059669; }
+.period-card-status.active { background: var(--accent-light); color: #8a6d00; }
+.period-card-status.in_progress { background: var(--primary-light); color: var(--primary); }
+.period-card-body { display: none; padding: 8px 0 0; }
+.period-card-body.open { display: block; }
+.period-card-desc { font-size: 13px; color: var(--text2); margin-bottom: 8px; }
+.period-actions { display: flex; gap: 4px; margin-top: 6px; }
+
+.goal-card {
+  padding: 10px 12px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 6px;
+  margin-right: 16px;
+  transition: var(--transition);
+  position: relative;
+}
+.goal-card:hover { border-color: var(--primary); }
+.goal-card::before {
+  content: '';
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  width: 8px;
+  height: 1px;
+  background: var(--text3);
+}
+.goal-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.goal-card-title { font-size: 14px; font-weight: 600; flex: 1; }
+.goal-card-type { font-size: 11px; padding: 1px 6px; border-radius: 8px; font-weight: 500; }
+.goal-card-dates { font-size: 11px; color: var(--text2); }
+.goal-card-status {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.goal-card-status.completed { background: var(--success-light); color: #059669; }
+.goal-card-status.active { background: var(--accent-light); color: #8a6d00; }
+.goal-card-status.in_progress { background: var(--primary-light); color: var(--primary); }
+.goal-card-body { display: none; padding: 8px 0 0; }
+.goal-card-body.open { display: block; }
+.goal-card-desc { font-size: 12px; color: var(--text2); margin-bottom: 6px; }
+.goal-actions { display: flex; gap: 4px; flex-wrap: wrap; }
+
+.objective-card {
+  padding: 8px 10px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xs);
+  margin-bottom: 4px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition);
+  font-size: 13px;
+}
+.objective-card:hover { border-color: var(--primary); background: var(--surface-hover); }
+.objective-card.completed { opacity: 0.5; }
+.objective-card.completed .objective-name { text-decoration: line-through; }
+.objective-name { flex: 1; font-weight: 500; }
+.objective-meta { font-size: 11px; color: var(--text2); }
+.objective-status {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.objective-status.completed { background: var(--success-light); color: #059669; }
+.objective-status.in_progress { background: var(--primary-light); color: var(--primary); }
+.objective-status.active { background: var(--accent-light); color: #8a6d00; }
+
+.goals-empty {
+  text-align: center;
+  padding: 24px;
+  color: var(--text3);
+  font-size: 14px;
+}
+.goals-empty-icon { font-size: 36px; margin-bottom: 8px; opacity: 0.4; }
+
+/* ===== GOALS MODALS ===== */
+.goal-form-group { margin-bottom: 12px; }
+.goal-form-group label { display: block; font-size: 12px; font-weight: 600; color: var(--text2); margin-bottom: 4px; }
+.goal-form-group input,
+.goal-form-group select,
+.goal-form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--surface);
+  transition: var(--transition);
+}
+.goal-form-group input:focus,
+.goal-form-group select:focus,
+.goal-form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+.goal-form-group textarea { resize: vertical; min-height: 50px; }
+.goal-form-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.goal-form-row .goal-form-group { flex: 1; min-width: 100px; }
+.objectives-list-form { margin-top: 8px; }
+.objective-form-item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 8px;
+  background: var(--surface-hover);
+  border-radius: var(--radius-xs);
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.objective-form-item input,
+.objective-form-item textarea {
+  flex: 1;
+  min-width: 80px;
+  padding: 4px 8px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xs);
+  font-family: inherit;
+  font-size: 12px;
+}
+.objective-form-item textarea { min-height: 30px; resize: vertical; }
+.objective-form-item .btn-icon { width: 24px; height: 24px; font-size: 12px; flex-shrink: 0; }
+
+/* ===== TYPE TAG COLORS ===== */
+.type-tag { display: inline-block; padding: 1px 8px; border-radius: 8px; font-size: 11px; font-weight: 500; }
+
 /* Responsive */
 @media (max-width: 560px) {
   .app { padding: 12px 10px 100px; }
@@ -1348,6 +1575,15 @@ body {
       <button class="btn-icon" onclick="showDatePicker()" title="בחר תאריך">📅</button>
     </div>
   </header>
+
+  <!-- Tab Bar -->
+  <div class="tab-bar">
+    <button class="tab-btn active" id="tabTasks" onclick="switchTab('tasks')">📋 ניהול זמנים</button>
+    <button class="tab-btn" id="tabGoals" onclick="switchTab('goals')">🎯 מטרות ויעדים</button>
+  </div>
+
+  <!-- ===== TASKS TAB ===== -->
+  <div class="tab-content active" id="tabContentTasks">
 
   <!-- Week Nav -->
   <div class="week-nav">
@@ -1459,6 +1695,21 @@ body {
       <div class="task-list" id="unscheduledList"></div>
     </div>
   </div>
+
+  </div><!-- /tabContentTasks -->
+
+  <!-- ===== GOALS TAB ===== -->
+  <div class="tab-content" id="tabContentGoals">
+
+    <div class="goals-header-actions">
+      <button class="btn btn-primary" onclick="showGoalPeriodForm()">📅 תקופת מטרות חדשה</button>
+      <button class="btn btn-outline" onclick="showGoalForm()">🎯 מטרה חדשה</button>
+      <button class="btn btn-outline btn-sm" onclick="showGoalTypeForm()">➕ סוג מטרה חדש</button>
+    </div>
+
+    <div id="goalsContainer"></div>
+
+  </div><!-- /tabContentGoals -->
 </div>
 
 <!-- Batch Action Bar -->
@@ -1541,6 +1792,146 @@ body {
   </div>
 </div>
 
+<!-- Goal Period Modal -->
+<div class="modal-overlay" id="goalPeriodModal">
+  <div class="modal" style="position:relative">
+    <button class="modal-close" onclick="closeGoalPeriodForm()">✕</button>
+    <h2 id="goalPeriodModalTitle">📅 תקופת מטרות חדשה</h2>
+    <div class="modal-body">
+      <div class="goal-form-group">
+        <label>שם התקופה</label>
+        <input type="text" id="gpName" placeholder="למשל: 2026, רבעון ראשון...">
+      </div>
+      <div class="goal-form-row">
+        <div class="goal-form-group">
+          <label>תאריך התחלה</label>
+          <input type="date" id="gpStart">
+        </div>
+        <div class="goal-form-group">
+          <label>תאריך סיום</label>
+          <input type="date" id="gpEnd">
+        </div>
+      </div>
+      <div class="goal-form-group">
+        <label>תיאור</label>
+        <textarea id="gpDesc" rows="2" placeholder="תיאור כללי של התקופה..."></textarea>
+      </div>
+      <div class="goal-form-group">
+        <label class="toggle-switch" style="width:auto;height:auto;display:flex;align-items:center;gap:8px;cursor:pointer;">
+          <input type="checkbox" id="gpCompleted">
+          <span class="toggle-slider" style="position:relative;width:36px;height:20px;flex-shrink:0;display:inline-block;"></span>
+          <span style="font-size:13px;font-weight:500;color:var(--text2);">הושלמה</span>
+        </label>
+      </div>
+      <div class="goal-form-group">
+        <label class="toggle-switch" style="width:auto;height:auto;display:flex;align-items:center;gap:8px;cursor:pointer;">
+          <input type="checkbox" id="gpInProgress">
+          <span class="toggle-slider" style="position:relative;width:36px;height:20px;flex-shrink:0;display:inline-block;"></span>
+          <span style="font-size:13px;font-weight:500;color:var(--text2);">בתהליך (מתחילה לקבל קצב)</span>
+        </label>
+      </div>
+      <div class="form-actions" style="margin-top:16px;">
+        <button class="btn btn-primary" onclick="saveGoalPeriod()">💾 שמור תקופה</button>
+        <button class="btn btn-outline" onclick="closeGoalPeriodForm()">ביטול</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Goal Modal -->
+<div class="modal-overlay" id="goalModal">
+  <div class="modal" style="position:relative">
+    <button class="modal-close" onclick="closeGoalForm()">✕</button>
+    <h2 id="goalModalTitle">🎯 מטרה חדשה</h2>
+    <div class="modal-body">
+      <div class="goal-form-group">
+        <label>שם המטרה</label>
+        <input type="text" id="gName" placeholder="למשל: לרדת במשקל, לחסוך כסף...">
+      </div>
+      <div class="goal-form-row">
+        <div class="goal-form-group">
+          <label>שייכת לתקופה</label>
+          <select id="gPeriodId"><option value="">ללא תקופה</option></select>
+        </div>
+        <div class="goal-form-group">
+          <label>סוג מטרה</label>
+          <select id="gTypeId"><option value="">ללא סוג</option></select>
+        </div>
+      </div>
+      <div class="goal-form-row">
+        <div class="goal-form-group">
+          <label>תאריך התחלה</label>
+          <input type="date" id="gStart">
+        </div>
+        <div class="goal-form-group">
+          <label>תאריך סיום</label>
+          <input type="date" id="gEnd">
+        </div>
+      </div>
+      <div class="goal-form-group">
+        <label>תיאור</label>
+        <textarea id="gDesc" rows="2" placeholder="תיאור המטרה..."></textarea>
+      </div>
+      <div class="goal-form-row">
+        <div class="goal-form-group">
+          <label class="toggle-switch" style="width:auto;height:auto;display:flex;align-items:center;gap:8px;cursor:pointer;">
+            <input type="checkbox" id="gCompleted">
+            <span class="toggle-slider" style="position:relative;width:36px;height:20px;flex-shrink:0;display:inline-block;"></span>
+            <span style="font-size:13px;font-weight:500;color:var(--text2);">הושלמה</span>
+          </label>
+        </div>
+        <div class="goal-form-group">
+          <label class="toggle-switch" style="width:auto;height:auto;display:flex;align-items:center;gap:8px;cursor:pointer;">
+            <input type="checkbox" id="gInProgress">
+            <span class="toggle-slider" style="position:relative;width:36px;height:20px;flex-shrink:0;display:inline-block;"></span>
+            <span style="font-size:13px;font-weight:500;color:var(--text2);">בתהליך</span>
+          </label>
+        </div>
+        <div class="goal-form-group">
+          <label class="toggle-switch" style="width:auto;height:auto;display:flex;align-items:center;gap:8px;cursor:pointer;">
+            <input type="checkbox" id="gSingle" onchange="document.getElementById('gObjectivesList').style.display=this.checked?'none':'block'">
+            <span class="toggle-slider" style="position:relative;width:36px;height:20px;flex-shrink:0;display:inline-block;"></span>
+            <span style="font-size:13px;font-weight:500;color:var(--text2);">יעד יחיד (מטרה=יעד)</span>
+          </label>
+        </div>
+      </div>
+      <div class="goal-form-group">
+        <label style="display:flex;align-items:center;gap:8px;">
+          <span>יעדים</span>
+          <button class="btn btn-sm btn-outline" onclick="addObjectiveFormItem()" style="font-size:12px;">+ הוסף יעד</button>
+        </label>
+        <div class="objectives-list-form" id="gObjectivesList"></div>
+      </div>
+      <div class="form-actions" style="margin-top:16px;">
+        <button class="btn btn-primary" onclick="saveGoal()">💾 שמור מטרה</button>
+        <button class="btn btn-outline" onclick="closeGoalForm()">ביטול</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Goal Type Modal -->
+<div class="modal-overlay" id="goalTypeModal">
+  <div class="modal" style="position:relative">
+    <button class="modal-close" onclick="closeGoalTypeForm()">✕</button>
+    <h2>➕ סוג מטרה חדש</h2>
+    <div class="modal-body">
+      <div class="goal-form-group">
+        <label>שם הסוג</label>
+        <input type="text" id="gtName" placeholder="למשל: בריאות, כספים, לימודים...">
+      </div>
+      <div class="goal-form-group">
+        <label>צבע</label>
+        <input type="color" id="gtColor" value="#6c63ff" style="height:40px;padding:4px;cursor:pointer;">
+      </div>
+      <div class="form-actions" style="margin-top:16px;">
+        <button class="btn btn-primary" onclick="saveGoalType()">💾 שמור סוג</button>
+        <button class="btn btn-outline" onclick="closeGoalTypeForm()">ביטול</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Toast Container -->
 <div class="toast-container" id="toastContainer"></div>
 
@@ -1555,6 +1946,10 @@ const MONTH_NAMES = ['ינואר', 'פברואר', 'מרץ', 'אפריל', 'מא
 let state = {
   results: [],
   suggestions: {},
+  goalPeriods: [],
+  goalTypes: [],
+  goals: [],
+  objectives: [],
   settings: {
     autoSync: false,
     githubToken: '',
@@ -1595,6 +1990,10 @@ function loadState() {
       const data = JSON.parse(raw);
       state.results = data.results || [];
       state.suggestions = data.suggestions || {};
+      state.goalPeriods = data.goalPeriods || [];
+      state.goalTypes = data.goalTypes || [];
+      state.goals = data.goals || [];
+      state.objectives = data.objectives || [];
       if (data.settings) Object.assign(state.settings, data.settings);
     }
   } catch(e) { console.warn('Error loading state:', e); }
@@ -1654,6 +2053,10 @@ function buildBackupJson() {
     exportedAt: new Date().toISOString(),
     results: state.results,
     suggestions: state.suggestions,
+    goalPeriods: state.goalPeriods,
+    goalTypes: state.goalTypes,
+    goals: state.goals,
+    objectives: state.objectives,
     settings: {
       autoSync: state.settings.autoSync
     }
@@ -2742,17 +3145,466 @@ function escHtml(str) {
   return div.innerHTML;
 }
 
-// ===== KEYBOARD SHORTCUTS =====
+// ===== GOALS & OBJECTIVES =====
+
+// ---- Helpers ----
+function goalId() { return 'g_' + Date.now() + '_' + Math.random().toString(36).slice(2,6); }
+function objId() { return 'o_' + Date.now() + '_' + Math.random().toString(36).slice(2,6); }
+function gpId() { return 'gp_' + Date.now() + '_' + Math.random().toString(36).slice(2,6); }
+function gtId() { return 'gt_' + Date.now() + '_' + Math.random().toString(36).slice(2,6); }
+
+function getGoalType(id) { return state.goalTypes.find(t => t.id === id); }
+function getGoalPeriod(id) { return state.goalPeriods.find(p => p.id === id); }
+function getGoal(id) { return state.goals.find(g => g.id === id); }
+function getObjectivesForGoal(goalId) { return state.objectives.filter(o => o.goalId === goalId); }
+
+function goalStatusLabel(status) {
+  if (status === 'completed') return 'הושלם';
+  if (status === 'in_progress') return 'בתהליך';
+  return 'פעיל';
+}
+
+// ---- Tab Switching ----
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById('tab' + tab.charAt(0).toUpperCase() + tab.slice(1)).classList.add('active');
+  document.getElementById('tabContent' + tab.charAt(0).toUpperCase() + tab.slice(1)).classList.add('active');
+  if (tab === 'goals') renderGoalsView();
+}
+
+// ---- Goal Type CRUD ----
+function showGoalTypeForm() {
+  document.getElementById('goalTypeModal').classList.add('open');
+  document.getElementById('gtName').value = '';
+  document.getElementById('gtColor').value = '#6c63ff';
+}
+
+function closeGoalTypeForm() {
+  document.getElementById('goalTypeModal').classList.remove('open');
+}
+
+function saveGoalType() {
+  const name = document.getElementById('gtName').value.trim();
+  if (!name) { toast('נא להזין שם לסוג', 'error'); return; }
+  const color = document.getElementById('gtColor').value;
+  state.goalTypes.push({ id: gtId(), name, color });
+  saveState();
+  closeGoalTypeForm();
+  renderGoalsView();
+  toast('✅ סוג מטרה נוסף');
+}
+
+function deleteGoalType(id) {
+  if (!confirm('למחוק את סוג המטרה?')) return;
+  state.goalTypes = state.goalTypes.filter(t => t.id !== id);
+  // remove type from goals
+  state.goals.forEach(g => { if (g.typeId === id) g.typeId = ''; });
+  saveState();
+  renderGoalsView();
+  toast('🗑️ סוג מטרה נמחק');
+}
+
+// ---- Goal Period CRUD ----
+function showGoalPeriodForm(editId) {
+  const modal = document.getElementById('goalPeriodModal');
+  const titleEl = document.getElementById('goalPeriodModalTitle');
+  modal.classList.add('open');
+  if (editId) {
+    const p = getGoalPeriod(editId);
+    if (!p) return;
+    titleEl.textContent = '✏️ עריכת תקופה';
+    document.getElementById('gpName').value = p.name || '';
+    document.getElementById('gpStart').value = p.startDate || '';
+    document.getElementById('gpEnd').value = p.endDate || '';
+    document.getElementById('gpDesc').value = p.description || '';
+    document.getElementById('gpCompleted').checked = p.status === 'completed';
+    document.getElementById('gpInProgress').checked = p.status === 'in_progress';
+    modal.dataset.editId = editId;
+  } else {
+    titleEl.textContent = '📅 תקופת מטרות חדשה';
+    document.getElementById('gpName').value = '';
+    document.getElementById('gpStart').value = '';
+    document.getElementById('gpEnd').value = '';
+    document.getElementById('gpDesc').value = '';
+    document.getElementById('gpCompleted').checked = false;
+    document.getElementById('gpInProgress').checked = false;
+    delete modal.dataset.editId;
+  }
+}
+
+function closeGoalPeriodForm() {
+  document.getElementById('goalPeriodModal').classList.remove('open');
+  delete document.getElementById('goalPeriodModal').dataset.editId;
+}
+
+function saveGoalPeriod() {
+  const name = document.getElementById('gpName').value.trim();
+  if (!name) { toast('נא להזין שם לתקופה', 'error'); return; }
+  const editId = document.getElementById('goalPeriodModal').dataset.editId;
+  const completed = document.getElementById('gpCompleted').checked;
+  const inProgress = document.getElementById('gpInProgress').checked;
+  let status = 'active';
+  if (completed) status = 'completed';
+  else if (inProgress) status = 'in_progress';
+  const data = {
+    name,
+    startDate: document.getElementById('gpStart').value,
+    endDate: document.getElementById('gpEnd').value,
+    description: document.getElementById('gpDesc').value.trim(),
+    status
+  };
+  if (editId) {
+    Object.assign(getGoalPeriod(editId), data);
+  } else {
+    data.id = gpId();
+    state.goalPeriods.push(data);
+  }
+  saveState();
+  closeGoalPeriodForm();
+  renderGoalsView();
+  toast(editId ? '✅ תקופה עודכנה' : '✅ תקופה נוספה');
+}
+
+function deleteGoalPeriod(id) {
+  if (!confirm('למחוק את התקופה? גם המטרות והיעדים שבתוכה יוסרו מהתקופה.')) return;
+  state.goalPeriods = state.goalPeriods.filter(p => p.id !== id);
+  // unlink goals
+  state.goals.forEach(g => { if (g.periodId === id) g.periodId = ''; });
+  saveState();
+  renderGoalsView();
+  toast('🗑️ תקופה נמחקה');
+}
+
+// ---- Goal CRUD ----
+function showGoalForm(editId) {
+  const modal = document.getElementById('goalModal');
+  modal.classList.add('open');
+
+  // populate selects
+  const periodSelect = document.getElementById('gPeriodId');
+  periodSelect.innerHTML = '<option value="">ללא תקופה</option>' +
+    state.goalPeriods.map(p => `<option value="${p.id}">${escHtml(p.name)}</option>`).join('');
+  const typeSelect = document.getElementById('gTypeId');
+  typeSelect.innerHTML = '<option value="">ללא סוג</option>' +
+    state.goalTypes.map(t => `<option value="${t.id}">${escHtml(t.name)}</option>`).join('');
+
+  if (editId) {
+    const g = getGoal(editId);
+    if (!g) return;
+    document.getElementById('goalModalTitle').textContent = '✏️ עריכת מטרה';
+    document.getElementById('gName').value = g.name || '';
+    document.getElementById('gPeriodId').value = g.periodId || '';
+    document.getElementById('gTypeId').value = g.typeId || '';
+    document.getElementById('gStart').value = g.startDate || '';
+    document.getElementById('gEnd').value = g.endDate || '';
+    document.getElementById('gDesc').value = g.description || '';
+    document.getElementById('gCompleted').checked = g.status === 'completed';
+    document.getElementById('gInProgress').checked = g.status === 'in_progress';
+    document.getElementById('gSingle').checked = g.single || false;
+    document.getElementById('gObjectivesList').style.display = g.single ? 'none' : 'block';
+    modal.dataset.editId = editId;
+    // load objectives
+    renderGoalFormObjectives(editId);
+  } else {
+    document.getElementById('goalModalTitle').textContent = '🎯 מטרה חדשה';
+    document.getElementById('gName').value = '';
+    document.getElementById('gPeriodId').value = '';
+    document.getElementById('gTypeId').value = '';
+    document.getElementById('gStart').value = '';
+    document.getElementById('gEnd').value = '';
+    document.getElementById('gDesc').value = '';
+    document.getElementById('gCompleted').checked = false;
+    document.getElementById('gInProgress').checked = false;
+    document.getElementById('gSingle').checked = false;
+    document.getElementById('gObjectivesList').style.display = 'block';
+    delete modal.dataset.editId;
+    document.getElementById('gObjectivesList').innerHTML = '';
+  }
+}
+
+function closeGoalForm() {
+  document.getElementById('goalModal').classList.remove('open');
+  delete document.getElementById('goalModal').dataset.editId;
+}
+
+function addObjectiveFormItem(obj) {
+  const list = document.getElementById('gObjectivesList');
+  const div = document.createElement('div');
+  div.className = 'objective-form-item';
+  const oid = obj ? obj.id : objId();
+  div.dataset.oid = oid;
+  div.innerHTML = `
+    <input type="text" class="obj-name" placeholder="שם היעד" value="${obj ? escHtml(obj.name) : ''}">
+    <textarea class="obj-derech" placeholder="איך? (דרך)" rows="1">${obj ? escHtml(obj.derech || '') : ''}</textarea>
+    <label style="display:flex;align-items:center;gap:4px;font-size:11px;white-space:nowrap;">
+      <input type="checkbox" class="obj-completed" ${obj && obj.status === 'completed' ? 'checked' : ''}>
+      הושלם
+    </label>
+    <button class="btn-icon" onclick="removeObjectiveFormItem(this)" title="הסר">✕</button>
+  `;
+  list.appendChild(div);
+}
+
+function removeObjectiveFormItem(btn) {
+  btn.parentElement.remove();
+}
+
+function renderGoalFormObjectives(goalId) {
+  const list = document.getElementById('gObjectivesList');
+  list.innerHTML = '';
+  const objs = getObjectivesForGoal(goalId);
+  objs.forEach(o => addObjectiveFormItem(o));
+}
+
+function collectGoalFormObjectives() {
+  const items = document.querySelectorAll('#gObjectivesList .objective-form-item');
+  return Array.from(items).map(div => ({
+    id: div.dataset.oid,
+    name: div.querySelector('.obj-name').value.trim(),
+    derech: div.querySelector('.obj-derech').value.trim(),
+    status: div.querySelector('.obj-completed').checked ? 'completed' : 'active'
+  })).filter(o => o.name);
+}
+
+function saveGoal() {
+  const name = document.getElementById('gName').value.trim();
+  if (!name) { toast('נא להזין שם למטרה', 'error'); return; }
+  const editId = document.getElementById('goalModal').dataset.editId;
+  const completed = document.getElementById('gCompleted').checked;
+  const inProgress = document.getElementById('gInProgress').checked;
+  const single = document.getElementById('gSingle').checked;
+  let status = 'active';
+  if (completed) status = 'completed';
+  else if (inProgress) status = 'in_progress';
+
+  const data = {
+    name,
+    periodId: document.getElementById('gPeriodId').value,
+    typeId: document.getElementById('gTypeId').value,
+    startDate: document.getElementById('gStart').value,
+    endDate: document.getElementById('gEnd').value,
+    description: document.getElementById('gDesc').value.trim(),
+    status,
+    single
+  };
+
+  if (editId) {
+    Object.assign(getGoal(editId), data);
+    // if single mode, remove all objectives for this goal
+    if (single) {
+      state.objectives = state.objectives.filter(o => o.goalId !== editId);
+    } else {
+      // update objectives: remove deleted, update existing, add new
+      const formObjs = collectGoalFormObjectives();
+      const existingIds = new Set(formObjs.map(o => o.id));
+      state.objectives = state.objectives.filter(o => o.goalId !== editId || existingIds.has(o.id));
+      formObjs.forEach(o => {
+        o.goalId = editId;
+        const existing = state.objectives.find(x => x.id === o.id);
+        if (existing) Object.assign(existing, o);
+        else state.objectives.push(o);
+      });
+    }
+  } else {
+    data.id = goalId();
+    state.goals.push(data);
+    if (!single) {
+      const formObjs = collectGoalFormObjectives();
+      formObjs.forEach(o => {
+        o.goalId = data.id;
+        state.objectives.push(o);
+      });
+    }
+  }
+  saveState();
+  closeGoalForm();
+  renderGoalsView();
+  toast(editId ? '✅ מטרה עודכנה' : '✅ מטרה נוספה');
+}
+
+function toggleGoalStatus(goalId) {
+  const g = getGoal(goalId);
+  if (!g) return;
+  if (g.status === 'completed') g.status = 'active';
+  else if (g.status === 'in_progress') g.status = 'completed';
+  else g.status = 'in_progress';
+  saveState();
+  renderGoalsView();
+}
+
+function deleteGoal(id) {
+  if (!confirm('למחוק את המטרה? גם היעדים שלה יימחקו.')) return;
+  state.goals = state.goals.filter(g => g.id !== id);
+  state.objectives = state.objectives.filter(o => o.goalId !== id);
+  saveState();
+  renderGoalsView();
+  toast('🗑️ מטרה נמחקה');
+}
+
+// ---- Objective Toggle ----
+function toggleObjectiveStatus(objId) {
+  const o = state.objectives.find(x => x.id === objId);
+  if (!o) return;
+  o.status = o.status === 'completed' ? 'active' : 'completed';
+  saveState();
+  renderGoalsView();
+}
+
+// ---- Render Goals View ----
+function renderGoalsView() {
+  const container = document.getElementById('goalsContainer');
+
+  // Goal Types summary
+  let html = '';
+  if (state.goalTypes.length > 0) {
+    html += `<div class="goals-section">
+      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+        <span>🏷️ סוגי מטרות</span>
+        <span class="arrow">▶</span>
+      </div>
+      <div class="goals-section-body open">
+        <div style="display:flex;gap:6px;flex-wrap:wrap;">`;
+    state.goalTypes.forEach(t => {
+      const count = state.goals.filter(g => g.typeId === t.id).length;
+      html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;">
+        ${escHtml(t.name)} (${count})
+        <span onclick="deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
+      </span>`;
+    });
+    html += `</div></div></div>`;
+  }
+
+  // Periods
+  const periods = [...state.goalPeriods].sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
+  if (periods.length === 0 && state.goals.length === 0) {
+    html += `<div class="goals-empty">
+      <div class="goals-empty-icon">🎯</div>
+      <div>עדיין אין מטרות ויעדים<br><span style="font-size:13px;color:var(--text3)">צור תקופת מטרות או מטרה חדשה כדי להתחיל</span></div>
+    </div>`;
+    container.innerHTML = html;
+    return;
+  }
+
+  if (periods.length === 0) {
+    html += `<div class="goals-section">
+      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+        <span>🎯 מטרות ללא תקופה</span>
+        <span class="arrow">▶</span>
+      </div>
+      <div class="goals-section-body open">`;
+    const noPeriodGoals = state.goals.filter(g => !g.periodId).sort((a,b) => (a.name||'').localeCompare(b.name||''));
+    noPeriodGoals.forEach(g => html += renderGoalCard(g));
+    html += `</div></div>`;
+  } else {
+    periods.forEach(p => {
+      const periodGoals = state.goals.filter(g => g.periodId === p.id).sort((a,b) => (a.name||'').localeCompare(b.name||''));
+      html += `<div class="goals-section">
+        <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+          <span>📅 ${escHtml(p.name)}</span>
+          <span class="period-card-status ${p.status}">${goalStatusLabel(p.status)}</span>
+          <span class="period-actions" onclick="event.stopPropagation();">
+            <button class="btn-icon" onclick="showGoalPeriodForm('${p.id}')" title="ערוך">✏️</button>
+            <button class="btn-icon" onclick="deleteGoalPeriod('${p.id}')" title="מחק">🗑️</button>
+          </span>
+          <span class="arrow">▶</span>
+        </div>
+        <div class="goals-section-body open">
+          ${p.description ? `<div style="font-size:13px;color:var(--text2);margin-bottom:8px;">${escHtml(p.description)}</div>` : ''}
+          ${p.startDate || p.endDate ? `<div style="font-size:12px;color:var(--text3);margin-bottom:8px;">${p.startDate || '?'} → ${p.endDate || '?'}</div>` : ''}`;
+
+      if (periodGoals.length === 0) {
+        html += `<div style="font-size:13px;color:var(--text3);padding:8px;">אין מטרות בתקופה זו</div>`;
+      } else {
+        periodGoals.forEach(g => html += renderGoalCard(g));
+      }
+      html += `</div></div>`;
+    });
+  }
+
+  // Goals without period (if periods exist)
+  const orphanGoals = state.goals.filter(g => !g.periodId);
+  if (orphanGoals.length > 0 && periods.length > 0) {
+    html += `<div class="goals-section">
+      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+        <span>🎯 מטרות ללא תקופה</span>
+        <span class="arrow">▶</span>
+      </div>
+      <div class="goals-section-body open">`;
+    orphanGoals.forEach(g => html += renderGoalCard(g));
+    html += `</div></div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function renderGoalCard(g) {
+  const type = getGoalType(g.typeId);
+  const typeColor = type ? type.color : '#999';
+  const typeName = type ? type.name : '';
+  const objs = getObjectivesForGoal(g.id);
+  const completedObjs = objs.filter(o => o.status === 'completed').length;
+  const hasBody = g.description || (objs.length > 0 && !g.single);
+  let html = `<div class="goal-card" data-id="${g.id}">
+    <div class="goal-card-header" onclick="${hasBody ? "this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open');" : ''}">
+      <span class="goal-card-title">${escHtml(g.name)}</span>
+      ${typeName ? `<span class="type-tag" style="background:${typeColor}22;color:${typeColor};border:1px solid ${typeColor}44;">${escHtml(typeName)}</span>` : ''}
+      <span class="goal-card-status ${g.status}">${goalStatusLabel(g.status)}</span>
+      ${!g.single && objs.length > 0 ? `<span style="font-size:11px;color:var(--text3);">${completedObjs}/${objs.length}</span>` : ''}
+      <span class="goal-actions" onclick="event.stopPropagation();">
+        <button class="btn-icon" onclick="toggleGoalStatus('${g.id}')" title="החלף סטטוס">🔄</button>
+        <button class="btn-icon" onclick="showGoalForm('${g.id}')" title="ערוך">✏️</button>
+        <button class="btn-icon" onclick="deleteGoal('${g.id}')" title="מחק">🗑️</button>
+      </span>
+      ${hasBody ? '<span class="arrow" style="font-size:10px;color:var(--text3);transition:transform 0.2s;">▶</span>' : ''}
+    </div>`;
+
+  if (hasBody) {
+    html += `<div class="goal-card-body">
+      ${g.description ? `<div class="goal-card-desc">${escHtml(g.description)}</div>` : ''}
+      ${g.startDate || g.endDate ? `<div style="font-size:11px;color:var(--text3);margin-bottom:6px;">${g.startDate || '?'} → ${g.endDate || '?'}</div>` : ''}`;
+    if (!g.single && objs.length > 0) {
+      objs.forEach(o => {
+        html += `<div class="objective-card ${o.status === 'completed' ? 'completed' : ''}">
+          <input type="checkbox" ${o.status === 'completed' ? 'checked' : ''} onchange="toggleObjectiveStatus('${o.id}')" style="flex-shrink:0;">
+          <span class="objective-name">${escHtml(o.name)}</span>
+          ${o.derech ? `<span class="objective-meta">דרך: ${escHtml(o.derech)}</span>` : ''}
+          <span class="objective-status ${o.status}">${goalStatusLabel(o.status)}</span>
+        </div>`;
+      });
+    }
+    html += `</div>`;
+  }
+
+  html += `</div>`;
+  return html;
+}
+
+// ---- Close modals on overlay click ----
+document.querySelectorAll('.modal-overlay').forEach(el => {
+  el.addEventListener('click', (e) => {
+    if (e.target === el) {
+      if (el.id === 'goalPeriodModal') closeGoalPeriodForm();
+      else if (el.id === 'goalModal') closeGoalForm();
+      else if (el.id === 'goalTypeModal') closeGoalTypeForm();
+    }
+  });
+});
+
+// ---- Keyboard Shortcuts =====
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     if (document.getElementById('settingsModal').classList.contains('open')) closeSettings();
     if (document.getElementById('datePickerModal').classList.contains('open')) closeDatePicker();
     if (document.getElementById('addTaskForm').classList.contains('open') && !editingId) toggleTaskForm();
+    if (document.getElementById('goalPeriodModal').classList.contains('open')) closeGoalPeriodForm();
+    if (document.getElementById('goalModal').classList.contains('open')) closeGoalForm();
+    if (document.getElementById('goalTypeModal').classList.contains('open')) closeGoalTypeForm();
     selectedIds.clear();
     renderDay();
   }
-  if (e.key === 'n' && !e.ctrlKey && !e.metaKey && !document.getElementById('addTaskForm').classList.contains('open')) {
-    if (!e.target.closest('input,textarea,select')) toggleTaskForm();
+  if (e.key === 'n' && !e.ctrlKey && !e.metaKey && document.getElementById('tabContentTasks').classList.contains('active')) {
+    if (!document.getElementById('addTaskForm').classList.contains('open') && !e.target.closest('input,textarea,select')) toggleTaskForm();
   }
 });
 
