@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:07:36.191Z",
+  "exportedAt": "2026-06-26T10:10:38.422Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -615,6 +615,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782468454184_2z52"
+    },
+    {
+      "name": "ערוץ",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "",
+      "startDate": "",
+      "endDate": "",
+      "description": "20 מנויים.\nממוצע של שבוע, לפחות 1000.\n4 סרטוני תוכניות שותפים.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782468636418_fadx"
     }
   ],
   "objectives": [
