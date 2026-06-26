@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:27:41.692Z",
+  "exportedAt": "2026-06-26T10:28:57.537Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -633,7 +633,7 @@
       "typeId": "gt_1782464093186_vudl",
       "startDate": "",
       "endDate": "",
-      "description": "",
+      "description": "מתח: 40.\nשכ\"ס: 50.\nפלאנק: 6:00 דק'.\n(להמשיך: סקוואט: 30).",
       "status": "active",
       "single": false,
       "id": "g_1782469659686_wrr1"
@@ -898,6 +898,13 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782468454184_2z52"
+    },
+    {
+      "id": "o_1782469729088_r61s",
+      "name": "מתח: 40.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1"
     }
   ],
   "settings": {
