@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T23:55:21.678Z",
+  "exportedAt": "2026-06-26T00:00:58.817Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -365,6 +365,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-25T23:49:42.446Z"
+    },
+    {
+      "id": "r_1782432056813_wx33",
+      "title": "משתמש החוזר של אבא.",
+      "description": "להוסיף 50 ש\"ח על המשתמש של אבא או לבקש מאבא שאעשה לו מנוי.",
+      "time": "16:30",
+      "duration": 10,
+      "date": "2026-07-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T00:00:56.813Z"
     }
   ],
   "suggestions": {
