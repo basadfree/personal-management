@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T04:14:39.900Z",
+  "exportedAt": "2026-06-26T04:30:01.628Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -424,6 +424,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T04:14:29.820Z"
+    },
+    {
+      "id": "r_1782448199626_eqz2",
+      "title": "נגינה",
+      "description": "https://www.youtube.com/watch?v=58CmYXsba-E&list=PLuwaiKzZwnG5_gnuVDIGCRQ0vqG0BVZXY&index=62",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T04:29:59.626Z"
     }
   ],
   "suggestions": {
