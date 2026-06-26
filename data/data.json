@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T12:02:59.525Z",
+  "exportedAt": "2026-06-26T12:04:19.870Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -531,6 +531,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T12:02:51.337Z"
+    },
+    {
+      "id": "r_1782475457864_tvpb",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T12:04:17.864Z"
     }
   ],
   "suggestions": {
