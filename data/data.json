@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:27:49.475Z",
+  "exportedAt": "2026-06-26T11:28:01.447Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -673,8 +673,8 @@
     },
     {
       "name": "חד אופן",
-      "periodId": "",
-      "typeId": "",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464131123_sd3t",
       "startDate": "",
       "endDate": "",
       "description": "30 פעמים ג'אלינג על חד אופן על המקום.",
