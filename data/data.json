@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:59:08.337Z",
+  "exportedAt": "2026-06-26T10:01:00.593Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -593,6 +593,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782467946336_tyih"
+    },
+    {
+      "name": "כיצד לרכוש ידידים והשפעה",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782466521947_ienn",
+      "startDate": "",
+      "endDate": "",
+      "description": "220 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 5.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782468058587_wx37"
     }
   ],
   "objectives": [
@@ -763,6 +774,41 @@
       "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782468007349_6ggd",
+      "name": "50",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782468058587_wx37"
+    },
+    {
+      "id": "o_1782468015385_onsh",
+      "name": "100",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782468058587_wx37"
+    },
+    {
+      "id": "o_1782468020360_ozwh",
+      "name": "150",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782468058587_wx37"
+    },
+    {
+      "id": "o_1782468025414_h31i",
+      "name": "200",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782468058587_wx37"
+    },
+    {
+      "id": "o_1782468042263_2h6n",
+      "name": "230",
+      "derech": "30",
+      "status": "active",
+      "goalId": "g_1782468058587_wx37"
     }
   ],
   "settings": {
