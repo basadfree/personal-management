@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:44:20.202Z",
+  "exportedAt": "2026-06-26T08:49:22.839Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -456,6 +456,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T04:56:42.963Z"
+    },
+    {
+      "id": "r_1782463760828_nd1s",
+      "title": "מטרות ויעדים",
+      "description": "תכנון מטרות ויעדים לתקופה הבאה.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-03",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-26T08:49:20.829Z"
     }
   ],
   "suggestions": {
