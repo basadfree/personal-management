@@ -808,6 +808,52 @@ body {
 .task-card.completed .task-reschedule-btn { width: 22px; height: 22px; font-size: 11px; }
 .task-card.completed .task-desc { display: none; }
 
+/* Expanded state */
+.task-card.expanded {
+  min-height: 0 !important;
+  max-height: none !important;
+}
+.task-card.expanded .task-desc { display: -webkit-box !important; }
+.task-card.expanded .task-meta { display: flex !important; }
+.task-card.expanded .task-body { max-height: none !important; }
+.task-card.expanded .task-title { white-space: normal !important; }
+.task-card.expanded.duration-xs .task-desc { display: block !important; }
+.task-card.expanded.duration-sm .task-desc { display: block !important; }
+.task-card.expanded.completed { max-height: none !important; opacity: 1 !important; }
+.task-card.expanded.completed .task-title { text-decoration: none !important; }
+
+/* Edit button */
+.task-edit {
+  display: flex;
+  align-items: center;
+  padding: 0 2px 0 6px;
+}
+.task-edit-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--card-border);
+  background: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--text3);
+}
+.task-edit-btn:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+/* Resizable textarea */
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
 /* Sync status indicator */
 .sync-status {
   display: flex;
@@ -2080,6 +2126,29 @@ function toggleComplete(id) {
   }
 }
 
+let expandedId = null;
+
+function toggleExpand(id) {
+  if (expandedId === id) {
+    document.querySelectorAll('.task-card.expanded').forEach(c => c.classList.remove('expanded'));
+    expandedId = null;
+    return;
+  }
+  document.querySelectorAll('.task-card.expanded').forEach(c => c.classList.remove('expanded'));
+  const card = document.querySelector(`.task-card[data-id="${id}"]`);
+  if (card) {
+    card.classList.add('expanded');
+    expandedId = id;
+  }
+}
+
+function editTask(id) {
+  document.querySelectorAll('.task-card.expanded').forEach(c => c.classList.remove('expanded'));
+  expandedId = null;
+  startEdit(id);
+  document.querySelector('.add-task-form').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 function startEdit(id) {
   const result = state.results.find(r => r.id === id);
   if (!result) return;
@@ -2151,7 +2220,7 @@ function renderDay() {
             <span class="task-time-main">${timeDisplay}</span>
             ${durationLabel ? `<span class="task-time-duration">${durationLabel}</span>` : ''}
           </div>
-          <div class="task-body" onclick="startEdit('${r.id}')">
+          <div class="task-body" onclick="toggleExpand('${r.id}')">
             <div class="task-title">${escHtml(r.title)}</div>
             ${descHtml}
             <div class="task-meta">
@@ -2163,6 +2232,9 @@ function renderDay() {
             <button class="task-complete-btn ${r.completed ? 'done' : ''}" onclick="toggleComplete('${r.id}')" title="${r.completed ? 'סמן כטרם בוצע' : 'סמן כבוצע'}">
               ${r.completed ? '✓' : ''}
             </button>
+          </div>
+          <div class="task-edit">
+            <button class="task-edit-btn" onclick="event.stopPropagation();editTask('${r.id}')" title="ערוך תוצאה">✏️</button>
           </div>
           <div class="task-reschedule" style="position:relative">
             <button class="task-reschedule-btn" onclick="event.stopPropagation();toggleReschedule('${r.id}')" title="תזמן ליום אחר">↻</button>
@@ -2414,6 +2486,10 @@ function closeUnscheduledMenu() {
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.reschedule-popup') && !e.target.closest('.task-reschedule-btn') && !e.target.closest('.unscheduled-section .task-body')) {
     closeUnscheduledMenu();
+  }
+  if (!e.target.closest('.task-card[data-id]') && expandedId) {
+    document.querySelectorAll('.task-card.expanded').forEach(c => c.classList.remove('expanded'));
+    expandedId = null;
   }
 });
 
