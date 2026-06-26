@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:40:47.160Z",
+  "exportedAt": "2026-06-26T09:47:10.013Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -571,6 +571,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782466499456_gorv"
+    },
+    {
+      "name": "ס' תנאי הנפש להשגת החסידות",
+      "periodId": "",
+      "typeId": "gt_1782466521947_ienn",
+      "startDate": "",
+      "endDate": "",
+      "description": "41 יום (מי\"ג תמוז, ללא שבתות).\n\n119 ע\"מ. כלומר 3 ע\"מ ליום.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782467228011_j5f5"
     }
   ],
   "objectives": [
@@ -678,6 +689,27 @@
       "derech": "3",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
+    },
+    {
+      "id": "o_1782467172033_g6rs",
+      "name": "40",
+      "derech": "40",
+      "status": "active",
+      "goalId": "g_1782467228011_j5f5"
+    },
+    {
+      "id": "o_1782467175693_ez8i",
+      "name": "80",
+      "derech": "40",
+      "status": "active",
+      "goalId": "g_1782467228011_j5f5"
+    },
+    {
+      "id": "o_1782467183071_7xdl",
+      "name": "119",
+      "derech": "39",
+      "status": "active",
+      "goalId": "g_1782467228011_j5f5"
     }
   ],
   "settings": {
