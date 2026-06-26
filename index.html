@@ -1914,7 +1914,7 @@ body {
 <div class="modal-overlay" id="goalTypeModal">
   <div class="modal" style="position:relative">
     <button class="modal-close" onclick="closeGoalTypeForm()">✕</button>
-    <h2>➕ סוג מטרה חדש</h2>
+    <h2 id="goalTypeModalTitle">➕ סוג מטרה חדש</h2>
     <div class="modal-body">
       <div class="goal-form-group">
         <label>שם הסוג</label>
@@ -1923,6 +1923,10 @@ body {
       <div class="goal-form-group">
         <label>צבע</label>
         <input type="color" id="gtColor" value="#6c63ff" style="height:40px;padding:4px;cursor:pointer;">
+      </div>
+      <div class="goal-form-group">
+        <label>סוג אב (אופציונלי – לתת-סוג)</label>
+        <select id="gtParentId"><option value="">ללא (סוג ראשי)</option></select>
       </div>
       <div class="form-actions" style="margin-top:16px;">
         <button class="btn btn-primary" onclick="saveGoalType()">💾 שמור סוג</button>
@@ -3174,35 +3178,90 @@ function switchTab(tab) {
 }
 
 // ---- Goal Type CRUD ----
-function showGoalTypeForm() {
-  document.getElementById('goalTypeModal').classList.add('open');
-  document.getElementById('gtName').value = '';
-  document.getElementById('gtColor').value = '#6c63ff';
+function showGoalTypeForm(editId) {
+  const modal = document.getElementById('goalTypeModal');
+  modal.classList.add('open');
+
+  // populate parent selector
+  const parentSelect = document.getElementById('gtParentId');
+  const others = editId ? state.goalTypes.filter(t => t.id !== editId) : state.goalTypes;
+  parentSelect.innerHTML = '<option value="">ללא (סוג ראשי)</option>' +
+    buildTypeOptions(others, '', 0);
+
+  if (editId) {
+    const t = state.goalTypes.find(x => x.id === editId);
+    if (!t) return;
+    document.getElementById('goalTypeModalTitle').textContent = '✏️ עריכת סוג מטרה';
+    document.getElementById('gtName').value = t.name || '';
+    document.getElementById('gtColor').value = t.color || '#6c63ff';
+    document.getElementById('gtParentId').value = t.parentId || '';
+    modal.dataset.editId = editId;
+  } else {
+    document.getElementById('goalTypeModalTitle').textContent = '➕ סוג מטרה חדש';
+    document.getElementById('gtName').value = '';
+    document.getElementById('gtColor').value = '#6c63ff';
+    document.getElementById('gtParentId').value = '';
+    delete modal.dataset.editId;
+  }
+}
+
+function buildTypeOptions(types, prefix = '', depth = 0) {
+  const roots = types.filter(t => !t.parentId);
+  let html = '';
+  function addChildren(parentId, depth) {
+    types.filter(t => t.parentId === parentId).forEach(child => {
+      const indent = '　'.repeat(depth + 1);
+      html += `<option value="${child.id}">${indent}${escHtml(child.name)}</option>`;
+      addChildren(child.id, depth + 1);
+    });
+  }
+  roots.forEach(r => {
+    html += `<option value="${r.id}">${escHtml(r.name)}</option>`;
+    addChildren(r.id, 0);
+  });
+  return html;
 }
 
 function closeGoalTypeForm() {
   document.getElementById('goalTypeModal').classList.remove('open');
+  delete document.getElementById('goalTypeModal').dataset.editId;
 }
 
 function saveGoalType() {
   const name = document.getElementById('gtName').value.trim();
   if (!name) { toast('נא להזין שם לסוג', 'error'); return; }
   const color = document.getElementById('gtColor').value;
-  state.goalTypes.push({ id: gtId(), name, color });
+  const parentId = document.getElementById('gtParentId').value;
+  const editId = document.getElementById('goalTypeModal').dataset.editId;
+  if (editId) {
+    const t = state.goalTypes.find(x => x.id === editId);
+    if (t) { t.name = name; t.color = color; t.parentId = parentId; }
+  } else {
+    state.goalTypes.push({ id: gtId(), name, color, parentId });
+  }
   saveState();
   closeGoalTypeForm();
   renderGoalsView();
-  toast('✅ סוג מטרה נוסף');
+  toast(editId ? '✅ סוג עודכן' : '✅ סוג מטרה נוסף');
 }
 
 function deleteGoalType(id) {
   if (!confirm('למחוק את סוג המטרה?')) return;
-  state.goalTypes = state.goalTypes.filter(t => t.id !== id);
+  // collect all descendant ids
+  const idsToRemove = new Set([id]);
+  function collectChildren(parentId) {
+    state.goalTypes.filter(t => t.parentId === parentId).forEach(c => {
+      idsToRemove.add(c.id);
+      collectChildren(c.id);
+    });
+  }
+  collectChildren(id);
+  state.goalTypes = state.goalTypes.filter(t => !idsToRemove.has(t.id));
   // remove type from goals
-  state.goals.forEach(g => { if (g.typeId === id) g.typeId = ''; });
+  state.goals.forEach(g => { if (idsToRemove.has(g.typeId)) g.typeId = ''; });
   saveState();
   renderGoalsView();
-  toast('🗑️ סוג מטרה נמחק');
+  toast('🗑️ סוג(י) מטרה נמחקו');
 }
 
 // ---- Goal Period CRUD ----
@@ -3286,8 +3345,7 @@ function showGoalForm(editId) {
   periodSelect.innerHTML = '<option value="">ללא תקופה</option>' +
     state.goalPeriods.map(p => `<option value="${p.id}">${escHtml(p.name)}</option>`).join('');
   const typeSelect = document.getElementById('gTypeId');
-  typeSelect.innerHTML = '<option value="">ללא סוג</option>' +
-    state.goalTypes.map(t => `<option value="${t.id}">${escHtml(t.name)}</option>`).join('');
+  typeSelect.innerHTML = '<option value="">ללא סוג</option>' + buildTypeOptions(state.goalTypes);
 
   if (editId) {
     const g = getGoal(editId);
@@ -3455,7 +3513,7 @@ function toggleObjectiveStatus(objId) {
 function renderGoalsView() {
   const container = document.getElementById('goalsContainer');
 
-  // Goal Types summary
+  // Goal Types summary – hierarchical
   let html = '';
   if (state.goalTypes.length > 0) {
     html += `<div class="goals-section">
@@ -3465,13 +3523,24 @@ function renderGoalsView() {
       </div>
       <div class="goals-section-body open">
         <div style="display:flex;gap:6px;flex-wrap:wrap;">`;
-    state.goalTypes.forEach(t => {
+    // render types hierarchically
+    function renderTypeTag(t, depth) {
       const count = state.goals.filter(g => g.typeId === t.id).length;
-      html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;">
+      const marginRight = depth * 12;
+      return `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;margin-right:${marginRight}px;">
         ${escHtml(t.name)} (${count})
-        <span onclick="deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
+        <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;margin-right:2px;opacity:0.5;" title="ערוך">✏️</span>
+        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:2px;opacity:0.5;" title="מחק">✕</span>
       </span>`;
-    });
+    }
+    function renderTypeTree(parentId, depth) {
+      const children = state.goalTypes.filter(t => t.parentId === parentId);
+      children.forEach(c => {
+        html += renderTypeTag(c, depth);
+        renderTypeTree(c.id, depth + 1);
+      });
+    }
+    renderTypeTree('', 0);
     html += `</div></div></div>`;
   }
 
