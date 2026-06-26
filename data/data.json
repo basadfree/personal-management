@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:01:00.593Z",
+  "exportedAt": "2026-06-26T10:01:34.184Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -735,35 +735,35 @@
     },
     {
       "id": "o_1782467825585_ndtn",
-      "name": "60",
-      "derech": "50 (+ 10 ריקים)",
+      "name": "50",
+      "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
     },
     {
       "id": "o_1782467832749_3p69",
-      "name": "110",
+      "name": "100",
       "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
     },
     {
       "id": "o_1782467837683_5itb",
-      "name": "160",
+      "name": "150",
       "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
     },
     {
       "id": "o_1782467881566_fme8",
-      "name": "210",
+      "name": "200",
       "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
     },
     {
       "id": "o_1782467887454_liaf",
-      "name": "260",
+      "name": "250",
       "derech": "50",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
@@ -771,7 +771,7 @@
     {
       "id": "o_1782467892979_40kg",
       "name": "270",
-      "derech": "50",
+      "derech": "20",
       "status": "active",
       "goalId": "g_1782467946336_tyih"
     },
