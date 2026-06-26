@@ -2224,6 +2224,8 @@ async function syncToGitHub(showToast = true) {
         if (getRes.ok) {
           const getData = await getRes.json();
           sha = getData.sha;
+        } else {
+          console.warn('sync: failed to fetch existing SHA', getRes.status);
         }
       }
 
@@ -2250,18 +2252,29 @@ async function syncToGitHub(showToast = true) {
         return true;
       }
 
+      console.error('sync: GitHub API error', res.status, data);
       // SHA conflict → invalidate cache and retry once
       if (res.status === 409 && attempt === 0) {
         setSha('');
         continue;
       }
 
-      if (showToast) toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
+      // Rate limit?
+      if (res.status === 403 && data.message?.includes('rate limit')) {
+        toast('❌ חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
+      } else if (res.status === 401) {
+        toast('❌ טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
+      } else if (res.status === 404) {
+        toast('❌ הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
+      } else if (showToast) {
+        toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
+      }
       setSyncStatus('error', 'שגיאה');
       setSha('');
       isSyncing = false;
       return false;
     } catch (e) {
+      console.error('sync: fetch exception', e);
       if (attempt === 0 && e.message?.includes('409')) {
         setSha('');
         continue;
