@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:30:41.805Z",
+  "exportedAt": "2026-06-26T11:33:05.133Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -692,6 +692,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782473439798_u6in"
+    },
+    {
+      "name": "מעיינות",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464131123_sd3t",
+      "startDate": "",
+      "endDate": "",
+      "description": "ללכת עם חבר למעיין, לשים לב לבוקסר וחולצה.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782473583130_yn0k"
     }
   ],
   "objectives": [
@@ -1177,6 +1188,34 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782473439798_u6in"
+    },
+    {
+      "id": "o_1782473565196_02q1",
+      "name": "מעיין",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473583130_yn0k"
+    },
+    {
+      "id": "o_1782473572144_49dl",
+      "name": "חבר",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473583130_yn0k"
+    },
+    {
+      "id": "o_1782473574483_az4x",
+      "name": "בוקסר",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473583130_yn0k"
+    },
+    {
+      "id": "o_1782473577891_xmh2",
+      "name": "חולצה",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473583130_yn0k"
     }
   ],
   "settings": {
