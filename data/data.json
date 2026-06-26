@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:52:14.662Z",
+  "exportedAt": "2026-06-26T08:53:05.504Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -493,6 +493,12 @@
       "name": "תורה",
       "color": "#6c63ff",
       "parentId": ""
+    },
+    {
+      "id": "gt_1782463983503_3kxj",
+      "name": "גמרא",
+      "color": "#6c63ff",
+      "parentId": "gt_1782463932659_pw5v"
     }
   ],
   "goals": [],
