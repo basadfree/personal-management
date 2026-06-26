@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:56:03.814Z",
+  "exportedAt": "2026-06-26T11:58:17.110Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -501,6 +501,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T11:56:01.808Z"
+    },
+    {
+      "id": "r_1782475095107_v9zu",
+      "title": "מעיין\\טיול",
+      "description": "קביעת מעיין\\טיול עם מייזלס\\אלבו\\חבר\\חברים לפני\\אחרי השבת סיום.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-26T11:58:15.107Z"
     }
   ],
   "suggestions": {
