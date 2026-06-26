@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T15:26:53.474Z",
+  "exportedAt": "2026-06-26T15:27:01.530Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -624,6 +624,71 @@
       "recurrence": null,
       "sourceId": "r_1782425437297_hvxz",
       "createdAt": "2026-06-26T15:26:51.471Z"
+    },
+    {
+      "id": "r_1782487616798_nkag",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-06-26T15:26:56.798Z"
+    },
+    {
+      "id": "r_1782487617459_ts5w",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431181923_8u0g",
+      "createdAt": "2026-06-26T15:26:57.459Z"
+    },
+    {
+      "id": "r_1782487618029_fzsz",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-06-26T15:26:58.029Z"
+    },
+    {
+      "id": "r_1782487618598_0ek1",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-06-26T15:26:58.598Z"
+    },
+    {
+      "id": "r_1782487619517_an90",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-06-26T15:26:59.517Z"
     }
   ],
   "suggestions": {
@@ -636,7 +701,12 @@
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
-      "r_1782425437297_hvxz": "accepted"
+      "r_1782425437297_hvxz": "accepted",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782431181923_8u0g": "accepted",
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "accepted"
     }
   },
   "goalPeriods": [
