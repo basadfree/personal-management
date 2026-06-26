@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T05:27:13.938Z",
+  "exportedAt": "2026-06-26T05:27:47.706Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -131,7 +131,7 @@
     {
       "id": "r_1782425437297_hvxz",
       "title": "תניא",
-      "time": "08:05",
+      "time": "07:10",
       "duration": 20,
       "date": "2026-06-26",
       "completed": true,
@@ -140,7 +140,8 @@
         "type": "daily"
       },
       "sourceId": null,
-      "createdAt": "2026-06-25T22:10:37.297Z"
+      "createdAt": "2026-06-25T22:10:37.297Z",
+      "description": ""
     },
     {
       "id": "r_1782425511489_knps",
