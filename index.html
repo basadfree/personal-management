@@ -2094,6 +2094,12 @@ function init() {
   const sha = getSha();
   if (token && sha) {
     setSyncStatus('synced', 'נשמר בענן');
+    // background-verify SHA freshness (silent)
+    fetch(`https://api.github.com/repos/${getGithubRepo()}/contents/${getGithubPath()}?ref=master`, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    }).then(r => r.json()).then(d => {
+      if (d.sha && d.sha !== sha) setSha(d.sha);
+    }).catch(() => {});
   } else if (token) {
     setSyncStatus('', 'מקומי');
   } else {
