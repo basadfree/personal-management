@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:39:35.899Z",
+  "exportedAt": "2026-06-26T08:39:40.356Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -456,19 +456,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T04:56:42.963Z"
-    },
-    {
-      "id": "r_1782462734823_r899",
-      "title": "מעניין מאוד",
-      "description": "",
-      "time": "09:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T08:32:14.823Z"
     }
   ],
   "suggestions": {
