@@ -1536,6 +1536,72 @@ body {
 .objective-form-item textarea { min-height: 30px; resize: vertical; }
 .objective-form-item .btn-icon { width: 24px; height: 24px; font-size: 12px; flex-shrink: 0; }
 
+/* ===== TYPE-ORGANIZED GOALS VIEW ===== */
+.goals-type-section {
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.goals-type-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.goals-type-header:hover { filter: brightness(0.95); }
+.goals-type-header .type-name { flex: 1; }
+.goals-type-header .type-count {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.goals-type-header .arrow { font-size: 11px; transition: transform 0.2s; }
+.goals-type-header.open .arrow { transform: rotate(90deg); }
+.goals-type-body { display: none; padding: 8px 14px 12px; }
+.goals-type-body.open { display: block; }
+.goals-type-body .empty-type-msg {
+  font-size: 13px; color: var(--text3); padding: 8px; text-align: center;
+}
+
+.period-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  background: var(--surface-hover);
+  border: 1px solid var(--card-border);
+}
+.period-badge .period-status-dot {
+  width: 6px; height: 6px; border-radius: 50%; display: inline-block;
+}
+.period-badge .period-status-dot.completed { background: #059669; }
+.period-badge .period-status-dot.active { background: #b59c00; }
+.period-badge .period-status-dot.in_progress { background: var(--primary); }
+.period-badge .period-name { color: var(--text); }
+
+/* Compact goal card inside type sections */
+.goal-card.type-layout {
+  margin-right: 0;
+  border-right: 3px solid transparent;
+}
+.goal-card.type-layout::before { display: none; }
+.goal-card.type-layout .goal-card-header {
+  padding-right: 0;
+}
+.goal-card.type-layout .objective-card {
+  margin-right: 0;
+}
+
 /* ===== TYPE TAG COLORS ===== */
 .type-tag { display: inline-block; padding: 1px 8px; border-radius: 8px; font-size: 11px; font-weight: 500; }
 
@@ -3509,117 +3575,142 @@ function toggleObjectiveStatus(objId) {
   renderGoalsView();
 }
 
-// ---- Render Goals View ----
+// ---- Render Goals View (organized by type) ----
 function renderGoalsView() {
   const container = document.getElementById('goalsContainer');
 
-  // Goal Types summary – hierarchical
-  let html = '';
-  if (state.goalTypes.length > 0) {
-    html += `<div class="goals-section">
-      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <span>🏷️ סוגי מטרות</span>
-        <span class="arrow">▶</span>
-      </div>
-      <div class="goals-section-body open">
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">`;
-    // render types hierarchically
-    function renderTypeTag(t, depth) {
-      const count = state.goals.filter(g => g.typeId === t.id).length;
-      const marginRight = depth * 12;
-      return `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;margin-right:${marginRight}px;">
-        ${escHtml(t.name)} (${count})
-        <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;margin-right:2px;opacity:0.5;" title="ערוך">✏️</span>
-        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:2px;opacity:0.5;" title="מחק">✕</span>
-      </span>`;
-    }
-    function renderTypeTree(parentId, depth) {
-      const children = state.goalTypes.filter(t => t.parentId === parentId);
-      children.forEach(c => {
-        html += renderTypeTag(c, depth);
-        renderTypeTree(c.id, depth + 1);
-      });
-    }
-    renderTypeTree('', 0);
-    html += `</div></div></div>`;
+  if (state.goals.length === 0 && state.goalPeriods.length > 0) {
+    container.innerHTML = `<div class="goals-empty">
+      <div class="goals-empty-icon">🎯</div>
+      <div>יש תקופות אבל אין מטרות<br><span style="font-size:13px;color:var(--text3)">צור מטרה חדשה כדי להתחיל</span></div>
+    </div>`;
+    return;
   }
-
-  // Periods
-  const periods = [...state.goalPeriods].sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
-  if (periods.length === 0 && state.goals.length === 0) {
-    html += `<div class="goals-empty">
+  if (state.goals.length === 0) {
+    container.innerHTML = `<div class="goals-empty">
       <div class="goals-empty-icon">🎯</div>
       <div>עדיין אין מטרות ויעדים<br><span style="font-size:13px;color:var(--text3)">צור תקופת מטרות או מטרה חדשה כדי להתחיל</span></div>
     </div>`;
-    container.innerHTML = html;
     return;
   }
 
-  if (periods.length === 0) {
-    html += `<div class="goals-section">
-      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <span>🎯 מטרות ללא תקופה</span>
-        <span class="arrow">▶</span>
-      </div>
-      <div class="goals-section-body open">`;
-    const noPeriodGoals = state.goals.filter(g => !g.periodId).sort((a,b) => (a.name||'').localeCompare(b.name||''));
-    noPeriodGoals.forEach(g => html += renderGoalCard(g));
-    html += `</div></div>`;
-  } else {
-    periods.forEach(p => {
-      const periodGoals = state.goals.filter(g => g.periodId === p.id).sort((a,b) => (a.name||'').localeCompare(b.name||''));
-      html += `<div class="goals-section">
-        <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-          <span>📅 ${escHtml(p.name)}</span>
-          <span class="period-card-status ${p.status}">${goalStatusLabel(p.status)}</span>
-          <span class="period-actions" onclick="event.stopPropagation();">
-            <button class="btn-icon" onclick="showGoalPeriodForm('${p.id}')" title="ערוך">✏️</button>
-            <button class="btn-icon" onclick="deleteGoalPeriod('${p.id}')" title="מחק">🗑️</button>
-          </span>
-          <span class="arrow">▶</span>
-        </div>
-        <div class="goals-section-body open">
-          ${p.description ? `<div style="font-size:13px;color:var(--text2);margin-bottom:8px;">${escHtml(p.description)}</div>` : ''}
-          ${p.startDate || p.endDate ? `<div style="font-size:12px;color:var(--text3);margin-bottom:8px;">${p.startDate || '?'} → ${p.endDate || '?'}</div>` : ''}`;
+  // Collect all typeIds used, plus "null" for typeless
+  const usedTypeIds = new Set();
+  state.goals.forEach(g => {
+    if (g.typeId) usedTypeIds.add(g.typeId);
+  });
+  usedTypeIds.add('__none__');
 
-      if (periodGoals.length === 0) {
-        html += `<div style="font-size:13px;color:var(--text3);padding:8px;">אין מטרות בתקופה זו</div>`;
+  // Build type list: real types sorted, then __none__
+  const typeList = [];
+  const realTypes = state.goalTypes.filter(t => usedTypeIds.has(t.id));
+  const sortedTypes = [...realTypes].sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+  sortedTypes.forEach(t => {
+    typeList.push({ id: t.id, name: t.name, color: t.color, children: [] });
+  });
+  if (state.goals.some(g => !g.typeId)) {
+    typeList.push({ id: '__none__', name: 'ללא סוג', color: '#999', children: [] });
+  }
+
+  // For each type group, collect goals and group by period
+  const periods = [...state.goalPeriods];
+  const periodMap = {};
+  periods.forEach(p => { periodMap[p.id] = p; });
+
+  let html = '';
+
+  // Small management bar for types
+  html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">`;
+  typeList.forEach(t => {
+    if (t.id === '__none__') return;
+    const count = state.goals.filter(g => g.typeId === t.id).length;
+    const subCount = state.goalTypes.filter(st => st.parentId === t.id).length;
+    html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;cursor:pointer;" onclick="showGoalTypeForm('${t.id}')">
+      ${escHtml(t.name)} (${count})${subCount ? ` +${subCount}` : ''}
+      <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
+    </span>`;
+  });
+  html += `<span class="type-tag" style="background:#eee;color:#666;border:1px solid #ddd;cursor:pointer;" onclick="showGoalTypeForm()">➕</span>`;
+  html += `</div>`;
+
+  // Render each type as a section
+  typeList.forEach(typeInfo => {
+    const color = typeInfo.color;
+    const isNone = typeInfo.id === '__none__';
+    const goalsForType = state.goals.filter(g => isNone ? !g.typeId : g.typeId === typeInfo.id);
+
+    // Group goals by period
+    const grouped = { __periods: {}, __none: [] };
+    goalsForType.forEach(g => {
+      if (g.periodId && periodMap[g.periodId]) {
+        if (!grouped.__periods[g.periodId]) grouped.__periods[g.periodId] = [];
+        grouped.__periods[g.periodId].push(g);
       } else {
-        periodGoals.forEach(g => html += renderGoalCard(g));
+        grouped.__none.push(g);
       }
-      html += `</div></div>`;
     });
-  }
 
-  // Goals without period (if periods exist)
-  const orphanGoals = state.goals.filter(g => !g.periodId);
-  if (orphanGoals.length > 0 && periods.length > 0) {
-    html += `<div class="goals-section">
-      <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <span>🎯 מטרות ללא תקופה</span>
+    const periodIds = Object.keys(grouped.__periods);
+    const hasContent = periodIds.length > 0 || grouped.__none.length > 0;
+    if (!hasContent) return;
+
+    const goalCount = goalsForType.length;
+    html += `<div class="goals-type-section" style="border-right:4px solid ${color};">
+      <div class="goals-type-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open')">
+        <span class="type-name">${isNone ? '📋' : '🎯'} ${escHtml(typeInfo.name)}</span>
+        <span class="type-count">${goalCount} ${goalCount === 1 ? 'מטרה' : 'מטרות'}</span>
         <span class="arrow">▶</span>
       </div>
-      <div class="goals-section-body open">`;
-    orphanGoals.forEach(g => html += renderGoalCard(g));
+      <div class="goals-type-body open">`;
+
+    // Render period-grouped goals
+    const sortedPeriodIds = periodIds.sort((a, b) => {
+      const pa = periodMap[a], pb = periodMap[b];
+      return (pb.startDate || '').localeCompare(pa.startDate || '');
+    });
+    sortedPeriodIds.forEach(pid => {
+      const p = periodMap[pid];
+      const statusDot = p.status || 'active';
+      const pGoals = grouped.__periods[pid].sort((a, b) => (a.name||'').localeCompare(b.name||''));
+      html += `<div class="period-badge">
+        <span class="period-status-dot ${statusDot}"></span>
+        <span class="period-name">${escHtml(p.name)}</span>
+        <span style="font-size:11px;color:var(--text3);">${pGoals.length}</span>
+      </div>`;
+      pGoals.forEach(g => html += renderGoalCard(g, color));
+    });
+
+    // Render typeless (no period) goals
+    if (grouped.__none.length > 0) {
+      const sortedNone = grouped.__none.sort((a, b) => (a.name||'').localeCompare(b.name||''));
+      if (sortedPeriodIds.length > 0) {
+        html += `<div class="period-badge" style="opacity:0.6;">
+          <span style="font-size:11px;">📥 ללא תקופה</span>
+          <span style="font-size:11px;color:var(--text3);">${sortedNone.length}</span>
+        </div>`;
+      }
+      sortedNone.forEach(g => html += renderGoalCard(g, color));
+    }
+
     html += `</div></div>`;
-  }
+  });
 
   container.innerHTML = html;
 }
 
-function renderGoalCard(g) {
-  const type = getGoalType(g.typeId);
-  const typeColor = type ? type.color : '#999';
-  const typeName = type ? type.name : '';
+function renderGoalCard(g, typeColor) {
+  const color = typeColor || '#999';
   const objs = getObjectivesForGoal(g.id);
   const completedObjs = objs.filter(o => o.status === 'completed').length;
   const hasBody = g.description || (objs.length > 0 && !g.single);
-  let html = `<div class="goal-card" data-id="${g.id}">
+  let html = `<div class="goal-card type-layout" style="border-right-color:${color};" data-id="${g.id}">
     <div class="goal-card-header" onclick="${hasBody ? "this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open');" : ''}">
       <span class="goal-card-title">${escHtml(g.name)}</span>
-      ${typeName ? `<span class="type-tag" style="background:${typeColor}22;color:${typeColor};border:1px solid ${typeColor}44;">${escHtml(typeName)}</span>` : ''}
+      <span style="font-size:11px;color:var(--text3);">
+        ${g.startDate ? g.startDate : ''}${g.startDate && g.endDate ? ' → ' : ''}${g.endDate ? g.endDate : ''}
+      </span>
       <span class="goal-card-status ${g.status}">${goalStatusLabel(g.status)}</span>
-      ${!g.single && objs.length > 0 ? `<span style="font-size:11px;color:var(--text3);">${completedObjs}/${objs.length}</span>` : ''}
+      ${!g.single && objs.length > 0 ? `<span style="font-size:11px;color:var(--text3);background:var(--surface-hover);padding:1px 8px;border-radius:8px;">${completedObjs}/${objs.length}</span>` : ''}
       <span class="goal-actions" onclick="event.stopPropagation();">
         <button class="btn-icon" onclick="toggleGoalStatus('${g.id}')" title="החלף סטטוס">🔄</button>
         <button class="btn-icon" onclick="showGoalForm('${g.id}')" title="ערוך">✏️</button>
@@ -3630,8 +3721,7 @@ function renderGoalCard(g) {
 
   if (hasBody) {
     html += `<div class="goal-card-body">
-      ${g.description ? `<div class="goal-card-desc">${escHtml(g.description)}</div>` : ''}
-      ${g.startDate || g.endDate ? `<div style="font-size:11px;color:var(--text3);margin-bottom:6px;">${g.startDate || '?'} → ${g.endDate || '?'}</div>` : ''}`;
+      ${g.description ? `<div class="goal-card-desc">${escHtml(g.description)}</div>` : ''}`;
     if (!g.single && objs.length > 0) {
       objs.forEach(o => {
         html += `<div class="objective-card ${o.status === 'completed' ? 'completed' : ''}">
