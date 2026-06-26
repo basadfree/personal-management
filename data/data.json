@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:10:48.518Z",
+  "exportedAt": "2026-06-26T09:11:03.230Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -530,6 +530,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782464506024_rqnb"
+    },
+    {
+      "name": "כעעכ",
+      "periodId": "",
+      "typeId": "",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "single": false,
+      "id": "g_1782465061227_yr0k"
     }
   ],
   "objectives": [
