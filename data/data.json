@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:49:13.632Z",
+  "exportedAt": "2026-06-26T09:59:08.337Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -582,6 +582,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782467228011_j5f5"
+    },
+    {
+      "name": "הרגלים אטומיים",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782466521947_ienn",
+      "startDate": "",
+      "endDate": "",
+      "description": "260 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 6.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782467946336_tyih"
     }
   ],
   "objectives": [
@@ -710,6 +721,48 @@
       "derech": "39",
       "status": "active",
       "goalId": "g_1782467228011_j5f5"
+    },
+    {
+      "id": "o_1782467825585_ndtn",
+      "name": "60",
+      "derech": "50 (+ 10 ריקים)",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782467832749_3p69",
+      "name": "110",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782467837683_5itb",
+      "name": "160",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782467881566_fme8",
+      "name": "210",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782467887454_liaf",
+      "name": "260",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
+    },
+    {
+      "id": "o_1782467892979_40kg",
+      "name": "270",
+      "derech": "50",
+      "status": "active",
+      "goalId": "g_1782467946336_tyih"
     }
   ],
   "settings": {
