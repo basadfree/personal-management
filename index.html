@@ -2230,7 +2230,7 @@ function renderDay() {
       const isSelected = selectedIds.has(r.id);
       const timeDisplay = r.time ? r.time.slice(0, 5) : '--:--';
       const dur = r.duration || 0;
-      const durClass = dur <= 5 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
+      const durClass = dur <= 15 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
       const recurringBadge = r.recurrence ? `<span class="task-tag recurring">🔄 ${getRecurrenceLabel(r.recurrence)}</span>` : '';
       const suggestionBadge = r.sourceId ? `<span class="task-tag">💡 הוצע</span>` : '';
       const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
@@ -2472,7 +2472,7 @@ function renderUnscheduledTasks() {
   container.innerHTML = results.map(r => {
     const isSelected = selectedIds.has(r.id);
     const dur = r.duration || 0;
-    const durClass = dur <= 5 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
+    const durClass = dur <= 15 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
     const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
     const durationLabel = formatDuration(r.duration);
     return `
