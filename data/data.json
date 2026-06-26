@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:49:22.839Z",
+  "exportedAt": "2026-06-26T08:52:14.662Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -487,7 +487,14 @@
       "id": "gp_1782463458192_i8vh"
     }
   ],
-  "goalTypes": [],
+  "goalTypes": [
+    {
+      "id": "gt_1782463932659_pw5v",
+      "name": "תורה",
+      "color": "#6c63ff",
+      "parentId": ""
+    }
+  ],
   "goals": [],
   "objectives": [],
   "settings": {
