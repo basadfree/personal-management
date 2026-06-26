@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T12:06:41.381Z",
+  "exportedAt": "2026-06-26T12:07:39.758Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -241,9 +241,9 @@
       "id": "r_1782429435433_65q8",
       "title": "פנקסים",
       "description": "40 * 10 = 400 = 6:40. \nחלק ראשון - 2:20 - 14.\nחלק שני - 2:20 - 13.\nחלק שלישי - 2:30 - 13.",
-      "time": "",
-      "duration": 400,
-      "date": "",
+      "time": "09:00",
+      "duration": 140,
+      "date": "2026-06-28",
       "completed": false,
       "archived": false,
       "recurrence": null,
