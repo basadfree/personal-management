@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T07:44:25.392Z",
+  "exportedAt": "2026-06-26T07:45:06.341Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -456,6 +456,25 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T04:56:42.963Z"
+    },
+    {
+      "id": "r_1782459904340_fof6",
+      "title": "טוב",
+      "description": "",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          2,
+          0
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T07:45:04.340Z"
     }
   ],
   "suggestions": {
