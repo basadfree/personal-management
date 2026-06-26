@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T15:26:47.610Z",
+  "exportedAt": "2026-06-26T15:26:53.474Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -572,6 +572,58 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-06-26T15:26:45.601Z"
+    },
+    {
+      "id": "r_1782487608076_wrse",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-06-26T15:26:48.076Z"
+    },
+    {
+      "id": "r_1782487609919_rf0u",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-06-26T15:26:49.919Z"
+    },
+    {
+      "id": "r_1782487610929_s459",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-26T15:26:50.929Z"
+    },
+    {
+      "id": "r_1782487611471_ijhi",
+      "title": "תניא",
+      "description": "",
+      "time": "08:05",
+      "duration": 20,
+      "date": "2026-06-27",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425437297_hvxz",
+      "createdAt": "2026-06-26T15:26:51.471Z"
     }
   ],
   "suggestions": {
@@ -580,7 +632,11 @@
       "r_1782459904340_fof6": "deleted"
     },
     "2026-06-27": {
-      "r_1782424741865_yg34": "accepted"
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782425437297_hvxz": "accepted"
     }
   },
   "goalPeriods": [
