@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T04:32:13.563Z",
+  "exportedAt": "2026-06-26T04:56:44.976Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -440,6 +440,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T04:29:59.626Z"
+    },
+    {
+      "id": "r_1782449802963_16ov",
+      "title": "בריאות",
+      "description": "",
+      "time": "09:00",
+      "duration": 5,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-26T04:56:42.963Z"
     }
   ],
   "suggestions": {
