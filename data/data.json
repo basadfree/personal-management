@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T00:01:48.492Z",
+  "exportedAt": "2026-06-26T02:55:06.479Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -381,6 +381,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T00:00:56.813Z"
+    },
+    {
+      "id": "r_1782442504473_daqb",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T02:55:04.473Z"
     }
   ],
   "suggestions": {
