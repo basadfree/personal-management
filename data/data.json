@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:55:08.537Z",
+  "exportedAt": "2026-06-26T11:56:03.814Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -482,6 +482,25 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T09:40:45.150Z"
+    },
+    {
+      "id": "r_1782474961808_oqv9",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          1,
+          3
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T11:56:01.808Z"
     }
   ],
   "suggestions": {
