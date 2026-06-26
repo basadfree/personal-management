@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:31:04.629Z",
+  "exportedAt": "2026-06-26T08:31:45.753Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -464,16 +464,7 @@
       "r_1782459904340_fof6": "deleted"
     }
   },
-  "goalPeriods": [
-    {
-      "name": "רערעע",
-      "startDate": "",
-      "endDate": "",
-      "description": "",
-      "status": "active",
-      "id": "gp_1782462662242_nzu3"
-    }
-  ],
+  "goalPeriods": [],
   "goalTypes": [],
   "goals": [],
   "objectives": [],
