@@ -1568,6 +1568,13 @@ body {
   opacity: 0.6;
 }
 
+/* ===== TYPE TAGS HIERARCHY ===== */
+.type-children { display: flex; gap: 6px; flex-wrap: wrap; margin-right: 12px; }
+.type-children.hidden { display: none; }
+.type-bar-toggle { transition: transform 0.2s; display: inline-block; }
+.type-bar-toggle.open { transform: rotate(90deg); }
+.type-bar-children-wrap { width: 100%; }
+
 /* ===== TYPE TAG COLORS ===== */
 .type-tag { display: inline-block; padding: 1px 8px; border-radius: 8px; font-size: 11px; font-weight: 500; }
 
@@ -3562,22 +3569,31 @@ function renderGoalsView() {
 
   let html = '';
 
-  // Types management bar (hierarchical)
-  let typeBarHtml = '';
-  function renderTypeTagWithChildren(parentId, depth) {
-    const indent = depth * 12;
-    state.goalTypes.filter(t => t.parentId === parentId).forEach(t => {
+  // Types management bar (hierarchical, expandable)
+  function renderTypeBar(parentId) {
+    let html = '';
+    const children = state.goalTypes.filter(t => t.parentId === parentId);
+    const hasChildren = children.length > 0;
+    if (!hasChildren && parentId !== '') return '';
+    children.forEach(t => {
       const count = state.goals.filter(g => g.typeId === t.id).length;
       const subCount = state.goalTypes.filter(st => st.parentId === t.id).length;
-      typeBarHtml += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;cursor:pointer;margin-right:${indent}px;" onclick="showGoalTypeForm('${t.id}')">
-        ${escHtml(t.name)}${subCount > 0 ? ' ▾' : ''} (${count})
-        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
+      const isParent = subCount > 0;
+      const toggleId = 'typetoggle_' + t.id;
+      const wrapId = 'typewrap_' + t.id;
+      html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;display:inline-flex;align-items:center;gap:3px;${isParent ? 'cursor:pointer;' : ''}" ${isParent ? `onclick="event.stopPropagation();document.getElementById('${wrapId}').classList.toggle('hidden');this.querySelector('.type-bar-toggle').classList.toggle('open')"` : ''}>
+        ${isParent ? `<span class="type-bar-toggle">▶</span>` : ''}
+        <span ${isParent ? '' : `onclick="showGoalTypeForm('${t.id}')" style="cursor:pointer;"`}>${escHtml(t.name)} (${count})</span>
+        <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="ערוך">✏️</span>
+        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="מחק">✕</span>
       </span>`;
-      renderTypeTagWithChildren(t.id, depth + 1);
+      if (isParent) {
+        html += `<div id="${wrapId}" class="type-children hidden">${renderTypeBar(t.id)}</div>`;
+      }
     });
+    return html;
   }
-  renderTypeTagWithChildren('', 0);
-  html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">${typeBarHtml}`;
+  html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">${renderTypeBar('')}`;
   html += `<span class="type-tag" style="background:#eee;color:#666;border:1px solid #ddd;cursor:pointer;" onclick="showGoalTypeForm()">➕</span>`;
   html += `</div>`;
 
