@@ -2127,6 +2127,7 @@ function saveState() {
 
 // ===== GITHUB SYNC =====
 let syncTimer = null;
+let isSyncing = false;
 
 function getGithubToken() {
   return state.settings.githubToken || localStorage.getItem('personalManagerGithubToken') || '';
@@ -2201,56 +2202,77 @@ async function syncToGitHub(showToast = true) {
   }
   setSyncStatus('syncing', 'שומר…');
   if (showToast) toast('☁️ מסנכרן לענן...', 'info');
+  isSyncing = true;
 
   const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
   const headers = { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' };
 
-  try {
-    let sha = getSha();
-    if (!sha) {
-      const getRes = await fetch(baseUrl + `?ref=master`, { method: 'GET', headers });
-      if (getRes.ok) {
-        const getData = await getRes.json();
-        sha = getData.sha;
+  // Retry once on SHA conflict
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      let sha = getSha();
+      if (!sha) {
+        const getRes = await fetch(baseUrl + `?ref=master`, { method: 'GET', headers });
+        if (getRes.ok) {
+          const getData = await getRes.json();
+          sha = getData.sha;
+        }
       }
+
+      const body = {
+        message: `גיבוי אוטומטי ${new Date().toLocaleString('he-IL')}`,
+        content,
+        branch: 'master'
+      };
+      if (sha) body.sha = sha;
+
+      const res = await fetch(baseUrl, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify(body)
+      });
+      const data = await res.json();
+
+      if (res.ok) {
+        if (data.content?.sha) setSha(data.content.sha);
+        if (showToast) toast('✅ הנתונים סונכרנו לענן!', 'success');
+        document.getElementById('syncStatus').textContent = 'מסונכרן: ' + new Date().toLocaleString('he-IL');
+        setSyncStatus('synced', 'נשמר בענן');
+        isSyncing = false;
+        return true;
+      }
+
+      // SHA conflict → invalidate cache and retry once
+      if (res.status === 409 && attempt === 0) {
+        setSha('');
+        continue;
+      }
+
+      if (showToast) toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
+      setSyncStatus('error', 'שגיאה');
+      setSha('');
+      isSyncing = false;
+      return false;
+    } catch (e) {
+      if (attempt === 0 && e.message?.includes('409')) {
+        setSha('');
+        continue;
+      }
+      if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
+      setSyncStatus('error', 'שגיאה');
+      isSyncing = false;
+      return false;
     }
-
-    const body = {
-      message: `גיבוי אוטומטי ${new Date().toLocaleString('he-IL')}`,
-      content,
-      branch: 'master'
-    };
-    if (sha) body.sha = sha;
-
-    const res = await fetch(baseUrl, {
-      method: 'PUT',
-      headers,
-      body: JSON.stringify(body)
-    });
-    const data = await res.json();
-
-    if (res.ok) {
-      if (data.content?.sha) setSha(data.content.sha);
-      if (showToast) toast('✅ הנתונים סונכרנו לענן!', 'success');
-      document.getElementById('syncStatus').textContent = 'מסונכרן: ' + new Date().toLocaleString('he-IL');
-      setSyncStatus('synced', 'נשמר בענן');
-      return true;
-    }
-    if (showToast) toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
-    setSyncStatus('error', 'שגיאה');
-    return false;
-  } catch (e) {
-    if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
-    setSyncStatus('error', 'שגיאה');
-    return false;
   }
+  isSyncing = false;
 }
 
 function debouncedSync() {
   if (!state.settings.autoSync) return;
   const token = getGithubToken();
   if (!token) return;
+  if (isSyncing) return; // don't stack syncs
   setSyncStatus('syncing', 'שומר…');
   clearTimeout(syncTimer);
   syncTimer = setTimeout(() => syncToGitHub(false), 2000);
@@ -4039,6 +4061,13 @@ document.addEventListener('keydown', (e) => {
 
 // ===== INIT ON LOAD =====
 init();
+
+// Re-sync when coming back online
+window.addEventListener('online', () => {
+  const token = getGithubToken();
+  const sha = getSha();
+  if (token && sha) { setSyncStatus('syncing', 'שומר…'); syncToGitHub(false); }
+});
 </script>
 </body>
 </html>
