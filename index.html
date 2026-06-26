@@ -101,6 +101,78 @@ body {
   gap: 8px;
   align-items: center;
 }
+
+/* Search */
+.search-box { position: relative; }
+.search-input {
+  width: 180px;
+  padding: 6px 10px;
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface);
+  transition: var(--transition);
+  outline: none;
+}
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+  width: 220px;
+}
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  max-height: 360px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  direction: rtl;
+}
+.search-results.open { display: block; }
+.search-result-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--card-border);
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 13px;
+}
+.search-result-item:last-child { border-bottom: none; }
+.search-result-item:hover { background: var(--surface-hover); }
+.search-result-item .sr-type {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-left: 6px;
+}
+.search-result-item .sr-title { font-weight: 600; color: var(--text); }
+.search-result-item .sr-context {
+  font-size: 12px;
+  color: var(--text2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.search-empty {
+  padding: 16px;
+  text-align: center;
+  color: var(--text3);
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .search-input { width: 120px; }
+  .search-input:focus { width: 150px; }
+}
+
 .btn-icon {
   width: 36px;
   height: 36px;
@@ -1606,6 +1678,10 @@ body {
       <div class="header-title">ניהול <span>אישי</span></div>
     </div>
     <div class="header-actions">
+      <div class="search-box" id="searchBox">
+        <input type="text" class="search-input" id="searchInput" placeholder="🔍 חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()">
+        <div class="search-results" id="searchResults"></div>
+      </div>
       <div class="sync-status" id="syncStatusIndicator" title="סטטוס סנכרון">
         <span class="sync-status-dot"></span>
         <span id="syncStatusText">מקומי</span>
@@ -3805,6 +3881,128 @@ function renderGoalCard(g, typeColor) {
   return html;
 }
 
+// ---- Search ----
+let searchTimer = null;
+
+function doSearch(query) {
+  clearTimeout(searchTimer);
+  const resultsEl = document.getElementById('searchResults');
+  query = query.trim();
+  if (!query) { resultsEl.classList.remove('open'); return; }
+
+  searchTimer = setTimeout(() => {
+    const q = query.toLowerCase();
+    const results = [];
+
+    // Search tasks
+    state.results.forEach(r => {
+      let score = 0;
+      const inTitle = r.title.toLowerCase().includes(q);
+      const inDesc = r.description && r.description.toLowerCase().includes(q);
+      if (inTitle) score = 3;
+      else if (inDesc) score = 1;
+      if (score > 0) results.push({ type: 'task', typeLabel: '📋 תוצאה', id: r.id, title: r.title, context: r.description || '', score, date: r.date });
+    });
+
+    // Search goal periods
+    state.goalPeriods.forEach(p => {
+      let score = 0;
+      if (p.name.toLowerCase().includes(q)) score = 2;
+      else if (p.description && p.description.toLowerCase().includes(q)) score = 1;
+      if (score > 0) results.push({ type: 'period', typeLabel: '📅 תקופה', id: p.id, title: p.name, context: p.description || '', score });
+    });
+
+    // Search goals
+    state.goals.forEach(g => {
+      let score = 0;
+      const inName = g.name.toLowerCase().includes(q);
+      const inDesc = g.description && g.description.toLowerCase().includes(q);
+      if (inName) score = 3;
+      else if (inDesc) score = 1;
+      if (score > 0) {
+        const periodName = g.periodId ? (state.goalPeriods.find(p => p.id === g.periodId)?.name || '') : '';
+        results.push({ type: 'goal', typeLabel: '🎯 מטרה', id: g.id, title: g.name, context: g.description || periodName ? `תקופה: ${periodName}` : '', score, goalId: g.id });
+      }
+    });
+
+    // Search objectives
+    state.objectives.forEach(o => {
+      let score = 0;
+      const inName = o.name.toLowerCase().includes(q);
+      const inDerech = o.derech && o.derech.toLowerCase().includes(q);
+      if (inName) score = 3;
+      else if (inDerech) score = 1;
+      if (score > 0) {
+        const goalName = state.goals.find(g => g.id === o.goalId)?.name || '';
+        results.push({ type: 'objective', typeLabel: '🎯 יעד', id: o.id, title: o.name, context: o.derech ? `דרך: ${o.derech}` : goalName ? `מטרה: ${goalName}` : '', score, goalId: o.goalId });
+      }
+    });
+
+    results.sort((a, b) => b.score - a.score);
+
+    if (results.length === 0) {
+      resultsEl.innerHTML = '<div class="search-empty">😕 לא נמצאו תוצאות</div>';
+      resultsEl.classList.add('open');
+      return;
+    }
+
+    resultsEl.innerHTML = results.map(r => {
+      const title = escHtml(r.title);
+      const ctx = escHtml(r.context);
+      let onclick = '';
+      if (r.type === 'task') onclick = `closeSearch();navigateToTaskDate('${r.id}')`;
+      else if (r.type === 'goal' || r.type === 'objective') onclick = `closeSearch();switchTab('goals');setTimeout(()=>document.querySelector('.goal-card[data-id="${r.goalId}"]')?.scrollIntoView({behavior:'smooth',block:'center'}),100)`;
+      else if (r.type === 'period') onclick = `closeSearch();switchTab('goals')`;
+      return `<div class="search-result-item" onclick="${onclick}">
+        <span class="sr-type">${r.typeLabel}</span>
+        <span class="sr-title">${title}</span>
+        ${ctx ? `<div class="sr-context">${ctx}</div>` : ''}
+      </div>`;
+    }).join('');
+    resultsEl.classList.add('open');
+  }, 200);
+}
+
+function closeSearch() {
+  document.getElementById('searchResults').classList.remove('open');
+  document.getElementById('searchInput').value = '';
+}
+
+function navigateToTaskDate(taskId) {
+  const task = state.results.find(r => r.id === taskId);
+  if (!task) return;
+  if (task.date) {
+    currentDate = parseDate(task.date);
+    weekOffset = 0;
+    selectedIds.clear();
+    renderWeek();
+    renderDay();
+    switchTab('tasks');
+    setTimeout(() => {
+      const card = document.querySelector(`.task-card[data-id="${taskId}"]`);
+      if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 100);
+  } else {
+    // unscheduled
+    switchTab('tasks');
+    unscheduledOpen = true;
+    document.getElementById('unscheduledBody').classList.add('open');
+    document.getElementById('unscheduledToggle').classList.add('open');
+    renderUnscheduled();
+    setTimeout(() => {
+      const card = document.querySelector(`#unscheduledList .task-card[data-id="${taskId}"]`);
+      if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 100);
+  }
+}
+
+// Close search on outside click
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-box') && document.getElementById('searchResults').classList.contains('open')) {
+    closeSearch();
+  }
+});
+
 // ---- Close modals on overlay click ----
 document.querySelectorAll('.modal-overlay').forEach(el => {
   el.addEventListener('click', (e) => {
@@ -3819,6 +4017,7 @@ document.querySelectorAll('.modal-overlay').forEach(el => {
 // ---- Keyboard Shortcuts =====
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
+    closeSearch();
     if (document.getElementById('settingsModal').classList.contains('open')) closeSettings();
     if (document.getElementById('datePickerModal').classList.contains('open')) closeDatePicker();
     if (document.getElementById('addTaskForm').classList.contains('open') && !editingId) toggleTaskForm();
@@ -3830,6 +4029,11 @@ document.addEventListener('keydown', (e) => {
   }
   if (e.key === 'n' && !e.ctrlKey && !e.metaKey && document.getElementById('tabContentTasks').classList.contains('active')) {
     if (!document.getElementById('addTaskForm').classList.contains('open') && !e.target.closest('input,textarea,select')) toggleTaskForm();
+  }
+  // Ctrl+F or / to focus search
+  if ((e.key === 'f' && (e.ctrlKey || e.metaKey)) || (e.key === '/' && !e.target.closest('input,textarea,select'))) {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
   }
 });
 
