@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:54:30.013Z",
+  "exportedAt": "2026-06-26T08:54:55.195Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -497,6 +497,12 @@
     {
       "id": "gt_1782464057615_5llb",
       "name": "יזמות",
+      "color": "#6c63ff",
+      "parentId": ""
+    },
+    {
+      "id": "gt_1782464093186_vudl",
+      "name": "בריאות ופע\"ג",
       "color": "#6c63ff",
       "parentId": ""
     }
