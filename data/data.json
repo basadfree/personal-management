@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:49:21.268Z",
+  "exportedAt": "2026-06-26T10:51:30.615Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -979,6 +979,48 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782469659686_wrr1"
+    },
+    {
+      "id": "o_1782471052723_cb98",
+      "name": "5 חתיכות ניוקי (פחמימה).",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
+    },
+    {
+      "id": "o_1782471053455_zqug",
+      "name": "300 גרם כרוב.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
+    },
+    {
+      "id": "o_1782471054164_l1i6",
+      "name": "30 אגוזי קשיו.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
+    },
+    {
+      "id": "o_1782471054704_tfr9",
+      "name": "30 אגוזי פיסטוק.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
+    },
+    {
+      "id": "o_1782471055169_bilg",
+      "name": "30 שקדים.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
+    },
+    {
+      "id": "o_1782471076420_dav7",
+      "name": "40 חתיחות מלפפונים.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs"
     }
   ],
   "settings": {
