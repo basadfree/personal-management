@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:28:57.838Z",
+  "exportedAt": "2026-06-26T09:35:01.458Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -541,6 +541,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782466079400_w4mv"
+    },
+    {
+      "name": "תניא",
+      "periodId": "",
+      "typeId": "gt_1782463932659_pw5v",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "single": false,
+      "id": "g_1782466499456_gorv"
     }
   ],
   "objectives": [
