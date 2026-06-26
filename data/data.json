@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:01:49.495Z",
+  "exportedAt": "2026-06-26T10:07:36.191Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -604,6 +604,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782468058587_wx37"
+    },
+    {
+      "name": "רווח",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464057615_5llb",
+      "startDate": "",
+      "endDate": "",
+      "description": "להרוויח לפחות 1000 ש\"ח או 250 ש\"ח כל חודש (כרגע יש 100 דמי כיס + 50 ממשתמש החוזר של אבא).",
+      "status": "active",
+      "single": false,
+      "id": "g_1782468454184_2z52"
     }
   ],
   "objectives": [
@@ -809,6 +820,20 @@
       "derech": "30",
       "status": "active",
       "goalId": "g_1782468058587_wx37"
+    },
+    {
+      "id": "o_1782468266621_hlg9",
+      "name": "לשווק משחק ילדים בווצאפ.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782468454184_2z52"
+    },
+    {
+      "id": "o_1782468327883_hsi9",
+      "name": "לשווק את החוזר, אצל חברים של אבא או אולי בית אל או מרכז.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782468454184_2z52"
     }
   ],
   "settings": {
