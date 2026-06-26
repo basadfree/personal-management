@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T09:47:10.013Z",
+  "exportedAt": "2026-06-26T09:47:33.230Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -565,8 +565,8 @@
       "name": "תניא",
       "periodId": "gp_1782463458192_i8vh",
       "typeId": "gt_1782466521947_ienn",
-      "startDate": "2026-06-16",
-      "endDate": "2026-08-13",
+      "startDate": "",
+      "endDate": "",
       "description": "לימוד ספר התניא, כולל החוזר, תובנות ולמעשה.\n\nכל יום פרק (מי\"א תמוז) + 6 פרקים שצריך להשלים.",
       "status": "active",
       "single": false,
@@ -657,35 +657,35 @@
     },
     {
       "id": "o_1782466592091_4fx4",
-      "name": "י\"א - כ'",
+      "name": "י",
       "derech": "10",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
     },
     {
       "id": "o_1782466592802_aoh8",
-      "name": "כ\"א - ל'",
+      "name": "כ",
       "derech": "10",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
     },
     {
       "id": "o_1782466593427_od2p",
-      "name": "ל\"א - מ'",
+      "name": "ל",
       "derech": "10",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
     },
     {
       "id": "o_1782466594247_29zz",
-      "name": "מ\"א - נ'",
+      "name": "מ",
       "derech": "10",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
     },
     {
       "id": "o_1782466734771_k23x",
-      "name": "נ\"א - נ\"ג",
+      "name": "נ",
       "derech": "3",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
