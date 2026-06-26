@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:58:17.110Z",
+  "exportedAt": "2026-06-26T11:58:32.548Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -507,7 +507,7 @@
       "title": "מעיין\\טיול",
       "description": "קביעת מעיין\\טיול עם מייזלס\\אלבו\\חבר\\חברים לפני\\אחרי השבת סיום.",
       "time": "09:00",
-      "duration": 30,
+      "duration": 10,
       "date": "2026-06-30",
       "completed": false,
       "archived": false,
