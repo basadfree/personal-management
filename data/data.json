@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:25:53.091Z",
+  "exportedAt": "2026-06-26T10:27:41.692Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -626,6 +626,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782468636418_fadx"
+    },
+    {
+      "name": "פעילות גופנית",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464093186_vudl",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "single": false,
+      "id": "g_1782469659686_wrr1"
     }
   ],
   "objectives": [
