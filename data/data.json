@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T10:30:51.974Z",
+  "exportedAt": "2026-06-26T10:41:51.234Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -637,6 +637,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782469659686_wrr1"
+    },
+    {
+      "name": "תזונה",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464093186_vudl",
+      "startDate": "",
+      "endDate": "",
+      "description": "5 חתיכות ניוקי (פחמימה).\n30 אגוזי קשיו.\n30 אגוזי פיסטוק.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782470509226_idcs"
     }
   ],
   "objectives": [
