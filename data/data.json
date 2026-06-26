@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T12:08:50.121Z",
+  "exportedAt": "2026-06-26T13:15:26.907Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -269,9 +269,9 @@
       "id": "r_1782430560894_yyvu",
       "title": "העברת כל הטיוטות מהטלפון למחשב.",
       "description": "55 + 115 = 2:50.",
-      "time": "",
+      "time": "09:00",
       "duration": 180,
-      "date": "",
+      "date": "2026-06-28",
       "completed": false,
       "archived": false,
       "recurrence": null,
