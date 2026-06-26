@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T12:01:15.452Z",
+  "exportedAt": "2026-06-26T12:01:27.322Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -127,7 +127,8 @@
         "type": "daily"
       },
       "sourceId": null,
-      "createdAt": "2026-06-25T22:09:48.805Z"
+      "createdAt": "2026-06-25T22:09:48.805Z",
+      "description": "מטרת התנ\"ך."
     },
     {
       "id": "r_1782425437297_hvxz",
