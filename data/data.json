@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:22:52.153Z",
+  "exportedAt": "2026-06-26T11:25:27.878Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -659,6 +659,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782472588700_qx46"
+    },
+    {
+      "name": "קשריים יזמיים",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464120559_dk9g",
+      "startDate": "",
+      "endDate": "",
+      "description": "יצירת קשר דיגיטלי עם יזם אחד כל שבועיים.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782473125865_44f2"
     }
   ],
   "objectives": [
@@ -1046,6 +1057,55 @@
       "derech": "(((י\"ג תמוז",
       "status": "active",
       "goalId": "g_1782472588700_qx46"
+    },
+    {
+      "id": "o_1782473062618_f42b",
+      "name": "1",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473065987_0nbd",
+      "name": "2",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473068240_2pdu",
+      "name": "3",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473073607_mpw2",
+      "name": "4",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473076504_y99d",
+      "name": "5",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473108979_sy2w",
+      "name": "6",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
+    },
+    {
+      "id": "o_1782473112063_mac1",
+      "name": "7",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473125865_44f2"
     }
   ],
   "settings": {
