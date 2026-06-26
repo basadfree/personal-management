@@ -2165,6 +2165,7 @@ function getSha() {
 
 function setSha(sha) {
   if (sha) localStorage.setItem('personalManagerGithubFileSha', sha);
+  else localStorage.removeItem('personalManagerGithubFileSha');
 }
 
 function buildBackupJson() {
@@ -2275,7 +2276,10 @@ function debouncedSync() {
   if (isSyncing) return; // don't stack syncs
   setSyncStatus('syncing', 'שומר…');
   clearTimeout(syncTimer);
-  syncTimer = setTimeout(() => syncToGitHub(false), 2000);
+  syncTimer = setTimeout(async () => {
+    const ok = await syncToGitHub(false);
+    if (!ok && state.settings.autoSync) toast('❌ סנכרון נכשל. הנתונים שמורים מקומית.', 'error');
+  }, 2000);
 }
 
 function toggleAutoSync(enabled) {
