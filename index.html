@@ -1536,70 +1536,36 @@ body {
 .objective-form-item textarea { min-height: 30px; resize: vertical; }
 .objective-form-item .btn-icon { width: 24px; height: 24px; font-size: 12px; flex-shrink: 0; }
 
-/* ===== TYPE-ORGANIZED GOALS VIEW ===== */
-.goals-type-section {
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  margin-bottom: 16px;
-  overflow: hidden;
+/* ===== TYPE BLOCKS (rounded, colored per type) ===== */
+.type-block {
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+  padding: 10px 12px 6px;
   transition: var(--transition);
+  position: relative;
+  border: 1px solid;
 }
-.goals-type-header {
+.type-block-child {
+  margin-right: 20px;
+  padding: 8px 10px 4px;
+}
+.type-block-header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 14px;
+  gap: 6px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid;
+}
+.type-block-name {
   font-size: 14px;
   font-weight: 700;
-  cursor: pointer;
-  transition: var(--transition);
+  letter-spacing: 0.3px;
 }
-.goals-type-header:hover { filter: brightness(0.95); }
-.goals-type-header .type-name { flex: 1; }
-.goals-type-header .type-count {
-  font-size: 12px;
+.type-block-count {
+  font-size: 11px;
   font-weight: 500;
-  opacity: 0.7;
-}
-.goals-type-header .arrow { font-size: 11px; transition: transform 0.2s; }
-.goals-type-header.open .arrow { transform: rotate(90deg); }
-.goals-type-body { display: none; padding: 8px 14px 12px; }
-.goals-type-body.open { display: block; }
-.goals-type-body .empty-type-msg {
-  font-size: 13px; color: var(--text3); padding: 8px; text-align: center;
-}
-
-.period-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  background: var(--surface-hover);
-  border: 1px solid var(--card-border);
-}
-.period-badge .period-status-dot {
-  width: 6px; height: 6px; border-radius: 50%; display: inline-block;
-}
-.period-badge .period-status-dot.completed { background: #059669; }
-.period-badge .period-status-dot.active { background: #b59c00; }
-.period-badge .period-status-dot.in_progress { background: var(--primary); }
-.period-badge .period-name { color: var(--text); }
-
-/* Compact goal card inside type sections */
-.goal-card.type-layout {
-  margin-right: 0;
-  border-right: 3px solid transparent;
-}
-.goal-card.type-layout::before { display: none; }
-.goal-card.type-layout .goal-card-header {
-  padding-right: 0;
-}
-.goal-card.type-layout .objective-card {
-  margin-right: 0;
+  opacity: 0.6;
 }
 
 /* ===== TYPE TAG COLORS ===== */
@@ -3596,15 +3562,22 @@ function renderGoalsView() {
 
   let html = '';
 
-  // Types management bar
-  html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">`;
-  state.goalTypes.forEach(t => {
-    const count = state.goals.filter(g => g.typeId === t.id).length;
-    html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;cursor:pointer;" onclick="showGoalTypeForm('${t.id}')">
-      ${escHtml(t.name)} (${count})
-      <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
-    </span>`;
-  });
+  // Types management bar (hierarchical)
+  let typeBarHtml = '';
+  function renderTypeTagWithChildren(parentId, depth) {
+    const indent = depth * 12;
+    state.goalTypes.filter(t => t.parentId === parentId).forEach(t => {
+      const count = state.goals.filter(g => g.typeId === t.id).length;
+      const subCount = state.goalTypes.filter(st => st.parentId === t.id).length;
+      typeBarHtml += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;cursor:pointer;margin-right:${indent}px;" onclick="showGoalTypeForm('${t.id}')">
+        ${escHtml(t.name)}${subCount > 0 ? ' ▾' : ''} (${count})
+        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;margin-right:4px;opacity:0.5;">✕</span>
+      </span>`;
+      renderTypeTagWithChildren(t.id, depth + 1);
+    });
+  }
+  renderTypeTagWithChildren('', 0);
+  html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">${typeBarHtml}`;
   html += `<span class="type-tag" style="background:#eee;color:#666;border:1px solid #ddd;cursor:pointer;" onclick="showGoalTypeForm()">➕</span>`;
   html += `</div>`;
 
@@ -3654,9 +3627,9 @@ function renderPeriodSection(p, goals, typeMap) {
     }
   });
 
-  const sortedTypeIds = Object.keys(typeGroups).sort((a, b) =>
-    (typeMap[a].name || '').localeCompare(typeMap[b].name || '')
-  );
+  // Find root types (no parent) and build hierarchy
+  const rootTypeIds = Object.keys(typeGroups).filter(tid => !typeMap[tid].parentId)
+    .sort((a, b) => (typeMap[a].name || '').localeCompare(typeMap[b].name || ''));
 
   const completed = p.status === 'completed';
   let html = `<div class="goals-section" style="${completed ? 'opacity:0.6;' : ''}">
@@ -3673,17 +3646,27 @@ function renderPeriodSection(p, goals, typeMap) {
       ${p.description ? `<div style="font-size:13px;color:var(--text2);margin-bottom:8px;">${escHtml(p.description)}</div>` : ''}
       ${p.startDate || p.endDate ? `<div style="font-size:12px;color:var(--text3);margin-bottom:10px;">${p.startDate || '?'} → ${p.endDate || '?'}</div>` : ''}`;
 
-  // Render type blocks
-  sortedTypeIds.forEach(tid => {
-    const t = typeMap[tid];
-    const tGoals = typeGroups[tid];
-    html += renderTypeBlock(t, tGoals);
+  // Render root type blocks with children nested
+  rootTypeIds.forEach(tid => {
+    const t = { ...typeMap[tid], id: tid };
+    html += renderTypeBlock(t, typeGroups, typeMap, 0);
+  });
+
+  // Render orphan child types (whose parent doesn't exist in typeGroups)
+  const orphanChildIds = Object.keys(typeGroups).filter(tid =>
+    typeMap[tid].parentId && !typeGroups[typeMap[tid].parentId]
+  ).sort((a, b) => (typeMap[a].name || '').localeCompare(typeMap[b].name || ''));
+  orphanChildIds.forEach(tid => {
+    html += renderTypeBlock(typeMap[tid], typeGroups, typeMap, 0);
   });
 
   // Goals without type in this period
   if (noTypeGoals.length > 0) {
-    html += `<div style="margin-right:8px;border-right:3px solid #999;padding-right:8px;margin-bottom:8px;">
-      <div style="font-size:12px;font-weight:600;color:#999;margin-bottom:4px;">📋 ללא סוג</div>`;
+    html += `<div class="type-block" style="border-right:4px solid #bbb;border-color:#e0e0e0;">
+      <div class="type-block-header" style="border-bottom-color:#e0e0e0;">
+        <span class="type-block-name" style="color:#999;">📋 ללא סוג</span>
+        <span class="type-block-count" style="color:#bbb;">${noTypeGoals.length}</span>
+      </div>`;
     noTypeGoals.forEach(g => html += renderGoalCard(g, '#999'));
     html += `</div>`;
   }
@@ -3704,9 +3687,8 @@ function renderNoPeriodSection(goals, typeMap) {
     }
   });
 
-  const sortedTypeIds = Object.keys(typeGroups).sort((a, b) =>
-    (typeMap[a].name || '').localeCompare(typeMap[b].name || '')
-  );
+  const rootTypeIds = Object.keys(typeGroups).filter(tid => !typeMap[tid].parentId)
+    .sort((a, b) => (typeMap[a].name || '').localeCompare(typeMap[b].name || ''));
 
   let html = `<div class="goals-section">
     <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open')">
@@ -3715,14 +3697,23 @@ function renderNoPeriodSection(goals, typeMap) {
     </div>
     <div class="goals-section-body open">`;
 
-  sortedTypeIds.forEach(tid => {
-    const t = typeMap[tid];
-    html += renderTypeBlock(t, typeGroups[tid]);
+  rootTypeIds.forEach(tid => {
+    html += renderTypeBlock(typeMap[tid], typeGroups, typeMap, 0);
+  });
+
+  const orphanChildIds = Object.keys(typeGroups).filter(tid =>
+    typeMap[tid].parentId && !typeGroups[typeMap[tid].parentId]
+  ).sort((a, b) => (typeMap[a].name || '').localeCompare(typeMap[b].name || ''));
+  orphanChildIds.forEach(tid => {
+    html += renderTypeBlock(typeMap[tid], typeGroups, typeMap, 0);
   });
 
   if (noTypeGoals.length > 0) {
-    html += `<div style="margin-right:8px;border-right:3px solid #999;padding-right:8px;margin-bottom:8px;">
-      <div style="font-size:12px;font-weight:600;color:#999;margin-bottom:4px;">📋 ללא סוג</div>`;
+    html += `<div class="type-block" style="border-right:4px solid #bbb;border-color:#e0e0e0;">
+      <div class="type-block-header" style="border-bottom-color:#e0e0e0;">
+        <span class="type-block-name" style="color:#999;">📋 ללא סוג</span>
+        <span class="type-block-count" style="color:#bbb;">${noTypeGoals.length}</span>
+      </div>`;
     noTypeGoals.forEach(g => html += renderGoalCard(g, '#999'));
     html += `</div>`;
   }
@@ -3731,16 +3722,30 @@ function renderNoPeriodSection(goals, typeMap) {
   return html;
 }
 
-function renderTypeBlock(t, goals) {
+function renderTypeBlock(t, typeGroups, typeMap, depth) {
   const color = t.color;
-  const sorted = goals.sort((a, b) => (a.name||'').localeCompare(b.name||''));
-  return `<div style="margin-right:8px;border-right:3px solid ${color};padding-right:8px;margin-bottom:10px;">
-    <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
-      <span style="font-size:13px;font-weight:700;color:${color};">${escHtml(t.name)}</span>
-      <span style="font-size:11px;color:var(--text3);">${sorted.length} ${sorted.length === 1 ? 'מטרה' : 'מטרות'}</span>
-    </div>
-    ${sorted.map(g => renderGoalCard(g, color)).join('')}
-  </div>`;
+  const goals = (typeGroups[t.id] || []).sort((a, b) => (a.name||'').localeCompare(b.name||''));
+  const childIds = Object.keys(typeGroups).filter(tid =>
+    typeMap[tid].parentId === t.id
+  ).sort((a, b) => (typeMap[a].name || '').localeCompare(typeMap[b].name || ''));
+
+  const isChild = depth > 0;
+
+  let html = `<div class="type-block ${isChild ? 'type-block-child' : ''}" style="border-right:4px solid ${color};border-color:${color}22;">
+    <div class="type-block-header" style="border-bottom-color:${color}22;">
+      <span class="type-block-name" style="color:${color};">${isChild ? '└ ' : ''}${escHtml(t.name)}</span>
+      <span class="type-block-count" style="color:${color};">${goals.length} ${goals.length === 1 ? 'מטרה' : 'מטרות'}${childIds.length > 0 ? ' · תת: ' + childIds.length : ''}</span>
+    </div>`;
+
+  goals.forEach(g => html += renderGoalCard(g, color));
+
+  // Render child types nested
+  childIds.forEach(cid => {
+    html += renderTypeBlock(typeMap[cid], typeGroups, typeMap, depth + 1);
+  });
+
+  html += `</div>`;
+  return html;
 }
 
 function renderGoalCard(g, typeColor) {
