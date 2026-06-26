@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T11:28:01.447Z",
+  "exportedAt": "2026-06-26T11:30:41.805Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -681,6 +681,17 @@
       "status": "active",
       "single": false,
       "id": "g_1782473267471_rqz1"
+    },
+    {
+      "name": "נגינה",
+      "periodId": "gp_1782463458192_i8vh",
+      "typeId": "gt_1782464131123_sd3t",
+      "startDate": "",
+      "endDate": "",
+      "description": "15 שירים ומנגינות נוספות - תווים ואקורדים. בשאיפה למהירות מציאה וקליטה גבוהה יותר.\n\nהושג שיר אחד ב\"ה.",
+      "status": "active",
+      "single": false,
+      "id": "g_1782473439798_u6in"
     }
   ],
   "objectives": [
@@ -1145,6 +1156,27 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782473267471_rqz1"
+    },
+    {
+      "id": "o_1782473356646_0xmx",
+      "name": "5",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473439798_u6in"
+    },
+    {
+      "id": "o_1782473362146_nn06",
+      "name": "10",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473439798_u6in"
+    },
+    {
+      "id": "o_1782473363926_xgz0",
+      "name": "15",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473439798_u6in"
     }
   ],
   "settings": {
