@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T04:11:41.626Z",
+  "exportedAt": "2026-06-26T04:14:31.823Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -409,6 +409,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T02:58:28.026Z"
+    },
+    {
+      "id": "r_1782447269820_2z90",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "06:50",
+      "duration": 10,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "weekly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T04:14:29.820Z"
     }
   ],
   "suggestions": {
