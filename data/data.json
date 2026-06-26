@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T08:39:40.356Z",
+  "exportedAt": "2026-06-26T08:44:20.202Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -464,7 +464,16 @@
       "r_1782459904340_fof6": "deleted"
     }
   },
-  "goalPeriods": [],
+  "goalPeriods": [
+    {
+      "name": "תמוז - אב | התשפ\"ו",
+      "startDate": "2026-06-16",
+      "endDate": "2026-08-13",
+      "description": "בין הזמנים, בין ישיבת בני צבי לבין שיעור א' בישיבת בית אל המעטירה.",
+      "status": "active",
+      "id": "gp_1782463458192_i8vh"
+    }
+  ],
   "goalTypes": [],
   "goals": [],
   "objectives": [],
