@@ -2191,6 +2191,7 @@ function buildBackupJson() {
 }
 
 async function syncToGitHub(showToast = true) {
+  if (isSyncing) { console.warn('sync: already in progress, skipping'); return false; }
   const token = getGithubToken();
   const repo = getGithubRepo();
   const path = getGithubPath();
@@ -2258,10 +2259,13 @@ async function syncToGitHub(showToast = true) {
         const shaMatch = data.message?.match(/[0-9a-f]{40}/);
         if (shaMatch) {
           setSha(shaMatch[0]);
+          // Small delay to let any concurrent sync finish
+          await new Promise(r => setTimeout(r, 200));
           continue;
         }
         // If no SHA in message, clear and retry
         setSha('');
+        await new Promise(r => setTimeout(r, 200));
         continue;
       }
 
