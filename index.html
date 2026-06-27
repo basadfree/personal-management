@@ -2252,20 +2252,6 @@ async function syncToGitHub(showToast = true) {
       setSyncStatus('error', 'שגיאה'); setSha(''); isSyncing = false; return false;
     }
   }
-  isSyncing = false; return false;
-    } catch (e) {
-      console.error('sync: fetch exception', e);
-      if (attempt < 2 && e.message?.includes('409')) {
-        setSha('');
-        continue;
-      }
-      toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
-      setSyncStatus('error', 'שגיאה');
-      isSyncing = false;
-      return false;
-    }
-  }
-  isSyncing = false;
 }
 
 function debouncedSync() {
