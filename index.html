@@ -2215,8 +2215,8 @@ async function syncToGitHub(showToast = true) {
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
   const headers = { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' };
 
-  // Retry once on SHA conflict
-  for (let attempt = 0; attempt < 2; attempt++) {
+  // Retry up to 3 times on SHA conflict, extracting SHA from error each time
+  for (let attempt = 0; attempt < 3; attempt++) {
     try {
       let sha = getSha();
       if (!sha) {
@@ -2224,7 +2224,7 @@ async function syncToGitHub(showToast = true) {
         if (getRes.ok) {
           const getData = await getRes.json();
           sha = getData.sha;
-        } else {
+        } else if (getRes.status !== 404) {
           console.warn('sync: failed to fetch existing SHA', getRes.status);
         }
       }
@@ -2253,8 +2253,14 @@ async function syncToGitHub(showToast = true) {
       }
 
       console.error('sync: GitHub API error', res.status, data);
-      // SHA conflict → invalidate cache and retry once
-      if (res.status === 409 && attempt === 0) {
+      // SHA conflict → extract SHA from error message and retry
+      if (res.status === 409 && attempt < 2) {
+        const shaMatch = data.message?.match(/[0-9a-f]{40}/);
+        if (shaMatch) {
+          setSha(shaMatch[0]);
+          continue;
+        }
+        // If no SHA in message, clear and retry
         setSha('');
         continue;
       }
@@ -2275,7 +2281,7 @@ async function syncToGitHub(showToast = true) {
       return false;
     } catch (e) {
       console.error('sync: fetch exception', e);
-      if (attempt === 0 && e.message?.includes('409')) {
+      if (attempt < 2 && e.message?.includes('409')) {
         setSha('');
         continue;
       }
