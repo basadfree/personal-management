@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-27T20:24:32.953Z",
+  "exportedAt": "2026-06-27T20:25:14.268Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -190,7 +190,7 @@
       "title": "זמן אפס.",
       "time": "15:50",
       "duration": 100,
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "completed": true,
       "archived": false,
       "recurrence": null,
