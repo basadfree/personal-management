@@ -2217,7 +2217,7 @@ async function syncToGitHub(showToast = true) {
   const headers = { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' };
 
   async function fetchSha() {
-    const r = await fetch(baseUrl + '?ref=master', { method: 'GET', headers });
+    const r = await fetch(baseUrl + '?ref=master&_=' + Date.now(), { method: 'GET', headers, cache: 'no-store' });
     if (r.ok) { const d = await r.json(); return d.sha; }
     return null;
   }
