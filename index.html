@@ -2335,7 +2335,7 @@ function renderWeek() {
     const dayStr = getDateStr(day);
     const isToday = isSameDay(day, today);
     const isActive = dayStr === selectedStr;
-    const count = state.results.filter(r => r.date === dayStr && !r.archived && !r.completed).length;
+    const count = state.results.filter(r => r.date === dayStr && !r.archived && !r.completed && recurrenceDayMatch(r, dayStr)).length;
 
     const btn = document.createElement('button');
     btn.className = 'week-day' + (isActive ? ' active' : '') + (isToday ? ' today' : '');
