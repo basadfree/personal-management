@@ -1682,7 +1682,7 @@ body {
         <input type="text" class="search-input" id="searchInput" placeholder="🔍 חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()">
         <div class="search-results" id="searchResults"></div>
       </div>
-      <div class="sync-status" id="syncStatusIndicator" title="סטטוס סנכרון">
+      <div class="sync-status" id="syncStatusIndicator" title="לחץ לסנכרון ידני" onclick="syncToGitHub(true)" style="cursor:pointer;">
         <span class="sync-status-dot"></span>
         <span id="syncStatusText">מקומי</span>
       </div>
@@ -2259,15 +2259,15 @@ async function syncToGitHub(showToast = true) {
         continue;
       }
 
-      // Rate limit?
+      // Always show error toasts, not just when showToast
       if (res.status === 403 && data.message?.includes('rate limit')) {
         toast('❌ חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
       } else if (res.status === 401) {
         toast('❌ טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
       } else if (res.status === 404) {
         toast('❌ הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
-      } else if (showToast) {
-        toast(`❌ שגיאת סנכרון: ${data.message || res.status}`, 'error');
+      } else {
+        toast(`❌ שגיאת סנכרון (${res.status}): ${data.message || 'לא ידוע'}`, 'error');
       }
       setSyncStatus('error', 'שגיאה');
       setSha('');
@@ -2279,7 +2279,7 @@ async function syncToGitHub(showToast = true) {
         setSha('');
         continue;
       }
-      if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
+      toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
       setSyncStatus('error', 'שגיאה');
       isSyncing = false;
       return false;
@@ -2296,8 +2296,7 @@ function debouncedSync() {
   setSyncStatus('syncing', 'שומר…');
   clearTimeout(syncTimer);
   syncTimer = setTimeout(async () => {
-    const ok = await syncToGitHub(false);
-    if (!ok && state.settings.autoSync) toast('❌ סנכרון נכשל. הנתונים שמורים מקומית.', 'error');
+    await syncToGitHub(false);
   }, 2000);
 }
 
