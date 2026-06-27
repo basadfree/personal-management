@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-27T20:21:50.178Z",
+  "exportedAt": "2026-06-27T20:22:29.225Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -811,7 +811,7 @@
       "id": "r_1782591622043_33jq",
       "title": "ארוחת בוקר",
       "description": "",
-      "time": "10:30",
+      "time": "10:15",
       "duration": 30,
       "date": "2026-06-28",
       "completed": false,
