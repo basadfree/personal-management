@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T09:02:57.236Z",
+  "exportedAt": "2026-06-28T09:05:15.403Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1355,7 +1355,7 @@
       "id": "o_1782468266621_hlg9",
       "name": "החוזר הצעיר - לשווק בווצאפ.",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782468454184_2z52"
     },
     {
