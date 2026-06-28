@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T14:57:22.102Z",
+  "exportedAt": "2026-06-28T16:22:34.775Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -736,7 +736,7 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-06-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
@@ -814,7 +814,7 @@
       "time": "16:40",
       "duration": 30,
       "date": "2026-06-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431181923_8u0g",
