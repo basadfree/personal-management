@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T18:29:34.133Z",
+  "exportedAt": "2026-06-28T19:12:03.319Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1142,7 +1142,7 @@
       "startDate": "",
       "endDate": "",
       "description": "41 יום (מי\"ג תמוז, ללא שבתות).\n\n119 ע\"מ. כלומר 3 ע\"מ ליום.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782467228011_j5f5"
     },
