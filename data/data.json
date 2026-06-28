@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:24:50.782Z",
+  "exportedAt": "2026-06-28T13:38:57.361Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1001,6 +1001,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-28T13:24:48.773Z"
+    },
+    {
+      "id": "r_1782653935353_vcmv",
+      "title": "סידור וארגון בגדים מחדש",
+      "description": "",
+      "time": "15:00",
+      "duration": 20,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782481023495_ombr",
+      "createdAt": "2026-06-28T13:38:55.353Z"
     }
   ],
   "suggestions": {
