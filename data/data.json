@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T18:06:21.668Z",
+  "exportedAt": "2026-06-28T18:11:17.890Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -129,21 +129,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:09:48.805Z",
       "description": "מטרת התנ\"ך."
-    },
-    {
-      "id": "r_1782425437297_hvxz",
-      "title": "תניא",
-      "time": "08:05",
-      "duration": 20,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:10:37.297Z",
-      "description": ""
     },
     {
       "id": "r_1782425511489_knps",
@@ -1025,7 +1010,6 @@
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
-      "r_1782425437297_hvxz": "accepted",
       "r_1782430450460_6zm1": "accepted",
       "r_1782431181923_8u0g": "accepted",
       "r_1782442504473_daqb": "accepted",
@@ -1039,7 +1023,6 @@
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
-      "r_1782425437297_hvxz": "accepted",
       "r_1782430450460_6zm1": "accepted",
       "r_1782431181923_8u0g": "accepted",
       "r_1782442504473_daqb": "accepted",
@@ -1050,7 +1033,8 @@
     },
     "2026-06-29": {
       "r_1782424741865_yg34": "accepted",
-      "r_1782448199626_eqz2": "accepted"
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782425437297_hvxz": "deleted"
     }
   },
   "goalPeriods": [
