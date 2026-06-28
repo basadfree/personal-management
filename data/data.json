@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:09:55.725Z",
+  "exportedAt": "2026-06-28T13:10:15.149Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1160,7 +1160,7 @@
       "startDate": "",
       "endDate": "",
       "description": "20 מנויים.\nממוצע של שבוע, לפחות 1000.\n4 סרטוני תוכניות שותפים.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782468636418_fadx"
     },
