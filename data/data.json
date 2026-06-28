@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:06:59.431Z",
+  "exportedAt": "2026-06-28T13:08:13.854Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -975,6 +975,19 @@
       "recurrence": null,
       "sourceId": "r_1782426023645_a4p8",
       "createdAt": "2026-06-28T13:03:51.890Z"
+    },
+    {
+      "id": "r_1782652091849_hpls",
+      "title": "אלקנה גרינווד",
+      "description": "לדבר איתו על מיון התמונות.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-06-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-28T13:08:11.849Z"
     }
   ],
   "suggestions": {
