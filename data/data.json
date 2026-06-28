@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:50:25.561Z",
+  "exportedAt": "2026-06-28T13:50:38.925Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1282,17 +1282,6 @@
       "status": "in_progress",
       "single": false,
       "id": "g_1782473583130_yn0k"
-    },
-    {
-      "name": "ר",
-      "periodId": "",
-      "typeId": "",
-      "startDate": "",
-      "endDate": "",
-      "description": "",
-      "status": "active",
-      "single": false,
-      "id": "g_1782654592862_qx69"
     }
   ],
   "objectives": [
