@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:10:15.149Z",
+  "exportedAt": "2026-06-28T13:10:34.073Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1149,7 +1149,7 @@
       "startDate": "",
       "endDate": "",
       "description": "להרוויח לפחות 1000 ש\"ח או 250 ש\"ח כל חודש (כרגע יש 100 דמי כיס + 50 ממשתמש החוזר של אבא).",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782468454184_2z52"
     },
