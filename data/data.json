@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:11:00.253Z",
+  "exportedAt": "2026-06-28T13:11:20.404Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1105,7 +1105,7 @@
       "startDate": "",
       "endDate": "",
       "description": "לימוד ספר התניא, כולל החוזר, תובנות ולמעשה.\n\nכל יום פרק (מי\"א תמוז) + 6 פרקים שצריך להשלים.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782466499456_gorv"
     },
