@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:11:20.404Z",
+  "exportedAt": "2026-06-28T13:11:28.167Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1083,7 +1083,7 @@
       "startDate": "",
       "endDate": "",
       "description": "51 כרטיסיות בהחוזר, זה יוצא בממוצע כרטיסייה אחת ליום, ללא ימי שבת. במוצאי שבת אפשר להשלים אם צריך.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782464506024_rqnb"
     },
@@ -1094,7 +1094,7 @@
       "startDate": "",
       "endDate": "",
       "description": "מויקרא ז' עד יהושע ג', כולל מספר שאלות בהחוזר לכל ספר שהושלם.\n\nמ-י\"ג תמוז עד כ\"ט אב: 47 ימים.\n\n2 פרקים ליום.\n\nכלומר, 94 פרקים.\n\nהישג: ויקרא ח'.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782466079400_w4mv"
     },
