@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:45:51.368Z",
+  "exportedAt": "2026-06-28T13:49:26.573Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1061,6 +1061,14 @@
       "description": "בין הזמנים, בין ישיבת בני צבי לבין שיעור א' בישיבת בית אל המעטירה. בשם השם נעשה ונצליח.",
       "status": "active",
       "id": "gp_1782463458192_i8vh"
+    },
+    {
+      "name": "רע",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "id": "gp_1782654564570_m257"
     }
   ],
   "goalTypes": [
