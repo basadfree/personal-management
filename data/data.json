@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T07:32:48.992Z",
+  "exportedAt": "2026-06-28T07:33:12.403Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -897,6 +897,19 @@
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-06-27T20:20:25.651Z"
+    },
+    {
+      "id": "r_1782631990401_k0uk",
+      "title": "לואיז",
+      "description": "166 - 256. 55 ע\"מ מלאים. 3 דק' לע\"מ. חצי ראשון.\nעוד 20 - הושלם. עוד 20 - עדיין. עוד 15 - עדיין.",
+      "time": "08:00",
+      "duration": 120,
+      "date": "2026-06-29",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782426191371_mn4b",
+      "createdAt": "2026-06-28T07:33:10.401Z"
     }
   ],
   "suggestions": {
