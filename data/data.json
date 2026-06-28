@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:49:54.875Z",
+  "exportedAt": "2026-06-28T13:50:25.561Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1069,6 +1069,14 @@
       "description": "",
       "status": "active",
       "id": "gp_1782654564570_m257"
+    },
+    {
+      "name": "רעעערע",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-29",
+      "description": "רעע",
+      "status": "active",
+      "id": "gp_1782654623552_2sdk"
     }
   ],
   "goalTypes": [
