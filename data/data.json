@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T13:15:32.256Z",
+  "exportedAt": "2026-06-28T13:24:50.782Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -988,6 +988,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-28T13:08:11.849Z"
+    },
+    {
+      "id": "r_1782653088773_gxfa",
+      "title": "לחשוב על כיפה",
+      "description": "",
+      "time": "13:00",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-28T13:24:48.773Z"
     }
   ],
   "suggestions": {
