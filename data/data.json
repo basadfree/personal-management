@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T09:14:39.773Z",
+  "exportedAt": "2026-06-28T09:14:47.096Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -897,6 +897,19 @@
       "recurrence": null,
       "sourceId": "r_1782426191371_mn4b",
       "createdAt": "2026-06-28T07:33:10.401Z"
+    },
+    {
+      "id": "r_1782638085087_ub5t",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-06-29",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-06-28T09:14:45.087Z"
     }
   ],
   "suggestions": {
@@ -930,6 +943,9 @@
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted"
+    },
+    "2026-06-29": {
+      "r_1782424741865_yg34": "accepted"
     }
   },
   "goalPeriods": [
