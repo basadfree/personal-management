@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-28T19:12:03.319Z",
+  "exportedAt": "2026-06-28T19:12:09.559Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1153,7 +1153,7 @@
       "startDate": "",
       "endDate": "",
       "description": "260 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 6.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782467946336_tyih"
     },
@@ -1164,7 +1164,7 @@
       "startDate": "",
       "endDate": "",
       "description": "220 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 5.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782468058587_wx37"
     },
