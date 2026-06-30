@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:31:53.918Z",
+  "exportedAt": "2026-06-30T11:32:12.824Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -876,8 +876,8 @@
       "description": "166 - 256. 55 ע\"מ מלאים. 3 דק' לע\"מ.\nעוד 20 - הושלם. עוד 20 - עדיין. עוד 15 - עדיין.",
       "time": "08:00",
       "duration": 120,
-      "date": "2026-06-29",
-      "completed": true,
+      "date": "2026-07-01",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782426191371_mn4b",
