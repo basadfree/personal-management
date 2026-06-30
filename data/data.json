@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:52:53.968Z",
+  "exportedAt": "2026-06-30T11:53:15.123Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -955,7 +955,7 @@
       "time": "13:20",
       "duration": 100,
       "date": "2026-06-29",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782426023645_a4p8",
@@ -1421,6 +1421,19 @@
       "recurrence": null,
       "sourceId": "r_1782428106322_wws8",
       "createdAt": "2026-06-30T11:52:50.411Z"
+    },
+    {
+      "id": "r_1782820392198_1t6a",
+      "title": "זמן אפס.",
+      "description": "100 - 150. 50 ע\"מ 2 ד\"ק לע\"מ.",
+      "time": "13:20",
+      "duration": 100,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782426023645_a4p8",
+      "createdAt": "2026-06-30T11:53:12.198Z"
     }
   ],
   "suggestions": {
