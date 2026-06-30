@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T12:06:01.916Z",
+  "exportedAt": "2026-06-30T12:15:23.764Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1056,7 +1056,7 @@
       "id": "r_1782816833544_u64i",
       "title": "גמרא",
       "description": "מטרת הגמרא.",
-      "time": "14:40",
+      "time": "15:20",
       "duration": 30,
       "date": "2026-06-30",
       "completed": false,
