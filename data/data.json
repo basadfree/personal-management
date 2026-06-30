@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T10:53:45.857Z",
+  "exportedAt": "2026-06-30T10:53:56.131Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1012,6 +1012,71 @@
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-06-30T10:53:43.846Z"
+    },
+    {
+      "id": "r_1782816829860_q3i4",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-06-30T10:53:49.860Z"
+    },
+    {
+      "id": "r_1782816830715_kvwh",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-06-30T10:53:50.715Z"
+    },
+    {
+      "id": "r_1782816831807_432g",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-06-30T10:53:51.807Z"
+    },
+    {
+      "id": "r_1782816833544_u64i",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-06-30T10:53:53.544Z"
+    },
+    {
+      "id": "r_1782816834118_ben9",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-30T10:53:54.118Z"
     }
   ],
   "suggestions": {
@@ -1050,7 +1115,12 @@
       "r_1782425437297_hvxz": "deleted"
     },
     "2026-06-30": {
-      "r_1782423817363_xrim": "accepted"
+      "r_1782423817363_xrim": "accepted",
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted"
     }
   },
   "goalPeriods": [
