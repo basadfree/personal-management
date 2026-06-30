@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T15:56:18.275Z",
+  "exportedAt": "2026-06-30T15:56:33.623Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1030,8 +1030,8 @@
       "id": "r_1782816830715_kvwh",
       "title": "ארוחת ערב | ברוקולי",
       "description": "",
-      "time": "18:30",
-      "duration": 30,
+      "time": "20:50",
+      "duration": 20,
       "date": "2026-06-30",
       "completed": false,
       "archived": false,
