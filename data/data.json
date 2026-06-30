@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T10:53:56.131Z",
+  "exportedAt": "2026-06-30T10:54:05.087Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1077,6 +1077,110 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-06-30T10:53:54.118Z"
+    },
+    {
+      "id": "r_1782816836346_itao",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-06-30T10:53:56.346Z"
+    },
+    {
+      "id": "r_1782816837750_1dfi",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-06-30T10:53:57.750Z"
+    },
+    {
+      "id": "r_1782816839054_yb50",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431181923_8u0g",
+      "createdAt": "2026-06-30T10:53:59.054Z"
+    },
+    {
+      "id": "r_1782816839616_ei9m",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-06-30T10:53:59.616Z"
+    },
+    {
+      "id": "r_1782816840659_r5ck",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-06-30T10:54:00.659Z"
+    },
+    {
+      "id": "r_1782816841546_zmht",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-06-30T10:54:01.546Z"
+    },
+    {
+      "id": "r_1782816842328_8bqw",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-06-30T10:54:02.328Z"
+    },
+    {
+      "id": "r_1782816843080_wkpg",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-06-30T10:54:03.080Z"
     }
   ],
   "suggestions": {
@@ -1120,7 +1224,15 @@
       "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
-      "r_1782425388805_mmgm": "accepted"
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782430911505_pfrp": "accepted",
+      "r_1782431181923_8u0g": "accepted",
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted"
     }
   },
   "goalPeriods": [
