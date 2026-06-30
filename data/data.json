@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T19:13:47.792Z",
+  "exportedAt": "2026-06-30T19:45:27.823Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1501,6 +1501,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-30T12:28:32.620Z"
+    },
+    {
+      "id": "r_1782848725817_8qvv",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "22:00",
+      "duration": 20,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-06-30T19:45:25.817Z"
     }
   ],
   "suggestions": {
