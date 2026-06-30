@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:53:30.119Z",
+  "exportedAt": "2026-06-30T12:04:36.081Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1434,6 +1434,19 @@
       "recurrence": null,
       "sourceId": "r_1782426023645_a4p8",
       "createdAt": "2026-06-30T11:53:12.198Z"
+    },
+    {
+      "id": "r_1782821074079_wcoo",
+      "title": "סידור המטרות, והתוצאות מיומן גוגל.",
+      "description": "",
+      "time": "15:20",
+      "duration": 30,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425635431_87t8",
+      "createdAt": "2026-06-30T12:04:34.079Z"
     }
   ],
   "suggestions": {
