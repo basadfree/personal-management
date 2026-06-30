@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:32:19.808Z",
+  "exportedAt": "2026-06-30T11:32:26.457Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -450,7 +450,7 @@
       "description": "כולל החוזר, תובנות ולמעשה.",
       "time": "09:00",
       "duration": 120,
-      "date": "2026-06-29",
+      "date": "2026-07-01",
       "completed": false,
       "archived": false,
       "recurrence": null,
