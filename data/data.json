@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T10:54:13.481Z",
+  "exportedAt": "2026-06-30T10:57:21.516Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1337,6 +1337,19 @@
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-06-30T10:54:11.468Z"
+    },
+    {
+      "id": "r_1782817039503_680l",
+      "title": "לדבר עם שלומי מישראל היום.",
+      "description": "הוא ביקש לדבר איתו היום.",
+      "time": "11:00",
+      "duration": 5,
+      "date": "2026-07-08",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-30T10:57:19.503Z"
     }
   ],
   "suggestions": {
