@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T12:04:39.690Z",
+  "exportedAt": "2026-06-30T12:04:55.666Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -244,7 +244,7 @@
       "time": "16:40",
       "duration": 40,
       "date": "2026-06-29",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -1447,6 +1447,19 @@
       "recurrence": null,
       "sourceId": "r_1782425635431_87t8",
       "createdAt": "2026-06-30T12:04:34.079Z"
+    },
+    {
+      "id": "r_1782821092733_2e9z",
+      "title": "העברת כל הטיוטות מהטלפון למחשב. כולל טיפול.",
+      "description": "",
+      "time": "16:40",
+      "duration": 40,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430560894_yyvu",
+      "createdAt": "2026-06-30T12:04:52.733Z"
     }
   ],
   "suggestions": {
