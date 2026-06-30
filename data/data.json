@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T20:19:29.451Z",
+  "exportedAt": "2026-06-30T23:08:34.484Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1514,6 +1514,19 @@
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-06-30T19:45:25.817Z"
+    },
+    {
+      "id": "r_1782860912478_93qs",
+      "title": "להסתפר",
+      "description": "ולעשות תנאי על הצום, עלות השחר.",
+      "time": "15:00",
+      "duration": 10,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-30T23:08:32.478Z"
     }
   ],
   "suggestions": {
