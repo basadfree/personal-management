@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:32:46.850Z",
+  "exportedAt": "2026-06-30T11:33:29.608Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1306,7 +1306,7 @@
       "time": "09:00",
       "duration": 15,
       "date": "2026-06-29",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": {
         "type": "specific",
@@ -1369,6 +1369,19 @@
       "recurrence": null,
       "sourceId": "r_1782475095107_v9zu",
       "createdAt": "2026-06-30T11:22:35.086Z"
+    },
+    {
+      "id": "r_1782819207603_bync",
+      "title": "חד אופן",
+      "description": "",
+      "time": "17:00",
+      "duration": 15,
+      "date": "2026-06-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-30T11:33:27.603Z"
     }
   ],
   "suggestions": {
