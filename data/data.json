@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T12:20:39.892Z",
+  "exportedAt": "2026-06-30T12:28:34.625Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1488,6 +1488,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-30T12:05:59.911Z"
+    },
+    {
+      "id": "r_1782822512620_aiq6",
+      "title": "קידום הניהול האישי",
+      "description": "",
+      "time": "21:00",
+      "duration": 30,
+      "date": "2026-07-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-30T12:28:32.620Z"
     }
   ],
   "suggestions": {
