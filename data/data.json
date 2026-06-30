@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T11:52:43.337Z",
+  "exportedAt": "2026-06-30T11:52:53.968Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -942,7 +942,7 @@
       "time": "12:50",
       "duration": 5,
       "date": "2026-06-29",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782428106322_wws8",
@@ -1408,6 +1408,19 @@
       "recurrence": null,
       "sourceId": "r_1782429435433_65q8",
       "createdAt": "2026-06-30T11:52:40.266Z"
+    },
+    {
+      "id": "r_1782820370411_dyn5",
+      "title": "לחשוב על פתיחת חשבון בנק.",
+      "description": "לבדוק סופית אם באמת כדאי עכשיו ולא בגיל 18, ואם כן ללכת על זה עד הסוף כולל כל התכנון של הכסף, הניהול, המשיכות, השאלות לבנק, הבקשות מהבנק וכדו'.",
+      "time": "12:50",
+      "duration": 5,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782428106322_wws8",
+      "createdAt": "2026-06-30T11:52:50.411Z"
     }
   ],
   "suggestions": {
