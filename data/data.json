@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-01T10:12:31.613Z",
+  "exportedAt": "2026-07-01T10:13:17.307Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1300,25 +1300,6 @@
       "createdAt": "2026-06-30T10:54:10.936Z"
     },
     {
-      "id": "r_1782816851054_gr7q",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-06-29",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          3,
-          1
-        ]
-      },
-      "sourceId": "r_1782474961808_oqv9",
-      "createdAt": "2026-06-30T10:54:11.054Z"
-    },
-    {
       "id": "r_1782816851219_qqbw",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -1869,8 +1850,10 @@
       "r_1782474961808_oqv9": "accepted",
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
-      "r_1782816851054_gr7q": "accepted",
       "r_1782821159911_fqcb": "accepted"
+    },
+    "2026-07-06": {
+      "r_1782816851054_gr7q": "deleted"
     }
   },
   "goalPeriods": [
