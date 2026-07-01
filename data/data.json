@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-01T10:03:04.798Z",
+  "exportedAt": "2026-07-01T10:03:25.186Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -451,7 +451,7 @@
       "time": "09:00",
       "duration": 120,
       "date": "2026-07-01",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -1735,6 +1735,32 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-01T09:21:42.657Z"
+    },
+    {
+      "id": "r_1782900186449_3my6",
+      "title": "לואיז",
+      "description": "166 - 256. 55 ע\"מ מלאים. 3 דק' לע\"מ.\nעוד 20 - הושלם. עוד 20 - עדיין. עוד 15 - עדיין.",
+      "time": "08:00",
+      "duration": 120,
+      "date": "2026-07-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782426191371_mn4b",
+      "createdAt": "2026-07-01T10:03:06.449Z"
+    },
+    {
+      "id": "r_1782900202279_cbv5",
+      "title": "תניא - 6 פרקים (השלמה).",
+      "description": "כולל החוזר, תובנות ולמעשה.",
+      "time": "09:00",
+      "duration": 120,
+      "date": "2026-07-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782466845150_dvl0",
+      "createdAt": "2026-07-01T10:03:22.279Z"
     }
   ],
   "suggestions": {
