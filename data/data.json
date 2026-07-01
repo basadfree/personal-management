@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-30T23:08:34.484Z",
+  "exportedAt": "2026-07-01T07:07:14.973Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1527,6 +1527,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-30T23:08:32.478Z"
+    },
+    {
+      "id": "r_1782889632959_4kbs",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-07-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-07-01T07:07:12.959Z"
     }
   ],
   "suggestions": {
@@ -1591,6 +1604,9 @@
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted"
+    },
+    "2026-07-01": {
+      "r_1782423817363_xrim": "accepted"
     }
   },
   "goalPeriods": [
