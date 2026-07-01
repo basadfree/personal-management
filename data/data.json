@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-01T12:57:56.494Z",
+  "exportedAt": "2026-07-01T14:52:04.366Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1687,7 +1687,7 @@
       "time": "16:05",
       "duration": 30,
       "date": "2026-07-01",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
@@ -1982,7 +1982,7 @@
       "typeId": "gt_1782466521947_ienn",
       "startDate": "",
       "endDate": "",
-      "description": "220 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 5.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
+      "description": "19,| 32, 45, 58, 71, 84, 97, 110, 123, 136, 149, 162, 175, 188, 201, 214.\n\n220 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 5.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
       "status": "in_progress",
       "single": false,
       "id": "g_1782468058587_wx37"
