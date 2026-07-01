@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-01T10:03:47.115Z",
+  "exportedAt": "2026-07-01T10:03:55.382Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1390,7 +1390,7 @@
       "time": "12:00",
       "duration": 20,
       "date": "2026-07-01",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424886963_2pyo",
@@ -1613,7 +1613,7 @@
       "time": "10:30",
       "duration": 30,
       "date": "2026-07-01",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
@@ -1774,6 +1774,19 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-01T10:03:43.846Z"
+    },
+    {
+      "id": "r_1782900232601_hrem",
+      "title": "מלצרות, סדרנות, והפקה.",
+      "description": "ללמוד הפקה מהמחשב באופן בסיסי או יותר מבסיסי, ולאחר מכן אפשר לשאול את אסף איך הוא הציג את עצמו, ואז לבקש ממנו את הטלפון ולדבר איתו. אפשר לשלוח ווצאפ לאירועים או מסעדות דתיים באיזור, וגם בכללי למצוא עבודות בווצאפ.",
+      "time": "12:00",
+      "duration": 20,
+      "date": "2026-07-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424886963_2pyo",
+      "createdAt": "2026-07-01T10:03:52.601Z"
     }
   ],
   "suggestions": {
