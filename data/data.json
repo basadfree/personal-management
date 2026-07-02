@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-02T06:07:02.695Z",
+  "exportedAt": "2026-07-02T06:07:14.378Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1870,8 +1870,8 @@
       "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
       "time": "16:00",
       "duration": 25,
-      "date": "2026-07-02",
-      "completed": true,
+      "date": "2026-07-03",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
