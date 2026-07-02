@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-02T06:11:56.830Z",
+  "exportedAt": "2026-07-02T06:12:22.849Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1791,7 +1791,7 @@
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
       "time": "13:30",
-      "duration": 60,
+      "duration": 120,
       "date": "2026-07-02",
       "completed": false,
       "archived": false,
