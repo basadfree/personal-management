@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-02T20:23:38.225Z",
+  "exportedAt": "2026-07-02T20:24:42.298Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2396,13 +2396,6 @@
       "goalId": "g_1782466079400_w4mv"
     },
     {
-      "id": "o_1782466591386_k4ki",
-      "name": "א' - י'",
-      "derech": "10",
-      "status": "active",
-      "goalId": "g_1782466499456_gorv"
-    },
-    {
       "id": "o_1782466592091_4fx4",
       "name": "י",
       "derech": "10",
@@ -2433,7 +2426,7 @@
     {
       "id": "o_1782466734771_k23x",
       "name": "נ",
-      "derech": "3",
+      "derech": "10",
       "status": "active",
       "goalId": "g_1782466499456_gorv"
     },
@@ -2856,6 +2849,13 @@
       "derech": "",
       "status": "active",
       "goalId": "g_1782472588700_qx46"
+    },
+    {
+      "id": "o_1783023868667_2wcm",
+      "name": "נ\"ג",
+      "derech": "3",
+      "status": "active",
+      "goalId": "g_1782466499456_gorv"
     }
   ],
   "settings": {
