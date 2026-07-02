@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-02T10:44:25.724Z",
+  "exportedAt": "2026-07-02T10:44:31.630Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1435,9 +1435,9 @@
       "id": "r_1782821092733_2e9z",
       "title": "העברת כל הטיוטות מהטלפון למחשב. כולל טיפול.",
       "description": "",
-      "time": "16:40",
+      "time": "",
       "duration": 60,
-      "date": "2026-07-02",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
