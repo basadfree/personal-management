@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-02T10:44:19.954Z",
+  "exportedAt": "2026-07-02T10:44:25.724Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1422,9 +1422,9 @@
       "id": "r_1782821074079_wcoo",
       "title": "סידור המטרות, והתוצאות מיומן גוגל.",
       "description": "",
-      "time": "16:05",
+      "time": "",
       "duration": 30,
-      "date": "2026-07-02",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
