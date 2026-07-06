@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T13:36:54.711Z",
+  "exportedAt": "2026-07-06T13:37:39.406Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2313,6 +2313,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:36:52.708Z"
+    },
+    {
+      "id": "r_1783345057400_nxwc",
+      "title": "איך, ומתי להיות חזן.",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T13:37:37.400Z"
     }
   ],
   "suggestions": {
