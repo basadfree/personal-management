@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T13:37:39.406Z",
+  "exportedAt": "2026-07-06T13:40:10.629Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2326,6 +2326,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:37:37.400Z"
+    },
+    {
+      "id": "r_1783345208625_godr",
+      "title": "העברת סיכום הרגש למסמך",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T13:40:08.625Z"
     }
   ],
   "suggestions": {
