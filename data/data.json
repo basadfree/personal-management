@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T13:36:10.565Z",
+  "exportedAt": "2026-07-06T13:36:54.711Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2300,6 +2300,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:36:08.561Z"
+    },
+    {
+      "id": "r_1783345012708_rh7d",
+      "title": "סדר ספרי התנ\"ך להחוזר",
+      "description": "",
+      "time": "",
+      "duration": 10,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T13:36:52.708Z"
     }
   ],
   "suggestions": {
