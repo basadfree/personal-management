@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T10:53:36.372Z",
+  "exportedAt": "2026-07-06T10:53:54.913Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2330,14 +2330,6 @@
       "description": "בין הזמנים, בין ישיבת בני צבי לבין שיעור א' בישיבת בית אל המעטירה. בשם השם נעשה ונצליח.",
       "status": "active",
       "id": "gp_1782463458192_i8vh"
-    },
-    {
-      "name": "רעעערע",
-      "startDate": "2026-07-02",
-      "endDate": "2026-07-29",
-      "description": "רעע",
-      "status": "active",
-      "id": "gp_1782654623552_2sdk"
     }
   ],
   "goalTypes": [
@@ -2543,17 +2535,6 @@
       "status": "in_progress",
       "single": false,
       "id": "g_1782473583130_yn0k"
-    },
-    {
-      "name": "רערעקקע",
-      "periodId": "gp_1782654623552_2sdk",
-      "typeId": "",
-      "startDate": "",
-      "endDate": "",
-      "description": "",
-      "status": "active",
-      "single": false,
-      "id": "g_1783335199342_gb5g"
     }
   ],
   "objectives": [
