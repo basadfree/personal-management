@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T06:26:38.557Z",
+  "exportedAt": "2026-07-06T06:26:49.174Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2139,7 +2139,7 @@
       "id": "r_1783318092262_xsu6",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
-      "time": "09:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-07-06",
       "completed": false,
