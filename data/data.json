@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T15:03:31.161Z",
+  "exportedAt": "2026-07-06T15:10:36.137Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2339,19 +2339,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:40:08.625Z"
-    },
-    {
-      "id": "r_1783350209150_iiv5",
-      "title": "הכנה לזוגיות",
-      "description": "",
-      "time": "",
-      "duration": 10,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-06T15:03:29.150Z"
     }
   ],
   "suggestions": {
