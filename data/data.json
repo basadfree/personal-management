@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T10:54:23.803Z",
+  "exportedAt": "2026-07-06T10:54:31.645Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2510,7 +2510,7 @@
       "startDate": "",
       "endDate": "",
       "description": "30 פעמים ג'אלינג על חד אופן על המקום.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782473267471_rqz1"
     },
