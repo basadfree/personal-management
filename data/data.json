@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T10:49:17.347Z",
+  "exportedAt": "2026-07-06T10:53:21.348Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2551,6 +2551,17 @@
       "status": "in_progress",
       "single": false,
       "id": "g_1782473583130_yn0k"
+    },
+    {
+      "name": "רערעקקע",
+      "periodId": "gp_1782654564570_m257",
+      "typeId": "",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "single": false,
+      "id": "g_1783335199342_gb5g"
     }
   ],
   "objectives": [
