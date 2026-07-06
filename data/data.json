@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T12:07:59.831Z",
+  "exportedAt": "2026-07-06T12:34:08.969Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2201,6 +2201,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-07-06T12:07:57.824Z"
+    },
+    {
+      "id": "r_1783341246960_s7ro",
+      "title": "סנכרון תקציבים",
+      "description": "הוספת 100 ש\"ח - דמי כיס אבא.\nהוספת 50 ש\"ח - החוזר אבא.\n--- הורדת 14.25$ על שרת.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-06T12:34:06.960Z"
     }
   ],
   "suggestions": {
