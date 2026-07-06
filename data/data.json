@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T12:41:03.046Z",
+  "exportedAt": "2026-07-06T12:50:11.647Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2274,6 +2274,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T12:39:56.264Z"
+    },
+    {
+      "id": "r_1783342209631_rtfm",
+      "title": "ציצית, הדבקת קצוות.",
+      "description": "",
+      "time": "",
+      "duration": 10,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T12:50:09.631Z"
     }
   ],
   "suggestions": {
