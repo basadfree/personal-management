@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T12:50:11.647Z",
+  "exportedAt": "2026-07-06T13:36:10.565Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2287,6 +2287,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T12:50:09.631Z"
+    },
+    {
+      "id": "r_1783344968561_k2gi",
+      "title": "הוכחה לאמא על בלוטוס",
+      "description": "",
+      "time": "",
+      "duration": 5,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T13:36:08.561Z"
     }
   ],
   "suggestions": {
