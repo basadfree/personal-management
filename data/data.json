@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T12:34:08.969Z",
+  "exportedAt": "2026-07-06T12:35:13.406Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2216,6 +2216,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-07-06T12:34:06.960Z"
+    },
+    {
+      "id": "r_1783341311395_7gie",
+      "title": "שיפור סידור חדר\\בית והסרת אבק מהחדר.",
+      "description": "",
+      "time": "11:00",
+      "duration": 20,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-06T12:35:11.395Z"
     }
   ],
   "suggestions": {
