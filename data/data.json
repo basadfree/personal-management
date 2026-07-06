@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T12:35:33.294Z",
+  "exportedAt": "2026-07-06T12:36:28.801Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2231,6 +2231,21 @@
       },
       "sourceId": null,
       "createdAt": "2026-07-06T12:35:11.395Z"
+    },
+    {
+      "id": "r_1783341386798_v13n",
+      "title": "מדידת משקל",
+      "description": "",
+      "time": "11:00",
+      "duration": 5,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-06T12:36:26.798Z"
     }
   ],
   "suggestions": {
