@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T06:29:56.343Z",
+  "exportedAt": "2026-07-06T06:30:21.689Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2082,19 +2082,6 @@
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-06T06:08:11.093Z"
-    },
-    {
-      "id": "r_1783318091266_vw8s",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782431181923_8u0g",
-      "createdAt": "2026-07-06T06:08:11.266Z"
     },
     {
       "id": "r_1783318091478_5xxh",
