@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T07:28:25.025Z",
+  "exportedAt": "2026-07-06T07:29:55.942Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2171,6 +2171,21 @@
       "recurrence": null,
       "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-06T06:08:14.080Z"
+    },
+    {
+      "id": "r_1783322993928_ckcd",
+      "title": "מעקב חזק על המטרות והיעדים",
+      "description": "",
+      "time": "13:00",
+      "duration": 20,
+      "date": "2026-07-09",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "weekly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-06T07:29:53.928Z"
     }
   ],
   "suggestions": {
