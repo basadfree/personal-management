@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T10:54:16.293Z",
+  "exportedAt": "2026-07-06T10:54:23.803Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2499,7 +2499,7 @@
       "startDate": "",
       "endDate": "",
       "description": "יצירת קשר דיגיטלי עם יזם אחד כל שבועיים.",
-      "status": "active",
+      "status": "in_progress",
       "single": false,
       "id": "g_1782473125865_44f2"
     },
