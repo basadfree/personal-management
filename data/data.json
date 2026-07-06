@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T06:06:18.478Z",
+  "exportedAt": "2026-07-06T06:06:46.631Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2098,7 +2098,7 @@
       "r_1782897700268_p7ax": "accepted"
     },
     "2026-07-05": {
-      "r_1782423817363_xrim": "postponed"
+      "r_1782423817363_xrim": "dismissed"
     }
   },
   "goalPeriods": [
