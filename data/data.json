@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-06T15:10:36.137Z",
+  "exportedAt": "2026-07-06T15:54:07.112Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2339,6 +2339,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:40:08.625Z"
+    },
+    {
+      "id": "r_1783353245107_l2oz",
+      "title": "ישיב\"ג, הכנה.",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-06T15:54:05.107Z"
     }
   ],
   "suggestions": {
