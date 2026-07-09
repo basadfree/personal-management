@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T11:12:41.601Z",
+  "exportedAt": "2026-07-09T11:13:08.370Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2391,6 +2391,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:12:22.643Z"
+    },
+    {
+      "id": "r_1783595586367_4j3v",
+      "title": "=== פל\"נ - 1 אימונים.",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-09T11:13:06.367Z"
     }
   ],
   "suggestions": {
