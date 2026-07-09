@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T10:44:26.245Z",
+  "exportedAt": "2026-07-09T10:44:44.664Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3176,7 +3176,7 @@
       "id": "o_1782473356646_0xmx",
       "name": "5",
       "derech": "",
-      "status": "completed",
+      "status": "active",
       "goalId": "g_1782473439798_u6in"
     },
     {
@@ -3218,7 +3218,7 @@
       "id": "o_1782473577891_xmh2",
       "name": "חולצה",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473583130_yn0k"
     },
     {
