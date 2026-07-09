@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T11:11:55.474Z",
+  "exportedAt": "2026-07-09T11:12:24.648Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2378,6 +2378,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:11:23.271Z"
+    },
+    {
+      "id": "r_1783595542643_zs64",
+      "title": "=== מטרות! תנ\"ך - 2 פרקים.",
+      "description": "",
+      "time": "",
+      "duration": 10,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-09T11:12:22.643Z"
     }
   ],
   "suggestions": {
