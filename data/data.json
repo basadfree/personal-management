@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T10:44:21.563Z",
+  "exportedAt": "2026-07-09T10:44:26.245Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3211,7 +3211,7 @@
       "id": "o_1782473574483_az4x",
       "name": "בוקסר",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473583130_yn0k"
     },
     {
