@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T11:15:51.785Z",
+  "exportedAt": "2026-07-09T11:16:08.286Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1330,7 +1330,7 @@
       "time": "09:00",
       "duration": 10,
       "date": "2026-07-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475095107_v9zu",
@@ -1381,7 +1381,7 @@
       "description": "לבדוק סופית אם באמת כדאי עכשיו ולא בגיל 18, ואם כן ללכת על זה עד הסוף כולל כל התכנון של הכסף, הניהול, המשיכות, השאלות לבנק, הבקשות מהבנק וכדו'.",
       "time": "12:50",
       "duration": 5,
-      "date": "2026-07-07",
+      "date": "2026-07-12",
       "completed": false,
       "archived": false,
       "recurrence": null,
