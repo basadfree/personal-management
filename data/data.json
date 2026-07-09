@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T11:10:47.816Z",
+  "exportedAt": "2026-07-09T11:11:25.314Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2365,6 +2365,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-07T16:45:50.505Z"
+    },
+    {
+      "id": "r_1783595483271_gks1",
+      "title": "מטרות! גמרא - 1 כרטיסיות.",
+      "description": "",
+      "time": "",
+      "duration": 5,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-09T11:11:23.271Z"
     }
   ],
   "suggestions": {
