@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T09:38:22.929Z",
+  "exportedAt": "2026-07-10T09:38:53.374Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2451,7 +2451,7 @@
       "time": "15:00",
       "duration": 10,
       "date": "2026-07-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424886963_2pyo",
@@ -2514,7 +2514,7 @@
       "title": "מקלחת לכבוד שבת",
       "description": "כולל ציפורניים.",
       "time": "16:20",
-      "duration": 20,
+      "duration": 15,
       "date": "2026-07-10",
       "completed": false,
       "archived": false,
