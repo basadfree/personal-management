@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T09:18:27.908Z",
+  "exportedAt": "2026-07-10T09:18:40.710Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2469,6 +2469,45 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-10T09:18:25.891Z"
+    },
+    {
+      "id": "r_1783675116595_mxtr",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-10T09:18:36.595Z"
+    },
+    {
+      "id": "r_1783675118007_fyno",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-07-10T09:18:38.007Z"
+    },
+    {
+      "id": "r_1783675118707_95fb",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-10T09:18:38.707Z"
     }
   ],
   "suggestions": {
@@ -2654,7 +2693,10 @@
       "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-10": {
-      "r_1782424741865_yg34": "accepted"
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted"
     }
   },
   "goalPeriods": [
