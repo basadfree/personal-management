@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T09:35:50.622Z",
+  "exportedAt": "2026-07-10T09:35:58.029Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2553,7 +2553,7 @@
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
       "time": "09:00",
-      "duration": 40,
+      "duration": 20,
       "date": "2026-07-10",
       "completed": false,
       "archived": false,
