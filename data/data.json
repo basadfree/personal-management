@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T09:20:34.546Z",
+  "exportedAt": "2026-07-10T09:20:41.270Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2547,6 +2547,32 @@
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-10T09:20:32.542Z"
+    },
+    {
+      "id": "r_1783675238736_svtz",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-07-10T09:20:38.736Z"
+    },
+    {
+      "id": "r_1783675239262_kmzz",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-07-10T09:20:39.262Z"
     }
   ],
   "suggestions": {
@@ -2742,7 +2768,9 @@
       "r_1782442504473_daqb": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
       "r_1782447269820_2z90": "dismissed",
-      "r_1782448199626_eqz2": "accepted"
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted"
     }
   },
   "goalPeriods": [
