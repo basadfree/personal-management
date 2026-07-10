@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T13:13:41.954Z",
+  "exportedAt": "2026-07-10T13:41:15.457Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -963,10 +963,10 @@
       "id": "r_1782653088773_gxfa",
       "title": "לחשוב על כיפה",
       "description": "",
-      "time": "",
+      "time": "09:00",
       "duration": 10,
-      "date": "",
-      "completed": false,
+      "date": "2026-07-10",
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
