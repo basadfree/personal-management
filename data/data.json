@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-10T09:18:48.688Z",
+  "exportedAt": "2026-07-10T09:18:56.437Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2727,7 +2727,8 @@
       "r_1782431119274_jv12": "accepted",
       "r_1782431382446_52ch": "accepted",
       "r_1782442504473_daqb": "dismissed",
-      "r_1782442551153_zpl2": "dismissed"
+      "r_1782442551153_zpl2": "dismissed",
+      "r_1782447269820_2z90": "dismissed"
     }
   },
   "goalPeriods": [
