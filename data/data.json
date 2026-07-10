@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-09T11:24:27.662Z",
+  "exportedAt": "2026-07-10T00:09:47.954Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1750,7 +1750,7 @@
       "time": "15:00",
       "duration": 10,
       "date": "2026-07-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424886963_2pyo",
@@ -2443,6 +2443,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:21:12.208Z"
+    },
+    {
+      "id": "r_1783642185189_24k8",
+      "title": "עבודות.",
+      "description": "מלצרות, סדרנות, והפקה. גם עיתונים. אולי גם במטה בנימין. ווצאפ.\n\nללמוד הפקה מהמחשב באופן בסיסי או יותר מבסיסי, ולאחר מכן אפשר לשאול את אסף איך הוא הציג את עצמו, ואז לבקש ממנו את הטלפון ולדבר איתו. אפשר לשלוח ווצאפ לאירועים או מסעדות דתיים באיזור, וגם בכללי למצוא עבודות בווצאפ.",
+      "time": "15:00",
+      "duration": 10,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424886963_2pyo",
+      "createdAt": "2026-07-10T00:09:45.189Z"
     }
   ],
   "suggestions": {
