@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-11T18:16:40.412Z",
+  "exportedAt": "2026-07-11T18:16:58.060Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2651,6 +2651,32 @@
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-11T18:15:58.569Z"
+    },
+    {
+      "id": "r_1783793812819_eo89",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-11T18:16:52.819Z"
+    },
+    {
+      "id": "r_1783793816052_ya0y",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-11T18:16:56.052Z"
     }
   ],
   "suggestions": {
@@ -2864,7 +2890,10 @@
       "r_1782442708026_qijm": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475457864_tvpb": "dismissed",
-      "r_1782475371337_oek7": "dismissed"
+      "r_1782475371337_oek7": "dismissed",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1783339677824_0nx8": "accepted"
     }
   },
   "goalPeriods": [
