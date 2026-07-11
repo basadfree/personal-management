@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-11T18:15:09.447Z",
+  "exportedAt": "2026-07-11T18:15:27.760Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2599,6 +2599,32 @@
       "recurrence": null,
       "sourceId": "r_1782424886963_2pyo",
       "createdAt": "2026-07-10T09:38:20.928Z"
+    },
+    {
+      "id": "r_1783793724815_llzc",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-07-11T18:15:24.815Z"
+    },
+    {
+      "id": "r_1783793725755_uglp",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-11T18:15:25.755Z"
     }
   ],
   "suggestions": {
@@ -2800,6 +2826,10 @@
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed"
+    },
+    "2026-07-11": {
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted"
     }
   },
   "goalPeriods": [
