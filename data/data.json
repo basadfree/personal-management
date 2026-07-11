@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-11T18:16:58.060Z",
+  "exportedAt": "2026-07-11T18:19:15.852Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2602,10 +2602,10 @@
     },
     {
       "id": "r_1783793724815_llzc",
-      "title": "מהלך",
+      "title": "מהלך (שיפוץ החוזר + סרטון)",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
       "time": "10:30",
-      "duration": 60,
+      "duration": 25,
       "date": "2026-07-11",
       "completed": false,
       "archived": false,
