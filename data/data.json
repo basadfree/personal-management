@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-12T04:11:31.455Z",
+  "exportedAt": "2026-07-12T04:11:45.836Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2755,6 +2755,136 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-12T04:11:29.442Z"
+    },
+    {
+      "id": "r_1783829494701_3r17",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-07-12T04:11:34.701Z"
+    },
+    {
+      "id": "r_1783829495709_heyr",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-12T04:11:35.709Z"
+    },
+    {
+      "id": "r_1783829496960_pj5y",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-07-12T04:11:36.961Z"
+    },
+    {
+      "id": "r_1783829497646_dksp",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-07-12T04:11:37.646Z"
+    },
+    {
+      "id": "r_1783829498399_rn3r",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-07-12T04:11:38.399Z"
+    },
+    {
+      "id": "r_1783829499656_0gym",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-07-12T04:11:39.656Z"
+    },
+    {
+      "id": "r_1783829500317_2l16",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-07-12T04:11:40.317Z"
+    },
+    {
+      "id": "r_1783829502229_nkma",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-12T04:11:42.229Z"
+    },
+    {
+      "id": "r_1783829503137_d8ht",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-12T04:11:43.137Z"
+    },
+    {
+      "id": "r_1783829503831_1c4f",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-12T04:11:43.831Z"
     }
   ],
   "suggestions": {
@@ -2979,7 +3109,17 @@
       "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
-      "r_1782425388805_mmgm": "accepted"
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782430911505_pfrp": "accepted",
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "accepted",
+      "r_1783339677824_0nx8": "accepted"
     }
   },
   "goalPeriods": [
