@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-12T04:11:26.482Z",
+  "exportedAt": "2026-07-12T04:11:31.455Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2703,6 +2703,58 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-12T04:11:24.474Z"
+    },
+    {
+      "id": "r_1783829486637_witi",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-07-12T04:11:26.637Z"
+    },
+    {
+      "id": "r_1783829487176_5xgd",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-12T04:11:27.176Z"
+    },
+    {
+      "id": "r_1783829488988_793a",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-07-12T04:11:28.988Z"
+    },
+    {
+      "id": "r_1783829489442_mpoi",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-12T04:11:29.442Z"
     }
   ],
   "suggestions": {
@@ -2923,7 +2975,11 @@
     },
     "2026-07-12": {
       "r_1782423817363_xrim": "accepted",
-      "r_1782424741865_yg34": "accepted"
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted"
     }
   },
   "goalPeriods": [
