@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-13T12:40:47.709Z",
+  "exportedAt": "2026-07-13T12:41:01.946Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2924,6 +2924,45 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-13T12:40:43.840Z"
+    },
+    {
+      "id": "r_1783946452928_zpjr",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-07-13T12:40:52.928Z"
+    },
+    {
+      "id": "r_1783946454400_t99s",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-13T12:40:54.400Z"
+    },
+    {
+      "id": "r_1783946459943_lmpu",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-07-13T12:40:59.943Z"
     }
   ],
   "suggestions": {
@@ -3163,7 +3202,14 @@
     "2026-07-13": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1782425136551_sb8q": "dismissed",
+      "r_1782425247021_u699": "dismissed",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782430450460_6zm1": "dismissed",
+      "r_1782442504473_daqb": "dismissed",
+      "r_1782442551153_zpl2": "dismissed",
+      "r_1782448199626_eqz2": "accepted"
     }
   },
   "goalPeriods": [
