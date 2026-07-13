@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-13T14:55:38.116Z",
+  "exportedAt": "2026-07-13T18:09:33.888Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2409,9 +2409,9 @@
       "id": "r_1783595661253_l46a",
       "title": "=== תניא ותנאים - 11 פעמים.",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 150,
-      "date": "2026-07-13",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
