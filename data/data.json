@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-13T12:41:01.946Z",
+  "exportedAt": "2026-07-13T12:41:13.994Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2963,6 +2963,58 @@
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-13T12:40:59.943Z"
+    },
+    {
+      "id": "r_1783946462247_kfgq",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782474961808_oqv9",
+      "createdAt": "2026-07-13T12:41:02.247Z"
+    },
+    {
+      "id": "r_1783946467839_5eph",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-07-13T12:41:07.839Z"
+    },
+    {
+      "id": "r_1783946468431_8aw4",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-07-13T12:41:08.431Z"
+    },
+    {
+      "id": "r_1783946469264_hcrq",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-13T12:41:09.264Z"
     }
   ],
   "suggestions": {
@@ -3209,7 +3261,13 @@
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
-      "r_1782448199626_eqz2": "accepted"
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782474961808_oqv9": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1783339677824_0nx8": "dismissed"
     }
   },
   "goalPeriods": [
