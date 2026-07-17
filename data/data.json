@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-17T15:47:05.503Z",
+  "exportedAt": "2026-07-17T15:47:09.829Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3054,6 +3054,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-17T15:46:46.498Z"
+    },
+    {
+      "id": "r_1784303227825_jzm7",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-17T15:47:07.825Z"
     }
   ],
   "suggestions": {
@@ -3393,7 +3406,8 @@
       "r_1782475371337_oek7": "dismissed",
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
-      "r_1782897700268_p7ax": "dismissed"
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1783339677824_0nx8": "accepted"
     }
   },
   "goalPeriods": [
