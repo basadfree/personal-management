@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-17T15:47:46.052Z",
+  "exportedAt": "2026-07-17T15:48:25.805Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3067,6 +3067,19 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-17T15:47:07.825Z"
+    },
+    {
+      "id": "r_1784303303799_6zg0",
+      "title": "פעילות גופנית",
+      "description": "לעשות, ולהוריד מה-7 ל-6.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-17",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-17T15:48:23.799Z"
     }
   ],
   "suggestions": {
