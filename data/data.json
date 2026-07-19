@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T05:35:26.036Z",
+  "exportedAt": "2026-07-19T05:35:32.431Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3145,6 +3145,45 @@
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-19T05:35:18.639Z"
+    },
+    {
+      "id": "r_1784439326968_776v",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-07-19T05:35:26.968Z"
+    },
+    {
+      "id": "r_1784439329110_e867",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-19T05:35:29.110Z"
+    },
+    {
+      "id": "r_1784439330428_wr9g",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-07-19T05:35:30.428Z"
     }
   ],
   "suggestions": {
@@ -3494,7 +3533,10 @@
       "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
-      "r_1782425388805_mmgm": "dismissed"
+      "r_1782425388805_mmgm": "dismissed",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782430911505_pfrp": "accepted",
+      "r_1782442504473_daqb": "accepted"
     }
   },
   "goalPeriods": [
