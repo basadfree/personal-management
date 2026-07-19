@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T05:36:08.063Z",
+  "exportedAt": "2026-07-19T05:36:12.675Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3184,6 +3184,19 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-19T05:35:30.428Z"
+    },
+    {
+      "id": "r_1784439368954_00vm",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-07-19T05:36:08.954Z"
     }
   ],
   "suggestions": {
@@ -3536,7 +3549,9 @@
       "r_1782425388805_mmgm": "dismissed",
       "r_1782430450460_6zm1": "accepted",
       "r_1782430911505_pfrp": "accepted",
-      "r_1782442504473_daqb": "accepted"
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "dismissed"
     }
   },
   "goalPeriods": [
