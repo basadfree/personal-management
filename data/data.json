@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T11:11:29.637Z",
+  "exportedAt": "2026-07-19T11:11:37.364Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3883,7 +3883,7 @@
       "id": "o_1782466592091_4fx4",
       "name": "י",
       "derech": "10",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782466499456_gorv"
     },
     {
