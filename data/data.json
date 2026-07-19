@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T11:43:47.483Z",
+  "exportedAt": "2026-07-19T11:44:17.647Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3238,6 +3238,19 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-19T05:36:19.599Z"
+    },
+    {
+      "id": "r_1784461455636_isn6",
+      "title": "=== תניא ותנאים - 13 פעמים.",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-19T11:44:15.636Z"
     }
   ],
   "suggestions": {
