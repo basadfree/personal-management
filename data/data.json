@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T10:55:22.584Z",
+  "exportedAt": "2026-07-19T10:55:36.501Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3777,7 +3777,7 @@
       "startDate": "",
       "endDate": "",
       "description": "יצירת קשר דיגיטלי עם יזם אחד כל שבועיים.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782473125865_44f2"
     },
@@ -4219,7 +4219,7 @@
       "id": "o_1782473112063_mac1",
       "name": "7",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2"
     },
     {
