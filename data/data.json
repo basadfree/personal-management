@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T11:10:38.637Z",
+  "exportedAt": "2026-07-19T11:11:24.746Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3855,7 +3855,7 @@
       "id": "o_1782465511117_bbmn",
       "name": "ויקרא + החוזר",
       "derech": "21 פרקים.",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782466079400_w4mv"
     },
     {
