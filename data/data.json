@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T10:42:40.351Z",
+  "exportedAt": "2026-07-19T10:45:23.904Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -4037,7 +4037,7 @@
       "id": "o_1782468713258_u0e3",
       "name": "סרטון כל יום שכדאי - תמוז",
       "derech": "(מקס' 3 חסר)",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782468636418_fadx"
     },
     {
