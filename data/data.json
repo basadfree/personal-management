@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T05:36:12.675Z",
+  "exportedAt": "2026-07-19T05:36:21.604Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3197,6 +3197,45 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-19T05:36:08.954Z"
+    },
+    {
+      "id": "r_1784439378015_gq4b",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-19T05:36:18.015Z"
+    },
+    {
+      "id": "r_1784439379164_09ul",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-19T05:36:19.164Z"
+    },
+    {
+      "id": "r_1784439379599_5265",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-19",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-19T05:36:19.599Z"
     }
   ],
   "suggestions": {
@@ -3551,7 +3590,12 @@
       "r_1782430911505_pfrp": "accepted",
       "r_1782442504473_daqb": "accepted",
       "r_1782442551153_zpl2": "accepted",
-      "r_1782448199626_eqz2": "dismissed"
+      "r_1782448199626_eqz2": "dismissed",
+      "r_1782475371337_oek7": "dismissed",
+      "r_1782475457864_tvpb": "dismissed",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "accepted",
+      "r_1783339677824_0nx8": "accepted"
     }
   },
   "goalPeriods": [
