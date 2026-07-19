@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-19T10:55:08.430Z",
+  "exportedAt": "2026-07-19T10:55:12.543Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -4177,7 +4177,7 @@
       "id": "o_1782473062618_f42b",
       "name": "1",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2"
     },
     {
