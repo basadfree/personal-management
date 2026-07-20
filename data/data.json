@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-20T14:20:03.255Z",
+  "exportedAt": "2026-07-20T14:22:15.675Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3459,6 +3459,21 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-20T14:19:52.767Z"
+    },
+    {
+      "id": "r_1784557333670_w2xe",
+      "title": "שיפור הניהול האישי",
+      "description": "",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-22",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-20T14:22:13.670Z"
     }
   ],
   "suggestions": {
