@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-20T14:17:23.161Z",
+  "exportedAt": "2026-07-20T14:19:54.771Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3446,6 +3446,19 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-20T13:58:10.607Z"
+    },
+    {
+      "id": "r_1784557192767_m6vd",
+      "title": "תיק לוסיד וחיבור",
+      "description": "",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-20",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-20T14:19:52.767Z"
     }
   ],
   "suggestions": {
