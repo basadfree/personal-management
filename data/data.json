@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-24T12:09:49.588Z",
+  "exportedAt": "2026-07-24T12:09:58.216Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1431,9 +1431,9 @@
       "id": "r_1782821126863_q601",
       "title": "סידור וארגון בגדים מחדש",
       "description": "",
-      "time": "18:50",
+      "time": "",
       "duration": 20,
-      "date": "2026-07-20",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
