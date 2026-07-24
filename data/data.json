@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-24T12:59:33.445Z",
+  "exportedAt": "2026-07-24T12:59:48.969Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2436,7 +2436,7 @@
       "title": "=== חד אופן - 6 אימונים.",
       "description": "",
       "time": "",
-      "duration": 15,
+      "duration": 60,
       "date": "",
       "completed": false,
       "archived": false,
