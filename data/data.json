@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-24T12:11:07.766Z",
+  "exportedAt": "2026-07-24T12:11:20.865Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2420,7 +2420,7 @@
     },
     {
       "id": "r_1783595720379_c4wt",
-      "title": "=== הרגלים וידידים - 12 פעמים.",
+      "title": "=== הרגלים וידידים - 17 פעמים.",
       "description": "",
       "time": "",
       "duration": 120,
@@ -3428,7 +3428,7 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-07-20",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
