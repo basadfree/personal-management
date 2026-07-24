@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-24T12:14:07.245Z",
+  "exportedAt": "2026-07-24T12:14:36.424Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3474,6 +3474,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-07-20T14:22:13.670Z"
+    },
+    {
+      "id": "r_1784895274408_22nb",
+      "title": "תכנון",
+      "description": "",
+      "time": "07:00",
+      "duration": 10,
+      "date": "2026-07-24",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-24T12:14:34.408Z"
     }
   ],
   "suggestions": {
