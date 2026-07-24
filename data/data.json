@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-24T12:51:24.501Z",
+  "exportedAt": "2026-07-24T12:51:28.839Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3526,6 +3526,19 @@
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
       "createdAt": "2026-07-24T12:18:11.560Z"
+    },
+    {
+      "id": "r_1784897486830_y158",
+      "title": "תנאים - 17.",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-24T12:51:26.830Z"
     }
   ],
   "suggestions": {
