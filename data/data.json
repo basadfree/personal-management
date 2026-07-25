@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-25T18:10:44.211Z",
+  "exportedAt": "2026-07-25T18:10:49.735Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3552,6 +3552,19 @@
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
       "createdAt": "2026-07-24T14:36:36.230Z"
+    },
+    {
+      "id": "r_1785003047719_1y1w",
+      "title": "מלווה מלכה",
+      "description": "",
+      "time": "22:20",
+      "duration": 10,
+      "date": "2026-07-25",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442708026_qijm",
+      "createdAt": "2026-07-25T18:10:47.719Z"
     }
   ],
   "suggestions": {
@@ -4022,7 +4035,9 @@
       "r_1782448199626_eqz2": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
-      "r_1784439329110_e867": "dismissed"
+      "r_1784439329110_e867": "dismissed",
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1782442708026_qijm": "accepted"
     },
     "2026-07-31": {
       "r_1782431382446_52ch": "accepted"
