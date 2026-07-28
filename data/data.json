@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:09:45.462Z",
+  "exportedAt": "2026-07-28T19:11:24.142Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8720,6 +8720,19 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:59:28.394Z"
+    },
+    {
+      "id": "r_1785265882139_etxq",
+      "title": "ספר הרגלים - 280 ע\"מ",
+      "description": "",
+      "time": "",
+      "duration": 180,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T19:11:22.139Z"
     }
   ],
   "suggestions": {
