@@ -2345,41 +2345,37 @@ function mergeCloudData(cloud) {
   if (cloud.settings && cloud.settings.autoSync !== undefined) {
     state.settings.autoSync = cloud.settings.autoSync;
   }
-  if (state.results.length === 0 && cloud.results) {
-    state.results = cloud.results;
-  } else if (cloud.results) {
-    const localIds = new Set(state.results.map(r => r.id));
-    cloud.results.forEach(r => { if (!localIds.has(r.id)) state.results.push(r); });
+  if (!cloud.results && !cloud.goals) return;
+  if (cloud.results) {
+    const localMap = new Map(state.results.map(r => [r.id, r]));
+    cloud.results.forEach(r => { localMap.set(r.id, r); });
+    state.results = [...localMap.values()];
   }
-  if (state.goalPeriods.length === 0 && cloud.goalPeriods) {
-    state.goalPeriods = cloud.goalPeriods;
-  } else if (cloud.goalPeriods) {
-    const localIds = new Set(state.goalPeriods.map(p => p.id));
-    cloud.goalPeriods.forEach(p => { if (!localIds.has(p.id)) state.goalPeriods.push(p); });
+  if (cloud.goalPeriods) {
+    const localMap = new Map(state.goalPeriods.map(p => [p.id, p]));
+    cloud.goalPeriods.forEach(p => { localMap.set(p.id, p); });
+    state.goalPeriods = [...localMap.values()];
   }
-  if (state.goalTypes.length === 0 && cloud.goalTypes) {
-    state.goalTypes = cloud.goalTypes;
-  } else if (cloud.goalTypes) {
-    const localIds = new Set(state.goalTypes.map(t => t.id));
-    cloud.goalTypes.forEach(t => { if (!localIds.has(t.id)) state.goalTypes.push(t); });
+  if (cloud.goalTypes) {
+    const localMap = new Map(state.goalTypes.map(t => [t.id, t]));
+    cloud.goalTypes.forEach(t => { localMap.set(t.id, t); });
+    state.goalTypes = [...localMap.values()];
   }
-  if (state.goals.length === 0 && cloud.goals) {
-    state.goals = cloud.goals;
-  } else if (cloud.goals) {
-    const localIds = new Set(state.goals.map(g => g.id));
-    cloud.goals.forEach(g => { if (!localIds.has(g.id)) state.goals.push(g); });
+  if (cloud.goals) {
+    const localMap = new Map(state.goals.map(g => [g.id, g]));
+    cloud.goals.forEach(g => { localMap.set(g.id, g); });
+    state.goals = [...localMap.values()];
   }
-  if (state.objectives.length === 0 && cloud.objectives) {
-    state.objectives = cloud.objectives;
-  } else if (cloud.objectives) {
-    const localIds = new Set(state.objectives.map(o => o.id));
-    cloud.objectives.forEach(o => { if (!localIds.has(o.id)) state.objectives.push(o); });
+  if (cloud.objectives) {
+    const localMap = new Map(state.objectives.map(o => [o.id, o]));
+    cloud.objectives.forEach(o => { localMap.set(o.id, o); });
+    state.objectives = [...localMap.values()];
   }
   if (cloud.suggestions) {
     for (const date in cloud.suggestions) {
       if (!state.suggestions[date]) state.suggestions[date] = {};
       for (const id in cloud.suggestions[date]) {
-        if (!state.suggestions[date][id]) state.suggestions[date][id] = cloud.suggestions[date][id];
+        state.suggestions[date][id] = cloud.suggestions[date][id];
       }
     }
   }
