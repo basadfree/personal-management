@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:54:37.376Z",
+  "exportedAt": "2026-07-28T18:55:07.252Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -7929,6 +7929,32 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:52:40.256Z"
+    },
+    {
+      "id": "r_1785264901217_p0z4",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-07-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-07-28T18:55:01.217Z"
+    },
+    {
+      "id": "r_1785264901217_zabd",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-02",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-28T18:55:01.217Z"
     }
   ],
   "suggestions": {
