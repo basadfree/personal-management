@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:41:06.385Z",
+  "exportedAt": "2026-07-28T15:41:12.481Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3643,7 +3643,7 @@
       "time": "16:00",
       "duration": 25,
       "date": "2026-07-28",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
