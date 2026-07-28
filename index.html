@@ -2533,6 +2533,7 @@ function saveTask(updateAll) {
 
       if (updateAll) {
         const sourceId = state.results[idx].sourceId || state.results[idx].id;
+        const todayStr = getDateStr(new Date());
         state.results.forEach(r => {
           if (r.id === sourceId) {
             r.title = title; r.description = description;
@@ -2542,6 +2543,7 @@ function saveTask(updateAll) {
               removedFromDate.add(oldDate + '|' + sourceId);
             }
           } else if (r.sourceId === sourceId && r.id !== state.results[idx].id) {
+            if (r.date && r.date < todayStr) return;
             r.title = title; r.description = description;
             r.time = time; r.duration = duration;
             if (dateStr === '' && r.date !== '') {
