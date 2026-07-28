@@ -2517,6 +2517,7 @@ function saveTask(updateAll) {
   }
 
   if (editingId) {
+    if (noDate) recurrence = null;
     const idx = state.results.findIndex(r => r.id === editingId);
     if (idx >= 0) {
       const oldDate = state.results[idx].date;
@@ -2526,29 +2527,37 @@ function saveTask(updateAll) {
       state.results[idx].duration = duration;
       state.results[idx].date = dateStr;
       state.results[idx].recurrence = recurrence;
-
       if (oldDate && oldDate !== '' && dateStr === '' && state.results[idx].sourceId) {
         removedFromDate.add(oldDate + '|' + state.results[idx].sourceId);
       }
 
       if (updateAll) {
-        const sourceId = state.results[idx].sourceId;
-        if (sourceId) {
-          state.results.forEach(r => {
-            if (r.sourceId === sourceId) {
-              r.title = title;
-              r.description = description;
-              r.time = time;
-              r.duration = duration;
+        const sourceId = state.results[idx].sourceId || state.results[idx].id;
+        state.results.forEach(r => {
+          if (r.id === sourceId) {
+            r.title = title; r.description = description;
+            r.time = time; r.duration = duration;
+            r.date = dateStr; r.recurrence = recurrence;
+            if (oldDate && oldDate !== '' && dateStr === '') {
+              removedFromDate.add(oldDate + '|' + sourceId);
             }
-          });
-          toast('🔄 כל העותקים עודכנו', 'success');
-        }
+          } else if (r.sourceId === sourceId && r.id !== state.results[idx].id) {
+            r.title = title; r.description = description;
+            r.time = time; r.duration = duration;
+            if (dateStr === '' && r.date !== '') {
+              const instOld = r.date;
+              r.date = '';
+              if (instOld) removedFromDate.add(instOld + '|' + sourceId);
+            }
+          }
+        });
+        toast('🔄 כל העותקים עודכנו', 'success');
       }
     }
     editingId = null;
     toast('✅ התוצאה עודכנה', 'success');
   } else {
+    if (noDate) recurrence = null;
     const result = {
       id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
       title,
@@ -2648,7 +2657,7 @@ function startEdit(id) {
   const btn = document.getElementById('editAllMenuBtn');
   const menu = document.getElementById('editAllMenu');
   menu.classList.remove('open');
-  if (result.sourceId) {
+  if (result.sourceId || result.recurrence) {
     btn.style.display = 'flex';
   } else {
     btn.style.display = 'none';
