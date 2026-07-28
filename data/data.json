@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:33:18.543Z",
+  "exportedAt": "2026-07-28T18:33:32.544Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3847,19 +3847,6 @@
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
-      "id": "r_1785254696327_uwyq",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
       "id": "r_1785254696327_ds77",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -4016,19 +4003,6 @@
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
-      "id": "r_1785254732591_umcq",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
       "id": "r_1785254732591_8krf",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -4169,19 +4143,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-07-28T16:05:34.319Z"
-    },
-    {
-      "id": "r_1785254734319_lcby",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T16:05:34.319Z"
     },
     {
@@ -4341,19 +4302,6 @@
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
-      "id": "r_1785260314998_650l",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
       "id": "r_1785260314998_ewdy",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -4510,19 +4458,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_nux6",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785260319958_jlhb",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -4663,19 +4598,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
-      "id": "r_1785261280665_j5je",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
@@ -4832,19 +4754,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_vm5d",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
