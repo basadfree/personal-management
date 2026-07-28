@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:31:24.547Z",
+  "exportedAt": "2026-07-28T15:31:28.805Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3643,6 +3643,32 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-28T15:31:22.514Z"
+    },
+    {
+      "id": "r_1785252686233_2iai",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-07-28T15:31:26.233Z"
+    },
+    {
+      "id": "r_1785252686737_3opa",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-28T15:31:26.737Z"
     }
   ],
   "suggestions": {
@@ -4130,7 +4156,8 @@
     "2026-07-28": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782425136551_sb8q": "postponed",
-      "r_1782424741865_yg34": "accepted"
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted"
     }
   },
   "goalPeriods": [
