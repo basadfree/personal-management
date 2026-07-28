@@ -2930,11 +2930,6 @@ function renderUnscheduledTasks() {
     return;
   }
   section.style.display = 'block';
-  if (!unscheduledOpen) {
-    unscheduledOpen = true;
-    document.getElementById('unscheduledBody').classList.add('open');
-    document.getElementById('unscheduledToggle').classList.add('open');
-  }
 
   container.innerHTML = results.map(r => {
     const isSelected = selectedIds.has(r.id);
