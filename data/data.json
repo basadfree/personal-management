@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T05:11:57.213Z",
+  "exportedAt": "2026-07-28T05:12:26.055Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3617,6 +3617,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T05:11:24.176Z"
+    },
+    {
+      "id": "r_1785215544017_na7j",
+      "title": "מדהים",
+      "description": "ביותר",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T05:12:24.017Z"
     }
   ],
   "suggestions": {
