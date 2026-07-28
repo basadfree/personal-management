@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:35:44.765Z",
+  "exportedAt": "2026-07-28T15:35:57.047Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3760,6 +3760,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-25T22:05:36.551Z"
+    },
+    {
+      "id": "r_1785252954650_k20y",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-28T15:35:54.650Z"
     }
   ],
   "suggestions": {
@@ -4254,7 +4267,11 @@
       "r_1782425136551_sb8q": "postponed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
-      "r_1782442551153_zpl2": "dismissed"
+      "r_1782442551153_zpl2": "dismissed",
+      "r_1782448199626_eqz2": "dismissed",
+      "r_1782475371337_oek7": "dismissed",
+      "r_1782475457864_tvpb": "dismissed",
+      "r_1782821159911_fqcb": "accepted"
     }
   },
   "goalPeriods": [
