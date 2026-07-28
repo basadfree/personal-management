@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:43:12.850Z",
+  "exportedAt": "2026-07-28T18:45:32.025Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -296,12 +296,10 @@
       "description": "",
       "time": "19:15",
       "duration": 75,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:51.153Z"
     },
@@ -3650,19 +3648,6 @@
       "createdAt": "2026-07-28T15:55:57.392Z"
     },
     {
-      "id": "r_1785254157392_apwk",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T15:55:57.392Z"
-    },
-    {
       "id": "r_1785254157392_ks04",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -3777,19 +3762,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
-      "id": "r_1785254696327_t0al",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
@@ -3936,19 +3908,6 @@
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
-      "id": "r_1785254732591_8u1o",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
       "id": "r_1785254732591_h49v",
       "title": "שמו\"ת",
       "description": "",
@@ -4092,19 +4051,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734318_vhjo",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T16:05:34.318Z"
-    },
-    {
       "id": "r_1785254734319_rt8j",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -4232,19 +4178,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
-      "id": "r_1785260314998_bmwr",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
@@ -4391,19 +4324,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_yrq1",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785260319958_pmx1",
       "title": "שמו\"ת",
       "description": "",
@@ -4547,19 +4467,6 @@
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
-      "id": "r_1785261280665_co4j",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
       "id": "r_1785261280665_9481",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -4687,19 +4594,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_p06n",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
@@ -6133,19 +6027,6 @@
       "createdAt": "2026-07-28T18:37:15.413Z"
     },
     {
-      "id": "r_1785263835413_b558",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T18:37:15.413Z"
-    },
-    {
       "id": "r_1785263835413_boct",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -6273,19 +6154,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:37:20.349Z"
-    },
-    {
-      "id": "r_1785263840349_pzkf",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T18:37:20.349Z"
     },
     {
@@ -6445,19 +6313,6 @@
       "createdAt": "2026-07-28T18:37:28.637Z"
     },
     {
-      "id": "r_1785263848637_al62",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T18:37:28.637Z"
-    },
-    {
       "id": "r_1785263848637_b48k",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -6588,19 +6443,6 @@
       "createdAt": "2026-07-28T18:37:38.661Z"
     },
     {
-      "id": "r_1785263858661_bebt",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T18:37:38.661Z"
-    },
-    {
       "id": "r_1785263858661_in54",
       "title": "מלווה מלכה",
       "description": "",
@@ -6718,19 +6560,6 @@
       "createdAt": "2026-07-28T18:37:43.877Z"
     },
     {
-      "id": "r_1785263863877_2ggt",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-22",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T18:37:43.877Z"
-    },
-    {
       "id": "r_1785263863877_fp8d",
       "title": "מלווה מלכה",
       "description": "",
@@ -6807,6 +6636,305 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:37:43.877Z"
+    },
+    {
+      "id": "r_1785264202414_klxs",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-29",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:22.414Z"
+    },
+    {
+      "id": "r_1785264206806_wa4z",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:26.806Z"
+    },
+    {
+      "id": "r_1785264207518_umce",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:27.518Z"
+    },
+    {
+      "id": "r_1785264214270_dujv",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-01",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:34.270Z"
+    },
+    {
+      "id": "r_1785264226616_2fwx",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:46.616Z"
+    },
+    {
+      "id": "r_1785264232646_yizh",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-03",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:52.646Z"
+    },
+    {
+      "id": "r_1785264237382_2ihn",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:43:57.382Z"
+    },
+    {
+      "id": "r_1785264244591_q88t",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:44:04.591Z"
+    },
+    {
+      "id": "r_1785264249094_rx65",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:44:09.094Z"
+    },
+    {
+      "id": "r_1785264254951_0tpr",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-07",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:44:14.951Z"
+    },
+    {
+      "id": "r_1785264265495_j6lx",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-08",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:44:25.495Z"
+    },
+    {
+      "id": "r_1785264312126_gz72",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_qyza",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_97im",
+      "title": "מקלחת לכבוד שבת",
+      "description": "כולל ציפורניים.",
+      "time": "16:20",
+      "duration": 20,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431119274_jv12",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_2o98",
+      "title": "להתכונן לשבת",
+      "description": "----------------------------------\n=52=\n=אוכל - |טונה (אסף), |טחינה (אמא), מרקים |עוף ו|מחוואג [1 + 1 + 7 + 6 = 15]\n=ניהול אישי [5]\n=שולחן [5]\n=חדר [5]\n=סלון [5]\n=סידור גג [5]\n=תה [4]\n=שעון מעורר [1]\n=מקרר [1]\n=אורות בניין [2]\n=גב\"צ [3]\n=עוגה [1]\n\n----------------------------------\n\n\n----------------------------------\nמקלחת (+ צפרניים) [25]\nאוכל - דגים, טונה, טחינה, מרק עוף [40]\nניהול אישי [5]\nסידור:\nשולחן [7]\nחדר [7]\nסלון [7]\nסידור גג [7]\nתזכורות:\nתה [5]\nשעון מעורר [1]\nמקרר[1]\nאורות בניין [2]\nגב\"צ [5]\nעוגה [1]\n\n----------------------------------",
+      "time": "16:40",
+      "duration": 50,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431382446_52ch",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_j3y0",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_p39z",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "06:50",
+      "duration": 10,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782447269820_2z90",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_zcq3",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_gi07",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_ov59",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_246k",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_903p",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-28T18:45:12.126Z"
+    },
+    {
+      "id": "r_1785264312126_5lmx",
+      "title": "×¤×\"× ",
+      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-09-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1784439329110_e867",
+      "createdAt": "2026-07-28T18:45:12.126Z"
     }
   ],
   "suggestions": {
