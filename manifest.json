@@ -1,0 +1,27 @@
+{
+  "name": "ניהול אישי",
+  "short_name": "ניהול אישי",
+  "description": "מערכת לניהול משימות, מטרות ויעדים",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f3f0",
+  "theme_color": "#6c63ff",
+  "dir": "rtl",
+  "lang": "he",
+  "icons": [
+    {
+      "src": "images/לוגו_ניהול_אישי_ללא_רקע.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/רקע_ניהול_אישי_עבה.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "personal management"]
+}
