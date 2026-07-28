@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:07:36.117Z",
+  "exportedAt": "2026-07-28T19:08:15.693Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3467,19 +3467,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T15:55:57.392Z"
-    },
-    {
-      "id": "r_1785254157392_3a01",
-      "title": "ספר ידידים 170 ע\"מ",
-      "description": "מטרת ההרגלים והידידים.",
-      "time": "",
-      "duration": 150,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T15:55:57.392Z"
     },
     {
