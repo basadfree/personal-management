@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:51:47.477Z",
+  "exportedAt": "2026-07-28T18:52:10.617Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -361,18 +361,12 @@
       "id": "r_1782474961808_oqv9",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
-      "time": "09:00",
+      "time": "",
       "duration": 15,
-      "date": "2026-06-26",
+      "date": "",
       "completed": false,
       "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          1,
-          3
-        ]
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T11:56:01.808Z"
     },
@@ -3589,9 +3583,9 @@
       "id": "r_1785254696327_0m6q",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
-      "time": "09:00",
+      "time": "",
       "duration": 15,
-      "date": "2026-07-29",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
@@ -4298,19 +4292,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_terl",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
@@ -5809,19 +5790,6 @@
       "createdAt": "2026-07-28T18:37:20.349Z"
     },
     {
-      "id": "r_1785263840349_p224",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
-      "createdAt": "2026-07-28T18:37:20.349Z"
-    },
-    {
       "id": "r_1785263840349_n4ow",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -6550,19 +6518,6 @@
       "createdAt": "2026-07-28T18:46:36.439Z"
     },
     {
-      "id": "r_1785264396439_g78x",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-10",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
-      "createdAt": "2026-07-28T18:46:36.439Z"
-    },
-    {
       "id": "r_1785264396439_maas",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -6703,19 +6658,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:46:45.359Z"
-    },
-    {
-      "id": "r_1785264405359_p829",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T18:46:45.359Z"
     },
     {
@@ -6966,19 +6908,6 @@
       "createdAt": "2026-07-28T18:46:53.231Z"
     },
     {
-      "id": "r_1785264413231_946c",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
-      "createdAt": "2026-07-28T18:46:53.231Z"
-    },
-    {
       "id": "r_1785264413231_rwuz",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -7093,19 +7022,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:47:10.023Z"
-    },
-    {
-      "id": "r_1785264430023_oucr",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T18:47:10.023Z"
     },
     {
@@ -7236,19 +7152,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:47:14.735Z"
-    },
-    {
-      "id": "r_1785264434735_h318",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-08-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T18:47:14.735Z"
     },
     {
@@ -8341,19 +8244,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:49:13.063Z"
-    },
-    {
-      "id": "r_1785264553063_5xx1",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-09-16",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T18:49:13.063Z"
     },
     {
