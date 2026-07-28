@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:48:52.794Z",
+  "exportedAt": "2026-07-28T18:49:04.635Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -281,12 +281,10 @@
       "description": "",
       "time": "05:50",
       "duration": 60,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:04.473Z"
     },
@@ -3497,19 +3495,6 @@
       "createdAt": "2026-07-28T15:55:57.392Z"
     },
     {
-      "id": "r_1785254157392_9jyk",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T15:55:57.392Z"
-    },
-    {
       "id": "r_1785254157392_ks04",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -3611,19 +3596,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425635431_87t8",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
-      "id": "r_1785254696327_4ijw",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
@@ -3741,19 +3713,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431119274_jv12",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
-      "id": "r_1785254732591_78wz",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
@@ -3887,19 +3846,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734318_96qb",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T16:05:34.318Z"
-    },
-    {
       "id": "r_1785254734319_rt8j",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -4001,19 +3947,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
-      "id": "r_1785260314998_9r3o",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
@@ -4147,19 +4080,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_ab3r",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785260319958_pmx1",
       "title": "שמו\"ת",
       "description": "",
@@ -4290,19 +4210,6 @@
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
-      "id": "r_1785261280665_4osc",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
       "id": "r_1785261280665_9481",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -4404,19 +4311,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_97i7",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
@@ -5824,19 +5718,6 @@
       "createdAt": "2026-07-28T18:37:15.413Z"
     },
     {
-      "id": "r_1785263835413_9gvu",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:37:15.413Z"
-    },
-    {
       "id": "r_1785263835413_boct",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -5938,19 +5819,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:37:20.349Z"
-    },
-    {
-      "id": "r_1785263840349_5reu",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:37:20.349Z"
     },
     {
@@ -6084,19 +5952,6 @@
       "createdAt": "2026-07-28T18:37:28.637Z"
     },
     {
-      "id": "r_1785263848637_57ab",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:37:28.637Z"
-    },
-    {
       "id": "r_1785263848637_b48k",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -6201,19 +6056,6 @@
       "createdAt": "2026-07-28T18:37:38.661Z"
     },
     {
-      "id": "r_1785263858661_3nui",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:37:38.661Z"
-    },
-    {
       "id": "r_1785263858661_in54",
       "title": "מלווה מלכה",
       "description": "",
@@ -6315,19 +6157,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:37:43.877Z"
-    },
-    {
-      "id": "r_1785263863877_dko8",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-22",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:37:43.877Z"
     },
     {
@@ -6604,19 +6433,6 @@
       "createdAt": "2026-07-28T18:45:12.126Z"
     },
     {
-      "id": "r_1785264312126_j3y0",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:45:12.126Z"
-    },
-    {
       "id": "r_1785264312126_p39z",
       "title": "שמו\"ת",
       "description": "",
@@ -6744,19 +6560,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:46:36.439Z"
-    },
-    {
-      "id": "r_1785264396439_i5z4",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-10",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:46:36.439Z"
     },
     {
@@ -6916,19 +6719,6 @@
       "createdAt": "2026-07-28T18:46:45.359Z"
     },
     {
-      "id": "r_1785264405359_myf6",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:46:45.359Z"
-    },
-    {
       "id": "r_1785264405359_p829",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -7056,19 +6846,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:46:49.247Z"
-    },
-    {
-      "id": "r_1785264409247_361a",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:46:49.247Z"
     },
     {
@@ -7202,19 +6979,6 @@
       "createdAt": "2026-07-28T18:46:53.231Z"
     },
     {
-      "id": "r_1785264413231_mhbs",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:46:53.231Z"
-    },
-    {
       "id": "r_1785264413231_946c",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -7342,19 +7106,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:47:10.023Z"
-    },
-    {
-      "id": "r_1785264430023_s8jz",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:47:10.023Z"
     },
     {
@@ -7501,19 +7252,6 @@
       "createdAt": "2026-07-28T18:47:14.735Z"
     },
     {
-      "id": "r_1785264434735_knj4",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:47:14.735Z"
-    },
-    {
       "id": "r_1785264434735_h318",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -7657,19 +7395,6 @@
       "createdAt": "2026-07-28T18:47:18.087Z"
     },
     {
-      "id": "r_1785264438087_mfjs",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:47:18.087Z"
-    },
-    {
       "id": "r_1785264438087_lpy6",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -7797,19 +7522,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
-      "createdAt": "2026-07-28T18:47:58.855Z"
-    },
-    {
-      "id": "r_1785264478855_377b",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:47:58.855Z"
     },
     {
@@ -7956,19 +7668,6 @@
       "createdAt": "2026-07-28T18:48:05.863Z"
     },
     {
-      "id": "r_1785264485863_a3wq",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T18:48:05.863Z"
-    },
-    {
       "id": "r_1785264485863_042j",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
@@ -8109,19 +7808,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
-      "createdAt": "2026-07-28T18:48:18.223Z"
-    },
-    {
-      "id": "r_1785264498223_e25g",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T18:48:18.223Z"
     },
     {
