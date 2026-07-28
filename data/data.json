@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:57:58.196Z",
+  "exportedAt": "2026-07-28T18:58:12.442Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2683,7 +2683,7 @@
       "time": "11:50",
       "duration": 10,
       "date": "2026-07-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424886963_2pyo",
@@ -2813,7 +2813,7 @@
       "time": "13:00",
       "duration": 20,
       "date": "2026-07-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783322993928_ckcd",
@@ -5272,7 +5272,7 @@
       "time": "07:00",
       "duration": 40,
       "date": "2026-07-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
@@ -5285,7 +5285,7 @@
       "time": "09:00",
       "duration": 40,
       "date": "2026-07-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475371337_oek7",
@@ -5298,7 +5298,7 @@
       "time": "09:00",
       "duration": 40,
       "date": "2026-07-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
@@ -8982,6 +8982,32 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:57:40.928Z"
+    },
+    {
+      "id": "r_1785265078552_j5wm",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-19",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-28T18:57:58.552Z"
+    },
+    {
+      "id": "r_1785265091528_vqir",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-07-20",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-07-28T18:58:11.528Z"
     }
   ],
   "suggestions": {
