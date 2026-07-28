@@ -2318,7 +2318,7 @@ async function pullFromGitHub(showToast = true) {
       setSyncStatus('', 'מקומי');
       return false;
     }
-    const decoded = JSON.parse(atob(data.content));
+    const decoded = JSON.parse(decodeURIComponent(escape(atob(data.content))));
     if (data.sha) setSha(data.sha);
     if (!decoded.results && !decoded.goals) {
       if (showToast) toast('❌ פורמט לא תקין בענן', 'error');
