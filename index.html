@@ -1877,7 +1877,7 @@ body {
         </div>
         <div style="display:flex;gap:8px;margin-top:4px;">
   <button class="btn btn-primary" onclick="syncToGitHub(true)" style="flex:1;justify-content:center;">☁️ סנכרן עכשיו</button>
-  <button class="btn btn-outline" onclick="pullFromGitHub(true)" style="flex:1;justify-content:center;">📥 משוך מהענן</button>
+  <button class="btn btn-outline" onclick="pullFromGitHub(true, true)" style="flex:1;justify-content:center;">📥 משוך מהענן</button>
 </div>
       </div>
       <div class="settings-group">
@@ -2105,7 +2105,7 @@ function init() {
     }).catch(() => {});
   } else if (token && !hasLocalData) {
     setSyncStatus('syncing', 'מוריד…');
-    pullFromGitHub(false).then(() => {
+    pullFromGitHub(false, false).then(() => {
       renderWeek();
       renderDay();
     });
@@ -2219,8 +2219,8 @@ async function syncToGitHub(showToast = true) {
   if (showToast) toast('☁️ מסנכרן לענן...', 'info');
   isSyncing = true;
 
-  // First pull from cloud and merge
-  await pullFromGitHub(false);
+  // First pull from cloud and merge (gentle — local takes priority)
+  await pullFromGitHub(false, false);
 
   const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
@@ -2289,7 +2289,7 @@ function setSyncStatus(status, text) {
   if (text) textEl.textContent = text;
 }
 
-async function pullFromGitHub(showToast = true) {
+async function pullFromGitHub(showToast = true, replaceLocal) {
   const token = getGithubToken();
   const repo = getGithubRepo();
   const path = getGithubPath();
@@ -2324,7 +2324,7 @@ async function pullFromGitHub(showToast = true) {
       if (showToast) toast('❌ פורמט לא תקין בענן', 'error');
       return false;
     }
-    mergeCloudData(decoded);
+    mergeCloudData(decoded, replaceLocal);
     saveState();
     renderWeek();
     renderDay();
@@ -2341,36 +2341,27 @@ async function pullFromGitHub(showToast = true) {
   }
 }
 
-function mergeCloudData(cloud) {
+function mergeCloudData(cloud, replaceLocal) {
   if (cloud.settings && cloud.settings.autoSync !== undefined) {
     state.settings.autoSync = cloud.settings.autoSync;
   }
   if (!cloud.results && !cloud.goals) return;
-  if (cloud.results) {
-    const localIds = new Set(state.results.map(r => r.id));
-    cloud.results.forEach(r => { if (!localIds.has(r.id)) state.results.push(r); });
+  function merge(arr, cloudArr) {
+    if (!cloudArr) return;
+    const map = new Map(arr.map(x => [x.id, x]));
+    cloudArr.forEach(x => { if (replaceLocal || !map.has(x.id)) map.set(x.id, x); });
+    arr.length = 0; arr.push(...map.values());
   }
-  if (cloud.goalPeriods) {
-    const localIds = new Set(state.goalPeriods.map(p => p.id));
-    cloud.goalPeriods.forEach(p => { if (!localIds.has(p.id)) state.goalPeriods.push(p); });
-  }
-  if (cloud.goalTypes) {
-    const localIds = new Set(state.goalTypes.map(t => t.id));
-    cloud.goalTypes.forEach(t => { if (!localIds.has(t.id)) state.goalTypes.push(t); });
-  }
-  if (cloud.goals) {
-    const localIds = new Set(state.goals.map(g => g.id));
-    cloud.goals.forEach(g => { if (!localIds.has(g.id)) state.goals.push(g); });
-  }
-  if (cloud.objectives) {
-    const localIds = new Set(state.objectives.map(o => o.id));
-    cloud.objectives.forEach(o => { if (!localIds.has(o.id)) state.objectives.push(o); });
-  }
+  merge(state.results, cloud.results);
+  merge(state.goalPeriods, cloud.goalPeriods);
+  merge(state.goalTypes, cloud.goalTypes);
+  merge(state.goals, cloud.goals);
+  merge(state.objectives, cloud.objectives);
   if (cloud.suggestions) {
     for (const date in cloud.suggestions) {
       if (!state.suggestions[date]) state.suggestions[date] = {};
       for (const id in cloud.suggestions[date]) {
-        if (!state.suggestions[date][id]) state.suggestions[date][id] = cloud.suggestions[date][id];
+        if (replaceLocal || !state.suggestions[date][id]) state.suggestions[date][id] = cloud.suggestions[date][id];
       }
     }
   }
