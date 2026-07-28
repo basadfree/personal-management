@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T16:05:08.874Z",
+  "exportedAt": "2026-07-28T16:05:17.111Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3947,9 +3947,9 @@
       "id": "r_1785254238335_4mvu",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
-      "time": "07:45",
+      "time": "",
       "duration": 15,
-      "date": "2026-07-28",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
@@ -4012,7 +4012,7 @@
       "id": "r_1785254696327_w525",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
-      "time": "07:45",
+      "time": "",
       "duration": 15,
       "date": "2026-07-29",
       "completed": false,
@@ -4189,6 +4189,19 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T16:04:56.327Z"
+    },
+    {
+      "id": "r_1785254715088_qscg",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-28T16:05:15.088Z"
     }
   ],
   "suggestions": {
