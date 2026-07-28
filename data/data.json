@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:35:06.829Z",
+  "exportedAt": "2026-07-28T15:35:15.386Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3747,6 +3747,19 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T15:35:04.802Z"
+    },
+    {
+      "id": "r_1785252913362_y5je",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-28T15:35:13.362Z"
     }
   ],
   "suggestions": {
@@ -4237,7 +4250,8 @@
       "r_1782424741865_yg34": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
-      "r_1782425388805_mmgm": "dismissed"
+      "r_1782425388805_mmgm": "dismissed",
+      "r_1782430911505_pfrp": "accepted"
     }
   },
   "goalPeriods": [
