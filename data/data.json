@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:56:39.624Z",
+  "exportedAt": "2026-07-28T18:56:48.411Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8436,6 +8436,32 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:56:30.352Z"
+    },
+    {
+      "id": "r_1785265000000_v3jd",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "06:50",
+      "duration": 10,
+      "date": "2026-07-10",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782447269820_2z90",
+      "createdAt": "2026-07-28T18:56:40.000Z"
+    },
+    {
+      "id": "r_1785265000000_mvyi",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-28T18:56:40.000Z"
     }
   ],
   "suggestions": {
