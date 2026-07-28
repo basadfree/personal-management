@@ -2396,6 +2396,7 @@ function autoFillRecurring(dateStr) {
     if (!src.recurrence || src.archived) continue;
     if (src.date === dateStr) continue;
     if (existing.has(src.id)) continue;
+    if (removedFromDate.has(dateStr + '|' + src.id)) continue;
     if (dateStr < src.date) continue;
     if (!shouldAppearOnDate(src, dateStr)) continue;
     state.results.push({
@@ -2521,12 +2522,17 @@ function saveTask(updateAll) {
   if (editingId) {
     const idx = state.results.findIndex(r => r.id === editingId);
     if (idx >= 0) {
+      const oldDate = state.results[idx].date;
       state.results[idx].title = title;
       state.results[idx].description = description;
       state.results[idx].time = time;
       state.results[idx].duration = duration;
       state.results[idx].date = dateStr;
       state.results[idx].recurrence = recurrence;
+
+      if (oldDate && oldDate !== '' && dateStr === '' && state.results[idx].sourceId) {
+        removedFromDate.add(oldDate + '|' + state.results[idx].sourceId);
+      }
 
       if (updateAll) {
         const sourceId = state.results[idx].sourceId;
@@ -2582,6 +2588,7 @@ function toggleComplete(id) {
 }
 
 let expandedId = null;
+let removedFromDate = new Set(); // sourceIds intentionally removed from today
 
 function toggleExpand(id) {
   if (expandedId === id) {
