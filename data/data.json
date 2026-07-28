@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:37:17.232Z",
+  "exportedAt": "2026-07-28T15:37:30.002Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3663,27 +3663,6 @@
       "createdAt": "2026-07-28T15:35:13.362Z"
     },
     {
-      "id": "r_1782425136551_sb8q",
-      "title": "ארוחת ערב",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
       "id": "r_1785252954650_k20y",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -3799,6 +3778,27 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T15:36:54.450Z"
+    },
+    {
+      "id": "r_1782425136551_sb8q",
+      "title": "ארוחת ערב",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T22:05:36.551Z"
     }
   ],
   "suggestions": {
@@ -4290,7 +4290,6 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
       "r_1782430911505_pfrp": "accepted",
-      "r_1782425136551_sb8q": "postponed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
@@ -4300,7 +4299,8 @@
       "r_1782821159911_fqcb": "accepted",
       "r_1784439329110_e867": "accepted",
       "r_1783339677824_0nx8": "dismissed",
-      "r_1782897700268_p7ax": "dismissed"
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1782425136551_sb8q": "postponed"
     }
   },
   "goalPeriods": [
