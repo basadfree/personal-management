@@ -1955,7 +1955,7 @@ body {
 
 <script>
 // Force SW update & cache clear
-(async()=>{if('serviceWorker'in navigator){const reg=await navigator.serviceWorker.getRegistration();if(reg&&reg.active){reg.update();const swUrl=reg.active.scriptURL;if(swUrl.includes('sw.js')&&!localStorage.getItem('swV2')){localStorage.setItem('swV2','1');location.reload(true)}}}})();
+(async()=>{if('serviceWorker'in navigator){const reg=await navigator.serviceWorker.getRegistration();if(reg&&reg.active){await reg.update();if(!localStorage.getItem('swClean')){localStorage.setItem('swClean','1');await caches.keys().then(ks=>Promise.all(ks.map(k=>caches.delete(k))));location.reload(true)}}}})();
 
 // ===== CONFIGURATION =====
 const STORAGE_KEY = 'personalManagerData';
