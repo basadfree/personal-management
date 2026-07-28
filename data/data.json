@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T20:19:32.913Z",
+  "exportedAt": "2026-07-28T20:19:37.656Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11893,7 +11893,7 @@
       "time": "10:30",
       "duration": 30,
       "date": "2026-07-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
@@ -11906,7 +11906,7 @@
       "time": "13:30",
       "duration": 30,
       "date": "2026-07-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782897700268_p7ax",
@@ -11919,11 +11919,76 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-07-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:19:32.546Z"
+    },
+    {
+      "id": "r_1785269977385_khcr",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-07-28T20:19:37.385Z"
+    },
+    {
+      "id": "r_1785269977385_77kf",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-07-28T20:19:37.385Z"
+    },
+    {
+      "id": "r_1785269977385_d6nw",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-07-28T20:19:37.385Z"
+    },
+    {
+      "id": "r_1785269977385_0l30",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-28T20:19:37.385Z"
+    },
+    {
+      "id": "r_1785269977385_1x7l",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-07-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-07-28T20:19:37.385Z"
     }
   ],
   "suggestions": {
