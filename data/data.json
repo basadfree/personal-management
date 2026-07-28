@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T20:20:15.113Z",
+  "exportedAt": "2026-07-28T20:20:19.383Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12067,6 +12067,32 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:20:03.785Z"
+    },
+    {
+      "id": "r_1785270016297_f02k",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-07-24",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-07-28T20:20:16.297Z"
+    },
+    {
+      "id": "r_1785270016297_6mpt",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-24",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-28T20:20:16.297Z"
     }
   ],
   "suggestions": {
