@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:11:50.818Z",
+  "exportedAt": "2026-07-28T19:12:08.222Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -376,12 +376,10 @@
       "description": "מטרת התניא והתנאים.",
       "time": "09:00",
       "duration": 40,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T12:02:51.337Z"
     },
@@ -3418,19 +3416,6 @@
       "createdAt": "2026-07-28T15:55:57.392Z"
     },
     {
-      "id": "r_1785254157392_ks04",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T15:55:57.392Z"
-    },
-    {
       "id": "r_1785254157392_f9mi",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -3493,19 +3478,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425635431_87t8",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
-      "id": "r_1785254696327_2zom",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
@@ -3587,19 +3559,6 @@
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
-      "id": "r_1785254732591_pzzq",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
       "id": "r_1785254732591_t2ug",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -3678,19 +3637,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734319_rt8j",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T16:05:34.319Z"
-    },
-    {
       "id": "r_1785254734319_0trm",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -3766,19 +3712,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442708026_qijm",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
-      "id": "r_1785260314998_mu6p",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
@@ -3873,19 +3806,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_t2wi",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785260319958_dw7j",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -3964,19 +3884,6 @@
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
-      "id": "r_1785261280665_9481",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
       "id": "r_1785261280665_dw2k",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -4039,19 +3946,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_8eaj",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
@@ -5407,19 +5301,6 @@
       "createdAt": "2026-07-28T18:37:15.413Z"
     },
     {
-      "id": "r_1785263835413_boct",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:37:15.413Z"
-    },
-    {
       "id": "r_1785263835413_9pxi",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -5482,19 +5363,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:37:20.349Z"
-    },
-    {
-      "id": "r_1785263840349_n4ow",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:37:20.349Z"
     },
     {
@@ -5576,19 +5444,6 @@
       "createdAt": "2026-07-28T18:37:28.637Z"
     },
     {
-      "id": "r_1785263848637_b48k",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:37:28.637Z"
-    },
-    {
       "id": "r_1785263848637_ywcg",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -5667,19 +5522,6 @@
       "createdAt": "2026-07-28T18:37:38.661Z"
     },
     {
-      "id": "r_1785263858661_i5jm",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:37:38.661Z"
-    },
-    {
       "id": "r_1785263858661_tjl9",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -5742,19 +5584,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442708026_qijm",
-      "createdAt": "2026-07-28T18:37:43.877Z"
-    },
-    {
-      "id": "r_1785263863877_r0c7",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-22",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:37:43.877Z"
     },
     {
@@ -5849,19 +5678,6 @@
       "createdAt": "2026-07-28T18:45:12.126Z"
     },
     {
-      "id": "r_1785264312126_zcq3",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:45:12.126Z"
-    },
-    {
       "id": "r_1785264312126_ov59",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -5924,19 +5740,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:46:36.439Z"
-    },
-    {
-      "id": "r_1785264396439_maas",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-10",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:46:36.439Z"
     },
     {
@@ -6031,19 +5834,6 @@
       "createdAt": "2026-07-28T18:46:45.359Z"
     },
     {
-      "id": "r_1785264405359_konr",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:46:45.359Z"
-    },
-    {
       "id": "r_1785264405359_t8k3",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6122,19 +5912,6 @@
       "createdAt": "2026-07-28T18:46:49.247Z"
     },
     {
-      "id": "r_1785264409247_syu8",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:46:49.247Z"
-    },
-    {
       "id": "r_1785264409247_qbga",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6200,19 +5977,6 @@
       "createdAt": "2026-07-28T18:46:53.231Z"
     },
     {
-      "id": "r_1785264413231_rwuz",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:46:53.231Z"
-    },
-    {
       "id": "r_1785264413231_j1v4",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6275,19 +6039,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:47:10.023Z"
-    },
-    {
-      "id": "r_1785264430023_gl6j",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:47:10.023Z"
     },
     {
@@ -6369,19 +6120,6 @@
       "createdAt": "2026-07-28T18:47:14.735Z"
     },
     {
-      "id": "r_1785264434735_7yv3",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:47:14.735Z"
-    },
-    {
       "id": "r_1785264434735_o3a3",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6457,19 +6195,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:47:18.087Z"
-    },
-    {
-      "id": "r_1785264438087_lpy6",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:47:18.087Z"
     },
     {
@@ -6564,19 +6289,6 @@
       "createdAt": "2026-07-28T18:47:58.855Z"
     },
     {
-      "id": "r_1785264478855_8u96",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:47:58.855Z"
-    },
-    {
       "id": "r_1785264478855_tuil",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6652,19 +6364,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:48:05.863Z"
-    },
-    {
-      "id": "r_1785264485863_042j",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:48:05.863Z"
     },
     {
@@ -6772,19 +6471,6 @@
       "createdAt": "2026-07-28T18:48:18.223Z"
     },
     {
-      "id": "r_1785264498223_l9pw",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:48:18.223Z"
-    },
-    {
       "id": "r_1785264498223_14c2",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6860,19 +6546,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442708026_qijm",
-      "createdAt": "2026-07-28T18:49:07.743Z"
-    },
-    {
-      "id": "r_1785264547743_o0vq",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:49:07.743Z"
     },
     {
@@ -6967,19 +6640,6 @@
       "createdAt": "2026-07-28T18:49:09.408Z"
     },
     {
-      "id": "r_1785264549408_4sl6",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:49:09.408Z"
-    },
-    {
       "id": "r_1785264549408_spn1",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -7055,19 +6715,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:49:09.863Z"
-    },
-    {
-      "id": "r_1785264549863_0og8",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:49:09.863Z"
     },
     {
@@ -7149,19 +6796,6 @@
       "createdAt": "2026-07-28T18:49:13.063Z"
     },
     {
-      "id": "r_1785264553063_9w42",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-09-16",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:49:13.063Z"
-    },
-    {
       "id": "r_1785264553063_iqfa",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -7237,19 +6871,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:52:32.160Z"
-    },
-    {
-      "id": "r_1785264752160_s48f",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-10-13",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:52:32.160Z"
     },
     {
@@ -7331,19 +6952,6 @@
       "createdAt": "2026-07-28T18:52:36.296Z"
     },
     {
-      "id": "r_1785264756296_3ldc",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-10-14",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T18:52:36.296Z"
-    },
-    {
       "id": "r_1785264756296_ogad",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -7419,19 +7027,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:52:40.256Z"
-    },
-    {
-      "id": "r_1785264760256_hocq",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-10-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T18:52:40.256Z"
     },
     {
