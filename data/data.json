@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:40:26.629Z",
+  "exportedAt": "2026-07-28T15:40:39.866Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3578,7 +3578,7 @@
       "time": "09:00",
       "duration": 30,
       "date": "2026-07-28",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -4300,7 +4300,7 @@
       "r_1784439329110_e867": "accepted",
       "r_1783339677824_0nx8": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1782425136551_sb8q": "postponed"
+      "r_1782425136551_sb8q": "deleted"
     }
   },
   "goalPeriods": [
