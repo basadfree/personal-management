@@ -2114,11 +2114,8 @@ async function syncToGitHub(showToast = true) {
     return false;
   }
   setSyncStatus('syncing', 'שומר…');
-  if (showToast) toast('☁️ מסנכרן לענן...', 'info');
+  if (showToast) toast('☁️ שומר לענן...', 'info');
   isSyncing = true;
-
-  // First pull from cloud and merge (gentle — local takes priority)
-  await pullFromGitHub(false, false);
 
   const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
