@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T17:53:11.409Z",
+  "exportedAt": "2026-07-28T17:53:35.116Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -93,19 +93,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:09:08.703Z",
       "description": "מטרת הגמרא."
-    },
-    {
-      "id": "r_1782425388805_mmgm",
-      "title": "תנ\"ך",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:48.805Z",
-      "description": "מטרת התנ\"ך."
     },
     {
       "id": "r_1782425511489_knps",
@@ -534,19 +521,6 @@
       "createdAt": "2026-06-26T15:26:49.919Z"
     },
     {
-      "id": "r_1782487610929_s459",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-26T15:26:50.929Z"
-    },
-    {
       "id": "r_1782487611471_ijhi",
       "title": "תניא",
       "description": "",
@@ -714,19 +688,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-27T20:20:20.739Z"
-    },
-    {
-      "id": "r_1782591621313_ysma",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-27T20:20:21.313Z"
     },
     {
       "id": "r_1782591621518_c8qb",
@@ -1028,19 +989,6 @@
       "createdAt": "2026-06-30T10:53:53.544Z"
     },
     {
-      "id": "r_1782816834118_ben9",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:53:54.118Z"
-    },
-    {
       "id": "r_1782816836346_itao",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1195,19 +1143,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-30T10:54:10.065Z"
-    },
-    {
-      "id": "r_1782816850199_vrsf",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:54:10.199Z"
     },
     {
       "id": "r_1782816850389_wr7z",
@@ -1537,19 +1472,6 @@
       "createdAt": "2026-07-01T09:21:39.618Z"
     },
     {
-      "id": "r_1782897699874_z5v6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T09:21:39.874Z"
-    },
-    {
       "id": "r_1782897700042_h5bb",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1799,19 +1721,6 @@
       "createdAt": "2026-07-01T22:17:20.707Z"
     },
     {
-      "id": "r_1782944241179_frm6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T22:17:21.179Z"
-    },
-    {
       "id": "r_1782944241701_fyp2",
       "title": "ארוחת בוקר",
       "description": "",
@@ -2018,19 +1927,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-06T06:08:10.728Z"
-    },
-    {
-      "id": "r_1783318090905_aun3",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-06T06:08:10.905Z"
     },
     {
       "id": "r_1783318091093_to1i",
@@ -2474,19 +2370,6 @@
       "createdAt": "2026-07-10T09:18:38.007Z"
     },
     {
-      "id": "r_1783675118707_95fb",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-10T09:18:38.707Z"
-    },
-    {
       "id": "r_1783675123715_lxn4",
       "title": "מקלחת לכבוד שבת",
       "description": "כולל ציפורניים.",
@@ -2721,19 +2604,6 @@
       "createdAt": "2026-07-12T04:11:28.988Z"
     },
     {
-      "id": "r_1783829489442_mpoi",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-12T04:11:29.442Z"
-    },
-    {
       "id": "r_1783829494701_3r17",
       "title": "ארוחת בוקר",
       "description": "",
@@ -2914,19 +2784,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-13T12:40:52.928Z"
-    },
-    {
-      "id": "r_1783946454400_t99s",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-13T12:40:54.400Z"
     },
     {
       "id": "r_1783946459943_lmpu",
@@ -3280,19 +3137,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-20T13:58:00.512Z"
-    },
-    {
-      "id": "r_1784555881992_lwvr",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-20T13:58:01.992Z"
     },
     {
       "id": "r_1784555882591_c9vp",
@@ -3981,19 +3825,6 @@
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
-      "id": "r_1785254696327_w525",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
       "id": "r_1785254696327_2i2q",
       "title": "סידור המטרות, והתוצאות מיומן גוגל.",
       "description": "",
@@ -4199,19 +4030,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
-      "id": "r_1785254732591_22cw",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
@@ -4423,19 +4241,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734318_ewcr",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T16:05:34.318Z"
-    },
-    {
       "id": "r_1785254734318_zsl0",
       "title": "ארוחת בוקר",
       "description": "",
@@ -4605,19 +4410,6 @@
       "createdAt": "2026-07-28T16:05:34.319Z"
     },
     {
-      "id": "r_1785260254263_cyuh",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T17:37:34.263Z"
-    },
-    {
       "id": "r_1785260314998_0e0y",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -4654,19 +4446,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
-      "id": "r_1785260314998_7dwy",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
@@ -4852,19 +4631,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_4bih",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785260319958_30rm",
       "title": "ארוחת בוקר",
       "description": "",
@@ -5032,19 +4798,6 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
-      "id": "r_1785260697328_i361",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T17:44:57.328Z"
     }
   ],
   "suggestions": {
