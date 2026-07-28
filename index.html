@@ -302,111 +302,6 @@ body {
   color: #fff;
 }
 
-/* ===== SUGGESTIONS ===== */
-.suggestions-bar {
-  margin-bottom: 16px;
-  display: none;
-}
-.suggestions-bar.has-suggestions { display: block; }
-.suggestions-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  background: var(--accent-light);
-  border-radius: var(--radius) var(--radius) 0 0;
-  border: 1px solid rgba(255,200,69,0.3);
-  border-bottom: none;
-  font-size: 13px;
-  font-weight: 600;
-  color: #8a6d00;
-}
-.suggestions-list {
-  background: var(--surface);
-  border: 1px solid var(--card-border);
-  border-radius: 0 0 var(--radius) var(--radius);
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.suggestion-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  background: var(--surface-hover);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--card-border);
-  transition: var(--transition);
-}
-.suggestion-item:hover {
-  border-color: var(--accent);
-  box-shadow: var(--shadow-sm);
-}
-.suggestion-info {
-  flex: 1;
-  min-width: 0;
-}
-.suggestion-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text);
-}
-.suggestion-meta {
-  font-size: 12px;
-  color: var(--text2);
-  margin-top: 2px;
-}
-.suggestion-actions {
-  display: flex;
-  gap: 4px;
-  flex-shrink: 0;
-}
-.suggestion-btn {
-  padding: 4px 10px;
-  border: none;
-  border-radius: var(--radius-xs);
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: var(--transition);
-}
-.suggestion-btn.accept {
-  background: var(--success-light);
-  color: #059669;
-}
-.suggestion-btn.accept:hover {
-  background: var(--success);
-  color: #fff;
-}
-.suggestion-btn.postpone {
-  background: var(--accent-light);
-  color: #8a6d00;
-}
-.suggestion-btn.postpone:hover {
-  background: var(--accent);
-  color: #fff;
-}
-.suggestion-btn.dismiss {
-  background: var(--surface);
-  color: var(--text2);
-  border: 1px solid var(--card-border);
-}
-.suggestion-btn.dismiss:hover {
-  background: var(--surface-hover);
-  color: var(--text);
-}
-.suggestion-btn.delete {
-  background: var(--danger-light);
-  color: var(--danger);
-}
-.suggestion-btn.delete:hover {
-  background: var(--danger);
-  color: #fff;
-}
-
 /* ===== ADD TASK FORM ===== */
 .add-task-toggle {
   display: flex;
@@ -1709,11 +1604,7 @@ body {
     <button class="today-btn" onclick="goToToday()">היום</button>
   </div>
 
-  <!-- Suggestions -->
-  <div class="suggestions-bar" id="suggestionsBar">
-    <div class="suggestions-header">💡 תוצאות שחוזרות – מוכנות להיום</div>
-    <div class="suggestions-list" id="suggestionsList"></div>
-  </div>
+
 
   <!-- Add Task Toggle -->
   <button class="add-task-toggle" onclick="toggleTaskForm()" id="addTaskToggle">
@@ -1782,8 +1673,12 @@ body {
         </div>
       </div>
     </div>
-    <div class="form-actions">
+    <div class="form-actions" style="position:relative">
       <button class="btn btn-primary" onclick="saveTask()">💾 שמור תוצאה</button>
+      <button class="btn btn-icon" id="editAllMenuBtn" onclick="event.stopPropagation();toggleEditAllMenu()" title="אפשרויות נוספות" style="display:none;font-size:18px;">⋮</button>
+      <div class="reschedule-popup" id="editAllMenu" style="left:auto;right:0;min-width:180px;">
+        <button class="reschedule-option" onclick="saveTask(true)">🔄 עדכן את כל העותקים</button>
+      </div>
       <button class="btn btn-outline" onclick="toggleTaskForm()">ביטול</button>
     </div>
   </div>
@@ -2461,31 +2356,6 @@ function updateDateHeader() {
 }
 
 // ===== SUGGESTIONS =====
-function getSuggestionsForDate(dateStr) {
-  const suggestions = [];
-  const todaySuggestions = state.suggestions[dateStr] || {};
-
-  for (const result of state.results) {
-    if (!result.recurrence) continue;
-    if (result.archived) continue;
-    if (result.date === dateStr) continue; // already on this date
-    if (result.sourceDate === dateStr) continue; // same as source
-
-    // Check if we already handled this suggestion today
-    const sugState = todaySuggestions[result.id];
-    if (sugState === 'accepted') continue;
-    if (sugState === 'dismissed') continue;
-    if (sugState === 'deleted') continue;
-
-    // Check if task appears on this date
-    if (shouldAppearOnDate(result, dateStr)) {
-      suggestions.push(result);
-    }
-  }
-
-  return suggestions;
-}
-
 function recurrenceDayMatch(result, dateStr) {
   if (!result.recurrence) return true;
   const date = parseDate(dateStr);
@@ -2506,126 +2376,41 @@ function shouldAppearOnDate(result, dateStr) {
   const sourceDate = parseDate(result.date);
   const dayOfWeek = date.getDay();
   const dayOfMonth = date.getDate();
-
-  // Don't suggest before the source date
   if (date < sourceDate) return false;
-
   switch (result.recurrence.type) {
-    case 'daily':
-      return true;
-    case 'weekly':
-      // Same day of week
-      return dayOfWeek === sourceDate.getDay();
-    case 'weekdays':
-      return dayOfWeek >= 0 && dayOfWeek <= 4;
-    case 'monthly':
-      return dayOfMonth === sourceDate.getDate();
-    case 'specific':
-      return result.recurrence.days && result.recurrence.days.includes(dayOfWeek);
-    default:
-      return false;
+    case 'daily': return true;
+    case 'weekly': return dayOfWeek === sourceDate.getDay();
+    case 'weekdays': return dayOfWeek >= 0 && dayOfWeek <= 4;
+    case 'monthly': return dayOfMonth === sourceDate.getDate();
+    case 'specific': return result.recurrence.days && result.recurrence.days.includes(dayOfWeek);
+    default: return false;
   }
 }
 
-function renderSuggestions() {
-  const dateStr = getDateStr(currentDate);
-  const suggestions = getSuggestionsForDate(dateStr);
-  const bar = document.getElementById('suggestionsBar');
-  const list = document.getElementById('suggestionsList');
-
-  if (suggestions.length === 0) {
-    bar.classList.remove('has-suggestions');
-    return;
+function autoFillRecurring(dateStr) {
+  const existing = new Set(state.results.filter(r => r.date === dateStr).map(r => r.sourceId));
+  const today = getDateStr(new Date());
+  for (const src of state.results) {
+    if (!src.recurrence || src.archived) continue;
+    if (src.date === dateStr) continue;
+    if (existing.has(src.id)) continue;
+    if (dateStr < src.date) continue;
+    if (!shouldAppearOnDate(src, dateStr)) continue;
+    if (dateStr !== today) continue; // only auto-fill for today
+    state.results.push({
+      id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+      title: src.title,
+      description: src.description || '',
+      time: src.time,
+      duration: src.duration,
+      date: dateStr,
+      completed: false,
+      archived: false,
+      recurrence: null,
+      sourceId: src.id,
+      createdAt: new Date().toISOString()
+    });
   }
-
-  bar.classList.add('has-suggestions');
-  list.innerHTML = suggestions.map(r => {
-    const timeDisplay = r.time ? r.time.slice(0, 5) : '';
-    const durationDisplay = r.duration ? ` (${r.duration} דק')` : '';
-    const recurringLabel = getRecurrenceLabel(r.recurrence);
-    return `
-      <div class="suggestion-item" data-id="${r.id}">
-        <div class="suggestion-info">
-          <div class="suggestion-title">${escHtml(r.title)}</div>
-          <div class="suggestion-meta">${timeDisplay ? '⏰ ' + timeDisplay : ''}${durationDisplay} 🔄 ${recurringLabel}</div>
-        </div>
-        <div class="suggestion-actions">
-          <button class="suggestion-btn accept" onclick="acceptSuggestion('${r.id}')">✅ הוסף להיום</button>
-          <button class="suggestion-btn postpone" onclick="postponeSuggestion('${r.id}')">⏳ דחה</button>
-          <button class="suggestion-btn dismiss" onclick="dismissSuggestion('${r.id}')">🙈 דלג</button>
-          <button class="suggestion-btn delete" onclick="deleteSourceTask('${r.id}')">🗑️ מחק</button>
-        </div>
-      </div>
-    `;
-  }).join('');
-}
-
-function acceptSuggestion(resultId) {
-  const dateStr = getDateStr(currentDate);
-  const source = state.results.find(r => r.id === resultId);
-  if (!source) return;
-
-  // Add a copy to today
-  const newResult = {
-    id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
-    title: source.title,
-    description: source.description || '',
-    time: source.time,
-    duration: source.duration,
-    date: dateStr,
-    completed: false,
-    archived: false,
-    recurrence: null,
-    sourceId: source.id,
-    createdAt: new Date().toISOString()
-  };
-  state.results.push(newResult);
-
-  // Record suggestion as accepted
-  if (!state.suggestions[dateStr]) state.suggestions[dateStr] = {};
-  state.suggestions[dateStr][resultId] = 'accepted';
-  saveState();
-
-  renderDay();
-  renderSuggestions();
-  toast('✅ התוצאה נוספה להיום!', 'success');
-}
-
-function postponeSuggestion(resultId) {
-  const dateStr = getDateStr(currentDate);
-  if (!state.suggestions[dateStr]) state.suggestions[dateStr] = {};
-  state.suggestions[dateStr][resultId] = 'postponed';
-  saveState();
-  renderSuggestions();
-  toast('⏳ התוצאה תוצג מחר שוב', 'info');
-}
-
-function dismissSuggestion(resultId) {
-  const dateStr = getDateStr(currentDate);
-  if (!state.suggestions[dateStr]) state.suggestions[dateStr] = {};
-  state.suggestions[dateStr][resultId] = 'dismissed';
-  saveState();
-  renderSuggestions();
-  toast('🙈 דולג להיום', 'info');
-}
-
-function deleteSourceTask(resultId) {
-  if (!confirm('למחוק את התוצאה הזאת לצמיתות?')) return;
-  state.results = state.results.filter(r => r.id !== resultId);
-
-  // Clean up suggestions for all dates
-  for (const date in state.suggestions) {
-    delete state.suggestions[date][resultId];
-  }
-
-  const dateStr = getDateStr(currentDate);
-  if (!state.suggestions[dateStr]) state.suggestions[dateStr] = {};
-  state.suggestions[dateStr][resultId] = 'deleted';
-
-  saveState();
-  renderDay();
-  renderSuggestions();
-  toast('🗑️ התוצאה נמחקה', 'info');
 }
 
 function getRecurrenceLabel(rec) {
@@ -2693,7 +2478,18 @@ function toggleDay(el) {
   }
 }
 
-function saveTask() {
+function toggleEditAllMenu() {
+  const menu = document.getElementById('editAllMenu');
+  menu.classList.toggle('open');
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#editAllMenu') && !e.target.closest('#editAllMenuBtn')) {
+    document.getElementById('editAllMenu').classList.remove('open');
+  }
+}, true);
+
+function saveTask(updateAll) {
   const title = document.getElementById('taskTitle').value.trim();
   if (!title) {
     toast('❌ נא להזין כותרת לתוצאה', 'error');
@@ -2730,6 +2526,21 @@ function saveTask() {
       state.results[idx].duration = duration;
       state.results[idx].date = dateStr;
       state.results[idx].recurrence = recurrence;
+
+      if (updateAll) {
+        const sourceId = state.results[idx].sourceId;
+        if (sourceId) {
+          state.results.forEach(r => {
+            if (r.sourceId === sourceId) {
+              r.title = title;
+              r.description = description;
+              r.time = time;
+              r.duration = duration;
+            }
+          });
+          toast('🔄 כל העותקים עודכנו', 'success');
+        }
+      }
     }
     editingId = null;
     toast('✅ התוצאה עודכנה', 'success');
@@ -2828,11 +2639,21 @@ function startEdit(id) {
   const form = document.getElementById('addTaskForm');
   form.classList.add('open');
   document.getElementById('addTaskToggle').style.display = 'none';
+
+  const btn = document.getElementById('editAllMenuBtn');
+  const menu = document.getElementById('editAllMenu');
+  menu.classList.remove('open');
+  if (result.sourceId) {
+    btn.style.display = 'flex';
+  } else {
+    btn.style.display = 'none';
+  }
 }
 
 // ===== RENDER DAY =====
 function renderDay() {
   const dateStr = getDateStr(currentDate);
+  autoFillRecurring(dateStr);
   const results = state.results
     .filter(r => r.date === dateStr && !r.archived && recurrenceDayMatch(r, dateStr))
     .sort((a, b) => (a.time || '00:00').localeCompare(b.time || '00:00'));
@@ -2893,7 +2714,6 @@ function renderDay() {
     }).join('');
   }
 
-  renderSuggestions();
   updateBatchBar();
   renderUnscheduledTasks();
 }
