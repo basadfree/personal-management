@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:05:47.288Z",
+  "exportedAt": "2026-07-28T18:06:17.027Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -78,19 +78,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:07:27.021Z",
       "description": "מטרת השינה והקימה."
-    },
-    {
-      "id": "r_1782425348703_9vkn",
-      "title": "גמרא",
-      "time": "",
-      "duration": 40,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:08.703Z",
-      "description": "מטרת הגמרא."
     },
     {
       "id": "r_1782425511489_knps",
