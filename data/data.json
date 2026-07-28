@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:45:23.815Z",
+  "exportedAt": "2026-07-28T15:46:02.403Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3676,19 +3676,6 @@
       "createdAt": "2026-07-28T15:36:44.914Z"
     },
     {
-      "id": "r_1785253014450_j5ro",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T15:36:54.450Z"
-    },
-    {
       "id": "r_1782425136551_sb8q",
       "title": "ארוחת ערב",
       "time": "18:00",
@@ -3799,6 +3786,19 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T15:35:00.570Z"
+    },
+    {
+      "id": "r_1785253014450_j5ro",
+      "title": "×¤×\"× ",
+      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1784439329110_e867",
+      "createdAt": "2026-07-28T15:36:54.450Z"
     }
   ],
   "suggestions": {
