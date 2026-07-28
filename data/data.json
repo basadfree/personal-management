@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:32:30.506Z",
+  "exportedAt": "2026-07-28T18:32:35.091Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3782,19 +3782,6 @@
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
-      "id": "r_1785254696327_cue6",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
       "id": "r_1785254696327_4ijw",
       "title": "שחרית",
       "description": "",
@@ -3948,19 +3935,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
-      "id": "r_1785254732591_cqup",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
@@ -4133,19 +4107,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734318_zsl0",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T16:05:34.318Z"
-    },
-    {
       "id": "r_1785254734318_koq1",
       "title": "פל\"נ",
       "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
@@ -4315,19 +4276,6 @@
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
-      "id": "r_1785260314998_bojk",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
       "id": "r_1785260314998_9r3o",
       "title": "שחרית",
       "description": "",
@@ -4468,19 +4416,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
-      "id": "r_1785260319958_30rm",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
@@ -4666,19 +4601,6 @@
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
-      "id": "r_1785261280665_r1f7",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
       "id": "r_1785261280665_fgx5",
       "title": "פל\"נ",
       "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
@@ -4845,19 +4767,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_p4uw",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
