@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T05:12:45.848Z",
+  "exportedAt": "2026-07-28T05:13:37.153Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3095,19 +3095,6 @@
       "createdAt": "2026-07-17T15:48:38.260Z"
     },
     {
-      "id": "r_1785214515975_jxvx",
-      "title": "Ygfjff",
-      "description": "Bjdgrsthdgjjgx",
-      "time": "",
-      "duration": 30,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-28T04:55:15.975Z"
-    },
-    {
       "id": "r_1784439312805_zkcb",
       "title": "×©××\"×ª",
       "description": "",
@@ -3580,6 +3567,19 @@
       "createdAt": "2026-07-25T18:10:47.719Z"
     },
     {
+      "id": "r_1785214515975_jxvx",
+      "title": "Ygfjff",
+      "description": "Bjdgrsthdgjjgx",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T04:55:15.975Z"
+    },
+    {
       "id": "r_1785214798429_c8gl",
       "title": "Babi",
       "description": "Navy and blue",
@@ -3593,19 +3593,6 @@
       "createdAt": "2026-07-28T04:59:58.429Z"
     },
     {
-      "id": "r_1785215484175_xpnn",
-      "title": "שלום לכם",
-      "description": "וגם לך",
-      "time": "",
-      "duration": 30,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-28T05:11:24.176Z"
-    },
-    {
       "id": "r_1785214876328_t7nl",
       "title": "AAAAA",
       "description": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
@@ -3617,6 +3604,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T05:01:16.328Z"
+    },
+    {
+      "id": "r_1785215484175_xpnn",
+      "title": "שלום לכם",
+      "description": "וגם לך",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T05:11:24.176Z"
     },
     {
       "id": "r_1785215544017_na7j",
@@ -3973,10 +3973,6 @@
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "accepted"
     },
-    "2026-07-28": {
-      "r_1782423817363_xrim": "dismissed",
-      "r_1782425136551_sb8q": "postponed"
-    },
     "2026-07-19": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
@@ -4117,6 +4113,10 @@
       "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed"
+    },
+    "2026-07-28": {
+      "r_1782423817363_xrim": "dismissed",
+      "r_1782425136551_sb8q": "postponed"
     }
   },
   "goalPeriods": [
