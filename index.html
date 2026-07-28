@@ -1778,6 +1778,7 @@ body {
       </div>
       <div class="settings-group">
         <h3>📦 נתונים</h3>
+        <button class="btn btn-outline" onclick="markAllPastDone()" style="width:100%;justify-content:center;margin-bottom:8px;">✅ סמן את כל התוצאות של היום ושל לפניו כבוצעו</button>
         <button class="btn btn-outline" onclick="exportData()" style="width:100%;justify-content:center;margin-bottom:8px;">📥 ייצא נתונים</button>
         <button class="btn btn-outline" onclick="document.getElementById('importInput').click()" style="width:100%;justify-content:center;">📥 ייבא נתונים</button>
         <input type="file" id="importInput" accept=".json" style="display:none" onchange="importData(event)">
@@ -3047,6 +3048,24 @@ function openSettings() {
 
 function closeSettings() {
   document.getElementById('settingsModal').classList.remove('open');
+}
+
+function markAllPastDone() {
+  if (!confirm('לסמן את כל התוצאות של היום ושל לפניו כבוצעו? פעולה זו לא ניתנת לביטול.')) return;
+  const todayStr = getDateStr(new Date());
+  let count = 0;
+  state.results.forEach(r => {
+    if (!r.archived && r.date && r.date <= todayStr && !r.completed) {
+      r.completed = true;
+      count++;
+    }
+  });
+  if (count === 0) { toast('✅ כל התוצאות כבר מסומנות כבוצעו', 'success'); return; }
+  saveState();
+  renderWeek();
+  renderDay();
+  renderUnscheduledTasks();
+  toast(`✅ ${count} תוצאות סומנו כבוצעו`, 'success');
 }
 
 function exportData() {
