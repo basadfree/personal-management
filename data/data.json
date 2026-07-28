@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:26:22.595Z",
+  "exportedAt": "2026-07-28T19:26:37.751Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3801,7 +3801,7 @@
       "createdAt": "2026-07-28T15:36:54.450Z"
     },
     {
-      "id": "r_1785266779477_wwut",
+      "id": "r_1785266794927_m5uk",
       "title": "שמו\"ת",
       "description": "",
       "time": "19:30",
@@ -3811,10 +3811,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.927Z"
     },
     {
-      "id": "r_1785266779477_is8t",
+      "id": "r_1785266794928_u3mx",
       "title": "גמרא",
       "description": "מטרת הגמרא.",
       "time": "07:00",
@@ -3824,10 +3824,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779477_meno",
+      "id": "r_1785266794928_da9j",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
       "time": "07:45",
@@ -3837,10 +3837,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779477_iuxr",
+      "id": "r_1785266794928_52cs",
       "title": "ארוחת בוקר",
       "description": "",
       "time": "10:30",
@@ -3850,10 +3850,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779477_xxz8",
+      "id": "r_1785266794928_1p0s",
       "title": "שחרית",
       "description": "",
       "time": "05:50",
@@ -3863,10 +3863,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779477_oo0e",
+      "id": "r_1785266794928_mrfj",
       "title": "מנחה וערבית",
       "description": "",
       "time": "19:15",
@@ -3876,10 +3876,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T19:26:19.477Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779478_1hbq",
+      "id": "r_1785266794928_1u7y",
       "title": "נגינה",
       "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
       "time": "08:00",
@@ -3889,10 +3889,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T19:26:19.478Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779478_1fl7",
+      "id": "r_1785266794928_y6uk",
       "title": "תניא ותנאים",
       "description": "מטרת התניא והתנאים.",
       "time": "09:00",
@@ -3902,10 +3902,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T19:26:19.478Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779478_koi4",
+      "id": "r_1785266794928_eoul",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
       "time": "09:00",
@@ -3915,10 +3915,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T19:26:19.478Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779478_fxg2",
+      "id": "r_1785266794928_lpoj",
       "title": "ארוחת צהריים",
       "description": "",
       "time": "13:30",
@@ -3928,10 +3928,10 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T19:26:19.478Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
-      "id": "r_1785266779478_k3xg",
+      "id": "r_1785266794928_stgo",
       "title": "אנגלית ולמידה",
       "description": "",
       "time": "20:30",
@@ -3941,7 +3941,7 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T19:26:19.478Z"
+      "createdAt": "2026-07-28T19:26:34.928Z"
     }
   ],
   "suggestions": {
