@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:35:15.386Z",
+  "exportedAt": "2026-07-28T15:35:22.183Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -63,27 +63,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:02:43.521Z"
-    },
-    {
-      "id": "r_1782425136551_sb8q",
-      "title": "ארוחת ערב",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:05:36.551Z"
     },
     {
       "id": "r_1782425247021_u699",
@@ -3760,6 +3739,27 @@
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T15:35:13.362Z"
+    },
+    {
+      "id": "r_1782425136551_sb8q",
+      "title": "ארוחת ערב",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T22:05:36.551Z"
     }
   ],
   "suggestions": {
@@ -3767,7 +3767,6 @@
       "r_1782423817363_xrim": "accepted",
       "r_1782459904340_fof6": "deleted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3776,7 +3775,8 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-06-27": {
       "r_1782424741865_yg34": "accepted",
@@ -3795,7 +3795,6 @@
       "r_1782448199626_eqz2": "accepted",
       "r_1782425437297_hvxz": "deleted",
       "r_1782423817363_xrim": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3804,12 +3803,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782474961808_oqv9": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-06-30": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3819,29 +3818,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-01": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
-      "r_1782425247021_u699": "accepted",
-      "r_1782425348703_9vkn": "accepted",
-      "r_1782425388805_mmgm": "accepted",
-      "r_1782430450460_6zm1": "accepted",
-      "r_1782442504473_daqb": "accepted",
-      "r_1782442551153_zpl2": "accepted",
-      "r_1782448199626_eqz2": "accepted",
-      "r_1782474961808_oqv9": "accepted",
-      "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted",
-      "r_1782821159911_fqcb": "accepted"
-    },
-    "2026-07-06": {
-      "r_1782816851054_gr7q": "deleted",
-      "r_1782423817363_xrim": "accepted",
-      "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3853,7 +3835,25 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted"
+      "r_1782425136551_sb8q": "accepted"
+    },
+    "2026-07-06": {
+      "r_1782816851054_gr7q": "deleted",
+      "r_1782423817363_xrim": "accepted",
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782474961808_oqv9": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-03": {
       "r_1782821159911_fqcb": "postponed"
@@ -3861,7 +3861,6 @@
     "2026-07-02": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3873,12 +3872,12 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted"
+      "r_1782897700268_p7ax": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-05": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -3890,13 +3889,13 @@
       "r_1782475371337_oek7": "dismissed",
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
-      "r_1782897700268_p7ax": "dismissed"
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-08": {
       "r_1782431181923_8u0g": "deleted",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -3906,12 +3905,12 @@
       "r_1782448199626_eqz2": "dismissed",
       "r_1782474961808_oqv9": "dismissed",
       "r_1782475371337_oek7": "dismissed",
-      "r_1782475457864_tvpb": "dismissed"
+      "r_1782475457864_tvpb": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-07": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -3924,12 +3923,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-09": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -3942,7 +3941,8 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-10": {
       "r_1782424741865_yg34": "accepted",
@@ -3981,7 +3981,6 @@
     "2026-07-12": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -3994,12 +3993,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted"
+      "r_1783339677824_0nx8": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-13": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -4012,12 +4011,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-14": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -4030,12 +4029,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-15": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -4048,12 +4047,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-16": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -4067,7 +4066,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783322993928_ckcd": "accepted",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-17": {
       "r_1782424741865_yg34": "dismissed",
@@ -4106,7 +4106,6 @@
     "2026-07-19": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -4119,12 +4118,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted"
+      "r_1783339677824_0nx8": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-20": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -4138,7 +4137,8 @@
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
       "r_1783339677824_0nx8": "accepted",
-      "r_1784439329110_e867": "accepted"
+      "r_1784439329110_e867": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-21": {
       "r_1782425388805_mmgm": "dismissed",
@@ -4146,7 +4146,6 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
@@ -4157,7 +4156,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782448199626_eqz2": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
-      "r_1782442504473_daqb": "dismissed"
+      "r_1782442504473_daqb": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-22": {
       "r_1782425388805_mmgm": "dismissed",
@@ -4166,7 +4166,6 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
@@ -4176,7 +4175,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
-      "r_1784439329110_e867": "dismissed"
+      "r_1784439329110_e867": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-23": {
       "r_1782425388805_mmgm": "dismissed",
@@ -4185,7 +4185,6 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782430911505_pfrp": "dismissed",
@@ -4196,7 +4195,8 @@
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
       "r_1784439329110_e867": "dismissed",
-      "r_1783322993928_ckcd": "accepted"
+      "r_1783322993928_ckcd": "accepted",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-24": {
       "r_1782425388805_mmgm": "dismissed",
@@ -4240,18 +4240,18 @@
     "2026-07-26": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
-      "r_1782430450460_6zm1": "dismissed"
+      "r_1782430450460_6zm1": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-28": {
       "r_1782423817363_xrim": "dismissed",
-      "r_1782425136551_sb8q": "postponed",
       "r_1782424741865_yg34": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
-      "r_1782430911505_pfrp": "accepted"
+      "r_1782430911505_pfrp": "accepted",
+      "r_1782425136551_sb8q": "postponed"
     }
   },
   "goalPeriods": [
