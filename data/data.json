@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:53:11.260Z",
+  "exportedAt": "2026-07-28T18:53:50.306Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2942,12 +2942,10 @@
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
       "time": "16:00",
       "duration": 25,
-      "date": "2026-07-19",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-19T05:35:29.110Z"
     },
@@ -3448,19 +3446,6 @@
       "createdAt": "2026-07-28T15:35:54.650Z"
     },
     {
-      "id": "r_1785253014450_j5ro",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T15:36:54.450Z"
-    },
-    {
       "id": "r_1785254157392_a5xr",
       "title": "שמו\"ת",
       "description": "",
@@ -3630,19 +3615,6 @@
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
-      "id": "r_1785254696327_lldc",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
       "id": "r_1785254732591_3eyc",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -3744,19 +3716,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T16:05:32.591Z"
-    },
-    {
-      "id": "r_1785254732591_bu0q",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T16:05:32.591Z"
     },
     {
@@ -3877,19 +3836,6 @@
       "createdAt": "2026-07-28T16:05:34.319Z"
     },
     {
-      "id": "r_1785254734319_be2x",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T16:05:34.319Z"
-    },
-    {
       "id": "r_1785260314998_0e0y",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -3978,19 +3924,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T17:38:34.998Z"
-    },
-    {
-      "id": "r_1785260314998_2qfw",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T17:38:34.998Z"
     },
     {
@@ -4111,19 +4044,6 @@
       "createdAt": "2026-07-28T17:38:39.958Z"
     },
     {
-      "id": "r_1785260319958_3sw5",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-07",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T17:38:39.958Z"
-    },
-    {
       "id": "r_1785261280665_swwh",
       "title": "שמו\"ת",
       "description": "",
@@ -4228,19 +4148,6 @@
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
-      "id": "r_1785261280665_zw8w",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
       "id": "r_1785261285472_9iot",
       "title": "שמו\"ת",
       "description": "",
@@ -4329,19 +4236,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T17:54:45.472Z"
-    },
-    {
-      "id": "r_1785261285472_7xsc",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T17:54:45.472Z"
     },
     {
@@ -5723,19 +5617,6 @@
       "createdAt": "2026-07-28T18:37:15.413Z"
     },
     {
-      "id": "r_1785263835413_ho4v",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:37:15.413Z"
-    },
-    {
       "id": "r_1785263840349_9209",
       "title": "שמו\"ת",
       "description": "",
@@ -5825,19 +5706,6 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:37:20.349Z"
-    },
-    {
-      "id": "r_1785263840350_qhtm",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:37:20.350Z"
     },
     {
       "id": "r_1785263848637_0m1w",
@@ -5957,19 +5825,6 @@
       "createdAt": "2026-07-28T18:37:28.637Z"
     },
     {
-      "id": "r_1785263848637_k0qw",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:37:28.637Z"
-    },
-    {
       "id": "r_1785263858661_fmq6",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -6061,19 +5916,6 @@
       "createdAt": "2026-07-28T18:37:38.661Z"
     },
     {
-      "id": "r_1785263858661_qld1",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:37:38.661Z"
-    },
-    {
       "id": "r_1785263863877_fcgs",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -6162,19 +6004,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:37:43.877Z"
-    },
-    {
-      "id": "r_1785263863877_r29i",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-22",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:37:43.877Z"
     },
     {
@@ -6295,19 +6124,6 @@
       "createdAt": "2026-07-28T18:45:12.126Z"
     },
     {
-      "id": "r_1785264312126_5lmx",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:45:12.126Z"
-    },
-    {
       "id": "r_1785264396439_mxz1",
       "title": "שמו\"ת",
       "description": "",
@@ -6425,19 +6241,6 @@
       "createdAt": "2026-07-28T18:46:36.439Z"
     },
     {
-      "id": "r_1785264396439_rnbp",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-10",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:46:36.439Z"
-    },
-    {
       "id": "r_1785264405359_lo6j",
       "title": "שמו\"ת",
       "description": "",
@@ -6542,19 +6345,6 @@
       "createdAt": "2026-07-28T18:46:45.359Z"
     },
     {
-      "id": "r_1785264405359_0wc0",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:46:45.359Z"
-    },
-    {
       "id": "r_1785264409247_9gii",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -6643,19 +6433,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:46:49.247Z"
-    },
-    {
-      "id": "r_1785264409247_w5m7",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:46:49.247Z"
     },
     {
@@ -6750,19 +6527,6 @@
       "createdAt": "2026-07-28T18:46:53.231Z"
     },
     {
-      "id": "r_1785264413231_axe4",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:46:53.231Z"
-    },
-    {
       "id": "r_1785264430023_43z2",
       "title": "שמו\"ת",
       "description": "",
@@ -6851,19 +6615,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:47:10.023Z"
-    },
-    {
-      "id": "r_1785264430023_59u1",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:47:10.023Z"
     },
     {
@@ -6971,19 +6722,6 @@
       "createdAt": "2026-07-28T18:47:14.735Z"
     },
     {
-      "id": "r_1785264434735_ffi6",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:47:14.735Z"
-    },
-    {
       "id": "r_1785264438087_8lcx",
       "title": "שמו\"ת",
       "description": "",
@@ -7085,19 +6823,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:47:18.087Z"
-    },
-    {
-      "id": "r_1785264438087_8q4b",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:47:18.087Z"
     },
     {
@@ -7218,19 +6943,6 @@
       "createdAt": "2026-07-28T18:47:58.855Z"
     },
     {
-      "id": "r_1785264478855_xyxf",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:47:58.855Z"
-    },
-    {
       "id": "r_1785264485863_x4e1",
       "title": "שמו\"ת",
       "description": "",
@@ -7345,19 +7057,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:48:05.863Z"
-    },
-    {
-      "id": "r_1785264485863_gz99",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:48:05.863Z"
     },
     {
@@ -7491,19 +7190,6 @@
       "createdAt": "2026-07-28T18:48:18.223Z"
     },
     {
-      "id": "r_1785264498223_ygfa",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:48:18.223Z"
-    },
-    {
       "id": "r_1785264547743_2kl6",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
@@ -7592,19 +7278,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:49:07.743Z"
-    },
-    {
-      "id": "r_1785264547743_rsjt",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:49:07.743Z"
     },
     {
@@ -7725,19 +7398,6 @@
       "createdAt": "2026-07-28T18:49:09.408Z"
     },
     {
-      "id": "r_1785264549408_dubu",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:49:09.408Z"
-    },
-    {
       "id": "r_1785264549863_xz3r",
       "title": "שמו\"ת",
       "description": "",
@@ -7855,19 +7515,6 @@
       "createdAt": "2026-07-28T18:49:09.863Z"
     },
     {
-      "id": "r_1785264549863_90t0",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:49:09.863Z"
-    },
-    {
       "id": "r_1785264553063_9cvi",
       "title": "שמו\"ת",
       "description": "",
@@ -7956,19 +7603,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:49:13.063Z"
-    },
-    {
-      "id": "r_1785264553063_r0f9",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-16",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:49:13.063Z"
     },
     {
@@ -8076,19 +7710,6 @@
       "createdAt": "2026-07-28T18:52:32.160Z"
     },
     {
-      "id": "r_1785264752160_25o7",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-10-13",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T18:52:32.160Z"
-    },
-    {
       "id": "r_1785264756296_rb2n",
       "title": "שמו\"ת",
       "description": "",
@@ -8190,19 +7811,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:52:36.296Z"
-    },
-    {
-      "id": "r_1785264756296_vlv8",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-10-14",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:52:36.296Z"
     },
     {
@@ -8320,19 +7928,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T18:52:40.256Z"
-    },
-    {
-      "id": "r_1785264760256_8l9k",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-10-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T18:52:40.256Z"
     }
   ],
