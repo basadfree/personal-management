@@ -2389,14 +2389,12 @@ function shouldAppearOnDate(result, dateStr) {
 
 function autoFillRecurring(dateStr) {
   const existing = new Set(state.results.filter(r => r.date === dateStr).map(r => r.sourceId));
-  const today = getDateStr(new Date());
   for (const src of state.results) {
     if (!src.recurrence || src.archived) continue;
     if (src.date === dateStr) continue;
     if (existing.has(src.id)) continue;
     if (dateStr < src.date) continue;
     if (!shouldAppearOnDate(src, dateStr)) continue;
-    if (dateStr !== today) continue; // only auto-fill for today
     state.results.push({
       id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
       title: src.title,
