@@ -2221,6 +2221,9 @@ async function syncToGitHub(showToast = true) {
   if (showToast) toast('☁️ מסנכרן לענן...', 'info');
   isSyncing = true;
 
+  // First pull from cloud and merge
+  await pullFromGitHub(false);
+
   const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
   const headers = { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' };

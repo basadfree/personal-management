@@ -2,7 +2,7 @@
   "name": "ניהול אישי",
   "short_name": "ניהול אישי",
   "description": "מערכת לניהול משימות, מטרות ויעדים",
-  "start_url": "/",
+  "start_url": "/personal-management/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#f5f3f0",
