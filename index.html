@@ -2602,18 +2602,22 @@ function deleteAllCopies() {
   const sourceId = state.results[idx].sourceId || state.results[idx].id;
   const todayStr = getDateStr(new Date());
   const toDelete = state.results.filter(r =>
-    r.sourceId === sourceId && r.id !== editingId && (!r.date || r.date >= todayStr)
+    r.sourceId === sourceId && (!r.date || r.date >= todayStr)
   );
-  if (toDelete.length === 0) { toast('❌ אין עותקים עתידיים למחוק', 'error'); return; }
+  if (toDelete.length === 0) { toast('❌ אין עותקים למחוק', 'error'); return; }
   state.results = state.results.filter(r => !toDelete.includes(r));
   toDelete.forEach(r => { if (r.date) removedFromDate.add(r.date + '|' + sourceId); });
+  // Stop the source from generating new instances
+  const src = state.results.find(r => r.id === sourceId);
+  if (src) { src.recurrence = null; src.date = ''; }
+  editingId = null;
   saveState();
   resetForm();
   toggleTaskForm();
   renderWeek();
   renderDay();
   renderUnscheduledTasks();
-  toast(`🗑️ ${toDelete.length} עותקים עתידיים נמחקו`, 'success');
+  toast(`🗑️ ${toDelete.length} עותקים נמחקו והחזרה הופסקה`, 'success');
 }
 
 function toggleComplete(id) {
