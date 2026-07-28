@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:35:57.047Z",
+  "exportedAt": "2026-07-28T15:36:13.823Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3624,19 +3624,6 @@
       "createdAt": "2026-07-28T15:31:22.514Z"
     },
     {
-      "id": "r_1785252686233_2iai",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:31:26.233Z"
-    },
-    {
       "id": "r_1785252686737_3opa",
       "title": "ק\"ש + פגישה + מקלחת.",
       "description": "מטרת השינה והקימה.",
@@ -3648,6 +3635,79 @@
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T15:31:26.737Z"
+    },
+    {
+      "id": "r_1785252904802_t86f",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-07-28T15:35:04.802Z"
+    },
+    {
+      "id": "r_1785252913362_y5je",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-28T15:35:13.362Z"
+    },
+    {
+      "id": "r_1782425136551_sb8q",
+      "title": "ארוחת ערב",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T22:05:36.551Z"
+    },
+    {
+      "id": "r_1785252954650_k20y",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-28T15:35:54.650Z"
+    },
+    {
+      "id": "r_1785252686233_2iai",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-07-28T15:31:26.233Z"
     },
     {
       "id": "r_1785252698201_72ku",
@@ -3713,66 +3773,6 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T15:35:00.570Z"
-    },
-    {
-      "id": "r_1785252904802_t86f",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:35:04.802Z"
-    },
-    {
-      "id": "r_1785252913362_y5je",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T15:35:13.362Z"
-    },
-    {
-      "id": "r_1782425136551_sb8q",
-      "title": "ארוחת ערב",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
-      "id": "r_1785252954650_k20y",
-      "title": "תזונה",
-      "description": "מטרת התזונה. אוכל אמא.",
-      "time": "09:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-07-28T15:35:54.650Z"
     }
   ],
   "suggestions": {
