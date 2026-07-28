@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:26:47.260Z",
+  "exportedAt": "2026-07-28T19:27:04.724Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -65,27 +65,6 @@
       "createdAt": "2026-06-25T22:02:43.521Z"
     },
     {
-      "id": "r_1782425136551_sb8q",
-      "title": "ארוחת ערב",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
       "id": "r_1782425247021_u699",
       "title": "ק\"ש + פגישה + מקלחת.",
       "time": "21:30",
@@ -99,36 +78,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:07:27.021Z",
       "description": "מטרת השינה והקימה."
-    },
-    {
-      "id": "r_1782425348703_9vkn",
-      "title": "גמרא",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:08.703Z",
-      "description": "מטרת הגמרא."
-    },
-    {
-      "id": "r_1782425388805_mmgm",
-      "title": "תנ\"ך",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:48.805Z",
-      "description": "מטרת התנ\"ך."
     },
     {
       "id": "r_1782425511489_knps",
@@ -327,36 +276,6 @@
       "createdAt": "2026-06-26T00:00:56.813Z"
     },
     {
-      "id": "r_1782442504473_daqb",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:04.473Z"
-    },
-    {
-      "id": "r_1782442551153_zpl2",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:51.153Z"
-    },
-    {
       "id": "r_1782442708026_qijm",
       "title": "מלווה מלכה",
       "description": "",
@@ -437,25 +356,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T09:40:45.150Z"
-    },
-    {
-      "id": "r_1782474961808_oqv9",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          1,
-          3
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-26T11:56:01.808Z"
     },
     {
       "id": "r_1782475095107_v9zu",
@@ -547,19 +447,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-26T15:26:49.919Z"
-    },
-    {
-      "id": "r_1782487610929_s459",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-27",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-26T15:26:50.929Z"
     },
     {
       "id": "r_1782487611471_ijhi",
@@ -729,19 +616,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-27T20:20:20.739Z"
-    },
-    {
-      "id": "r_1782591621313_ysma",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "11:10",
-      "duration": 15,
-      "date": "2026-06-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-27T20:20:21.313Z"
     },
     {
       "id": "r_1782591621518_c8qb",
@@ -1043,19 +917,6 @@
       "createdAt": "2026-06-30T10:53:53.544Z"
     },
     {
-      "id": "r_1782816834118_ben9",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "21:40",
-      "duration": 20,
-      "date": "2026-06-30",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:53:54.118Z"
-    },
-    {
       "id": "r_1782816836346_itao",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1210,19 +1071,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-30T10:54:10.065Z"
-    },
-    {
-      "id": "r_1782816850199_vrsf",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-29",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:54:10.199Z"
     },
     {
       "id": "r_1782816850389_wr7z",
@@ -1552,19 +1400,6 @@
       "createdAt": "2026-07-01T09:21:39.618Z"
     },
     {
-      "id": "r_1782897699874_z5v6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-01",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T09:21:39.874Z"
-    },
-    {
       "id": "r_1782897700042_h5bb",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1812,19 +1647,6 @@
       "createdAt": "2026-07-01T22:17:20.707Z"
     },
     {
-      "id": "r_1782944241179_frm6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "20:40",
-      "duration": 15,
-      "date": "2026-07-02",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T22:17:21.179Z"
-    },
-    {
       "id": "r_1782944241701_fyp2",
       "title": "ארוחת בוקר",
       "description": "",
@@ -2031,19 +1853,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-06T06:08:10.728Z"
-    },
-    {
-      "id": "r_1783318090905_aun3",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "10:10",
-      "duration": 15,
-      "date": "2026-07-06",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-06T06:08:10.905Z"
     },
     {
       "id": "r_1783318091093_to1i",
@@ -2487,19 +2296,6 @@
       "createdAt": "2026-07-10T09:18:38.007Z"
     },
     {
-      "id": "r_1783675118707_95fb",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "16:45",
-      "duration": 10,
-      "date": "2026-07-10",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-10T09:18:38.707Z"
-    },
-    {
       "id": "r_1783675123715_lxn4",
       "title": "מקלחת לכבוד שבת",
       "description": "כולל ציפורניים.",
@@ -2734,19 +2530,6 @@
       "createdAt": "2026-07-12T04:11:28.988Z"
     },
     {
-      "id": "r_1783829489442_mpoi",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "08:00",
-      "duration": 15,
-      "date": "2026-07-12",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-12T04:11:29.442Z"
-    },
-    {
       "id": "r_1783829494701_3r17",
       "title": "ארוחת בוקר",
       "description": "",
@@ -2927,19 +2710,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-13T12:40:52.928Z"
-    },
-    {
-      "id": "r_1783946454400_t99s",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-13",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-13T12:40:54.400Z"
     },
     {
       "id": "r_1783946459943_lmpu",
@@ -3150,21 +2920,6 @@
       "createdAt": "2026-07-19T05:35:26.968Z"
     },
     {
-      "id": "r_1784439329110_e867",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-19",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-19T05:35:29.110Z"
-    },
-    {
       "id": "r_1784439330428_wr9g",
       "title": "×©××¨××ª",
       "description": "",
@@ -3230,19 +2985,6 @@
       "createdAt": "2026-07-19T05:36:19.599Z"
     },
     {
-      "id": "r_1784461455636_isn6",
-      "title": "=== 20 ספר",
-      "description": "",
-      "time": "",
-      "duration": 80,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-19T11:44:15.636Z"
-    },
-    {
       "id": "r_1784555877103_fq3q",
       "title": "×××× - ×××¦×¨ ××××××× ×××× ××©××××§, ×××× ×ª×©×××××.",
       "description": "×××¨××ª ××××××ª ×××§×©×¨×× ××¢×¡×§×××.\n×¢×¨××¥, ×××××¨, ××\"×.",
@@ -3293,19 +3035,6 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-20T13:58:00.512Z"
-    },
-    {
-      "id": "r_1784555881992_lwvr",
-      "title": "×ª× \"×",
-      "description": "×××¨×ª ××ª× \"×.",
-      "time": "18:30",
-      "duration": 15,
-      "date": "2026-07-20",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-20T13:58:01.992Z"
     },
     {
       "id": "r_1784555882591_c9vp",
@@ -3557,6 +3286,19 @@
       "createdAt": "2026-07-25T18:10:47.719Z"
     },
     {
+      "id": "r_1785214515975_jxvx",
+      "title": "Ygfjff",
+      "description": "Bjdgrsthdgjjgx",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T04:55:15.975Z"
+    },
+    {
       "id": "r_1785214798429_c8gl",
       "title": "Babi",
       "description": "Navy and blue",
@@ -3568,19 +3310,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T04:59:58.429Z"
-    },
-    {
-      "id": "r_1785215484175_xpnn",
-      "title": "שלום לכם",
-      "description": "וגם לך",
-      "time": "09:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-28T05:11:24.176Z"
     },
     {
       "id": "r_1785214876328_t7nl",
@@ -3596,6 +3325,19 @@
       "createdAt": "2026-07-28T05:01:16.328Z"
     },
     {
+      "id": "r_1785215484175_xpnn",
+      "title": "שלום לכם",
+      "description": "וגם לך",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-28T05:11:24.176Z"
+    },
+    {
       "id": "r_1785215544017_na7j",
       "title": "מדהים",
       "description": "ביותר",
@@ -3607,19 +3349,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T05:12:24.017Z"
-    },
-    {
-      "id": "r_1785214515975_jxvx",
-      "title": "Ygfjff",
-      "description": "Bjdgrsthdgjjgx",
-      "time": "09:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-28T04:55:15.975Z"
     },
     {
       "id": "r_1785252682514_9iw6",
@@ -3672,266 +3401,6 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T15:35:54.650Z"
-    },
-    {
-      "id": "r_1785253004914_bid9",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:36:44.914Z"
-    },
-    {
-      "id": "r_1785252904802_t86f",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:35:04.802Z"
-    },
-    {
-      "id": "r_1785252686233_2iai",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:31:26.233Z"
-    },
-    {
-      "id": "r_1785252698201_72ku",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:31:38.201Z"
-    },
-    {
-      "id": "r_1785252701866_km0t",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:31:41.866Z"
-    },
-    {
-      "id": "r_1785252724946_s9ma",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:32:04.946Z"
-    },
-    {
-      "id": "r_1785252732130_817r",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:32:12.130Z"
-    },
-    {
-      "id": "r_1785252900570_w96x",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T15:35:00.570Z"
-    },
-    {
-      "id": "r_1785253014450_j5ro",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T15:36:54.450Z"
-    },
-    {
-      "id": "r_1785266794927_m5uk",
-      "title": "שמו\"ת",
-      "description": "",
-      "time": "19:30",
-      "duration": 15,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782423817363_xrim",
-      "createdAt": "2026-07-28T19:26:34.927Z"
-    },
-    {
-      "id": "r_1785266794928_u3mx",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_da9j",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_52cs",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_1p0s",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_mrfj",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_1u7y",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_y6uk",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_eoul",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_lpoj",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T19:26:34.928Z"
-    },
-    {
-      "id": "r_1785266794928_stgo",
-      "title": "אנגלית ולמידה",
-      "description": "",
-      "time": "20:30",
-      "duration": 40,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-07-28T19:26:34.928Z"
     },
     {
       "id": "r_1785254157392_a5xr",
@@ -8998,7 +8467,6 @@
       "r_1782423817363_xrim": "accepted",
       "r_1782459904340_fof6": "deleted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9007,7 +8475,8 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-06-27": {
       "r_1782424741865_yg34": "accepted",
@@ -9026,7 +8495,6 @@
       "r_1782448199626_eqz2": "accepted",
       "r_1782425437297_hvxz": "deleted",
       "r_1782423817363_xrim": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9035,12 +8503,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782474961808_oqv9": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-06-30": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9050,29 +8518,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted"
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-01": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
-      "r_1782425247021_u699": "accepted",
-      "r_1782425348703_9vkn": "accepted",
-      "r_1782425388805_mmgm": "accepted",
-      "r_1782430450460_6zm1": "accepted",
-      "r_1782442504473_daqb": "accepted",
-      "r_1782442551153_zpl2": "accepted",
-      "r_1782448199626_eqz2": "accepted",
-      "r_1782474961808_oqv9": "accepted",
-      "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted",
-      "r_1782821159911_fqcb": "accepted"
-    },
-    "2026-07-06": {
-      "r_1782816851054_gr7q": "deleted",
-      "r_1782423817363_xrim": "accepted",
-      "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9084,7 +8535,25 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted"
+      "r_1782425136551_sb8q": "accepted"
+    },
+    "2026-07-06": {
+      "r_1782816851054_gr7q": "deleted",
+      "r_1782423817363_xrim": "accepted",
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "accepted",
+      "r_1782425388805_mmgm": "accepted",
+      "r_1782430450460_6zm1": "accepted",
+      "r_1782442504473_daqb": "accepted",
+      "r_1782442551153_zpl2": "accepted",
+      "r_1782448199626_eqz2": "accepted",
+      "r_1782474961808_oqv9": "accepted",
+      "r_1782475371337_oek7": "accepted",
+      "r_1782475457864_tvpb": "accepted",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1782897700268_p7ax": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-03": {
       "r_1782821159911_fqcb": "postponed"
@@ -9092,7 +8561,6 @@
     "2026-07-02": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9104,12 +8572,12 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted"
+      "r_1782897700268_p7ax": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-05": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9121,13 +8589,13 @@
       "r_1782475371337_oek7": "dismissed",
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
-      "r_1782897700268_p7ax": "dismissed"
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-08": {
       "r_1782431181923_8u0g": "deleted",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9137,12 +8605,12 @@
       "r_1782448199626_eqz2": "dismissed",
       "r_1782474961808_oqv9": "dismissed",
       "r_1782475371337_oek7": "dismissed",
-      "r_1782475457864_tvpb": "dismissed"
+      "r_1782475457864_tvpb": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-07": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9155,12 +8623,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-09": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9173,7 +8641,8 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-10": {
       "r_1782424741865_yg34": "accepted",
@@ -9212,7 +8681,6 @@
     "2026-07-12": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9225,12 +8693,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted"
+      "r_1783339677824_0nx8": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-13": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9243,12 +8711,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-14": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9261,12 +8729,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-15": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9279,12 +8747,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-16": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9298,7 +8766,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783322993928_ckcd": "accepted",
-      "r_1783339677824_0nx8": "dismissed"
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-17": {
       "r_1782424741865_yg34": "dismissed",
@@ -9334,29 +8803,9 @@
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "accepted"
     },
-    "2026-07-28": {
-      "r_1782423817363_xrim": "dismissed",
-      "r_1782425136551_sb8q": "deleted",
-      "r_1782425247021_u699": "accepted",
-      "r_1782424741865_yg34": "accepted",
-      "r_1782425348703_9vkn": "dismissed",
-      "r_1782425388805_mmgm": "dismissed",
-      "r_1782430911505_pfrp": "accepted",
-      "r_1782430450460_6zm1": "dismissed",
-      "r_1782442504473_daqb": "dismissed",
-      "r_1782442551153_zpl2": "dismissed",
-      "r_1782448199626_eqz2": "dismissed",
-      "r_1782475371337_oek7": "dismissed",
-      "r_1782475457864_tvpb": "dismissed",
-      "r_1782821159911_fqcb": "accepted",
-      "r_1784439329110_e867": "accepted",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782897700268_p7ax": "dismissed"
-    },
     "2026-07-19": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -9369,12 +8818,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted"
+      "r_1783339677824_0nx8": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-20": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
-      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -9388,7 +8837,8 @@
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
       "r_1783339677824_0nx8": "accepted",
-      "r_1784439329110_e867": "accepted"
+      "r_1784439329110_e867": "accepted",
+      "r_1782425136551_sb8q": "accepted"
     },
     "2026-07-21": {
       "r_1782425388805_mmgm": "dismissed",
@@ -9396,7 +8846,6 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
@@ -9407,7 +8856,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782448199626_eqz2": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
-      "r_1782442504473_daqb": "dismissed"
+      "r_1782442504473_daqb": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-22": {
       "r_1782425388805_mmgm": "dismissed",
@@ -9416,7 +8866,6 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
@@ -9426,7 +8875,8 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
-      "r_1784439329110_e867": "dismissed"
+      "r_1784439329110_e867": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-23": {
       "r_1782425388805_mmgm": "dismissed",
@@ -9435,7 +8885,6 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782430911505_pfrp": "dismissed",
@@ -9446,7 +8895,8 @@
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
       "r_1784439329110_e867": "dismissed",
-      "r_1783322993928_ckcd": "accepted"
+      "r_1783322993928_ckcd": "accepted",
+      "r_1782425136551_sb8q": "dismissed"
     },
     "2026-07-24": {
       "r_1782425388805_mmgm": "dismissed",
@@ -9490,9 +8940,28 @@
     "2026-07-26": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
-      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
-      "r_1782430450460_6zm1": "dismissed"
+      "r_1782430450460_6zm1": "dismissed",
+      "r_1782425136551_sb8q": "dismissed"
+    },
+    "2026-07-28": {
+      "r_1782423817363_xrim": "dismissed",
+      "r_1782424741865_yg34": "accepted",
+      "r_1782425247021_u699": "accepted",
+      "r_1782425348703_9vkn": "dismissed",
+      "r_1782425388805_mmgm": "dismissed",
+      "r_1782430911505_pfrp": "accepted",
+      "r_1782430450460_6zm1": "dismissed",
+      "r_1782442504473_daqb": "dismissed",
+      "r_1782442551153_zpl2": "dismissed",
+      "r_1782448199626_eqz2": "dismissed",
+      "r_1782475371337_oek7": "dismissed",
+      "r_1782475457864_tvpb": "dismissed",
+      "r_1782821159911_fqcb": "accepted",
+      "r_1784439329110_e867": "accepted",
+      "r_1783339677824_0nx8": "dismissed",
+      "r_1782897700268_p7ax": "dismissed",
+      "r_1782425136551_sb8q": "deleted"
     }
   },
   "goalPeriods": [
