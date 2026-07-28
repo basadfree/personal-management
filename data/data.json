@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:55:49.239Z",
+  "exportedAt": "2026-07-28T18:56:22.822Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8137,6 +8137,110 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:55:22.849Z"
+    },
+    {
+      "id": "r_1785264965208_a2gl",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-07-28T18:56:05.208Z"
+    },
+    {
+      "id": "r_1785264965209_lenx",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_7ne6",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_n81f",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_gfun",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_x3mr",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_eyq3",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-07-28T18:56:05.209Z"
+    },
+    {
+      "id": "r_1785264965209_f92g",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-07-07",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-07-28T18:56:05.209Z"
     }
   ],
   "suggestions": {
