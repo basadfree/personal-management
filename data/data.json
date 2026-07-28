@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T15:35:02.594Z",
+  "exportedAt": "2026-07-28T15:35:06.829Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3734,6 +3734,19 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T15:35:00.570Z"
+    },
+    {
+      "id": "r_1785252904802_t86f",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-07-28T15:35:04.802Z"
     }
   ],
   "suggestions": {
