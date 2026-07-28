@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T18:32:35.091Z",
+  "exportedAt": "2026-07-28T18:33:10.064Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3639,19 +3639,6 @@
       "createdAt": "2026-07-28T15:55:57.392Z"
     },
     {
-      "id": "r_1785254157392_gzqh",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T15:55:57.392Z"
-    },
-    {
       "id": "r_1785254157392_9jyk",
       "title": "שחרית",
       "description": "",
@@ -6159,6 +6146,19 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T18:05:02.858Z"
+    },
+    {
+      "id": "r_1785263588058_p46n",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-07-28",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-07-28T18:33:08.058Z"
     }
   ],
   "suggestions": {
