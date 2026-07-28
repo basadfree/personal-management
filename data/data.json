@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T20:16:29.504Z",
+  "exportedAt": "2026-07-28T20:17:28.659Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -10442,6 +10442,7 @@
       "goalId": "g_1782466499456_gorv"
     }
   ],
+  "_removedFromDate": [],
   "settings": {
     "autoSync": true
   }
