@@ -1678,6 +1678,7 @@ body {
       <button class="btn btn-icon" id="editAllMenuBtn" onclick="event.stopPropagation();toggleEditAllMenu()" title="אפשרויות נוספות" style="display:none;font-size:18px;">⋮</button>
       <div class="reschedule-popup" id="editAllMenu" style="left:auto;right:0;min-width:180px;">
         <button class="reschedule-option" onclick="saveTask(true)">🔄 עדכן את כל העותקים</button>
+        <button class="reschedule-option" onclick="deleteAllCopies()" style="color:var(--danger);">🗑️ מחק את כל העותקים</button>
       </div>
       <button class="btn btn-outline" onclick="toggleTaskForm()">ביטול</button>
     </div>
@@ -2593,6 +2594,26 @@ function saveTask(updateAll) {
   renderWeek();
   renderDay();
   renderUnscheduledTasks();
+}
+
+function deleteAllCopies() {
+  const idx = state.results.findIndex(r => r.id === editingId);
+  if (idx < 0) return;
+  const sourceId = state.results[idx].sourceId || state.results[idx].id;
+  const todayStr = getDateStr(new Date());
+  const toDelete = state.results.filter(r =>
+    r.sourceId === sourceId && r.id !== editingId && (!r.date || r.date >= todayStr)
+  );
+  if (toDelete.length === 0) { toast('❌ אין עותקים עתידיים למחוק', 'error'); return; }
+  state.results = state.results.filter(r => !toDelete.includes(r));
+  toDelete.forEach(r => { if (r.date) removedFromDate.add(r.date + '|' + sourceId); });
+  saveState();
+  resetForm();
+  toggleTaskForm();
+  renderWeek();
+  renderDay();
+  renderUnscheduledTasks();
+  toast(`🗑️ ${toDelete.length} עותקים עתידיים נמחקו`, 'success');
 }
 
 function toggleComplete(id) {
