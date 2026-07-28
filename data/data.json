@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-28T19:08:55.310Z",
+  "exportedAt": "2026-07-28T19:09:32.574Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -356,19 +356,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T09:40:45.150Z"
-    },
-    {
-      "id": "r_1782474961808_oqv9",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T11:56:01.808Z"
     },
     {
       "id": "r_1782475095107_v9zu",
@@ -2935,19 +2922,6 @@
       "createdAt": "2026-07-19T05:35:26.968Z"
     },
     {
-      "id": "r_1784439329110_e867",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-19T05:35:29.110Z"
-    },
-    {
       "id": "r_1784439330428_wr9g",
       "title": "×©××¨××ª",
       "description": "",
@@ -3532,19 +3506,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425635431_87t8",
-      "createdAt": "2026-07-28T16:04:56.327Z"
-    },
-    {
-      "id": "r_1785254696327_0m6q",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "",
-      "duration": 15,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-07-28T16:04:56.327Z"
     },
     {
