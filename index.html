@@ -2026,14 +2026,16 @@ function loadState() {
       state.goals = data.goals || [];
       state.objectives = data.objectives || [];
       if (data.settings) Object.assign(state.settings, data.settings);
+      if (data._removedFromDate) removedFromDate = new Set(data._removedFromDate);
     }
   } catch(e) { console.warn('Error loading state:', e); }
 }
 
 function saveState() {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  } catch(e) { console.warn('Error saving state:', e); }
+    const toSave = { ...state, _removedFromDate: Array.from(removedFromDate) };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+  } catch(e) { console.error('Error saving state:', e); }
   debouncedSync();
 }
 
@@ -2090,6 +2092,7 @@ function buildBackupJson() {
     goalTypes: state.goalTypes,
     goals: state.goals,
     objectives: state.objectives,
+    _removedFromDate: Array.from(removedFromDate),
     settings: {
       autoSync: state.settings.autoSync
     }
@@ -2261,6 +2264,9 @@ function mergeCloudData(cloud, replaceLocal) {
       }
     }
   }
+  if (cloud._removedFromDate && replaceLocal) {
+    removedFromDate = new Set(cloud._removedFromDate);
+  }
 }
 
 // ===== DATE HELPERS =====
@@ -2389,14 +2395,21 @@ function shouldAppearOnDate(result, dateStr) {
 }
 
 function autoFillRecurring(dateStr) {
+  const DEBUG = localStorage.getItem('debug') === 'true';
   const existing = new Set(state.results.filter(r => r.date === dateStr).map(r => r.sourceId));
+  if (DEBUG) console.log('autoFillRecurring: dateStr=', dateStr, 'existing sources today=', Array.from(existing), 'removedFromDate size=', removedFromDate.size);
   for (const src of state.results) {
     if (!src.recurrence || src.archived) continue;
     if (src.date === dateStr) continue;
     if (existing.has(src.id)) continue;
-    if (removedFromDate.has(dateStr + '|' + src.id)) continue;
+    const removedKey = dateStr + '|' + src.id;
+    if (removedFromDate.has(removedKey)) {
+      if (DEBUG) console.log('autoFillRecurring: SKIP removed', removedKey);
+      continue;
+    }
     if (dateStr < src.date) continue;
     if (!shouldAppearOnDate(src, dateStr)) continue;
+    if (DEBUG) console.log('autoFillRecurring: CREATING instance from', src.id, 'on', dateStr);
     state.results.push({
       id: 'r_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
       title: src.title,
@@ -2598,22 +2611,28 @@ function saveTask(updateAll) {
 
 function deleteAllCopies() {
   const idx = state.results.findIndex(r => r.id === editingId);
-  if (idx < 0) return;
+  if (idx < 0) { console.warn('deleteAllCopies: editingId not found', editingId); return; }
   const item = state.results[idx];
   const sourceId = item.sourceId || item.id;
   const todayStr = getDateStr(new Date());
+  const DEBUG = localStorage.getItem('debug') === 'true';
+  if (DEBUG) console.log('deleteAllCopies: item=', item, 'sourceId=', sourceId, 'todayStr=', todayStr);
   // Collect ALL instances of this source (from today onward)
   const toDelete = state.results.filter(r =>
     r.sourceId === sourceId && (!r.date || r.date >= todayStr)
   );
+  if (DEBUG) console.log('deleteAllCopies: toDelete=', toDelete.map(r => ({ id: r.id, date: r.date, sourceId: r.sourceId })));
   const instCount = toDelete.length;
   // Prevent autoFillRecurring from recreating them
   toDelete.forEach(r => { if (r.date) removedFromDate.add(r.date + '|' + sourceId); });
+  if (DEBUG) console.log('deleteAllCopies: removedFromDate now has', removedFromDate.size, 'entries');
   // Remove instances
   state.results = state.results.filter(r => !toDelete.includes(r));
   // Stop the source itself from generating new instances
   const sourceTask = state.results.find(r => r.id === sourceId);
+  if (DEBUG) console.log('deleteAllCopies: sourceTask after removal=', sourceTask);
   if (sourceTask) { sourceTask.recurrence = null; sourceTask.date = ''; }
+  if (DEBUG) console.log('deleteAllCopies: sourceTask now=', sourceTask, 'state.results count=', state.results.length);
   editingId = null;
   saveState();
   resetForm();
