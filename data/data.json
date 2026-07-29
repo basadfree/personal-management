@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:36:23.984Z",
+  "exportedAt": "2026-07-29T04:36:28.030Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8495,12 +8495,10 @@
       "title": "גמרא",
       "time": "07:00",
       "duration": 40,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:09:08.703Z",
       "description": "מטרת הגמרא."
@@ -9296,19 +9294,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_jz2n",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_zey1",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
@@ -9410,19 +9395,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
-      "id": "r_1785269876249_r99d",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
@@ -9530,19 +9502,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269884345_4zwb",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
       "id": "r_1785269884345_7zdh",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
@@ -9631,19 +9590,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:05.769Z"
-    },
-    {
-      "id": "r_1785269885769_grk5",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:18:05.769Z"
     },
     {
@@ -9751,19 +9697,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_809o",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_72j1",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
@@ -9865,19 +9798,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_ko02",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9998,19 +9918,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_np9w",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_8496",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
@@ -10099,19 +10006,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_rmcm",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -10284,19 +10178,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_ch1s",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_5iiw",
       "title": "תנ\"ך",
       "description": "מטרת התנ\"ך.",
@@ -10385,19 +10266,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_aflm",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -10580,19 +10448,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_y45f",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -13035,7 +12890,18 @@
     "2026-08-08|r_1782475371337_oek7",
     "2026-08-29|r_1782475371337_oek7",
     "2026-08-28|r_1782475371337_oek7",
-    "2026-08-25|r_1782475371337_oek7"
+    "2026-08-25|r_1782475371337_oek7",
+    "2026-07-29|r_1782425348703_9vkn",
+    "2026-07-31|r_1782425348703_9vkn",
+    "2026-07-30|r_1782425348703_9vkn",
+    "2026-08-01|r_1782425348703_9vkn",
+    "2026-08-04|r_1782425348703_9vkn",
+    "2026-08-03|r_1782425348703_9vkn",
+    "2026-08-02|r_1782425348703_9vkn",
+    "2026-08-08|r_1782425348703_9vkn",
+    "2026-08-29|r_1782425348703_9vkn",
+    "2026-08-28|r_1782425348703_9vkn",
+    "2026-08-25|r_1782425348703_9vkn"
   ],
   "settings": {
     "autoSync": true
