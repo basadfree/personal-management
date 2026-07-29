@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:35:11.372Z",
+  "exportedAt": "2026-07-29T04:35:40.622Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8523,19 +8523,6 @@
       "description": "מטרת התנ\"ך."
     },
     {
-      "id": "r_1782442504473_daqb",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:04.473Z"
-    },
-    {
       "id": "r_1782442551153_zpl2",
       "title": "מנחה וערבית",
       "description": "",
@@ -8713,19 +8700,6 @@
       },
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-19T05:35:29.110Z"
-    },
-    {
-      "id": "r_1784461455636_isn6",
-      "title": "=== 20 ספר",
-      "description": "",
-      "time": "",
-      "duration": 80,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-19T11:44:15.636Z"
     },
     {
       "id": "r_1784555881992_lwvr",
