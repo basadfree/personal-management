@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T05:32:33.364Z",
+  "exportedAt": "2026-07-29T05:32:54.521Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11490,7 +11490,7 @@
     },
     {
       "name": "תזונה",
-      "periodId": "gp_1782463458192_i8vh",
+      "periodId": "",
       "typeId": "gt_1782464093186_vudl",
       "startDate": "",
       "endDate": "",
