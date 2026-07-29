@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T05:31:19.853Z",
+  "exportedAt": "2026-07-29T05:31:37.212Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -188,17 +188,10 @@
       "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
       "time": "16:00",
       "duration": 25,
-      "date": "2026-06-28",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          2,
-          0
-        ]
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T23:41:51.505Z"
     },
@@ -3544,21 +3537,6 @@
       "createdAt": "2026-07-28T16:05:34.318Z"
     },
     {
-      "id": "r_1785254734318_koq1",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T16:05:34.318Z"
-    },
-    {
       "id": "r_1785254734319_0trm",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -3790,19 +3768,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T17:54:40.665Z"
-    },
-    {
-      "id": "r_1785261280665_fgx5",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T17:54:40.665Z"
     },
     {
@@ -5210,19 +5175,6 @@
       "createdAt": "2026-07-28T18:37:15.413Z"
     },
     {
-      "id": "r_1785263835413_7c2n",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:37:15.413Z"
-    },
-    {
       "id": "r_1785263835413_9pxi",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -5350,19 +5302,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:37:28.637Z"
-    },
-    {
-      "id": "r_1785263848637_tend",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T18:37:28.637Z"
     },
     {
@@ -6107,19 +6046,6 @@
       "createdAt": "2026-07-28T18:47:18.087Z"
     },
     {
-      "id": "r_1785264438087_j9ir",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:47:18.087Z"
-    },
-    {
       "id": "r_1785264438087_smtx",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6273,19 +6199,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:48:05.863Z"
-    },
-    {
-      "id": "r_1785264485863_1vy5",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T18:48:05.863Z"
     },
     {
@@ -6627,19 +6540,6 @@
       "createdAt": "2026-07-28T18:49:09.863Z"
     },
     {
-      "id": "r_1785264549863_qug5",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-09-17",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:49:09.863Z"
-    },
-    {
       "id": "r_1785264549863_knbc",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6783,19 +6683,6 @@
       "createdAt": "2026-07-28T18:52:32.160Z"
     },
     {
-      "id": "r_1785264752160_b5wf",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-10-13",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T18:52:32.160Z"
-    },
-    {
       "id": "r_1785264752160_exu8",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -6936,19 +6823,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-07-28T18:52:40.256Z"
-    },
-    {
-      "id": "r_1785264760256_wsh2",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-10-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T18:52:40.256Z"
     },
     {
@@ -8291,19 +8165,6 @@
       "createdAt": "2026-07-28T19:12:16.691Z"
     },
     {
-      "id": "r_1785265936691_kx1o",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-20",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T19:12:16.691Z"
-    },
-    {
       "id": "r_1785265936692_jbo9",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -9450,19 +9311,6 @@
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T20:18:11.096Z"
-    },
-    {
-      "id": "r_1785269891097_qm77",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
       "id": "r_1785269891097_ghgj",
@@ -10752,6 +10600,71 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-29T05:31:13.652Z"
+    },
+    {
+      "id": "r_1785303081060_hevv",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785254734318_koq1",
+      "createdAt": "2026-07-29T05:31:21.060Z"
+    },
+    {
+      "id": "r_1785303087012_9arm",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785254734318_koq1",
+      "createdAt": "2026-07-29T05:31:27.012Z"
+    },
+    {
+      "id": "r_1785303087012_fk8u",
+      "title": "תכנון",
+      "description": "",
+      "time": "07:00",
+      "duration": 15,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785266363579_zvqg",
+      "createdAt": "2026-07-29T05:31:27.012Z"
+    },
+    {
+      "id": "r_1785303087012_v3k4",
+      "title": "×¤×\"× ",
+      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1784439329110_e867",
+      "createdAt": "2026-07-29T05:31:27.012Z"
+    },
+    {
+      "id": "r_1785303087012_ull9",
+      "title": "פגישה",
+      "description": "",
+      "time": "21:15",
+      "duration": 15,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785300459066_n36r",
+      "createdAt": "2026-07-29T05:31:27.012Z"
     }
   ],
   "suggestions": {
@@ -12082,7 +11995,18 @@
     "2026-08-12|r_1782430450460_6zm1",
     "2026-07-29|r_1782474961808_oqv9",
     "2026-08-03|r_1782474961808_oqv9",
-    "2026-08-12|r_1782474961808_oqv9"
+    "2026-08-12|r_1782474961808_oqv9",
+    "2026-07-30|r_1782430911505_pfrp",
+    "2026-08-02|r_1782430911505_pfrp",
+    "2026-08-04|r_1782430911505_pfrp",
+    "2026-08-06|r_1782430911505_pfrp",
+    "2026-08-11|r_1782430911505_pfrp",
+    "2026-09-24|r_1782430911505_pfrp",
+    "2026-09-17|r_1782430911505_pfrp",
+    "2026-10-13|r_1782430911505_pfrp",
+    "2026-10-15|r_1782430911505_pfrp",
+    "2026-08-20|r_1782430911505_pfrp",
+    "2026-08-25|r_1782430911505_pfrp"
   ],
   "settings": {
     "autoSync": true
