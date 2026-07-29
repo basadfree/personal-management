@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:36:01.318Z",
+  "exportedAt": "2026-07-29T04:36:08.526Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8521,19 +8521,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:09:48.805Z",
       "description": "מטרת התנ\"ך."
-    },
-    {
-      "id": "r_1782442551153_zpl2",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:51.153Z"
     },
     {
       "id": "r_1782474961808_oqv9",
