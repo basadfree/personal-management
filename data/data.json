@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T21:12:29.059Z",
+  "exportedAt": "2026-07-29T21:12:46.496Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -10553,7 +10553,7 @@
       "description": "",
       "time": "01:00",
       "duration": 15,
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "completed": false,
       "archived": false,
       "recurrence": {
