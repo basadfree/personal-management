@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:43:04.539Z",
+  "exportedAt": "2026-07-29T04:43:11.297Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1381,12 +1381,10 @@
       "description": "",
       "time": "13:30",
       "duration": 30,
-      "date": "2026-07-01",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": "r_1782431181923_8u0g",
       "createdAt": "2026-07-01T09:21:40.268Z"
     },
@@ -9162,19 +9160,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_xd4t",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_8t9q",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -9211,19 +9196,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
-      "id": "r_1785269876249_3dkd",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
@@ -9266,19 +9238,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269884345_f8lm",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
       "id": "r_1785269884345_akt1",
       "title": "תכנון",
       "description": "",
@@ -9316,19 +9275,6 @@
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T20:18:05.768Z"
-    },
-    {
-      "id": "r_1785269885769_uyya",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:18:05.769Z"
     },
     {
       "id": "r_1785269885769_rpy3",
@@ -9370,19 +9316,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_8nnr",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_d87b",
       "title": "תכנון",
       "description": "",
@@ -9419,19 +9352,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_418f",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9487,19 +9407,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_xgj3",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_szyj",
       "title": "תכנון",
       "description": "",
@@ -9536,19 +9443,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_5f6z",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -9656,19 +9550,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_67wo",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_bp4o",
       "title": "אנגלית ולמידה",
       "description": "",
@@ -9718,19 +9599,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_92w9",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -9835,19 +9703,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_5xzo",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -11045,19 +10900,6 @@
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-29T04:36:41.850Z"
-    },
-    {
-      "id": "r_1785299801851_3f3q",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-07-29T04:36:41.851Z"
     },
     {
       "id": "r_1785299801851_hba5",
@@ -12413,7 +12255,19 @@
     "2026-08-25|r_1782425136551_sb8q",
     "2026-08-12|r_1782425136551_sb8q",
     "2026-07-29|r_1782448199626_eqz2",
-    "2026-07-29|r_1782475457864_tvpb"
+    "2026-07-29|r_1782475457864_tvpb",
+    "2026-07-29|r_1782897700268_p7ax",
+    "2026-07-31|r_1782897700268_p7ax",
+    "2026-07-30|r_1782897700268_p7ax",
+    "2026-08-01|r_1782897700268_p7ax",
+    "2026-08-04|r_1782897700268_p7ax",
+    "2026-08-03|r_1782897700268_p7ax",
+    "2026-08-02|r_1782897700268_p7ax",
+    "2026-08-08|r_1782897700268_p7ax",
+    "2026-08-29|r_1782897700268_p7ax",
+    "2026-08-28|r_1782897700268_p7ax",
+    "2026-08-25|r_1782897700268_p7ax",
+    "2026-08-12|r_1782897700268_p7ax"
   ],
   "settings": {
     "autoSync": true
