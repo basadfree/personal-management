@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:42:44.142Z",
+  "exportedAt": "2026-07-29T04:42:53.278Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -361,16 +361,14 @@
     },
     {
       "id": "r_1782475457864_tvpb",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-06-26",
+      "title": "ספר ידידים - 170 ע\"מ",
+      "description": "",
+      "time": "",
+      "duration": 180,
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T12:04:17.864Z"
     },
@@ -9167,9 +9165,9 @@
       "id": "r_1785269875626_hdaa",
       "title": "ספר ידידים - 170 ע\"מ",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 180,
-      "date": "2026-07-29",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
@@ -9229,19 +9227,6 @@
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
-      "id": "r_1785269876249_oza2",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
       "id": "r_1785269876249_3dkd",
       "title": "ארוחת צהריים",
       "description": "",
@@ -9291,19 +9276,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
-      "id": "r_1785269884345_j45k",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
@@ -9359,19 +9331,6 @@
       "createdAt": "2026-07-28T20:18:05.768Z"
     },
     {
-      "id": "r_1785269885769_ae6w",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T20:18:05.769Z"
-    },
-    {
       "id": "r_1785269885769_uyya",
       "title": "ארוחת צהריים",
       "description": "",
@@ -9424,19 +9383,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_03e4",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_8nnr",
       "title": "ארוחת צהריים",
       "description": "",
@@ -9486,19 +9432,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_44de",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9567,19 +9500,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_s8pw",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_xgj3",
       "title": "ארוחת צהריים",
       "description": "",
@@ -9629,19 +9549,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_stqt",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -9749,19 +9656,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_hc02",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_l5dx",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
@@ -9837,19 +9731,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_rqfg",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -9954,19 +9835,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_wghy",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -11190,19 +11058,6 @@
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-29T04:36:41.850Z"
-    },
-    {
-      "id": "r_1785299801851_uy3x",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-07-29T04:36:41.851Z"
     },
     {
       "id": "r_1785299801851_3f3q",
@@ -12570,7 +12425,8 @@
     "2026-08-02|r_1782425136551_sb8q",
     "2026-08-25|r_1782425136551_sb8q",
     "2026-08-12|r_1782425136551_sb8q",
-    "2026-07-29|r_1782448199626_eqz2"
+    "2026-07-29|r_1782448199626_eqz2",
+    "2026-07-29|r_1782475457864_tvpb"
   ],
   "settings": {
     "autoSync": true
