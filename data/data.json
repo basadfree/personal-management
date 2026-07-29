@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:41:26.102Z",
+  "exportedAt": "2026-07-29T04:41:40.541Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -306,19 +306,6 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-26T04:14:29.820Z"
-    },
-    {
-      "id": "r_1782448199626_eqz2",
-      "title": "נגינה 11 מנגינות + חזרה",
-      "description": "20 דק' למנגינה + חזרות.",
-      "time": "",
-      "duration": 250,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T04:29:59.626Z"
     },
     {
       "id": "r_1782449802963_16ov",
