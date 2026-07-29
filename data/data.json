@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T05:32:18.680Z",
+  "exportedAt": "2026-07-29T05:32:33.364Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8223,7 +8223,7 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-07-29",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": {
         "type": "daily"
@@ -11917,7 +11917,7 @@
       "id": "o_1782471076420_dav7",
       "name": "40 חתיחות מלפפונים.",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782470509226_idcs"
     },
     {
