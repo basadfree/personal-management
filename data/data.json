@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T05:33:39.633Z",
+  "exportedAt": "2026-07-29T05:33:47.530Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11784,7 +11784,7 @@
       "id": "o_1782468726473_cuk1",
       "name": "סרטון כל יום שכדאי - אב.",
       "derech": "(מקס' 3 חסר)",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782468636418_fadx"
     },
     {
