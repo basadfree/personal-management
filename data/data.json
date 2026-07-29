@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:42:53.278Z",
+  "exportedAt": "2026-07-29T04:43:04.539Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -358,19 +358,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T11:58:15.107Z"
-    },
-    {
-      "id": "r_1782475457864_tvpb",
-      "title": "ספר ידידים - 170 ע\"מ",
-      "description": "",
-      "time": "",
-      "duration": 180,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T12:04:17.864Z"
     },
     {
       "id": "r_1782481023495_ombr",
