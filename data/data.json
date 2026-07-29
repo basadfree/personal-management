@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:38:51.257Z",
+  "exportedAt": "2026-07-29T04:39:01.908Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8456,12 +8456,10 @@
       "title": "תנ\"ך",
       "time": "07:45",
       "duration": 15,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:09:48.805Z",
       "description": "מטרת התנ\"ך."
@@ -9242,19 +9240,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_zey1",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_8t9q",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -9343,19 +9328,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
-      "id": "r_1785269876249_9ns0",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
@@ -9450,19 +9422,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269884345_7zdh",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
       "id": "r_1785269884345_i40u",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9538,19 +9497,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:05.769Z"
-    },
-    {
-      "id": "r_1785269885769_jrm9",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:18:05.769Z"
     },
     {
@@ -9645,19 +9591,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_72j1",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_vrhl",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9746,19 +9679,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_vebh",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9866,19 +9786,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_8496",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_rb3m",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9954,19 +9861,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_ymdw",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -10126,19 +10020,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_5iiw",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_hyju",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -10214,19 +10095,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_pi3t",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -10396,19 +10264,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_g5hg",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -11644,19 +11499,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-29T04:36:41.851Z"
-    },
-    {
-      "id": "r_1785299801851_zx85",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-29T04:36:41.851Z"
     },
     {
@@ -12979,7 +12821,19 @@
     "2026-08-08|r_1782425348703_9vkn",
     "2026-08-29|r_1782425348703_9vkn",
     "2026-08-28|r_1782425348703_9vkn",
-    "2026-08-25|r_1782425348703_9vkn"
+    "2026-08-25|r_1782425348703_9vkn",
+    "2026-07-29|r_1782425388805_mmgm",
+    "2026-07-31|r_1782425388805_mmgm",
+    "2026-07-30|r_1782425388805_mmgm",
+    "2026-08-01|r_1782425388805_mmgm",
+    "2026-08-04|r_1782425388805_mmgm",
+    "2026-08-03|r_1782425388805_mmgm",
+    "2026-08-02|r_1782425388805_mmgm",
+    "2026-08-08|r_1782425388805_mmgm",
+    "2026-08-29|r_1782425388805_mmgm",
+    "2026-08-28|r_1782425388805_mmgm",
+    "2026-08-25|r_1782425388805_mmgm",
+    "2026-08-12|r_1782425388805_mmgm"
   ],
   "settings": {
     "autoSync": true
