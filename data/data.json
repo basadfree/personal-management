@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:38:28.630Z",
+  "exportedAt": "2026-07-29T04:38:51.257Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11689,9 +11689,9 @@
       "id": "r_1785299906623_kgal",
       "title": "ספר תנאים 102 ע\"מ",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 150,
-      "date": "2026-07-29",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
