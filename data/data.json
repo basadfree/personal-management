@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:39:26.521Z",
+  "exportedAt": "2026-07-29T04:39:48.226Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8450,19 +8450,6 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
-      "id": "r_1782425388805_mmgm",
-      "title": "תנ\"ך",
-      "time": "07:45",
-      "duration": 15,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:48.805Z",
-      "description": "מטרת התנ\"ך."
     },
     {
       "id": "r_1782474961808_oqv9",
