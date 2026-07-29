@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:39:57.927Z",
+  "exportedAt": "2026-07-29T04:41:26.102Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -309,16 +309,14 @@
     },
     {
       "id": "r_1782448199626_eqz2",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-06-26",
+      "title": "נגינה 11 מנגינות + חזרה",
+      "description": "20 דק' למנגינה + חזרות.",
+      "time": "",
+      "duration": 250,
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T04:29:59.626Z"
     },
@@ -9167,11 +9165,11 @@
     },
     {
       "id": "r_1785269875626_q56o",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-07-29",
+      "title": "נגינה 11 מנגינות + חזרה",
+      "description": "20 דק' למנגינה + חזרות.",
+      "time": "",
+      "duration": 250,
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
@@ -9244,19 +9242,6 @@
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
-      "id": "r_1785269876249_h2s0",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
       "id": "r_1785269876249_oza2",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9319,19 +9304,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
-      "id": "r_1785269884345_8om8",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
@@ -9400,19 +9372,6 @@
       "createdAt": "2026-07-28T20:18:05.768Z"
     },
     {
-      "id": "r_1785269885768_fjcn",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:05.768Z"
-    },
-    {
       "id": "r_1785269885769_ae6w",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9478,19 +9437,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_8d8s",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_03e4",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9553,19 +9499,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_l0t8",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9647,19 +9580,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_cv7z",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_s8pw",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9722,19 +9642,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_zrnh",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -9855,19 +9762,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_7st0",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_hc02",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9956,19 +9850,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_u71n",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -10086,19 +9967,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_99w7",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -11335,19 +11203,6 @@
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-29T04:36:41.850Z"
-    },
-    {
-      "id": "r_1785299801851_ttbk",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-29T04:36:41.851Z"
     },
     {
       "id": "r_1785299801851_uy3x",
@@ -12727,7 +12582,8 @@
     "2026-08-03|r_1782425136551_sb8q",
     "2026-08-02|r_1782425136551_sb8q",
     "2026-08-25|r_1782425136551_sb8q",
-    "2026-08-12|r_1782425136551_sb8q"
+    "2026-08-12|r_1782425136551_sb8q",
+    "2026-07-29|r_1782448199626_eqz2"
   ],
   "settings": {
     "autoSync": true
