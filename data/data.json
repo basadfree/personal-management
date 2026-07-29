@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:39:48.226Z",
+  "exportedAt": "2026-07-29T04:39:57.927Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8435,19 +8435,10 @@
       "title": "ארוחת ערב",
       "time": "18:00",
       "duration": 30,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T22:05:36.551Z"
     },
@@ -9214,19 +9205,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_kygy",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_8t9q",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -9396,19 +9374,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269884345_o3d2",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
       "id": "r_1785269884345_i40u",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9565,19 +9530,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_ca4i",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_vrhl",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9653,19 +9605,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_f79f",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -9757,19 +9696,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
-      "id": "r_1785269888633_cs0t",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
@@ -10238,19 +10164,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_lr1j",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -11473,19 +11386,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-07-29T04:36:41.851Z"
-    },
-    {
-      "id": "r_1785299801851_731q",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-07-29T04:36:41.851Z"
     },
     {
@@ -12820,7 +12720,14 @@
     "2026-08-29|r_1782425388805_mmgm",
     "2026-08-28|r_1782425388805_mmgm",
     "2026-08-25|r_1782425388805_mmgm",
-    "2026-08-12|r_1782425388805_mmgm"
+    "2026-08-12|r_1782425388805_mmgm",
+    "2026-07-29|r_1782425136551_sb8q",
+    "2026-07-30|r_1782425136551_sb8q",
+    "2026-08-04|r_1782425136551_sb8q",
+    "2026-08-03|r_1782425136551_sb8q",
+    "2026-08-02|r_1782425136551_sb8q",
+    "2026-08-25|r_1782425136551_sb8q",
+    "2026-08-12|r_1782425136551_sb8q"
   ],
   "settings": {
     "autoSync": true
