@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:43:11.297Z",
+  "exportedAt": "2026-07-29T04:43:19.911Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -177,12 +177,10 @@
       "description": "",
       "time": "10:30",
       "duration": 30,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-25T23:34:10.460Z"
     },
@@ -9121,19 +9119,6 @@
       "createdAt": "2026-07-28T20:17:39.289Z"
     },
     {
-      "id": "r_1785269875626_xter",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_q56o",
       "title": "נגינה 11 מנגינות + חזרה",
       "description": "20 דק' למנגינה + חזרות.",
@@ -9186,19 +9171,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269876249_s50l",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
       "id": "r_1785269876249_eq0p",
       "title": "תכנון",
       "description": "",
@@ -9223,19 +9195,6 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
-      "id": "r_1785269884345_zi4r",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
       "id": "r_1785269884345_akt1",
@@ -9264,19 +9223,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269885768_svo4",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:05.768Z"
-    },
-    {
       "id": "r_1785269885769_rpy3",
       "title": "תכנון",
       "description": "",
@@ -9303,19 +9249,6 @@
       "createdAt": "2026-07-28T20:18:05.769Z"
     },
     {
-      "id": "r_1785269887576_7br9",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_d87b",
       "title": "תכנון",
       "description": "",
@@ -9340,19 +9273,6 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
-      "id": "r_1785269888000_uh0y",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
       "id": "r_1785269888000_3ugp",
@@ -9394,19 +9314,6 @@
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
-      "id": "r_1785269888633_khtv",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_szyj",
       "title": "תכנון",
       "description": "",
@@ -9431,19 +9338,6 @@
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
-      "id": "r_1785269889248_m3sf",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
       "id": "r_1785269889248_ljiw",
@@ -9508,19 +9402,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425635431_87t8",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
-      "id": "r_1785269890513_l6bh",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
@@ -9589,19 +9470,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890801_nc6k",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
       "id": "r_1785269890801_670a",
       "title": "תכנון",
       "description": "",
@@ -9665,19 +9533,6 @@
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T20:18:11.096Z"
-    },
-    {
-      "id": "r_1785269891097_4cv2",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
       "id": "r_1785269891097_qm77",
@@ -10887,19 +10742,6 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T20:20:16.297Z"
-    },
-    {
-      "id": "r_1785299801850_wvbz",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-07-29T04:36:41.850Z"
     },
     {
       "id": "r_1785299801851_hba5",
@@ -12267,7 +12109,19 @@
     "2026-08-29|r_1782897700268_p7ax",
     "2026-08-28|r_1782897700268_p7ax",
     "2026-08-25|r_1782897700268_p7ax",
-    "2026-08-12|r_1782897700268_p7ax"
+    "2026-08-12|r_1782897700268_p7ax",
+    "2026-07-29|r_1782430450460_6zm1",
+    "2026-07-31|r_1782430450460_6zm1",
+    "2026-07-30|r_1782430450460_6zm1",
+    "2026-08-01|r_1782430450460_6zm1",
+    "2026-08-04|r_1782430450460_6zm1",
+    "2026-08-03|r_1782430450460_6zm1",
+    "2026-08-02|r_1782430450460_6zm1",
+    "2026-08-08|r_1782430450460_6zm1",
+    "2026-08-29|r_1782430450460_6zm1",
+    "2026-08-28|r_1782430450460_6zm1",
+    "2026-08-25|r_1782430450460_6zm1",
+    "2026-08-12|r_1782430450460_6zm1"
   ],
   "settings": {
     "autoSync": true
