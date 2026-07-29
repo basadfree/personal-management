@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:36:28.030Z",
+  "exportedAt": "2026-07-29T04:36:36.803Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8442,19 +8442,6 @@
       "createdAt": "2026-07-28T19:15:00.851Z"
     },
     {
-      "id": "r_1785266242398_d5z5",
-      "title": "ספר תנאים - 102 ע\"מ",
-      "description": "",
-      "time": "",
-      "duration": 130,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-28T19:17:22.398Z"
-    },
-    {
       "id": "r_1785266363579_zvqg",
       "title": "תכנון",
       "description": "",
@@ -8489,19 +8476,6 @@
       },
       "sourceId": null,
       "createdAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
-      "id": "r_1782425348703_9vkn",
-      "title": "גמרא",
-      "time": "07:00",
-      "duration": 40,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:08.703Z",
-      "description": "מטרת הגמרא."
     },
     {
       "id": "r_1782425388805_mmgm",
