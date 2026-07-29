@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:36:08.526Z",
+  "exportedAt": "2026-07-29T04:36:23.984Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -380,12 +380,10 @@
       "description": "מטרת התניא והתנאים.",
       "time": "09:00",
       "duration": 40,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T12:02:51.337Z"
     },
@@ -9259,19 +9257,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_vlua",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_hdaa",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9389,19 +9374,6 @@
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
-      "id": "r_1785269876249_2zs2",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
       "id": "r_1785269876249_oza2",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9503,19 +9475,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
-      "id": "r_1785269884345_l1ml",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
@@ -9636,19 +9595,6 @@
       "createdAt": "2026-07-28T20:18:05.768Z"
     },
     {
-      "id": "r_1785269885769_pghd",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T20:18:05.769Z"
-    },
-    {
       "id": "r_1785269885769_ae6w",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -9750,19 +9696,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
-      "id": "r_1785269887576_32l6",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
@@ -9880,19 +9813,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_0gx9",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -10026,19 +9946,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_1srf",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_s8pw",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -10153,19 +10060,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_30pz",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -10325,19 +10219,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_wd10",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_hc02",
       "title": "הרגלים וידידים",
       "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
@@ -10465,19 +10346,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_n1xz",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -10634,19 +10502,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_nt9d",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -13169,7 +13024,18 @@
     "2026-08-08|r_1782442551153_zpl2",
     "2026-08-29|r_1782442551153_zpl2",
     "2026-08-28|r_1782442551153_zpl2",
-    "2026-08-25|r_1782442551153_zpl2"
+    "2026-08-25|r_1782442551153_zpl2",
+    "2026-07-29|r_1782475371337_oek7",
+    "2026-07-31|r_1782475371337_oek7",
+    "2026-07-30|r_1782475371337_oek7",
+    "2026-08-01|r_1782475371337_oek7",
+    "2026-08-04|r_1782475371337_oek7",
+    "2026-08-03|r_1782475371337_oek7",
+    "2026-08-02|r_1782475371337_oek7",
+    "2026-08-08|r_1782475371337_oek7",
+    "2026-08-29|r_1782475371337_oek7",
+    "2026-08-28|r_1782475371337_oek7",
+    "2026-08-25|r_1782475371337_oek7"
   ],
   "settings": {
     "autoSync": true
