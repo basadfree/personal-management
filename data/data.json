@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T09:26:04.635Z",
+  "exportedAt": "2026-07-29T21:11:57.219Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -10849,6 +10849,19 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-29T05:46:19.003Z"
+    },
+    {
+      "id": "r_1785359511023_mhjd",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-07-30",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-07-29T21:11:51.023Z"
     }
   ],
   "suggestions": {
