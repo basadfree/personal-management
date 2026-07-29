@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:35:40.622Z",
+  "exportedAt": "2026-07-29T04:36:01.318Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8528,12 +8528,10 @@
       "description": "",
       "time": "19:15",
       "duration": 75,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:51.153Z"
     },
@@ -9352,19 +9350,6 @@
       "createdAt": "2026-07-28T20:17:55.626Z"
     },
     {
-      "id": "r_1785269875626_9jyj",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T20:17:55.626Z"
-    },
-    {
       "id": "r_1785269875626_8t9q",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
@@ -9492,19 +9477,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
-      "id": "r_1785269876249_cz4t",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
@@ -9638,19 +9610,6 @@
       "createdAt": "2026-07-28T20:18:04.345Z"
     },
     {
-      "id": "r_1785269884345_fwc3",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-07-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T20:18:04.345Z"
-    },
-    {
       "id": "r_1785269884345_i40u",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -9765,19 +9724,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:05.769Z"
-    },
-    {
-      "id": "r_1785269885769_vyay",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:18:05.769Z"
     },
     {
@@ -9911,19 +9857,6 @@
       "createdAt": "2026-07-28T20:18:07.576Z"
     },
     {
-      "id": "r_1785269887576_2o1j",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T20:18:07.576Z"
-    },
-    {
       "id": "r_1785269887576_vrhl",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -10051,19 +9984,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:08.000Z"
-    },
-    {
-      "id": "r_1785269888000_0iz0",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:18:08.000Z"
     },
     {
@@ -10210,19 +10130,6 @@
       "createdAt": "2026-07-28T20:18:08.633Z"
     },
     {
-      "id": "r_1785269888633_ryk9",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T20:18:08.633Z"
-    },
-    {
       "id": "r_1785269888633_rb3m",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -10337,19 +10244,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:09.248Z"
-    },
-    {
-      "id": "r_1785269889248_8wke",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:18:09.248Z"
     },
     {
@@ -10548,19 +10442,6 @@
       "createdAt": "2026-07-28T20:18:10.513Z"
     },
     {
-      "id": "r_1785269890513_17h0",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-07-28T20:18:10.513Z"
-    },
-    {
       "id": "r_1785269890513_hyju",
       "title": "×¤×\"× ",
       "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
@@ -10675,19 +10556,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:10.801Z"
-    },
-    {
-      "id": "r_1785269890801_689y",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:18:10.801Z"
     },
     {
@@ -10896,19 +10764,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-28T20:18:11.097Z"
-    },
-    {
-      "id": "r_1785269891097_5nfl",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T20:18:11.097Z"
     },
     {
@@ -13316,7 +13171,18 @@
   "_removedFromDate": [
     "2026-07-28|r_1782442504473_daqb",
     "2026-07-29|r_1782442504473_daqb",
-    "2026-07-31|r_1782442504473_daqb"
+    "2026-07-31|r_1782442504473_daqb",
+    "2026-07-29|r_1782442551153_zpl2",
+    "2026-07-31|r_1782442551153_zpl2",
+    "2026-07-30|r_1782442551153_zpl2",
+    "2026-08-01|r_1782442551153_zpl2",
+    "2026-08-04|r_1782442551153_zpl2",
+    "2026-08-03|r_1782442551153_zpl2",
+    "2026-08-02|r_1782442551153_zpl2",
+    "2026-08-08|r_1782442551153_zpl2",
+    "2026-08-29|r_1782442551153_zpl2",
+    "2026-08-28|r_1782442551153_zpl2",
+    "2026-08-25|r_1782442551153_zpl2"
   ],
   "settings": {
     "autoSync": true
