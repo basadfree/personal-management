@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T05:45:19.024Z",
+  "exportedAt": "2026-07-29T05:46:21.011Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -10836,6 +10836,19 @@
       },
       "sourceId": null,
       "createdAt": "2026-07-29T05:32:16.675Z"
+    },
+    {
+      "id": "r_1785303979003_t4u5",
+      "title": "התארגנות לעבודה",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-07-29",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-07-29T05:46:19.003Z"
     }
   ],
   "suggestions": {
