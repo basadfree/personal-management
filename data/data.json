@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-29T04:37:33.932Z",
+  "exportedAt": "2026-07-29T04:37:59.640Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -373,19 +373,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T11:58:15.107Z"
-    },
-    {
-      "id": "r_1782475371337_oek7",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T12:02:51.337Z"
     },
     {
       "id": "r_1782475457864_tvpb",
@@ -2211,19 +2198,6 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:13:06.367Z"
-    },
-    {
-      "id": "r_1783595661253_l46a",
-      "title": "=== תניא ותנאים - 15 פעמים.",
-      "description": "",
-      "time": "",
-      "duration": 150,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-09T11:14:21.253Z"
     },
     {
       "id": "r_1783595720379_c4wt",
