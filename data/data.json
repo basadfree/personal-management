@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-31T00:47:37.871Z",
+  "exportedAt": "2026-07-31T00:48:11.765Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -10875,6 +10875,21 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-07-31T00:47:33.862Z"
+    },
+    {
+      "id": "r_1785458889750_e3y6",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-02",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-07-31T00:48:09.750Z"
     }
   ],
   "suggestions": {
