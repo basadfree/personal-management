@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-31T13:12:19.322Z",
+  "exportedAt": "2026-07-31T13:12:30.405Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8962,19 +8962,6 @@
       "createdAt": "2026-07-28T20:17:56.249Z"
     },
     {
-      "id": "r_1785269876249_m3ys",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-07-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-07-28T20:17:56.249Z"
-    },
-    {
       "id": "r_1785269884345_akt1",
       "title": "תכנון",
       "description": "",
@@ -11202,6 +11189,19 @@
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
       "createdAt": "2026-07-31T13:12:17.316Z"
+    },
+    {
+      "id": "r_1785503548405_h8s5",
+      "title": "×¤×\"× ",
+      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-07-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1784439329110_e867",
+      "createdAt": "2026-07-31T13:12:28.405Z"
     }
   ],
   "suggestions": {
