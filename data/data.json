@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-31T15:39:12.463Z",
+  "exportedAt": "2026-08-01T17:48:33.884Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11005,6 +11005,32 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-07-31T15:38:45.895Z"
+    },
+    {
+      "id": "r_1785512369271_hs0w",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-07-31T15:39:29.271Z"
+    },
+    {
+      "id": "r_1785512369271_hrcw",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-06",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-07-31T15:39:29.271Z"
     }
   ],
   "suggestions": {
