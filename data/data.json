@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-03T15:25:06.408Z",
+  "exportedAt": "2026-08-03T15:25:13.405Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3725,7 +3725,7 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-02",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
@@ -3751,7 +3751,7 @@
       "time": "21:30",
       "duration": 15,
       "date": "2026-08-02",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
@@ -3777,7 +3777,7 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-02",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
@@ -10714,7 +10714,7 @@
       "time": "12:10",
       "duration": 30,
       "date": "2026-08-02",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
@@ -11031,6 +11031,32 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-02T04:39:32.636Z"
+    },
+    {
+      "id": "r_1785770712505_ye48",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-03T15:25:12.505Z"
+    },
+    {
+      "id": "r_1785770712505_ltzp",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-03T15:25:12.505Z"
     }
   ],
   "suggestions": {
