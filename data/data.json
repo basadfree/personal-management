@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-03T16:06:34.664Z",
+  "exportedAt": "2026-08-03T16:07:48.941Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11137,6 +11137,58 @@
       },
       "sourceId": null,
       "createdAt": "2026-08-03T16:06:32.650Z"
+    },
+    {
+      "id": "r_1785773199723_y0xs",
+      "title": "גמרא",
+      "description": "20 דקות",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785773192650_unbg",
+      "createdAt": "2026-08-03T16:06:39.723Z"
+    },
+    {
+      "id": "r_1785773203524_ho7t",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-07",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-03T16:06:43.524Z"
+    },
+    {
+      "id": "r_1785773203524_dahf",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-07",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-03T16:06:43.524Z"
+    },
+    {
+      "id": "r_1785773203524_qlou",
+      "title": "גמרא",
+      "description": "20 דקות",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-08-07",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785773192650_unbg",
+      "createdAt": "2026-08-03T16:06:43.524Z"
     }
   ],
   "suggestions": {
