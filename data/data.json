@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-03T15:34:02.213Z",
+  "exportedAt": "2026-08-03T15:34:29.020Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1213,7 +1213,7 @@
       "time": "09:00",
       "duration": 20,
       "date": "2026-08-03",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782481023495_ombr",
@@ -11109,6 +11109,19 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-03T15:25:23.632Z"
+    },
+    {
+      "id": "r_1785771267014_oqpy",
+      "title": "חולצות שבת",
+      "description": "",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-03",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-03T15:34:27.014Z"
     }
   ],
   "suggestions": {
