@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-03T18:37:58.305Z",
+  "exportedAt": "2026-08-03T18:38:17.270Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11189,6 +11189,19 @@
       "recurrence": null,
       "sourceId": "r_1785773192650_unbg",
       "createdAt": "2026-08-03T16:06:43.524Z"
+    },
+    {
+      "id": "r_1785782295260_lxz7",
+      "title": "ידידים - לסכם",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-03T18:38:15.260Z"
     }
   ],
   "suggestions": {
