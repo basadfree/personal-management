@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-03T15:34:47.766Z",
+  "exportedAt": "2026-08-03T16:06:34.664Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11122,6 +11122,21 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-03T15:34:27.014Z"
+    },
+    {
+      "id": "r_1785773192650_unbg",
+      "title": "גמרא",
+      "description": "20 דקות",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-08-04",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-08-03T16:06:32.650Z"
     }
   ],
   "suggestions": {
