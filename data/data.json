@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-04T08:42:32.917Z",
+  "exportedAt": "2026-08-04T08:42:58.328Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11101,8 +11101,8 @@
       "id": "r_1785771267014_oqpy",
       "title": "חולצות שבת",
       "description": "",
-      "time": "09:00",
-      "duration": 30,
+      "time": "13:30",
+      "duration": 10,
       "date": "2026-08-04",
       "completed": false,
       "archived": false,
