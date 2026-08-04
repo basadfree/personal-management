@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-04T08:36:31.584Z",
+  "exportedAt": "2026-08-04T08:37:05.643Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1991,9 +1991,9 @@
       "id": "r_1783341596264_n4c7",
       "title": "הוספת אפשרות לתוצאה פעם בחודשיים. --> להסתפר.",
       "description": "",
-      "time": "",
+      "time": "03:20",
       "duration": 5,
-      "date": "",
+      "date": "2026-08-04",
       "completed": false,
       "archived": false,
       "recurrence": null,
