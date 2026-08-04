@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-04T08:37:20.958Z",
+  "exportedAt": "2026-08-04T08:40:24.644Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8347,19 +8347,6 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-13T12:40:54.400Z"
-    },
-    {
-      "id": "r_1784439329110_e867",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-19T05:35:29.110Z"
     },
     {
       "id": "r_1784555881992_lwvr",
