@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:05:11.069Z",
+  "exportedAt": "2026-08-07T10:05:16.327Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2237,7 +2237,7 @@
     },
     {
       "id": "r_1783595586367_4j3v",
-      "title": "=== פל\"נ - 7 אימונים.",
+      "title": "=== פל\"נ - 10 אימונים.",
       "description": "",
       "time": "",
       "duration": 20,
@@ -2247,7 +2247,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:13:06.367Z",
-      "updatedAt": "2026-07-09T11:13:06.367Z"
+      "updatedAt": "2026-08-07T10:05:15.945Z"
     },
     {
       "id": "r_1783595720379_c4wt",
@@ -14425,8 +14425,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:05:11.069Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:05:16.327Z"
   },
   "settings": {
     "autoSync": true
