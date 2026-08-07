@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:41:03.024Z",
+  "exportedAt": "2026-08-07T09:42:39.026Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2178,20 +2178,6 @@
       "sourceId": null,
       "createdAt": "2026-07-06T13:36:52.708Z",
       "updatedAt": "2026-07-06T13:36:52.708Z"
-    },
-    {
-      "id": "r_1783345057400_nxwc",
-      "title": "איך, ומתי להיות חזן.",
-      "description": "",
-      "time": "",
-      "duration": 20,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-06T13:37:37.400Z",
-      "updatedAt": "2026-07-06T13:37:37.400Z"
     },
     {
       "id": "r_1783345208625_godr",
@@ -14510,12 +14496,13 @@
   "_tombstones": {
     "r_1786085002927_6x7d": "2026-08-07T09:40:17.976Z",
     "r_1786093767742_1j9h": "2026-08-07T09:40:17.976Z",
-    "r_1782938813314_cqqh": "2026-08-07T09:40:45.035Z"
+    "r_1782938813314_cqqh": "2026-08-07T09:40:45.035Z",
+    "r_1783345057400_nxwc": "2026-08-07T09:41:00.945Z"
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:41:03.024Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:42:39.026Z"
   },
   "settings": {
     "autoSync": true
