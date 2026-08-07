@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:03:10.885Z",
+  "exportedAt": "2026-08-07T10:03:17.356Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12838,6 +12838,20 @@
       "sourceId": null,
       "createdAt": "2026-08-07T10:00:40.659Z",
       "updatedAt": "2026-08-07T10:00:40.660Z"
+    },
+    {
+      "id": "r_1786096993506_2fie",
+      "title": "תזכורת סבתא - אבא",
+      "description": "",
+      "time": "12:00",
+      "duration": 3,
+      "date": "2026-08-07",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-07T10:03:13.506Z",
+      "updatedAt": "2026-08-07T10:03:13.507Z"
     }
   ],
   "suggestions": {
@@ -14424,8 +14438,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:03:10.885Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:03:17.356Z"
   },
   "settings": {
     "autoSync": true
