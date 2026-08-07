@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:53:46.378Z",
+  "exportedAt": "2026-08-07T09:53:51.938Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2281,15 +2281,15 @@
       "id": "r_1783596072208_qz1v",
       "title": "=== חד אופן - 30 אימונים.",
       "description": "",
-      "time": "",
+      "time": "09:00",
       "duration": 180,
-      "date": "",
+      "date": "2026-08-08",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:21:12.208Z",
-      "updatedAt": "2026-07-09T11:21:12.208Z"
+      "updatedAt": "2026-08-07T09:53:43.497Z"
     },
     {
       "id": "r_1783642185189_24k8",
@@ -14410,8 +14410,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:53:46.378Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:53:51.938Z"
   },
   "settings": {
     "autoSync": true
