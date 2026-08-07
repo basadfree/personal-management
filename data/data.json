@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:49:40.216Z",
+  "exportedAt": "2026-08-07T09:53:11.779Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11144,20 +11144,6 @@
       "updatedAt": "2026-07-29T04:36:41.851Z"
     },
     {
-      "id": "r_1785299906623_kgal",
-      "title": "ספר תנאים 102 ע\"מ",
-      "description": "",
-      "time": "",
-      "duration": 150,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-29T04:38:26.623Z",
-      "updatedAt": "2026-07-29T04:38:26.623Z"
-    },
-    {
       "id": "r_1785300459066_n36r",
       "title": "פגישה",
       "description": "",
@@ -12154,20 +12140,6 @@
       "updatedAt": "2026-06-26T11:56:01.808Z"
     },
     {
-      "id": "r_1782475371337_oek7",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T12:02:51.337Z",
-      "updatedAt": "2026-06-26T12:02:51.337Z"
-    },
-    {
       "id": "r_1782475457864_tvpb",
       "title": "ספר ידידים 170 ע\"מ",
       "description": "מטרת ההרגלים והידידים.",
@@ -12180,62 +12152,6 @@
       "sourceId": null,
       "createdAt": "2026-06-26T12:04:17.864Z",
       "updatedAt": "2026-06-26T12:04:17.864Z"
-    },
-    {
-      "id": "r_1782897700268_p7ax",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782431181923_8u0g",
-      "createdAt": "2026-07-01T09:21:40.268Z",
-      "updatedAt": "2026-07-01T09:21:40.268Z"
-    },
-    {
-      "id": "r_1783595661253_l46a",
-      "title": "=== תניא ותנאים - 15 פעמים.",
-      "description": "",
-      "time": "",
-      "duration": 150,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-09T11:14:21.253Z",
-      "updatedAt": "2026-07-09T11:14:21.253Z"
-    },
-    {
-      "id": "r_1784439329110_e867",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-07-19T05:35:29.110Z",
-      "updatedAt": "2026-08-07T09:40:27.723Z"
-    },
-    {
-      "id": "r_1784461455636_isn6",
-      "title": "=== 20 ספר",
-      "description": "",
-      "time": "",
-      "duration": 80,
-      "date": "",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-07-19T11:44:15.636Z",
-      "updatedAt": "2026-07-19T11:44:15.636Z"
     },
     {
       "id": "r_1784903796230_42lp",
@@ -14484,12 +14400,18 @@
     "r_1786093767742_1j9h": "2026-08-07T09:40:17.976Z",
     "r_1782938813314_cqqh": "2026-08-07T09:40:45.035Z",
     "r_1783345057400_nxwc": "2026-08-07T09:41:00.945Z",
-    "r_1782448199626_eqz2": "2026-08-07T09:47:37.428Z"
+    "r_1782448199626_eqz2": "2026-08-07T09:47:37.428Z",
+    "r_1785299906623_kgal": "2026-08-07T09:53:08.673Z",
+    "r_1782475371337_oek7": "2026-08-07T09:53:08.673Z",
+    "r_1782897700268_p7ax": "2026-08-07T09:53:08.673Z",
+    "r_1783595661253_l46a": "2026-08-07T09:53:08.673Z",
+    "r_1784439329110_e867": "2026-08-07T09:53:08.673Z",
+    "r_1784461455636_isn6": "2026-08-07T09:53:08.673Z"
   },
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:49:40.216Z"
+    "ts": "2026-08-07T09:53:11.779Z"
   },
   "settings": {
     "autoSync": true
