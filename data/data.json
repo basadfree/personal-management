@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:10:38.850Z",
+  "exportedAt": "2026-08-07T10:10:43.053Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12854,6 +12854,123 @@
       "sourceId": null,
       "createdAt": "2026-08-07T10:07:55.696Z",
       "updatedAt": "2026-08-07T10:09:48.490Z"
+    },
+    {
+      "id": "r_1786097434513_regg",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-07T10:10:34.513Z"
+    },
+    {
+      "id": "r_1786097434513_czxm",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-07T10:10:34.513Z"
+    },
+    {
+      "id": "r_1786097434513_2oap",
+      "title": "גמרא",
+      "description": "20 דקות",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785773192650_unbg",
+      "createdAt": "2026-08-07T10:10:34.513Z"
+    },
+    {
+      "id": "r_1786097434513_xius",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097434514_ti0o",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097434514_w21d",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097434514_bvvb",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097434514_m04h",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097434514_26yf",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-07T10:10:34.514Z"
     }
   ],
   "suggestions": {
@@ -14441,8 +14558,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:10:38.850Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:10:43.053Z"
   },
   "settings": {
     "autoSync": true
