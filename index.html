@@ -3368,7 +3368,7 @@ const PRIVACY_SELECTORS = {
   goals:       ['.goal-card-title', '.goal-card-desc'],
   objectives:  ['.objective-name', '.objective-meta'],
   goalTypes:   ['.type-block-name', '.type-tag .type-tag-name'],
-  goalPeriods: ['.goals-section-header .period-name']
+  goalPeriods: ['.goals-section-header .period-name', '.period-desc']
 };
 
 function applyPrivacy(root) {
@@ -4092,7 +4092,7 @@ function renderPeriodSection(p, goals, typeMap) {
       <span class="arrow">▶</span>
     </div>
     <div class="goals-section-body open">
-      ${p.description ? `<div style="font-size:13px;color:var(--text2);margin-bottom:8px;">${escHtml(p.description)}</div>` : ''}
+      ${p.description ? `<div class="period-desc" style="font-size:13px;color:var(--text2);margin-bottom:8px;">${escHtml(p.description)}</div>` : ''}
       ${p.startDate || p.endDate ? `<div style="font-size:12px;color:var(--text3);margin-bottom:10px;">${p.startDate || '?'} → ${p.endDate || '?'}</div>` : ''}`;
 
   // Render root type blocks with children nested
