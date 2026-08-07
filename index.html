@@ -1989,7 +1989,7 @@ let tombstones = {};          // record id -> ISO timestamp (deleted)
 let lastStamp = null;         // diff baseline for centralized stamping
 let _lastRemovedKeys = new Set();
 let watchTimer = null;
-const WATCH_INTERVAL = 8000;  // real-time remote change detection
+const WATCH_INTERVAL = 4000;  // real-time remote change detection
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 let currentDate = new Date();
