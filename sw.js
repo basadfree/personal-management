@@ -1,4 +1,4 @@
-const CACHE = 'personal-manager-v3';
+const CACHE = 'personal-manager-v4';
 const ASSETS = [
   '/',
   '/index.html',

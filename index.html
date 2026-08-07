@@ -1974,12 +1974,23 @@ let state = {
   goals: [],
   objectives: [],
   settings: {
-    autoSync: false,
+    autoSync: true,
     githubToken: '',
     githubRepo: '',
     githubPath: 'data/data.json',
   }
 };
+
+// ===== SYNC ENGINE GLOBALS =====
+let deviceId = localStorage.getItem('personalManagerDeviceId');
+if (!deviceId) { deviceId = 'dev_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8); localStorage.setItem('personalManagerDeviceId', deviceId); }
+let removedFromDateTs = {};   // 'date|sourceId' -> ISO timestamp (LWW)
+let tombstones = {};          // record id -> ISO timestamp (deleted)
+let lastStamp = null;         // diff baseline for centralized stamping
+let _lastRemovedKeys = new Set();
+let watchTimer = null;
+const WATCH_INTERVAL = 8000;  // real-time remote change detection
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 let currentDate = new Date();
 let weekOffset = 0;
@@ -1995,23 +2006,16 @@ function init() {
   renderWeek();
   renderDay();
   const token = getGithubToken();
-  const hasLocalData = localStorage.getItem(STORAGE_KEY) !== null && state.results.length > 0;
-  if (token && hasLocalData) {
-    setSyncStatus('synced', 'נשמר בענן');
-    fetch(`https://api.github.com/repos/${getGithubRepo()}/contents/${getGithubPath()}?ref=master`, {
-      headers: { 'Authorization': `Bearer ${token}` }
-    }).then(r => r.json()).then(d => {
-      if (d.sha && d.sha !== getSha()) setSha(d.sha);
-    }).catch(() => {});
-  } else if (token && !hasLocalData) {
-    setSyncStatus('syncing', 'מוריד…');
-    pullFromGitHub(false, false).then(() => {
-      renderWeek();
-      renderDay();
-    });
+  if (token) {
+    setSyncStatus('syncing', 'מסנכרן…');
+    setTimeout(async () => {
+      await syncToGitHub(false);
+      refreshLastRemoteCommit();
+    }, 400);
   } else {
     setSyncStatus('', 'מקומי');
   }
+  startRealtimeWatch();
 }
 
 // ===== STATE PERSISTENCE =====
@@ -2027,14 +2031,83 @@ function loadState() {
       state.goals = data.goals || [];
       state.objectives = data.objectives || [];
       if (data.settings) Object.assign(state.settings, data.settings);
+      if (data._tombstones) tombstones = Object.assign({}, data._tombstones);
+      if (data._removedFromDateTs) removedFromDateTs = Object.assign({}, data._removedFromDateTs);
       if (data._removedFromDate) removedFromDate = new Set(data._removedFromDate);
+      removedFromDate = new Set(Object.keys(removedFromDateTs));
+      if (data.settings && data.settings.autoSync === undefined) state.settings.autoSync = true;
+      backfillTimestamps();
+    } else {
+      state.settings.autoSync = state.settings.autoSync !== false;
     }
   } catch(e) { console.warn('Error loading state:', e); }
+  resetStampBaseline();
+}
+
+function backfillTimestamps() {
+  const now = new Date().toISOString();
+  ['results','goalPeriods','goalTypes','goals','objectives'].forEach(col => {
+    state[col].forEach(rec => {
+      if (!rec.updatedAt) rec.updatedAt = rec.createdAt || now;
+    });
+  });
+}
+
+function buildBaseline() {
+  const map = (arr) => new Map(arr.map(x => [x.id, JSON.stringify(x)]));
+  return {
+    results: map(state.results),
+    goalPeriods: map(state.goalPeriods),
+    goalTypes: map(state.goalTypes),
+    goals: map(state.goals),
+    objectives: map(state.objectives)
+  };
+}
+
+function resetStampBaseline() {
+  lastStamp = buildBaseline();
+  _lastRemovedKeys = new Set(removedFromDate);
+}
+
+function stampChanged() {
+  const now = new Date().toISOString();
+  const cur = buildBaseline();
+  const cols = ['results','goalPeriods','goalTypes','goals','objectives'];
+  if (lastStamp) {
+    cols.forEach(col => {
+      cur[col].forEach((ser, id) => {
+        const rec = state[col].find(x => x.id === id);
+        if (!rec) return;
+        const prev = lastStamp[col].get(id);
+        if (prev === undefined) {
+          if (!rec.updatedAt) rec.updatedAt = now;         // new record
+        } else if (prev !== ser) {
+          rec.updatedAt = now;                              // edited record
+        }
+      });
+      // deletions -> tombstones (so cloud won't resurrect them)
+      lastStamp[col].forEach((ser, id) => {
+        if (!cur[col].has(id) && !tombstones[id]) tombstones[id] = now;
+      });
+    });
+    // removedFromDate deletions
+    removedFromDate.forEach(key => {
+      if (!_lastRemovedKeys.has(key) && !removedFromDateTs[key]) removedFromDateTs[key] = now;
+    });
+  }
+  lastStamp = cur;
+  _lastRemovedKeys = new Set(removedFromDate);
 }
 
 function saveState() {
+  stampChanged();
   try {
-    const toSave = { ...state, _removedFromDate: Array.from(removedFromDate) };
+    const toSave = {
+      ...state,
+      _tombstones: tombstones,
+      _removedFromDateTs: removedFromDateTs,
+      _removedFromDate: Object.keys(removedFromDateTs)
+    };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
   } catch(e) { console.error('Error saving state:', e); }
   debouncedSync();
@@ -2085,7 +2158,7 @@ function setSha(sha) {
 
 function buildBackupJson() {
   return JSON.stringify({
-    version: 1,
+    version: 2,
     exportedAt: new Date().toISOString(),
     results: state.results,
     suggestions: state.suggestions,
@@ -2093,7 +2166,10 @@ function buildBackupJson() {
     goalTypes: state.goalTypes,
     goals: state.goals,
     objectives: state.objectives,
-    _removedFromDate: Array.from(removedFromDate),
+    _removedFromDate: Object.keys(removedFromDateTs),
+    _removedFromDateTs: removedFromDateTs,
+    _tombstones: tombstones,
+    _sync: { format: 2, deviceId, ts: new Date().toISOString() },
     settings: {
       autoSync: state.settings.autoSync
     }
@@ -2118,50 +2194,187 @@ async function syncToGitHub(showToast = true) {
     setSyncStatus('', 'מקומי');
     return false;
   }
-  setSyncStatus('syncing', 'שומר…');
-  if (showToast) toast('☁️ שומר לענן...', 'info');
+  setSyncStatus('syncing', 'מסנכרן…');
+  if (showToast) toast('☁️ מסנכרן עם הענן...', 'info');
   isSyncing = true;
 
-  const content = btoa(unescape(encodeURIComponent(buildBackupJson())));
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
-  const headers = { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' };
+  const headers = { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' };
 
-  async function fetchSha() {
-    const r = await fetch(baseUrl + '?ref=master&_=' + Date.now(), { method: 'GET', headers, cache: 'no-store' });
-    if (r.ok) { const d = await r.json(); return d.sha; }
-    return null;
-  }
+  try {
+    for (let attempt = 0; attempt < 4; attempt++) {
+      // 1) READ remote state
+      const getRes = await fetch(baseUrl + '?ref=master&_=' + Date.now(), { method: 'GET', headers, cache: 'no-store' });
+      let remoteSha = null;
+      if (getRes.ok) {
+        const d = await getRes.json();
+        remoteSha = d.sha || null;
+        if (d.content) {
+          try {
+            const remoteJson = JSON.parse(decodeURIComponent(escape(atob(d.content))));
+            mergeIntoLocal(remoteJson);
+          } catch (e) { console.warn('sync: could not parse remote', e); }
+        }
+      } else if (getRes.status === 404) {
+        remoteSha = '';
+      }
+      if (remoteSha) setSha(remoteSha);
+      else setSha('');
 
-  for (let attempt = 0; attempt < 3; attempt++) {
-    try {
-      const sha = await fetchSha();
-      const body = { message: 'גיבוי אוטומטי ' + new Date().toLocaleString('he-IL'), content, branch: 'master' };
-      if (sha) body.sha = sha;
-      const res = await fetch(baseUrl, { method: 'PUT', headers, body: JSON.stringify(body) });
-      const data = await res.json();
+      // 2) PUSH merged state (write-back, LWW-safe)
+      const body = {
+        message: 'סנכרון דו-כיווני ' + new Date().toLocaleString('he-IL'),
+        content: btoa(unescape(encodeURIComponent(buildBackupJson()))),
+        branch: 'master'
+      };
+      if (remoteSha) body.sha = remoteSha;
+      const putRes = await fetch(baseUrl, { method: 'PUT', headers, body: JSON.stringify(body) });
+      const putData = await putRes.json();
 
-      if (res.ok) {
-        if (data.content?.sha) setSha(data.content.sha);
-        if (showToast) toast('✅ הנתונים סונכרנו לענן!', 'success');
+      if (putRes.ok) {
+        if (putData.content?.sha) setSha(putData.content.sha);
+        resetStampBaseline();
+        afterMergeRender();
+        refreshLastRemoteCommit();
+        if (showToast) toast('✅ הנתונים סונכרנו!', 'success');
         document.getElementById('syncStatus').textContent = 'מסונכרן: ' + new Date().toLocaleString('he-IL');
         setSyncStatus('synced', 'נשמר בענן'); isSyncing = false; return true;
       }
 
-      console.error('sync: GitHub API error', res.status, data);
-      if (res.status === 409 && attempt < 2) { await new Promise(r => setTimeout(r, 300)); continue; }
+      // conflict -> re-read & re-merge on next attempt
+      if (putRes.status === 409 && attempt < 3) { await sleep(400); continue; }
 
-      if (res.status === 403 && data.message?.includes('rate limit')) toast('❌ חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
-      else if (res.status === 401) toast('❌ טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
-      else if (res.status === 404) toast('❌ הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
-      else toast(`❌ שגיאת סנכרון (${res.status}): ${data.message || 'לא ידוע'}`, 'error');
-      setSyncStatus('error', 'שגיאה'); setSha(''); isSyncing = false; return false;
-    } catch (e) {
-      console.error('sync: fetch exception', e);
-      if (attempt < 2) { await new Promise(r => setTimeout(r, 300)); continue; }
-      toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
-      setSyncStatus('error', 'שגיאה'); setSha(''); isSyncing = false; return false;
+      if (putRes.status === 403 && putData.message?.includes('rate limit')) toast('❌ חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
+      else if (putRes.status === 401) toast('❌ טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
+      else if (putRes.status === 404) toast('❌ הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
+      else toast(`❌ שגיאת סנכרון (${putRes.status}): ${putData.message || 'לא ידוע'}`, 'error');
+      setSyncStatus('error', 'שגיאה'); isSyncing = false; return false;
+    }
+    setSyncStatus('error', 'שגיאה'); isSyncing = false;
+    if (showToast) toast('❌ לא הצלחנו לסנכרן לאחר מספר ניסיונות', 'error');
+    return false;
+  } catch (e) {
+    console.error('sync: fetch exception', e);
+    setSyncStatus('error', 'שגיאה');
+    if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
+    isSyncing = false;
+    return false;
+  }
+}
+
+function mergeIntoLocal(cloud) {
+  if (!cloud || (!cloud.results && !cloud.goals && !cloud.suggestions)) return;
+  const now = new Date().toISOString();
+  const cloudToms = cloud._tombstones || {};
+  const recTs = (rec) => rec && (rec.updatedAt || rec.createdAt || '');
+
+  // Merge tombstones: keep the newer deletion per id
+  Object.keys(cloudToms).forEach(id => {
+    const cts = cloudToms[id];
+    if (!tombstones[id] || cts > tombstones[id]) tombstones[id] = cts;
+  });
+
+  const cols = ['results','goalPeriods','goalTypes','goals','objectives'];
+  cols.forEach(col => {
+    const cloudArr = cloud[col];
+    if (!Array.isArray(cloudArr)) return;
+    const localArr = state[col];
+    const localMap = new Map(localArr.map(x => [x.id, x]));
+    const cloudMap = new Map(cloudArr.map(x => [x.id, x]));
+    const merged = [];
+    const allIds = new Set([...localMap.keys(), ...cloudMap.keys()]);
+    allIds.forEach(id => {
+      const l = localMap.get(id), c = cloudMap.get(id);
+      const chosen = !l ? c : (!c ? l : ((recTs(l) || '0') >= (recTs(c) || '0') ? l : c));
+      const chosenTs = recTs(chosen);
+      const tombTs = tombstones[id] || cloudToms[id] || '';
+      if (tombTs && tombTs > chosenTs) return; // deleted (newer than the record)
+      if (tombstones[id] && chosenTs >= tombstones[id]) delete tombstones[id]; // resurrected
+      merged.push(chosen);
+    });
+    state[col] = merged;
+  });
+
+  // Suggestions: LWW per date->id
+  if (cloud.suggestions) {
+    for (const date in cloud.suggestions) {
+      if (!state.suggestions[date]) state.suggestions[date] = {};
+      for (const id in cloud.suggestions[date]) {
+        const c = cloud.suggestions[date][id];
+        const cts = recTs(c);
+        const l = state.suggestions[date][id];
+        const lts = recTs(l);
+        if (!l || (cts && cts >= lts)) state.suggestions[date][id] = c;
+      }
     }
   }
+
+  // removedFromDate: newer wins
+  if (cloud._removedFromDateTs) {
+    for (const k in cloud._removedFromDateTs) {
+      if (!removedFromDateTs[k] || cloud._removedFromDateTs[k] > removedFromDateTs[k]) {
+        removedFromDateTs[k] = cloud._removedFromDateTs[k];
+      }
+    }
+    removedFromDate = new Set(Object.keys(removedFromDateTs));
+  } else if (cloud._removedFromDate && Array.isArray(cloud._removedFromDate)) {
+    cloud._removedFromDate.forEach(k => {
+      if (!removedFromDateTs[k]) removedFromDateTs[k] = now;
+    });
+    removedFromDate = new Set(Object.keys(removedFromDateTs));
+  }
+  state.suggestions = state.suggestions || {};
+}
+
+function afterMergeRender() {
+  renderWeek();
+  renderDay();
+  renderUnscheduledTasks();
+  renderGoalsView();
+}
+
+async function refreshLastRemoteCommit() {
+  const token = getGithubToken();
+  const repo = getGithubRepo();
+  const path = getGithubPath();
+  if (!token || !repo) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}/commits?path=${path}&per_page=1`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' },
+      cache: 'no-store'
+    });
+    if (!r.ok) return;
+    const arr = await r.json();
+    if (arr && arr[0] && arr[0].sha) localStorage.setItem('personalManagerLastRemoteCommit', arr[0].sha);
+  } catch (e) {}
+}
+
+async function checkRemoteChanged() {
+  if (isSyncing || document.hidden) return;
+  const token = getGithubToken();
+  const repo = getGithubRepo();
+  const path = getGithubPath();
+  if (!token || !repo) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}/commits?path=${path}&per_page=1`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' },
+      cache: 'no-store'
+    });
+    if (!r.ok) return;
+    const arr = await r.json();
+    const latest = (arr && arr[0] && arr[0].sha) || '';
+    const known = localStorage.getItem('personalManagerLastRemoteCommit') || '';
+    if (!known) { localStorage.setItem('personalManagerLastRemoteCommit', latest); return; }
+    if (latest && latest !== known) {
+      localStorage.setItem('personalManagerLastRemoteCommit', latest);
+      await syncToGitHub(false);
+    }
+  } catch (e) {}
+}
+
+function startRealtimeWatch() {
+  clearInterval(watchTimer);
+  watchTimer = setInterval(checkRemoteChanged, WATCH_INTERVAL);
 }
 
 function debouncedSync() {
@@ -2224,7 +2437,8 @@ async function pullFromGitHub(showToast = true, replaceLocal) {
       if (showToast) toast('❌ פורמט לא תקין בענן', 'error');
       return false;
     }
-    mergeCloudData(decoded, replaceLocal);
+    mergeIntoLocal(decoded);
+    resetStampBaseline();
     saveState();
     renderWeek();
     renderDay();
@@ -4054,11 +4268,12 @@ if ('serviceWorker' in navigator) {
 // ===== INIT ON LOAD =====
 init();
 
-// Re-sync when coming back online
-window.addEventListener('online', () => {
-  const token = getGithubToken();
-  const sha = getSha();
-  if (token && sha) { setSyncStatus('syncing', 'שומר…'); syncToGitHub(false); }
+// Re-sync when coming back online / to foreground / tab becomes visible
+window.addEventListener('online', () => { checkRemoteChanged(); });
+window.addEventListener('focus', () => { if (!document.hidden) { startRealtimeWatch(); checkRemoteChanged(); } });
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { clearInterval(watchTimer); }
+  else { startRealtimeWatch(); checkRemoteChanged(); }
 });
 </script>
 </body>
