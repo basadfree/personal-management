@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:58:20.130Z",
+  "exportedAt": "2026-08-07T14:58:27.366Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -15278,7 +15278,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:58:20.130Z"
+    "ts": "2026-08-07T14:58:27.366Z"
   },
   "settings": {
     "autoSync": true
