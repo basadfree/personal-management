@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T16:04:48.267Z",
+  "exportedAt": "2026-08-07T16:05:22.811Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2228,12 +2228,12 @@
       "time": "16:00",
       "duration": 300,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:12:22.643Z",
-      "updatedAt": "2026-08-07T09:46:48.063Z"
+      "updatedAt": "2026-08-07T16:05:22.555Z"
     },
     {
       "id": "r_1783595586367_4j3v",
@@ -12744,14 +12744,14 @@
       "time": "17:00",
       "duration": 60,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": {
         "type": "daily"
       },
       "sourceId": null,
       "createdAt": "2026-08-07T10:07:55.696Z",
-      "updatedAt": "2026-08-07T10:09:48.490Z"
+      "updatedAt": "2026-08-07T16:05:22.555Z"
     },
     {
       "id": "r_1786097434513_regg",
@@ -13677,6 +13677,19 @@
       "sourceId": "r_1783595542643_zs64",
       "createdAt": "2026-08-07T16:04:43.863Z",
       "updatedAt": "2026-08-07T16:04:43.864Z"
+    },
+    {
+      "id": "r_1786118690387_97a3",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-07T16:04:50.387Z"
     }
   ],
   "suggestions": {
@@ -15306,7 +15319,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T16:04:48.267Z"
+    "ts": "2026-08-07T16:05:22.811Z"
   },
   "settings": {
     "autoSync": true
