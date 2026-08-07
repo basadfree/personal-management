@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:45:42.974Z",
+  "exportedAt": "2026-08-07T09:45:48.371Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2197,7 +2197,7 @@
       "id": "r_1783353245107_l2oz",
       "title": "ישיב\"ג, הכנה.",
       "description": "",
-      "time": "",
+      "time": "15:30",
       "duration": 30,
       "date": "2026-08-07",
       "completed": false,
@@ -2205,7 +2205,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T15:54:05.107Z",
-      "updatedAt": "2026-08-07T09:43:07.313Z"
+      "updatedAt": "2026-08-07T09:45:38.056Z"
     },
     {
       "id": "r_1783442750505_imbp",
@@ -14501,8 +14501,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:45:42.974Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:45:48.371Z"
   },
   "settings": {
     "autoSync": true
