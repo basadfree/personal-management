@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:03:50.749Z",
+  "exportedAt": "2026-08-07T10:04:00.478Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -9549,7 +9549,7 @@
     },
     {
       "id": "r_1785269875626_q56o",
-      "title": "נגינה 11 מנגינות + חזרה",
+      "title": "=== נגינה 11 מנגינות + חזרה",
       "description": "20 דק' למנגינה + חזרות.",
       "time": "",
       "duration": 250,
@@ -9559,7 +9559,7 @@
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T20:17:55.626Z",
-      "updatedAt": "2026-07-28T20:17:55.626Z"
+      "updatedAt": "2026-08-07T10:03:58.363Z"
     },
     {
       "id": "r_1785269875626_hdaa",
@@ -14438,8 +14438,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:03:50.749Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:04:00.478Z"
   },
   "settings": {
     "autoSync": true
