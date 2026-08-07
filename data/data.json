@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T16:20:21.725Z",
+  "exportedAt": "2026-08-07T16:20:36.764Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3908,12 +3908,12 @@
       "time": "16:40",
       "duration": 50,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
       "createdAt": "2026-07-28T17:38:39.958Z",
-      "updatedAt": "2026-08-07T16:19:52.113Z"
+      "updatedAt": "2026-08-07T16:20:32.846Z"
     },
     {
       "id": "r_1785260319958_pmx1",
@@ -13702,6 +13702,188 @@
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T16:04:50.387Z",
       "updatedAt": "2026-08-07T16:04:50.387Z"
+    },
+    {
+      "id": "r_1786119636486_wut2",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_a14q",
+      "title": "מקלחת לכבוד שבת",
+      "description": "כולל ציפורניים.",
+      "time": "16:20",
+      "duration": 20,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431119274_jv12",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_8ero",
+      "title": "משתמש החוזר של אבא.",
+      "description": "להוסיף 50 ש\"ח על המשתמש של אבא או לבקש מאבא שאעשה לו מנוי.",
+      "time": "16:30",
+      "duration": 10,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782432056813_wx33",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_ueir",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "06:50",
+      "duration": 10,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782447269820_2z90",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_qr84",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_qf46",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_w4xa",
+      "title": "תכנון",
+      "description": "",
+      "time": "07:00",
+      "duration": 15,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785266363579_zvqg",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_2eao",
+      "title": "פגישה",
+      "description": "",
+      "time": "01:00",
+      "duration": 15,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785300459066_n36r",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_3y1k",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_uj0h",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_6p7v",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_x723",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_8b8z",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786119636486_zdub",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-14",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-07T16:20:36.486Z"
     }
   ],
   "suggestions": {
@@ -15331,7 +15513,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T16:20:21.725Z"
+    "ts": "2026-08-07T16:20:36.764Z"
   },
   "settings": {
     "autoSync": true
