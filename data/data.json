@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:58:02.866Z",
+  "exportedAt": "2026-08-07T09:58:12.372Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8793,15 +8793,15 @@
       "id": "r_1785266100851_jlkk",
       "title": "תניא 42 פרקים",
       "description": "10 דקות לפרק + 30 דקות.",
-      "time": "",
+      "time": "07:20",
       "duration": 450,
-      "date": "",
+      "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T19:15:00.851Z",
-      "updatedAt": "2026-07-28T19:15:00.851Z"
+      "updatedAt": "2026-08-07T09:58:01.663Z"
     },
     {
       "id": "r_1785266363579_zvqg",
@@ -14410,8 +14410,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:58:02.866Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:58:12.372Z"
   },
   "settings": {
     "autoSync": true
