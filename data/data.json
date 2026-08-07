@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:47:39.199Z",
+  "exportedAt": "2026-08-07T14:47:43.547Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -1563,7 +1563,7 @@
       "recurrence": null,
       "sourceId": "r_1782426191371_mn4b",
       "createdAt": "2026-07-01T10:03:06.449Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1782900202279_cbv5",
@@ -5478,12 +5478,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-07-28T18:37:15.413Z",
-      "updatedAt": "2026-07-28T18:37:15.413Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1785263835413_auo8",
@@ -11320,12 +11320,12 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-08-05",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-07-29T05:31:47.276Z",
-      "updatedAt": "2026-07-29T05:31:47.276Z"
+      "updatedAt": "2026-08-07T14:47:43.466Z"
     },
     {
       "id": "r_1785303107276_ste2",
@@ -13412,7 +13412,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_mowe",
@@ -13426,7 +13426,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_9fmf",
@@ -13440,7 +13440,7 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_5uxw",
@@ -13454,7 +13454,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_g5i5",
@@ -13468,7 +13468,7 @@
       "recurrence": null,
       "sourceId": "r_1785773192650_unbg",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_c890",
@@ -13482,7 +13482,7 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_he86",
@@ -13496,7 +13496,7 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_wdd8",
@@ -13510,7 +13510,7 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_u3y8",
@@ -13524,7 +13524,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_ykqr",
@@ -13538,7 +13538,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_q8eu",
@@ -13552,7 +13552,7 @@
       "recurrence": null,
       "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114010339_b0ad",
@@ -13566,7 +13566,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_cmkc",
@@ -13580,7 +13580,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_ekza",
@@ -13594,7 +13594,7 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_zel7",
@@ -13608,7 +13608,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_dlqo",
@@ -13622,7 +13622,7 @@
       "recurrence": null,
       "sourceId": "r_1785773192650_unbg",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_17lt",
@@ -13636,7 +13636,7 @@
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_jb3j",
@@ -13650,7 +13650,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_j61o",
@@ -13664,7 +13664,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114033659_xone",
@@ -13678,7 +13678,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
     },
     {
       "id": "r_1786114054771_mb3f",
@@ -13692,7 +13692,87 @@
       "recurrence": null,
       "sourceId": "r_1782426191371_mn4b",
       "createdAt": "2026-08-07T14:47:34.771Z",
-      "updatedAt": "2026-08-07T14:47:35.987Z"
+      "updatedAt": "2026-08-07T14:47:39.531Z"
+    },
+    {
+      "id": "r_1786114060915_piyp",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-08-07T14:47:40.915Z"
+    },
+    {
+      "id": "r_1786114060915_4uy5",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-08-05",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-08-07T14:47:40.915Z",
+      "updatedAt": "2026-08-07T14:47:43.466Z"
+    },
+    {
+      "id": "r_1786114060915_tg8z",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-07T14:47:40.915Z"
+    },
+    {
+      "id": "r_1786114060915_sio6",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-05",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-07T14:47:40.915Z",
+      "updatedAt": "2026-08-07T14:47:43.466Z"
+    },
+    {
+      "id": "r_1786114060915_pbu4",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-07T14:47:40.915Z"
+    },
+    {
+      "id": "r_1786114060915_09y2",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-08-05",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782474961808_oqv9",
+      "createdAt": "2026-08-07T14:47:40.915Z"
     }
   ],
   "suggestions": {
@@ -15281,7 +15361,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:47:39.199Z"
+    "ts": "2026-08-07T14:47:43.547Z"
   },
   "settings": {
     "autoSync": true
