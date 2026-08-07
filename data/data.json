@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:44:45.140Z",
+  "exportedAt": "2026-08-07T14:44:51.927Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -5492,12 +5492,12 @@
       "time": "13:50",
       "duration": 60,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-28T18:37:15.413Z",
-      "updatedAt": "2026-07-28T18:37:15.413Z"
+      "updatedAt": "2026-08-07T14:44:50.842Z"
     },
     {
       "id": "r_1785263835413_nbsl",
@@ -5520,12 +5520,12 @@
       "time": "13:50",
       "duration": 30,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:37:15.413Z",
-      "updatedAt": "2026-07-28T18:37:15.413Z"
+      "updatedAt": "2026-08-07T14:44:50.842Z"
     },
     {
       "id": "r_1785263835413_x2mr",
@@ -11898,12 +11898,12 @@
       "time": "13:30",
       "duration": 10,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-03T15:34:27.014Z",
-      "updatedAt": "2026-08-03T15:34:27.014Z"
+      "updatedAt": "2026-08-07T14:44:45.970Z"
     },
     {
       "id": "r_1785773192650_unbg",
@@ -13095,7 +13095,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T14:44:40.667Z",
-      "updatedAt": "2026-08-07T14:44:45.002Z"
+      "updatedAt": "2026-08-07T14:44:45.970Z"
     },
     {
       "id": "r_1786113883643_ryh2",
@@ -13109,7 +13109,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T14:44:43.643Z",
-      "updatedAt": "2026-08-07T14:44:45.002Z"
+      "updatedAt": "2026-08-07T14:44:45.970Z"
     }
   ],
   "suggestions": {
@@ -14698,7 +14698,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:44:45.140Z"
+    "ts": "2026-08-07T14:44:51.927Z"
   },
   "settings": {
     "autoSync": true
