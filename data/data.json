@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:51:29.788Z",
+  "exportedAt": "2026-08-07T10:52:55.989Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12984,6 +12984,20 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T10:11:24.882Z"
+    },
+    {
+      "id": "r_1786099971742_g0d0",
+      "title": "קניות",
+      "description": "כולל מחבת וכולל כירה.",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-07T10:52:51.742Z",
+      "updatedAt": "2026-08-07T10:52:51.743Z"
     }
   ],
   "suggestions": {
@@ -14572,7 +14586,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T10:51:29.788Z"
+    "ts": "2026-08-07T10:52:55.989Z"
   },
   "settings": {
     "autoSync": true
