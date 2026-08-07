@@ -1567,7 +1567,15 @@ body {
 @media (max-width: 560px) {
   .app { padding: 12px 10px 100px; }
   .header { padding: 10px 14px; }
-  .header-title { font-size: 16px; }
+  .header-logo { flex-shrink: 1; min-width: 0; }
+  .header-title { font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .header-icon { width: 28px; height: 28px; }
+  .header-actions { gap: 6px; flex-shrink: 0; }
+  .search-input { width: 96px !important; padding: 5px 8px; font-size: 12px; }
+  .search-input:focus { width: 120px !important; }
+  .header-actions .btn-icon { width: 32px; height: 32px; font-size: 15px; }
+  .sync-status { gap: 4px; }
+  .sync-status #syncStatusText { font-size: 11px; white-space: nowrap; }
   .week-day { min-width: 40px; padding: 4px 6px; }
   .week-day .day-num { font-size: 14px; }
   .form-row { flex-direction: column; }
@@ -1578,6 +1586,15 @@ body {
   .task-time-main { font-size: 15px; }
   .suggestion-actions { flex-wrap: wrap; }
   .modal { padding: 16px; width: 95%; }
+}
+@media (max-width: 400px) {
+  .header { padding: 8px 10px; gap: 6px; flex-wrap: nowrap; }
+  .header-icon { width: 24px; height: 24px; }
+  .header-title { font-size: 14px; }
+  .search-input { width: 72px !important; }
+  .search-input:focus { width: 100px !important; }
+  .sync-status #syncStatusText { display: none; }
+  .header-actions .btn-icon { width: 30px; height: 30px; }
 }
 </style>
 </head>
