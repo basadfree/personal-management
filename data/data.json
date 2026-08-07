@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:44:19.188Z",
+  "exportedAt": "2026-08-07T09:44:24.744Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3907,15 +3907,15 @@
       "id": "r_1785260319958_ipbo",
       "title": "מקלחת לכבוד שבת",
       "description": "כולל ציפורניים.",
-      "time": "16:20",
-      "duration": 20,
+      "time": "15:00",
+      "duration": 30,
       "date": "2026-08-07",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431119274_jv12",
       "createdAt": "2026-07-28T17:38:39.958Z",
-      "updatedAt": "2026-07-28T17:38:39.958Z"
+      "updatedAt": "2026-08-07T09:44:11.719Z"
     },
     {
       "id": "r_1785260319958_0b4b",
@@ -14501,8 +14501,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:44:19.188Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:44:24.744Z"
   },
   "settings": {
     "autoSync": true
