@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:58:19.115Z",
+  "exportedAt": "2026-08-07T09:58:25.415Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12465,15 +12465,15 @@
       "id": "r_1785266242398_d5z5",
       "title": "ספר תנאים - 102 ע\"מ",
       "description": "",
-      "time": "",
+      "time": "09:00",
       "duration": 130,
-      "date": "",
+      "date": "2026-08-17",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T19:17:22.398Z",
-      "updatedAt": "2026-07-28T19:17:22.398Z"
+      "updatedAt": "2026-08-07T09:58:23.157Z"
     },
     {
       "id": "r_1786085002926_iyhu",
@@ -14410,8 +14410,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:58:19.115Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:58:25.415Z"
   },
   "settings": {
     "autoSync": true
