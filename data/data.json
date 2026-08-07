@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:46:08.504Z",
+  "exportedAt": "2026-08-07T14:46:18.416Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2172,12 +2172,12 @@
       "time": "15:30",
       "duration": 20,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T13:40:08.625Z",
-      "updatedAt": "2026-07-06T13:40:08.625Z"
+      "updatedAt": "2026-08-07T14:46:15.290Z"
     },
     {
       "id": "r_1783353245107_l2oz",
@@ -13371,6 +13371,20 @@
       "sourceId": "r_1783341596264_n4c7",
       "createdAt": "2026-08-07T14:46:03.866Z",
       "updatedAt": "2026-08-07T14:46:05.386Z"
+    },
+    {
+      "id": "r_1786113973922_asve",
+      "title": "העברת סיכום הרגש למסמך",
+      "description": "",
+      "time": "09:00",
+      "duration": 20,
+      "date": "2026-08-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783345208625_godr",
+      "createdAt": "2026-08-07T14:46:13.922Z",
+      "updatedAt": "2026-08-07T14:46:15.290Z"
     }
   ],
   "suggestions": {
@@ -14959,7 +14973,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:46:08.504Z"
+    "ts": "2026-08-07T14:46:18.416Z"
   },
   "settings": {
     "autoSync": true
