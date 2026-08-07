@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T08:18:58.149Z",
+  "exportedAt": "2026-08-07T08:49:09.794Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14258,8 +14258,8 @@
   "_tombstones": {},
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T08:18:58.149Z"
+    "deviceId": "dev_msikj3bh_qa4id3",
+    "ts": "2026-08-07T08:49:09.794Z"
   },
   "settings": {
     "autoSync": true
