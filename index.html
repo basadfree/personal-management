@@ -1575,7 +1575,7 @@ body {
     </div>
     <div class="header-actions">
       <div class="search-box" id="searchBox">
-        <input type="text" class="search-input" id="searchInput" placeholder="🔍 חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()">
+        <input type="text" class="search-input" id="searchInput" placeholder="🔍 חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()" autocomplete="off">
         <div class="search-results" id="searchResults"></div>
       </div>
       <div class="sync-status" id="syncStatusIndicator" title="לחץ לסנכרון ידני" onclick="syncToGitHub(true)" style="cursor:pointer;">
@@ -1617,13 +1617,13 @@ body {
     <div class="form-row">
       <div class="form-group" style="flex:2">
         <label>כותרת התוצאה</label>
-        <input type="text" id="taskTitle" placeholder="למשל: התעמלות, קריאה, פרויקט..." maxlength="200">
+        <input type="text" id="taskTitle" placeholder="למשל: התעמלות, קריאה, פרויקט..." maxlength="200" autocomplete="off">
       </div>
     </div>
     <div class="form-row">
       <div class="form-group" style="flex:3">
         <label>תיאור (אופציונלי)</label>
-        <textarea id="taskDescription" placeholder="פרטים נוספים על התוצאה..." rows="2"></textarea>
+        <textarea id="taskDescription" placeholder="פרטים נוספים על התוצאה..." rows="2" autocomplete="off"></textarea>
       </div>
     </div>
     <div class="form-row">
@@ -1745,14 +1745,14 @@ body {
         <h3>☁️ סנכרון גיטאב</h3>
         <div class="settings-row" style="flex-direction:column;align-items:stretch;gap:8px;">
           <div style="display:flex;align-items:center;gap:8px;">
-            <input type="password" id="githubToken" placeholder="טוקן גיטאב (ghp_...)" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:14px;direction:ltr;text-align:left;" onchange="setGithubToken(this.value)">
+            <input type="password" id="githubToken" placeholder="טוקן גיטאב (ghp_...)" autocomplete="new-password" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:14px;direction:ltr;text-align:left;" onchange="setGithubToken(this.value)">
             <button class="btn btn-sm btn-outline" onclick="const i=document.getElementById('githubToken');i.type=i.type==='password'?'text':'password'" style="font-size:16px;">👁️</button>
           </div>
           <div style="display:flex;align-items:center;gap:8px;">
-            <input type="text" id="githubRepo" placeholder="בעל-אתר/שם-המאגר" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:13px;direction:ltr;text-align:left;" onchange="setGithubRepo(this.value)">
+            <input type="text" id="githubRepo" placeholder="בעל-אתר/שם-המאגר" autocomplete="off" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:13px;direction:ltr;text-align:left;" onchange="setGithubRepo(this.value)">
           </div>
           <div style="display:flex;align-items:center;gap:8px;">
-            <input type="text" id="githubPath" placeholder="נתיב הקובץ (ברירת מחדל: data/data.json)" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:13px;direction:ltr;text-align:left;" onchange="setGithubPath(this.value)">
+            <input type="text" id="githubPath" placeholder="נתיב הקובץ (ברירת מחדל: data/data.json)" autocomplete="off" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:13px;direction:ltr;text-align:left;" onchange="setGithubPath(this.value)">
           </div>
         </div>
         <div class="settings-row">
@@ -4266,6 +4266,15 @@ if ('serviceWorker' in navigator) {
 }
 
 // ===== INIT ON LOAD =====
+// Stop Chrome's password manager from treating text fields as username fields
+function fixAutocomplete() {
+  document.querySelectorAll('input[type="text"], input[type="search"], textarea').forEach(el => {
+    if (!el.getAttribute('autocomplete')) el.setAttribute('autocomplete', 'off');
+  });
+  const tk = document.getElementById('githubToken');
+  if (tk) tk.setAttribute('autocomplete', 'new-password');
+}
+fixAutocomplete();
 init();
 
 // Re-sync when coming back online / to foreground / tab becomes visible
