@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T15:31:36.246Z",
+  "exportedAt": "2026-08-07T16:04:32.536Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13649,6 +13649,20 @@
       "sourceId": "r_1783353245107_l2oz",
       "createdAt": "2026-08-07T14:57:47.677Z",
       "updatedAt": "2026-08-07T14:57:49.404Z"
+    },
+    {
+      "id": "r_1786118667658_d93p",
+      "title": "מציאת חולצות שבת האבודות וכביסתן",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-07T16:04:27.658Z",
+      "updatedAt": "2026-08-07T16:04:27.678Z"
     }
   ],
   "suggestions": {
@@ -15278,7 +15292,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T15:31:36.246Z"
+    "ts": "2026-08-07T16:04:32.537Z"
   },
   "settings": {
     "autoSync": true
