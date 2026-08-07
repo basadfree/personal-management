@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:45:59.960Z",
+  "exportedAt": "2026-08-07T14:46:08.504Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2116,12 +2116,12 @@
       "time": "15:20",
       "duration": 5,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-06T12:39:56.264Z",
-      "updatedAt": "2026-07-06T12:39:56.264Z"
+      "updatedAt": "2026-08-07T14:46:05.386Z"
     },
     {
       "id": "r_1783342209631_rtfm",
@@ -13357,6 +13357,20 @@
       "sourceId": "r_1783342209631_rtfm",
       "createdAt": "2026-08-07T14:45:56.058Z",
       "updatedAt": "2026-08-07T14:45:56.875Z"
+    },
+    {
+      "id": "r_1786113963866_rt9m",
+      "title": "הוספת אפשרות לתוצאה פעם בחודשיים. --> להסתפר.",
+      "description": "",
+      "time": "09:00",
+      "duration": 5,
+      "date": "2026-08-09",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783341596264_n4c7",
+      "createdAt": "2026-08-07T14:46:03.866Z",
+      "updatedAt": "2026-08-07T14:46:05.386Z"
     }
   ],
   "suggestions": {
@@ -14945,7 +14959,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:45:59.960Z"
+    "ts": "2026-08-07T14:46:08.504Z"
   },
   "settings": {
     "autoSync": true
