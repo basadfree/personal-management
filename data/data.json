@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:40:31.302Z",
+  "exportedAt": "2026-08-07T09:40:37.507Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -3924,12 +3924,12 @@
       "time": "21:30",
       "duration": 15,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T17:38:39.958Z",
-      "updatedAt": "2026-07-28T17:38:39.958Z"
+      "updatedAt": "2026-08-07T09:40:33.405Z"
     },
     {
       "id": "r_1785260319958_ipbo",
@@ -3994,12 +3994,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T17:38:39.958Z",
-      "updatedAt": "2026-07-28T17:38:39.958Z"
+      "updatedAt": "2026-08-07T09:40:27.723Z"
     },
     {
       "id": "r_1785261280665_swwh",
@@ -11320,12 +11320,12 @@
       "time": "21:15",
       "duration": 15,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-29T05:31:37.692Z",
-      "updatedAt": "2026-07-29T05:31:37.692Z"
+      "updatedAt": "2026-08-07T09:40:33.405Z"
     },
     {
       "id": "r_1785303101684_xflq",
@@ -12263,7 +12263,7 @@
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-19T05:35:29.110Z",
-      "updatedAt": "2026-08-07T09:40:17.976Z"
+      "updatedAt": "2026-08-07T09:40:27.723Z"
     },
     {
       "id": "r_1784461455636_isn6",
@@ -12650,12 +12650,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T06:43:22.927Z",
-      "updatedAt": "2026-08-07T06:43:22.927Z"
+      "updatedAt": "2026-08-07T09:40:27.723Z"
     },
     {
       "id": "r_1786085002927_rnxr",
@@ -14527,8 +14527,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:40:31.302Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:40:37.507Z"
   },
   "settings": {
     "autoSync": true
