@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T06:46:00.775Z",
+  "exportedAt": "2026-08-07T06:49:37.228Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -9689,7 +9689,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-08-07T06:43:22.926Z"
+      "createdAt": "2026-08-07T06:43:22.926Z",
+      "updatedAt": "2026-08-07T06:43:22.926Z"
     },
     {
       "id": "r_1786085002926_1o50",
@@ -9702,7 +9703,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-07T06:43:22.926Z"
+      "createdAt": "2026-08-07T06:43:22.926Z",
+      "updatedAt": "2026-08-07T06:43:22.926Z"
     },
     {
       "id": "r_1786085002927_7xuu",
@@ -9729,7 +9731,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-08-07T06:43:22.927Z"
+      "createdAt": "2026-08-07T06:43:22.927Z",
+      "updatedAt": "2026-08-07T06:43:22.927Z"
     },
     {
       "id": "r_1786085002927_6x7d",
@@ -9742,7 +9745,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-08-07T06:43:22.927Z"
+      "createdAt": "2026-08-07T06:43:22.927Z",
+      "updatedAt": "2026-08-07T06:43:22.927Z"
     },
     {
       "id": "r_1786085002927_rnxr",
@@ -9755,7 +9759,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-08-07T06:43:22.927Z"
+      "createdAt": "2026-08-07T06:43:22.927Z",
+      "updatedAt": "2026-08-07T06:43:22.927Z"
     },
     {
       "id": "r_1785266779477_wwut",
@@ -14263,7 +14268,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikw8eu_sqpx7r",
-    "ts": "2026-08-07T06:46:00.775Z"
+    "ts": "2026-08-07T06:49:37.228Z"
   },
   "settings": {
     "autoSync": true
