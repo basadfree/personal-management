@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:56:06.901Z",
+  "exportedAt": "2026-08-07T09:56:13.620Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2225,15 +2225,15 @@
       "id": "r_1783595483271_gks1",
       "title": "=== גמרא - 41 כרטיסיות.",
       "description": "",
-      "time": "",
+      "time": "07:30",
       "duration": 420,
-      "date": "",
+      "date": "2026-08-09",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-09T11:11:23.271Z",
-      "updatedAt": "2026-07-09T11:11:23.271Z"
+      "updatedAt": "2026-08-07T09:56:02.815Z"
     },
     {
       "id": "r_1783595542643_zs64",
@@ -14410,8 +14410,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:56:06.901Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:56:13.620Z"
   },
   "settings": {
     "autoSync": true
