@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:11:39.186Z",
+  "exportedAt": "2026-08-07T10:11:45.063Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12971,6 +12971,19 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T10:10:34.514Z"
+    },
+    {
+      "id": "r_1786097484882_9ank",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-08",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-07T10:11:24.882Z"
     }
   ],
   "suggestions": {
@@ -14558,8 +14571,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:11:39.186Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:11:45.063Z"
   },
   "settings": {
     "autoSync": true
