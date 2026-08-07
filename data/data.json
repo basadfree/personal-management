@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:41:01.210Z",
+  "exportedAt": "2026-08-07T14:41:10.031Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -9680,12 +9680,12 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-08-08",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-07-28T20:18:09.248Z",
-      "updatedAt": "2026-07-28T20:18:09.248Z"
+      "updatedAt": "2026-08-07T14:41:07.025Z"
     },
     {
       "id": "r_1785269890513_iohz",
@@ -12776,12 +12776,12 @@
       "time": "08:00",
       "duration": 30,
       "date": "2026-08-08",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785773192650_unbg",
       "createdAt": "2026-08-07T09:09:31.100Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-07T14:41:07.025Z"
     },
     {
       "id": "r_1786093771100_y81i",
@@ -12790,12 +12790,12 @@
       "time": "05:50",
       "duration": 60,
       "date": "2026-08-08",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T09:09:31.100Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-07T14:41:07.025Z"
     },
     {
       "id": "r_1786095543397_bpc0",
@@ -14614,7 +14614,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:41:01.210Z"
+    "ts": "2026-08-07T14:41:10.031Z"
   },
   "settings": {
     "autoSync": true
