@@ -1158,6 +1158,39 @@ body {
   font-size: 12px;
   color: var(--text2);
 }
+.privacy-blur {
+  filter: blur(4px);
+  user-select: none;
+  cursor: default;
+  transition: filter 0.15s ease;
+}
+.privacy-check-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.privacy-check-grid label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--text2);
+  background: var(--surface-hover);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.privacy-check-grid label:has(input:checked) {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-light);
+}
+.privacy-check-grid input {
+  accent-color: var(--primary);
+}
 .toggle-switch {
   position: relative;
   width: 44px;
@@ -1817,6 +1850,27 @@ body {
         <button class="btn btn-outline" onclick="document.getElementById('importInput').click()" style="width:100%;justify-content:center;">📥 ייבא נתונים</button>
         <input type="file" id="importInput" accept=".json" style="display:none" onchange="importData(event)">
       </div>
+      <div class="settings-group">
+        <h3>🔒 טשטוש טקסטים רגישים</h3>
+        <div class="settings-row">
+          <div>
+            <div class="label">הפעל טשטוש</div>
+            <div class="desc">מטשטש שמות ותיאורים רגישים</div>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="privacyBlurToggle" onchange="togglePrivacyBlur(this.checked)">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <div style="padding:0 12px;font-size:12px;color:var(--text3);margin-top:-2px;">סמן מה לטשטש:</div>
+        <div class="privacy-check-grid" style="padding:0 12px;">
+          <label><input type="checkbox" value="results" onchange="togglePrivacySection('results',this.checked)"> תוצאות</label>
+          <label><input type="checkbox" value="goals" onchange="togglePrivacySection('goals',this.checked)"> מטרות</label>
+          <label><input type="checkbox" value="objectives" onchange="togglePrivacySection('objectives',this.checked)"> יעדים</label>
+          <label><input type="checkbox" value="goalTypes" onchange="togglePrivacySection('goalTypes',this.checked)"> סוגי מטרות</label>
+          <label><input type="checkbox" value="goalPeriods" onchange="togglePrivacySection('goalPeriods',this.checked)"> תקופות מטרות</label>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -2012,6 +2066,8 @@ let state = {
     githubToken: '',
     githubRepo: '',
     githubPath: 'data/data.json',
+    privacyBlur: false,
+    privacySections: { results: true, goals: true, objectives: true, goalTypes: true, goalPeriods: true },
   }
 };
 
@@ -2039,6 +2095,7 @@ function init() {
   loadState();
   renderWeek();
   renderDay();
+  applyPrivacy();
   const token = getGithubToken();
   if (token) {
     setSyncStatus('syncing', 'מסנכרן…');
@@ -2065,6 +2122,8 @@ function loadState() {
       state.goals = data.goals || [];
       state.objectives = data.objectives || [];
       if (data.settings) Object.assign(state.settings, data.settings);
+      if (data.settings && data.settings.privacyBlur === undefined) state.settings.privacyBlur = false;
+      if (!state.settings.privacySections) state.settings.privacySections = { results: true, goals: true, objectives: true, goalTypes: true, goalPeriods: true };
       if (data._tombstones) tombstones = Object.assign({}, data._tombstones);
       if (data._removedFromDateTs) removedFromDateTs = Object.assign({}, data._removedFromDateTs);
       if (data._removedFromDate) removedFromDate = new Set(data._removedFromDate);
@@ -3039,6 +3098,7 @@ function renderDay() {
 
   updateBatchBar();
   renderUnscheduledTasks();
+  applyPrivacy();
 }
 
 // ===== BATCH OPERATIONS =====
@@ -3290,12 +3350,53 @@ function openSettings() {
   document.getElementById('githubRepo').value = getGithubRepo();
   document.getElementById('githubPath').value = getGithubPath();
   document.getElementById('autoSyncToggle').checked = state.settings.autoSync;
+  document.getElementById('privacyBlurToggle').checked = !!state.settings.privacyBlur;
+  document.querySelectorAll('.privacy-check-grid input[type=checkbox]').forEach(cb => {
+    cb.checked = state.settings.privacySections[cb.value] !== false;
+  });
   const statusEl = document.getElementById('syncStatus');
   statusEl.textContent = getSha() ? 'מסונכרן' : 'לא מסונכרן';
 }
 
 function closeSettings() {
   document.getElementById('settingsModal').classList.remove('open');
+}
+
+// ===== PRIVACY (טשטוש טקסטים רגישים) =====
+const PRIVACY_SELECTORS = {
+  results:     ['.task-title', '.task-desc'],
+  goals:       ['.goal-card-title', '.goal-card-desc'],
+  objectives:  ['.objective-name', '.objective-meta'],
+  goalTypes:   ['.type-block-name', '.type-tag .type-tag-name'],
+  goalPeriods: ['.goals-section-header .period-name']
+};
+
+function applyPrivacy(root) {
+  const scoped = root || document;
+  scoped.querySelectorAll('.privacy-blur').forEach(el => el.classList.remove('privacy-blur'));
+  if (!state.settings.privacyBlur) return;
+  const secs = state.settings.privacySections || {};
+  Object.keys(PRIVACY_SELECTORS).forEach(sec => {
+    if (secs[sec] === false) return;
+    PRIVACY_SELECTORS[sec].forEach(sel => {
+      scoped.querySelectorAll(sel).forEach(el => el.classList.add('privacy-blur'));
+    });
+  });
+}
+
+function togglePrivacyBlur(enabled) {
+  state.settings.privacyBlur = !!enabled;
+  saveState();
+  applyPrivacy();
+  if (enabled) toast('🔒 טשטוש הופעל', 'success');
+  else toast('🔓 הטשטוש הוסר', 'info');
+}
+
+function togglePrivacySection(sec, checked) {
+  if (!state.settings.privacySections) state.settings.privacySections = { results: true, goals: true, objectives: true, goalTypes: true, goalPeriods: true };
+  state.settings.privacySections[sec] = !!checked;
+  saveState();
+  applyPrivacy();
 }
 
 function markAllPastDone() {
@@ -3914,7 +4015,7 @@ function renderGoalsView() {
       const wrapId = 'typewrap_' + t.id;
       html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;display:inline-flex;align-items:center;gap:3px;${isParent ? 'cursor:pointer;' : ''}" ${isParent ? `onclick="event.stopPropagation();document.getElementById('${wrapId}').classList.toggle('hidden');this.querySelector('.type-bar-toggle').classList.toggle('open')"` : ''}>
         ${isParent ? `<span class="type-bar-toggle">▶</span>` : ''}
-        <span ${isParent ? '' : `onclick="showGoalTypeForm('${t.id}')" style="cursor:pointer;"`}>${escHtml(t.name)} (${count})</span>
+        <span ${isParent ? '' : `onclick="showGoalTypeForm('${t.id}')" style="cursor:pointer;"`} class="type-tag-name">${escHtml(t.name)} (${count})</span>
         <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="ערוך">✏️</span>
         <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="מחק">✕</span>
       </span>`;
@@ -3959,6 +4060,7 @@ function renderGoalsView() {
   }
 
   container.innerHTML = html;
+  applyPrivacy();
 }
 
 function renderPeriodSection(p, goals, typeMap) {
@@ -3981,7 +4083,7 @@ function renderPeriodSection(p, goals, typeMap) {
   const completed = p.status === 'completed';
   let html = `<div class="goals-section" style="${completed ? 'opacity:0.6;' : ''}">
     <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open')">
-      <span>📅 ${escHtml(p.name)}</span>
+      <span class="period-name">📅 ${escHtml(p.name)}</span>
       <span class="period-card-status ${p.status}">${goalStatusLabel(p.status)}</span>
       <span class="period-actions" onclick="event.stopPropagation();">
         <button class="btn-icon" onclick="showGoalPeriodForm('${p.id}')" title="ערוך">✏️</button>
