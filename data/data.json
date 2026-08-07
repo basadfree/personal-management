@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T06:50:12.711Z",
+  "exportedAt": "2026-08-07T06:50:26.790Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11301,7 +11301,7 @@
     },
     {
       "id": "r_1785303097692_qm7j",
-      "title": "תכנון מושלם",
+      "title": "תכנון מושלם ביותר",
       "description": "",
       "time": "07:00",
       "duration": 15,
@@ -11311,7 +11311,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-07-29T05:31:37.692Z",
-      "updatedAt": "2026-08-07T06:49:54.369Z"
+      "updatedAt": "2026-08-07T06:50:23.797Z"
     },
     {
       "id": "r_1785303097692_z9nj",
@@ -14259,7 +14259,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T06:50:12.711Z"
+    "ts": "2026-08-07T06:50:26.790Z"
   },
   "settings": {
     "autoSync": true
