@@ -920,6 +920,19 @@ body {
   margin-top: 8px;
 }
 .unscheduled-body.open { display: block; }
+.unscheduled-sort {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+.unscheduled-sort-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text3);
+}
+.unscheduled-sort .btn { font-size: 12px; padding: 4px 10px; }
 .unscheduled-body .task-list { gap: 6px; }
 .unscheduled-empty {
   text-align: center;
@@ -1771,6 +1784,11 @@ body {
       <span class="arrow">▶</span>
     </button>
     <div class="unscheduled-body" id="unscheduledBody">
+      <div class="unscheduled-sort">
+        <label class="unscheduled-sort-label">📥 סדר:
+          <button class="btn btn-sm btn-outline" id="unscheduledSortBtn" onclick="toggleUnscheduledSort()">סדר רגיל</button>
+        </label>
+      </div>
       <div class="task-list" id="unscheduledList"></div>
     </div>
   </div>
@@ -2066,6 +2084,7 @@ let state = {
     githubToken: '',
     githubRepo: '',
     githubPath: 'data/data.json',
+    unscheduledSortNewest: false,
     privacyBlur: false,
     privacySections: { results: true, goals: true, objectives: true, goalTypes: true, goalPeriods: true },
   }
@@ -3274,12 +3293,26 @@ function toggleUnscheduled() {
   if (unscheduledOpen) renderUnscheduledTasks();
 }
 
+function toggleUnscheduledSort() {
+  state.settings.unscheduledSortNewest = !state.settings.unscheduledSortNewest;
+  const btn = document.getElementById('unscheduledSortBtn');
+  if (btn) btn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה ✓' : 'חדש כמקרה';
+  saveState();
+  renderUnscheduledTasks();
+  if (state.settings.unscheduledSortNewest) toast('📥 מיון: החדש ביותר למעלה', 'info');
+}
+
 function renderUnscheduledTasks() {
   const results = state.results.filter(r => (!r.date || r.date === '') && !r.archived);
+  if (state.settings.unscheduledSortNewest) {
+    results.sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
+  }
   const section = document.getElementById('unscheduledSection');
   const container = document.getElementById('unscheduledList');
   const countEl = document.getElementById('unscheduledCount');
   countEl.textContent = results.length;
+  const sBtn = document.getElementById('unscheduledSortBtn');
+  if (sBtn) sBtn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה ✓' : 'סדר רגיל';
 
   if (results.length === 0) {
     section.style.display = 'none';
