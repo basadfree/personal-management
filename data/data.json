@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:20:07.391Z",
+  "exportedAt": "2026-08-07T14:21:51.629Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12866,7 +12866,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
-      "createdAt": "2026-08-07T10:10:34.513Z"
+      "createdAt": "2026-08-07T10:10:34.513Z",
+      "updatedAt": "2026-08-07T10:10:34.513Z"
     },
     {
       "id": "r_1786097434513_czxm",
@@ -12879,7 +12880,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
-      "createdAt": "2026-08-07T10:10:34.513Z"
+      "createdAt": "2026-08-07T10:10:34.513Z",
+      "updatedAt": "2026-08-07T10:10:34.513Z"
     },
     {
       "id": "r_1786097434513_2oap",
@@ -12892,7 +12894,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785773192650_unbg",
-      "createdAt": "2026-08-07T10:10:34.513Z"
+      "createdAt": "2026-08-07T10:10:34.513Z",
+      "updatedAt": "2026-08-07T10:10:34.513Z"
     },
     {
       "id": "r_1786097434513_xius",
@@ -12905,7 +12908,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097434514_ti0o",
@@ -12918,7 +12922,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097434514_w21d",
@@ -12931,7 +12936,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097434514_bvvb",
@@ -12944,7 +12950,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097434514_m04h",
@@ -12957,7 +12964,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097434514_26yf",
@@ -12970,7 +12978,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
-      "createdAt": "2026-08-07T10:10:34.514Z"
+      "createdAt": "2026-08-07T10:10:34.514Z",
+      "updatedAt": "2026-08-07T10:10:34.514Z"
     },
     {
       "id": "r_1786097484882_9ank",
@@ -12983,7 +12992,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
-      "createdAt": "2026-08-07T10:11:24.882Z"
+      "createdAt": "2026-08-07T10:11:24.882Z",
+      "updatedAt": "2026-08-07T10:11:24.882Z"
     },
     {
       "id": "r_1786099971742_g0d0",
@@ -14600,7 +14610,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-07T14:20:07.391Z"
+    "ts": "2026-08-07T14:21:51.629Z"
   },
   "settings": {
     "autoSync": true
