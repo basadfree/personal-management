@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T10:05:34.772Z",
+  "exportedAt": "2026-08-07T10:05:40.413Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13501,10 +13501,10 @@
       "startDate": "",
       "endDate": "",
       "description": "המטרה: \nמתח: 40.\nשכ\"ס: 50.\nפלאנק: 6:00 דק'.\n(להמשיך: סקוואט: 30).\n\n___\nי\"ג תמוז התשפ\"ו:\nמתח: 25.\nשכ\"ס: 27.\nפלאנק: 3:40.\nסקוואט: 30.\n\n\n___\n\nמתח: \nשכ\"ס: \nפלאנק: \nסקוואט:",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-07T10:05:31.781Z"
     },
     {
       "name": "תזונה",
@@ -14425,8 +14425,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T10:05:34.772Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T10:05:40.413Z"
   },
   "settings": {
     "autoSync": true
