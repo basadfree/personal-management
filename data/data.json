@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T09:39:43.135Z",
+  "exportedAt": "2026-08-07T09:39:50.011Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12610,12 +12610,12 @@
       "time": "07:00",
       "duration": 40,
       "date": "2026-08-07",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-08-07T06:43:22.926Z",
-      "updatedAt": "2026-08-07T06:43:22.926Z"
+      "updatedAt": "2026-08-07T09:39:48.531Z"
     },
     {
       "id": "r_1786085002926_1o50",
@@ -14552,8 +14552,8 @@
   "_tombstones": {},
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T09:39:43.135Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-07T09:39:50.011Z"
   },
   "settings": {
     "autoSync": true
