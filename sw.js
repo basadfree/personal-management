@@ -1,10 +1,13 @@
-const CACHE = 'personal-manager-v4';
+const CACHE = 'personal-manager-v5';
 const ASSETS = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/images/רקע_ניהול_אישי_עבה.png',
-  '/images/לוגו_ניהול_אישי_ללא_רקע.png'
+  '/images/icon-512.png',
+  '/images/icon-maskable-512.png',
+  '/images/icon-192.png',
+  '/images/icon-180.png',
+  '/images/icon-32.png'
 ];
 
 self.addEventListener('install', e => {
