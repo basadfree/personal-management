@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:46:18.416Z",
+  "exportedAt": "2026-08-07T14:46:33.642Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11984,12 +11984,12 @@
       "time": "16:00",
       "duration": 50,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-03T18:38:15.260Z",
-      "updatedAt": "2026-08-03T18:38:15.260Z"
+      "updatedAt": "2026-08-07T14:46:33.082Z"
     },
     {
       "id": "r_1786019476589_qkof",
@@ -12342,12 +12342,12 @@
       "time": "16:00",
       "duration": 25,
       "date": "2026-08-04",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T18:37:15.413Z",
-      "updatedAt": "2026-07-28T18:37:15.413Z"
+      "updatedAt": "2026-08-07T14:46:33.082Z"
     },
     {
       "id": "r_1785263848637_tend",
@@ -13385,6 +13385,20 @@
       "sourceId": "r_1783345208625_godr",
       "createdAt": "2026-08-07T14:46:13.922Z",
       "updatedAt": "2026-08-07T14:46:15.290Z"
+    },
+    {
+      "id": "r_1786113989498_432l",
+      "title": "ידידים - לסכם",
+      "description": "",
+      "time": "09:00",
+      "duration": 50,
+      "date": "2026-08-17",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785782295260_lxz7",
+      "createdAt": "2026-08-07T14:46:29.498Z",
+      "updatedAt": "2026-08-07T14:46:33.082Z"
     }
   ],
   "suggestions": {
@@ -14973,7 +14987,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:46:18.416Z"
+    "ts": "2026-08-07T14:46:33.642Z"
   },
   "settings": {
     "autoSync": true
