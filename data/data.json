@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:44:26.543Z",
+  "exportedAt": "2026-08-07T14:44:37.288Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12146,12 +12146,12 @@
       "time": "16:40",
       "duration": 50,
       "date": "2026-07-31",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431382446_52ch",
       "createdAt": "2026-07-24T14:36:36.230Z",
-      "updatedAt": "2026-07-24T14:36:36.230Z"
+      "updatedAt": "2026-08-07T14:44:26.858Z"
     },
     {
       "id": "r_1785266794927_m5uk",
@@ -12319,7 +12319,7 @@
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-07-28T16:05:34.318Z",
-      "updatedAt": "2026-08-07T14:44:23.497Z"
+      "updatedAt": "2026-08-07T14:44:26.858Z"
     },
     {
       "id": "r_1785261280665_fgx5",
@@ -13053,7 +13053,35 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T14:44:21.211Z",
-      "updatedAt": "2026-08-07T14:44:23.497Z"
+      "updatedAt": "2026-08-07T14:44:26.858Z"
+    },
+    {
+      "id": "r_1786113872347_t6au",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-01",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-07T14:44:32.347Z",
+      "updatedAt": "2026-08-07T14:44:36.627Z"
+    },
+    {
+      "id": "r_1786113875522_kx7s",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-02",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-07T14:44:35.522Z",
+      "updatedAt": "2026-08-07T14:44:36.627Z"
     }
   ],
   "suggestions": {
@@ -14642,7 +14670,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:44:26.543Z"
+    "ts": "2026-08-07T14:44:37.288Z"
   },
   "settings": {
     "autoSync": true
