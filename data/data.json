@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:55:48.165Z",
+  "exportedAt": "2026-08-07T14:56:16.771Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11906,20 +11906,6 @@
       "updatedAt": "2026-08-07T14:44:45.970Z"
     },
     {
-      "id": "r_1785773192650_unbg",
-      "title": "גמרא",
-      "description": "20 דקות",
-      "time": "08:00",
-      "duration": 30,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-08-03T16:06:32.650Z",
-      "updatedAt": "2026-08-07T14:53:36.044Z"
-    },
-    {
       "id": "r_1785773199723_y0xs",
       "title": "גמרא",
       "description": "20 דקות",
@@ -12010,20 +11996,6 @@
       "sourceId": null,
       "createdAt": "2026-06-25T22:05:36.551Z",
       "updatedAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
-      "id": "r_1782425348703_9vkn",
-      "title": "גמרא",
-      "time": "07:00",
-      "duration": 40,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:08.703Z",
-      "description": "מטרת הגמרא.",
-      "updatedAt": "2026-08-07T14:53:28.132Z"
     },
     {
       "id": "r_1782425388805_mmgm",
@@ -15285,12 +15257,14 @@
     "r_1786097434513_2oap": "2026-08-07T14:53:36.044Z",
     "r_1786113932419_9w9d": "2026-08-07T14:53:36.044Z",
     "r_1786114010339_g5i5": "2026-08-07T14:53:36.044Z",
-    "r_1786114033659_dlqo": "2026-08-07T14:53:36.044Z"
+    "r_1786114033659_dlqo": "2026-08-07T14:53:36.044Z",
+    "r_1785773192650_unbg": "2026-08-07T14:56:13.582Z",
+    "r_1782425348703_9vkn": "2026-08-07T14:56:13.582Z"
   },
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:55:48.165Z"
+    "ts": "2026-08-07T14:56:16.771Z"
   },
   "settings": {
     "autoSync": true
