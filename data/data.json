@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-07T14:43:59.835Z",
+  "exportedAt": "2026-08-07T14:44:14.003Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12160,12 +12160,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-07-28T19:26:34.927Z",
-      "updatedAt": "2026-07-28T19:26:34.927Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_u3mx",
@@ -12174,12 +12174,12 @@
       "time": "07:00",
       "duration": 40,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:01.251Z"
     },
     {
       "id": "r_1785266794928_da9j",
@@ -12188,12 +12188,12 @@
       "time": "07:45",
       "duration": 15,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_52cs",
@@ -12202,12 +12202,12 @@
       "time": "10:30",
       "duration": 30,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_1p0s",
@@ -12216,12 +12216,12 @@
       "time": "05:50",
       "duration": 60,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:01.251Z"
     },
     {
       "id": "r_1785266794928_mrfj",
@@ -12230,12 +12230,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_1u7y",
@@ -12244,12 +12244,12 @@
       "time": "08:00",
       "duration": 30,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_y6uk",
@@ -12258,12 +12258,12 @@
       "time": "09:00",
       "duration": 40,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475371337_oek7",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_eoul",
@@ -12272,12 +12272,12 @@
       "time": "09:00",
       "duration": 40,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_lpoj",
@@ -12286,12 +12286,12 @@
       "time": "13:30",
       "duration": 30,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785266794928_stgo",
@@ -12300,12 +12300,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-07-28",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T19:26:34.928Z",
-      "updatedAt": "2026-07-28T19:26:34.928Z"
+      "updatedAt": "2026-08-07T14:44:10.946Z"
     },
     {
       "id": "r_1785254734318_koq1",
@@ -13038,7 +13038,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-07T14:43:58.171Z"
+      "createdAt": "2026-08-07T14:43:58.171Z",
+      "updatedAt": "2026-08-07T14:44:01.251Z"
     }
   ],
   "suggestions": {
@@ -14627,7 +14628,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-07T14:43:59.835Z"
+    "ts": "2026-08-07T14:44:14.003Z"
   },
   "settings": {
     "autoSync": true
