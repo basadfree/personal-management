@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-08T22:58:42.966Z",
+  "exportedAt": "2026-08-08T22:59:07.363Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11131,17 +11131,15 @@
       "id": "r_1785300459066_n36r",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
-      "date": "2026-07-30",
+      "date": "2026-08-09",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-29T04:47:39.066Z",
-      "updatedAt": "2026-07-29T04:47:39.066Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1785300473955_tsnb",
@@ -11301,7 +11299,7 @@
       "id": "r_1785303104332_5j5s",
       "title": "פגישה",
       "description": "",
-      "time": "21:15",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-11",
       "completed": false,
@@ -11309,7 +11307,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-29T05:31:44.332Z",
-      "updatedAt": "2026-07-29T05:31:44.332Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1785303107276_lrm4",
@@ -11557,7 +11555,7 @@
       "id": "r_1785458903342_gif7",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-09-03",
       "completed": false,
@@ -11565,7 +11563,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-31T00:48:23.342Z",
-      "updatedAt": "2026-07-31T00:48:23.342Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1785458903342_safa",
@@ -11697,7 +11695,7 @@
       "id": "r_1785458911852_vop5",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2027-01-15",
       "completed": false,
@@ -11705,7 +11703,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-31T00:48:31.852Z",
-      "updatedAt": "2026-07-31T00:48:31.852Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1785458911852_grvo",
@@ -12557,7 +12555,7 @@
       "id": "r_1786093767741_xgh7",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-13",
       "completed": false,
@@ -12565,7 +12563,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786093767741_4s9s",
@@ -13086,7 +13084,7 @@
       "id": "r_1786113932419_m956",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-09",
       "completed": true,
@@ -13094,7 +13092,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-08T22:58:39.733Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786113932419_tuws",
@@ -13262,7 +13260,7 @@
       "id": "r_1786114010339_mowe",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-10",
       "completed": false,
@@ -13270,7 +13268,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:39.531Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786114010339_9fmf",
@@ -13388,7 +13386,7 @@
       "id": "r_1786114033659_cmkc",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-12",
       "completed": false,
@@ -13396,7 +13394,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:47:13.659Z",
-      "updatedAt": "2026-08-07T14:47:39.531Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786114033659_ekza",
@@ -13787,14 +13785,15 @@
       "id": "r_1786119636486_2eao",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-14",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
-      "createdAt": "2026-08-07T16:20:36.486Z"
+      "createdAt": "2026-08-07T16:20:36.486Z",
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786119636486_3y1k",
@@ -13976,7 +13975,7 @@
       "id": "r_1786211943321_3dhx",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-21",
       "completed": false,
@@ -13984,7 +13983,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-08T17:59:03.321Z",
-      "updatedAt": "2026-08-08T17:59:37.286Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786211943321_ugpu",
@@ -14074,7 +14073,7 @@
       "id": "r_1786211950389_c0lv",
       "title": "פגישה",
       "description": "",
-      "time": "01:00",
+      "time": "21:00",
       "duration": 15,
       "date": "2026-08-28",
       "completed": false,
@@ -14082,7 +14081,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-08T17:59:10.389Z",
-      "updatedAt": "2026-08-08T17:59:37.286Z"
+      "updatedAt": "2026-08-08T22:59:04.058Z"
     },
     {
       "id": "r_1786211950389_t482",
@@ -15775,7 +15774,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-08T22:58:42.966Z"
+    "ts": "2026-08-08T22:59:07.363Z"
   },
   "settings": {
     "autoSync": true
