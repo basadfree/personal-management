@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-08T20:42:44.966Z",
+  "exportedAt": "2026-08-08T20:42:57.361Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12658,12 +12658,12 @@
       "time": "12:10",
       "duration": 30,
       "date": "2026-08-08",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-07T09:09:31.100Z",
-      "updatedAt": "2026-08-07T14:43:39.666Z"
+      "updatedAt": "2026-08-08T20:42:56.439Z"
     },
     {
       "id": "r_1786093771100_nzvm",
@@ -12898,12 +12898,12 @@
       "time": "12:00",
       "duration": 3,
       "date": "2026-08-08",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786096993506_2fie",
       "createdAt": "2026-08-07T14:40:56.970Z",
-      "updatedAt": "2026-08-07T14:40:58.170Z"
+      "updatedAt": "2026-08-08T20:42:56.439Z"
     },
     {
       "id": "r_1786113838171_trm2",
@@ -15767,7 +15767,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-08T20:42:44.966Z"
+    "ts": "2026-08-08T20:42:57.361Z"
   },
   "settings": {
     "autoSync": true
