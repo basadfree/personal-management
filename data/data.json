@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-08T17:53:21.245Z",
+  "exportedAt": "2026-08-08T17:54:50.378Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13884,6 +13884,20 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T16:20:36.486Z"
+    },
+    {
+      "id": "r_1786211684355_e3wp",
+      "title": "וויפי בטלפון",
+      "description": "לעשות שבטלפון יהיה לי וויפי רימון של הבית ללא סינון כי כבר יש נטספרק.",
+      "time": "09:00",
+      "duration": 20,
+      "date": "2026-08-08",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-08T17:54:44.355Z",
+      "updatedAt": "2026-08-08T17:54:44.356Z"
     }
   ],
   "suggestions": {
@@ -15513,7 +15527,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-08T17:53:21.245Z"
+    "ts": "2026-08-08T17:54:50.378Z"
   },
   "settings": {
     "autoSync": true
