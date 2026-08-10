@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:34:21.788Z",
+  "exportedAt": "2026-08-10T01:35:33.767Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8777,7 +8777,7 @@
       "id": "r_1785266100851_jlkk",
       "title": "תניא 21 פרקים",
       "description": "10 דקות לפרק + 30 דקות.",
-      "time": "07:20",
+      "time": "07:10",
       "duration": 225,
       "date": "2026-08-10",
       "completed": false,
@@ -8785,7 +8785,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T19:15:00.851Z",
-      "updatedAt": "2026-08-10T01:28:57.215Z"
+      "updatedAt": "2026-08-10T01:35:30.502Z"
     },
     {
       "id": "r_1785266363579_zvqg",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:34:21.788Z"
+    "ts": "2026-08-10T01:35:33.767Z"
   },
   "settings": {
     "autoSync": true
