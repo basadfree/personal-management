@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T02:45:44.391Z",
+  "exportedAt": "2026-08-10T02:45:56.684Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13652,12 +13652,12 @@
       "time": "04:50",
       "duration": 60,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783595542643_zs64",
       "createdAt": "2026-08-07T16:04:43.863Z",
-      "updatedAt": "2026-08-10T02:35:38.721Z"
+      "updatedAt": "2026-08-10T02:45:53.702Z"
     },
     {
       "id": "r_1786118690387_97a3",
@@ -14218,6 +14218,20 @@
       "sourceId": null,
       "createdAt": "2026-08-10T02:35:23.488Z",
       "updatedAt": "2026-08-10T02:35:23.489Z"
+    },
+    {
+      "id": "r_1786329952327_jbsh",
+      "title": "=== תנ\"ך - 40 פעמים.",
+      "description": "",
+      "time": "04:50",
+      "duration": 60,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783595542643_zs64",
+      "createdAt": "2026-08-10T02:45:52.327Z",
+      "updatedAt": "2026-08-10T02:45:53.702Z"
     }
   ],
   "suggestions": {
@@ -15813,7 +15827,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T02:45:44.391Z"
+    "ts": "2026-08-10T02:45:56.684Z"
   },
   "settings": {
     "autoSync": true
