@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:25:59.824Z",
+  "exportedAt": "2026-08-10T01:26:15.299Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13120,12 +13120,12 @@
       "time": "15:00",
       "duration": 15,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:26:12.328Z"
     },
     {
       "id": "r_1786113932419_y93c",
@@ -13134,12 +13134,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:26:12.328Z"
     },
     {
       "id": "r_1786113932419_zzfn",
@@ -13190,12 +13190,12 @@
       "time": "17:00",
       "duration": 60,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T16:05:48.554Z"
+      "updatedAt": "2026-08-10T01:26:12.328Z"
     },
     {
       "id": "r_1786113956058_2gsk",
@@ -15767,7 +15767,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:25:59.824Z"
+    "ts": "2026-08-10T01:26:15.299Z"
   },
   "settings": {
     "autoSync": true
