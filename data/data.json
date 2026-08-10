@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:58:35.125Z",
+  "exportedAt": "2026-08-10T02:10:19.603Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14162,6 +14162,20 @@
       "sourceId": "r_1785266100851_jlkk",
       "createdAt": "2026-08-10T01:28:02.399Z",
       "updatedAt": "2026-08-10T01:29:08.247Z"
+    },
+    {
+      "id": "r_1786327816430_f7z8",
+      "title": "שיפור \"הקורא\"",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T02:10:16.430Z",
+      "updatedAt": "2026-08-10T02:10:16.431Z"
     }
   ],
   "suggestions": {
@@ -15757,7 +15771,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:58:35.125Z"
+    "ts": "2026-08-10T02:10:19.603Z"
   },
   "settings": {
     "autoSync": true
