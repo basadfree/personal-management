@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T22:29:14.280Z",
+  "exportedAt": "2026-08-10T22:29:26.645Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -2050,14 +2050,14 @@
       "time": "09:00",
       "duration": 30,
       "date": "2026-08-11",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": {
         "type": "monthly"
       },
       "sourceId": null,
       "createdAt": "2026-07-06T12:34:06.960Z",
-      "updatedAt": "2026-07-06T12:34:06.960Z"
+      "updatedAt": "2026-08-10T22:29:22.491Z"
     },
     {
       "id": "r_1783341311395_7gie",
@@ -15838,7 +15838,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T22:29:14.280Z"
+    "ts": "2026-08-10T22:29:26.645Z"
   },
   "settings": {
     "autoSync": true
