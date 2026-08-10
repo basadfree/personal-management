@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T22:02:25.800Z",
+  "exportedAt": "2026-08-10T22:29:04.482Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14316,6 +14316,20 @@
       "sourceId": "r_1783341386798_v13n",
       "createdAt": "2026-08-10T21:35:09.292Z",
       "updatedAt": "2026-08-10T21:35:17.535Z"
+    },
+    {
+      "id": "r_1786400940723_fecy",
+      "title": "מערך סוכני קוד כולל קבצי תיעוד ומיומנויות",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T22:29:00.723Z",
+      "updatedAt": "2026-08-10T22:29:00.724Z"
     }
   ],
   "suggestions": {
@@ -15824,7 +15838,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T22:02:25.800Z"
+    "ts": "2026-08-10T22:29:04.482Z"
   },
   "settings": {
     "autoSync": true
