@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T02:35:42.427Z",
+  "exportedAt": "2026-08-10T02:37:44.781Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14193,7 +14193,7 @@
     },
     {
       "id": "r_1786329167508_l71q",
-      "title": "לחזור על הסיכום של במדבר וויקרא",
+      "title": "לחזור על הסיכום של במדבר ויקרא ודברים",
       "description": "",
       "time": "",
       "duration": 30,
@@ -14203,7 +14203,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-10T02:32:47.508Z",
-      "updatedAt": "2026-08-10T02:32:47.508Z"
+      "updatedAt": "2026-08-10T02:37:41.728Z"
     },
     {
       "id": "r_1786329323488_qjk0",
@@ -15813,7 +15813,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T02:35:42.427Z"
+    "ts": "2026-08-10T02:37:44.781Z"
   },
   "settings": {
     "autoSync": true
