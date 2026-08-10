@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:29:41.244Z",
+  "exportedAt": "2026-08-10T01:31:14.931Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -5966,12 +5966,12 @@
       "time": "21:30",
       "duration": 15,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-07-28T18:46:36.439Z"
+      "updatedAt": "2026-08-10T01:31:11.903Z"
     },
     {
       "id": "r_1785264396439_zl7l",
@@ -13274,12 +13274,12 @@
       "time": "21:00",
       "duration": 15,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-10T01:31:11.903Z"
     },
     {
       "id": "r_1786114010339_9fmf",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:29:41.244Z"
+    "ts": "2026-08-10T01:31:14.931Z"
   },
   "settings": {
     "autoSync": true
