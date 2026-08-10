@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T04:06:56.149Z",
+  "exportedAt": "2026-08-10T04:07:39.189Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14232,6 +14232,20 @@
       "sourceId": "r_1783595542643_zs64",
       "createdAt": "2026-08-10T02:45:52.327Z",
       "updatedAt": "2026-08-10T02:45:53.702Z"
+    },
+    {
+      "id": "r_1786334856172_ufgs",
+      "title": "ספר ידידים לשמוע ולסכם",
+      "description": "",
+      "time": "",
+      "duration": 120,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T04:07:36.172Z",
+      "updatedAt": "2026-08-10T04:07:36.172Z"
     }
   ],
   "suggestions": {
@@ -15738,7 +15752,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T04:06:56.149Z"
+    "ts": "2026-08-10T04:07:39.189Z"
   },
   "settings": {
     "autoSync": true
