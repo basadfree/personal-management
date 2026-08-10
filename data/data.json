@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T02:10:19.603Z",
+  "exportedAt": "2026-08-10T02:12:21.331Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14166,7 +14166,7 @@
     {
       "id": "r_1786327816430_f7z8",
       "title": "שיפור \"הקורא\"",
-      "description": "",
+      "description": "כולל :\nשיפור הקול.\nהדגשת כל מילה כאשר מקריאים אותה.",
       "time": "",
       "duration": 20,
       "date": "",
@@ -14175,7 +14175,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-10T02:10:16.430Z",
-      "updatedAt": "2026-08-10T02:10:16.431Z"
+      "updatedAt": "2026-08-10T02:12:16.814Z"
     }
   ],
   "suggestions": {
@@ -15771,7 +15771,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T02:10:19.603Z"
+    "ts": "2026-08-10T02:12:21.331Z"
   },
   "settings": {
     "autoSync": true
