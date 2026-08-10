@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:25:38.603Z",
+  "exportedAt": "2026-08-10T01:25:51.595Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13007,13 +13007,13 @@
       "description": "לבדוק סופית אם באמת כדאי עכשיו ולא בגיל 18, ואם כן ללכת על זה עד הסוף כולל כל התכנון של הכסף, הניהול, המשיכות, השאלות לבנק, הבקשות מהבנק וכדו'.",
       "time": "10:00",
       "duration": 30,
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782428106322_wws8",
       "createdAt": "2026-08-07T14:45:19.130Z",
-      "updatedAt": "2026-08-07T14:45:21.778Z"
+      "updatedAt": "2026-08-10T01:25:51.128Z"
     },
     {
       "id": "r_1786113932419_hoy9",
@@ -13036,12 +13036,12 @@
       "time": "10:30",
       "duration": 60,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:25:51.128Z"
     },
     {
       "id": "r_1786113932419_plb2",
@@ -15767,7 +15767,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:25:38.603Z"
+    "ts": "2026-08-10T01:25:51.595Z"
   },
   "settings": {
     "autoSync": true
