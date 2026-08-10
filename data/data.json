@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T03:34:42.460Z",
+  "exportedAt": "2026-08-10T03:35:17.321Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -5991,7 +5991,7 @@
       "id": "r_1785264396439_7fj6",
       "title": "שיפור סידור חדר\\בית והסרת אבק מהחדר.",
       "description": "",
-      "time": "18:35",
+      "time": "16:45",
       "duration": 10,
       "date": "2026-08-10",
       "completed": false,
@@ -5999,7 +5999,7 @@
       "recurrence": null,
       "sourceId": "r_1783341311395_7gie",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-08-10T01:50:34.153Z"
+      "updatedAt": "2026-08-10T03:35:13.789Z"
     },
     {
       "id": "r_1785264396439_kt27",
@@ -15829,7 +15829,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T03:34:42.460Z"
+    "ts": "2026-08-10T03:35:17.321Z"
   },
   "settings": {
     "autoSync": true
