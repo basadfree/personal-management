@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T02:12:21.331Z",
+  "exportedAt": "2026-08-10T02:13:46.648Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14176,6 +14176,20 @@
       "sourceId": null,
       "createdAt": "2026-08-10T02:10:16.430Z",
       "updatedAt": "2026-08-10T02:12:16.814Z"
+    },
+    {
+      "id": "r_1786328023563_pizw",
+      "title": "צפרניים - בין לבין",
+      "description": "",
+      "time": "06:00",
+      "duration": 10,
+      "date": "2026-08-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T02:13:43.563Z",
+      "updatedAt": "2026-08-10T02:13:43.563Z"
     }
   ],
   "suggestions": {
@@ -15771,7 +15785,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T02:12:21.331Z"
+    "ts": "2026-08-10T02:13:46.648Z"
   },
   "settings": {
     "autoSync": true
