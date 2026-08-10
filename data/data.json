@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:37:32.350Z",
+  "exportedAt": "2026-08-10T01:37:46.478Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -5977,7 +5977,7 @@
       "id": "r_1785264396439_zl7l",
       "title": "תזונה",
       "description": "מטרת התזונה. אוכל אמא.",
-      "time": "12:20",
+      "time": "15:40",
       "duration": 30,
       "date": "2026-08-10",
       "completed": false,
@@ -5985,7 +5985,7 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-08-10T01:36:28.454Z"
+      "updatedAt": "2026-08-10T01:37:43.476Z"
     },
     {
       "id": "r_1785264396439_jwps",
@@ -13369,7 +13369,7 @@
       "id": "r_1786114010339_q8eu",
       "title": "חד אופן",
       "description": "מטרת החד אופן",
-      "time": "12:20",
+      "time": "15:40",
       "duration": 15,
       "date": "2026-08-10",
       "completed": false,
@@ -13377,7 +13377,7 @@
       "recurrence": null,
       "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-10T01:36:28.454Z"
+      "updatedAt": "2026-08-10T01:37:43.476Z"
     },
     {
       "id": "r_1786114010339_b0ad",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:37:32.350Z"
+    "ts": "2026-08-10T01:37:46.478Z"
   },
   "settings": {
     "autoSync": true
