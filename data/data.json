@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T04:07:42.697Z",
+  "exportedAt": "2026-08-10T04:08:48.089Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14246,6 +14246,20 @@
       "sourceId": null,
       "createdAt": "2026-08-10T04:07:36.172Z",
       "updatedAt": "2026-08-10T04:07:36.172Z"
+    },
+    {
+      "id": "r_1786334924940_zmnx",
+      "title": "הרגלים אטומים - לקלוט, לשמוע ולסכם",
+      "description": "",
+      "time": "09:00",
+      "duration": 150,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T04:08:44.940Z",
+      "updatedAt": "2026-08-10T04:08:44.940Z"
     }
   ],
   "suggestions": {
@@ -14873,10 +14887,10 @@
       "startDate": "",
       "endDate": "",
       "description": "19,| 32, 45, 58, 71, 84, 97, 110, 123, 136, 149, 162, 175, 188, 201, 214.\n\n220 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 5.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782468058587_wx37",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T04:07:43.245Z"
     },
     {
       "name": "רווח",
@@ -15752,7 +15766,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T04:07:42.697Z"
+    "ts": "2026-08-10T04:08:48.089Z"
   },
   "settings": {
     "autoSync": true
