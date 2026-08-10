@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T03:52:45.438Z",
+  "exportedAt": "2026-08-10T03:54:01.546Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14883,10 +14883,10 @@
       "startDate": "",
       "endDate": "",
       "description": "20 מנויים.\nממוצע של שבוע, לפחות 1000 צפיות ליום.\n4 סרטוני שיווק.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782468636418_fadx",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T03:54:00.771Z"
     },
     {
       "name": "פעילות גופנית",
@@ -14931,10 +14931,10 @@
       "startDate": "",
       "endDate": "",
       "description": "יצירת קשר דיגיטלי עם יזם אחד כל שבועיים.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782473125865_44f2",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T03:54:00.771Z"
     },
     {
       "name": "חד אופן",
@@ -15759,7 +15759,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T03:52:45.438Z"
+    "ts": "2026-08-10T03:54:01.546Z"
   },
   "settings": {
     "autoSync": true
