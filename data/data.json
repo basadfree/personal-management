@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T04:06:39.155Z",
+  "exportedAt": "2026-08-10T04:06:56.149Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -15010,9 +15010,9 @@
       "id": "o_1782466592091_4fx4",
       "name": "י",
       "derech": "10",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782466499456_gorv",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T04:06:53.157Z"
     },
     {
       "id": "o_1782466592802_aoh8",
@@ -15738,7 +15738,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T04:06:39.155Z"
+    "ts": "2026-08-10T04:06:56.149Z"
   },
   "settings": {
     "autoSync": true
