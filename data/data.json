@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T03:55:23.810Z",
+  "exportedAt": "2026-08-10T03:55:34.892Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14943,10 +14943,10 @@
       "startDate": "",
       "endDate": "",
       "description": "10 פעמים ג'אלינג על חד אופן על המקום.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782473267471_rqz1",
-      "updatedAt": "2026-08-10T03:55:19.816Z"
+      "updatedAt": "2026-08-10T03:55:25.447Z"
     },
     {
       "name": "נגינה",
@@ -14967,10 +14967,10 @@
       "startDate": "",
       "endDate": "",
       "description": "ללכת עם חבר למעיין, לשים לב לבוקסר וחולצה.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782473583130_yn0k",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T03:55:31.113Z"
     }
   ],
   "objectives": [
@@ -15738,7 +15738,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T03:55:23.810Z"
+    "ts": "2026-08-10T03:55:34.892Z"
   },
   "settings": {
     "autoSync": true
