@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T02:13:46.648Z",
+  "exportedAt": "2026-08-10T02:32:50.664Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14190,6 +14190,20 @@
       "sourceId": null,
       "createdAt": "2026-08-10T02:13:43.563Z",
       "updatedAt": "2026-08-10T02:13:43.563Z"
+    },
+    {
+      "id": "r_1786329167508_l71q",
+      "title": "לחזור על הסיכום של במדבר וויקרא",
+      "description": "",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T02:32:47.508Z",
+      "updatedAt": "2026-08-10T02:32:47.508Z"
     }
   ],
   "suggestions": {
@@ -15785,7 +15799,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T02:13:46.648Z"
+    "ts": "2026-08-10T02:32:50.664Z"
   },
   "settings": {
     "autoSync": true
