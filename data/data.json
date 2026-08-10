@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T03:35:17.321Z",
+  "exportedAt": "2026-08-10T03:35:37.713Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -6005,7 +6005,7 @@
       "id": "r_1785264396439_kt27",
       "title": "מדידת משקל",
       "description": "",
-      "time": "18:35",
+      "time": "16:50",
       "duration": 5,
       "date": "2026-08-10",
       "completed": false,
@@ -6013,7 +6013,7 @@
       "recurrence": null,
       "sourceId": "r_1783341386798_v13n",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-08-10T01:50:34.153Z"
+      "updatedAt": "2026-08-10T03:35:34.735Z"
     },
     {
       "id": "r_1785264405359_lo6j",
@@ -15829,7 +15829,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T03:35:17.321Z"
+    "ts": "2026-08-10T03:35:37.714Z"
   },
   "settings": {
     "autoSync": true
