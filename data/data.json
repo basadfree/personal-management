@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T04:05:34.680Z",
+  "exportedAt": "2026-08-10T04:06:02.550Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12851,15 +12851,15 @@
       "id": "r_1786112395562_3tor",
       "title": "פתיחת סינון ערוצי וואצפ",
       "description": "",
-      "time": "",
+      "time": "09:00",
       "duration": 20,
-      "date": "",
+      "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-07T14:19:55.562Z",
-      "updatedAt": "2026-08-07T14:19:55.563Z"
+      "updatedAt": "2026-08-10T04:05:59.437Z"
     },
     {
       "id": "r_1786113656970_79fj",
@@ -15738,7 +15738,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T04:05:34.680Z"
+    "ts": "2026-08-10T04:06:02.550Z"
   },
   "settings": {
     "autoSync": true
