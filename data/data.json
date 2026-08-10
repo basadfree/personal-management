@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T22:57:23.737Z",
+  "exportedAt": "2026-08-10T22:58:37.340Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12739,7 +12739,7 @@
       "id": "r_1786097434513_czxm",
       "title": "החוזר",
       "description": "",
-      "time": "15:00",
+      "time": "14:15",
       "duration": 15,
       "date": "2026-08-11",
       "completed": false,
@@ -12747,7 +12747,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T10:10:34.513Z",
-      "updatedAt": "2026-08-07T10:10:34.513Z"
+      "updatedAt": "2026-08-10T22:58:33.304Z"
     },
     {
       "id": "r_1786097434513_xius",
@@ -15852,7 +15852,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T22:57:23.737Z"
+    "ts": "2026-08-10T22:58:37.340Z"
   },
   "settings": {
     "autoSync": true
