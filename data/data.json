@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:38:39.399Z",
+  "exportedAt": "2026-08-10T01:40:15.336Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13481,15 +13481,15 @@
       "id": "r_1786114054771_mb3f",
       "title": "לואיז",
       "description": "166 - 256. 55 ע\"מ מלאים. 3 דק' לע\"מ.\nעוד 20 - הושלם. עוד 20 - עדיין. עוד 15 - עדיין.",
-      "time": "19:00",
-      "duration": 120,
+      "time": "16:20",
+      "duration": 80,
       "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782426191371_mn4b",
       "createdAt": "2026-08-07T14:47:34.771Z",
-      "updatedAt": "2026-08-10T01:38:03.061Z"
+      "updatedAt": "2026-08-10T01:40:12.340Z"
     },
     {
       "id": "r_1786114060915_piyp",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:38:39.399Z"
+    "ts": "2026-08-10T01:40:15.336Z"
   },
   "settings": {
     "autoSync": true
