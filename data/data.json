@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:40:15.336Z",
+  "exportedAt": "2026-08-10T01:41:05.636Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13678,14 +13678,14 @@
       "title": "=== תנ\"ך - 30 פעמים.",
       "description": "",
       "time": "19:00",
-      "duration": 120,
+      "duration": 90,
       "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783595542643_zs64",
       "createdAt": "2026-08-07T16:04:43.863Z",
-      "updatedAt": "2026-08-10T01:38:03.061Z"
+      "updatedAt": "2026-08-10T01:41:02.635Z"
     },
     {
       "id": "r_1786118690387_97a3",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:40:15.336Z"
+    "ts": "2026-08-10T01:41:05.636Z"
   },
   "settings": {
     "autoSync": true
