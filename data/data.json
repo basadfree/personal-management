@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T21:33:58.264Z",
+  "exportedAt": "2026-08-10T21:34:25.491Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14288,6 +14288,20 @@
       "sourceId": "r_1783595483271_gks1",
       "createdAt": "2026-08-10T16:31:29.908Z",
       "updatedAt": "2026-08-10T16:31:30.655Z"
+    },
+    {
+      "id": "r_1786397662295_f67w",
+      "title": "גרעיני פופקורן - אבא - על הבוקר להזכיר",
+      "description": "",
+      "time": "06:00",
+      "duration": 30,
+      "date": "2026-08-10",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-10T21:34:22.295Z",
+      "updatedAt": "2026-08-10T21:34:22.295Z"
     }
   ],
   "suggestions": {
@@ -15796,7 +15810,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T21:33:58.264Z"
+    "ts": "2026-08-10T21:34:25.491Z"
   },
   "settings": {
     "autoSync": true
