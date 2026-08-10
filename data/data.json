@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:50:27.426Z",
+  "exportedAt": "2026-08-10T01:50:37.463Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -6005,7 +6005,7 @@
       "id": "r_1785264396439_7fj6",
       "title": "שיפור סידור חדר\\בית והסרת אבק מהחדר.",
       "description": "",
-      "time": "18:10",
+      "time": "18:35",
       "duration": 10,
       "date": "2026-08-10",
       "completed": false,
@@ -6013,13 +6013,13 @@
       "recurrence": null,
       "sourceId": "r_1783341311395_7gie",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-08-10T01:50:24.465Z"
+      "updatedAt": "2026-08-10T01:50:34.153Z"
     },
     {
       "id": "r_1785264396439_kt27",
       "title": "מדידת משקל",
       "description": "",
-      "time": "18:10",
+      "time": "18:35",
       "duration": 5,
       "date": "2026-08-10",
       "completed": false,
@@ -6027,7 +6027,7 @@
       "recurrence": null,
       "sourceId": "r_1783341386798_v13n",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-07-28T18:46:36.439Z"
+      "updatedAt": "2026-08-10T01:50:34.153Z"
     },
     {
       "id": "r_1785264405359_lo6j",
@@ -13299,7 +13299,7 @@
       "id": "r_1786114010339_5uxw",
       "title": "החוזר",
       "description": "",
-      "time": "18:20",
+      "time": "18:45",
       "duration": 15,
       "date": "2026-08-10",
       "completed": false,
@@ -13307,7 +13307,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-10T01:38:03.061Z"
+      "updatedAt": "2026-08-10T01:50:34.153Z"
     },
     {
       "id": "r_1786114010339_c890",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:50:27.426Z"
+    "ts": "2026-08-10T01:50:37.463Z"
   },
   "settings": {
     "autoSync": true
