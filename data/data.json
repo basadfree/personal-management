@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:26:15.299Z",
+  "exportedAt": "2026-08-10T01:26:57.880Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13022,12 +13022,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:26:54.640Z"
     },
     {
       "id": "r_1786113932419_ehzy",
@@ -13064,12 +13064,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:26:54.640Z"
     },
     {
       "id": "r_1786113932419_nifs",
@@ -13176,12 +13176,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-09",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T14:45:32.419Z",
-      "updatedAt": "2026-08-07T14:45:32.419Z"
+      "updatedAt": "2026-08-10T01:26:54.640Z"
     },
     {
       "id": "r_1786113932419_jt94",
@@ -15767,7 +15767,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:26:15.299Z"
+    "ts": "2026-08-10T01:26:57.880Z"
   },
   "settings": {
     "autoSync": true
