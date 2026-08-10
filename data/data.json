@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T03:52:21.294Z",
+  "exportedAt": "2026-08-10T03:52:45.438Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14902,7 +14902,7 @@
     },
     {
       "name": "תזונה",
-      "periodId": "gp_1782463458192_i8vh",
+      "periodId": "",
       "typeId": "gt_1782464093186_vudl",
       "startDate": "",
       "endDate": "",
@@ -14910,7 +14910,7 @@
       "status": "in_progress",
       "single": false,
       "id": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-10T03:52:41.742Z"
     },
     {
       "name": "שינה וקימה.",
@@ -15759,7 +15759,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T03:52:21.294Z"
+    "ts": "2026-08-10T03:52:45.438Z"
   },
   "settings": {
     "autoSync": true
