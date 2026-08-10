@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:29:29.923Z",
+  "exportedAt": "2026-08-10T01:29:41.244Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -5938,12 +5938,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-07-28T18:46:36.439Z"
+      "updatedAt": "2026-08-10T01:29:38.287Z"
     },
     {
       "id": "r_1785264396439_ova0",
@@ -5994,12 +5994,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:46:36.439Z",
-      "updatedAt": "2026-07-28T18:46:36.439Z"
+      "updatedAt": "2026-08-10T01:29:38.287Z"
     },
     {
       "id": "r_1785264396439_7fj6",
@@ -13316,12 +13316,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:39.531Z"
+      "updatedAt": "2026-08-10T01:29:38.287Z"
     },
     {
       "id": "r_1786114010339_wdd8",
@@ -13358,12 +13358,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-10",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T14:46:50.339Z",
-      "updatedAt": "2026-08-07T14:47:39.531Z"
+      "updatedAt": "2026-08-10T01:29:38.287Z"
     },
     {
       "id": "r_1786114010339_q8eu",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:29:29.923Z"
+    "ts": "2026-08-10T01:29:41.244Z"
   },
   "settings": {
     "autoSync": true
