@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T22:35:32.725Z",
+  "exportedAt": "2026-08-10T22:35:52.268Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14209,15 +14209,15 @@
       "id": "r_1786329323488_qjk0",
       "title": "ספר תנאי הנפש",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 120,
-      "date": "2026-08-11",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-10T02:35:23.488Z",
-      "updatedAt": "2026-08-10T02:35:23.489Z"
+      "updatedAt": "2026-08-10T22:35:46.627Z"
     },
     {
       "id": "r_1786329952327_jbsh",
@@ -15838,7 +15838,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-10T22:35:32.725Z"
+    "ts": "2026-08-10T22:35:52.268Z"
   },
   "settings": {
     "autoSync": true
