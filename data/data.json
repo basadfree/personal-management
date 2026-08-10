@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:53:09.067Z",
+  "exportedAt": "2026-08-10T01:53:46.251Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12667,15 +12667,15 @@
       "id": "r_1786095543397_bpc0",
       "title": "להתקשר לגרוסמן",
       "description": "",
-      "time": "",
+      "time": "06:00",
       "duration": 10,
-      "date": "",
+      "date": "2026-08-10",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-07T09:39:03.397Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-10T01:53:43.256Z"
     },
     {
       "id": "r_1786096840659_2f02",
@@ -15757,7 +15757,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:53:09.067Z"
+    "ts": "2026-08-10T01:53:46.251Z"
   },
   "settings": {
     "autoSync": true
