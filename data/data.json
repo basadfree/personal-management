@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-10T01:41:05.636Z",
+  "exportedAt": "2026-08-10T01:41:47.669Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14165,9 +14165,9 @@
     },
     {
       "id": "r_1786229908454_8esv",
-      "title": "מגן מסך",
+      "title": "מגן מסך - בין לבין.",
       "description": "",
-      "time": "19:00",
+      "time": "18:00",
       "duration": 30,
       "date": "2026-08-10",
       "completed": false,
@@ -14175,7 +14175,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-08T22:58:28.454Z",
-      "updatedAt": "2026-08-10T01:38:03.061Z"
+      "updatedAt": "2026-08-10T01:41:44.395Z"
     },
     {
       "id": "r_1786325282399_d90l",
@@ -15783,7 +15783,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-10T01:41:05.636Z"
+    "ts": "2026-08-10T01:41:47.669Z"
   },
   "settings": {
     "autoSync": true
