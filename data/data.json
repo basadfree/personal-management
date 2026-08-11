@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T23:23:27.930Z",
+  "exportedAt": "2026-08-11T23:23:38.763Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14358,6 +14358,20 @@
       "sourceId": "r_1783595483271_gks1",
       "createdAt": "2026-08-11T23:22:19.771Z",
       "updatedAt": "2026-08-11T23:22:32.242Z"
+    },
+    {
+      "id": "r_1786490615458_ya2j",
+      "title": "התכוננות לישיבה בעז\"ה וב\"ה.",
+      "description": "",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-08-11",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786096840659_2f02",
+      "createdAt": "2026-08-11T23:23:35.458Z",
+      "updatedAt": "2026-08-11T23:23:35.459Z"
     }
   ],
   "suggestions": {
@@ -15870,7 +15884,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T23:23:27.930Z"
+    "ts": "2026-08-11T23:23:38.763Z"
   },
   "settings": {
     "autoSync": true
