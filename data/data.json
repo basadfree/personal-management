@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T23:23:51.214Z",
+  "exportedAt": "2026-08-11T23:23:58.877Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12684,12 +12684,12 @@
       "time": "20:30",
       "duration": 15,
       "date": "2026-08-11",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-07T10:00:40.659Z",
-      "updatedAt": "2026-08-11T23:23:48.210Z"
+      "updatedAt": "2026-08-11T23:23:55.826Z"
     },
     {
       "id": "r_1786096993506_2fie",
@@ -14372,6 +14372,20 @@
       "sourceId": "r_1786096840659_2f02",
       "createdAt": "2026-08-11T23:23:35.458Z",
       "updatedAt": "2026-08-11T23:23:35.459Z"
+    },
+    {
+      "id": "r_1786490634762_2hok",
+      "title": "התכוננות לישיבה בעז\"ה וב\"ה.",
+      "description": "",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-08-12",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786096840659_2f02",
+      "createdAt": "2026-08-11T23:23:54.762Z",
+      "updatedAt": "2026-08-11T23:23:55.826Z"
     }
   ],
   "suggestions": {
@@ -15884,7 +15898,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T23:23:51.214Z"
+    "ts": "2026-08-11T23:23:58.877Z"
   },
   "settings": {
     "autoSync": true
