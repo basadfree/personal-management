@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T23:22:48.207Z",
+  "exportedAt": "2026-08-11T23:23:01.323Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14335,15 +14335,15 @@
       "id": "r_1786401376609_fbu4",
       "title": "כביסה צבעונית + לבנה",
       "description": "",
-      "time": "20:30",
+      "time": "08:30",
       "duration": 15,
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-10T22:36:16.609Z",
-      "updatedAt": "2026-08-11T11:47:09.310Z"
+      "updatedAt": "2026-08-11T23:22:58.363Z"
     },
     {
       "id": "r_1786490539771_jiq0",
@@ -15870,7 +15870,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T23:22:48.207Z"
+    "ts": "2026-08-11T23:23:01.323Z"
   },
   "settings": {
     "autoSync": true
