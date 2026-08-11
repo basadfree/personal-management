@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T10:09:23.002Z",
+  "exportedAt": "2026-08-11T10:10:05.070Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12681,7 +12681,7 @@
       "id": "r_1786096840659_2f02",
       "title": "התכוננות לישיבה בעז\"ה וב\"ה.",
       "description": "",
-      "time": "18:00",
+      "time": "20:30",
       "duration": 15,
       "date": "2026-08-11",
       "completed": false,
@@ -12689,7 +12689,7 @@
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-07T10:00:40.659Z",
-      "updatedAt": "2026-08-10T23:05:06.174Z"
+      "updatedAt": "2026-08-11T10:10:01.300Z"
     },
     {
       "id": "r_1786096993506_2fie",
@@ -15856,7 +15856,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T10:09:23.002Z"
+    "ts": "2026-08-11T10:10:05.070Z"
   },
   "settings": {
     "autoSync": true
