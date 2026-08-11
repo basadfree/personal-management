@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T10:08:06.984Z",
+  "exportedAt": "2026-08-11T10:08:36.684Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -6411,7 +6411,7 @@
       "id": "r_1785264438087_boqu",
       "title": "מהלך",
       "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
-      "time": "14:30",
+      "time": "14:20",
       "duration": 45,
       "date": "2026-08-11",
       "completed": false,
@@ -6419,7 +6419,7 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-28T18:47:18.087Z",
-      "updatedAt": "2026-08-10T23:05:06.174Z"
+      "updatedAt": "2026-08-11T10:08:33.035Z"
     },
     {
       "id": "r_1785264438087_z9e1",
@@ -15856,7 +15856,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T10:08:06.984Z"
+    "ts": "2026-08-11T10:08:36.684Z"
   },
   "settings": {
     "autoSync": true
