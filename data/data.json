@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-11T10:07:00.965Z",
+  "exportedAt": "2026-08-11T10:07:17.003Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14252,14 +14252,14 @@
       "title": "הרגלים אטומים - לקלוט",
       "description": "",
       "time": "12:20",
-      "duration": 90,
+      "duration": 60,
       "date": "2026-08-11",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-10T04:08:44.940Z",
-      "updatedAt": "2026-08-10T22:55:45.062Z"
+      "updatedAt": "2026-08-11T10:07:13.773Z"
     },
     {
       "id": "r_1786379182223_sp23",
@@ -15854,7 +15854,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-11T10:07:00.965Z"
+    "ts": "2026-08-11T10:07:17.003Z"
   },
   "settings": {
     "autoSync": true
