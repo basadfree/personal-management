@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T21:38:38.701Z",
+  "exportedAt": "2026-08-12T21:39:04.886Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14486,6 +14486,20 @@
       "sourceId": null,
       "createdAt": "2026-08-12T21:18:49.372Z",
       "updatedAt": "2026-08-12T21:18:49.372Z"
+    },
+    {
+      "id": "r_1786570741546_dkdd",
+      "title": "לקחת שמיכה וכרית מהגמ\"ח",
+      "description": "",
+      "time": "",
+      "duration": 10,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-12T21:39:01.546Z",
+      "updatedAt": "2026-08-12T21:39:01.546Z"
     }
   ],
   "suggestions": {
@@ -15991,7 +16005,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T21:38:38.701Z"
+    "ts": "2026-08-12T21:39:04.886Z"
   },
   "settings": {
     "autoSync": true
