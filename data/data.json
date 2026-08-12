@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T17:43:42.658Z",
+  "exportedAt": "2026-08-12T17:44:49.517Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -15029,10 +15029,10 @@
       "startDate": "",
       "endDate": "",
       "description": "260 ע\"מ.\n\nמ-י\"ז תמוז, ללא שבתות = 41 יום. כלומר כל יום 6.4 ע\"מ.\n\nכולל סיכום ותובנות, ולמעשה.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782467946336_tyih",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-12T17:44:46.104Z"
     },
     {
       "name": "כיצד לרכוש ידידים והשפעה",
@@ -15919,7 +15919,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T17:43:42.658Z"
+    "ts": "2026-08-12T17:44:49.517Z"
   },
   "settings": {
     "autoSync": true
