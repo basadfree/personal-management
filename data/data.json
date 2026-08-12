@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T17:41:04.778Z",
+  "exportedAt": "2026-08-12T17:41:23.965Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14984,7 +14984,7 @@
       "status": "completed",
       "single": false,
       "id": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-12T17:41:01.588Z"
+      "updatedAt": "2026-08-12T17:41:05.150Z"
     },
     {
       "name": "תנ\"ך",
@@ -14993,10 +14993,10 @@
       "startDate": "",
       "endDate": "",
       "description": "מויקרא ז' עד יהושע ג', כולל מספר שאלות בהחוזר לכל ספר שהושלם.\n\nמ-י\"ג תמוז עד כ\"ט אב: 47 ימים.\n\n2 פרקים ליום.\n\nכלומר, 94 פרקים.\n\nהישג: ויקרא ח'.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782466079400_w4mv",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-12T17:41:05.150Z"
     },
     {
       "name": "תניא",
@@ -15017,10 +15017,10 @@
       "startDate": "",
       "endDate": "",
       "description": "41 יום (מי\"ג תמוז, ללא שבתות).\n\n119 ע\"מ. כלומר 3 ע\"מ ליום.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782467228011_j5f5",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-12T17:41:20.765Z"
     },
     {
       "name": "הרגלים אטומיים",
@@ -15926,7 +15926,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T17:41:04.778Z"
+    "ts": "2026-08-12T17:41:23.965Z"
   },
   "settings": {
     "autoSync": true
