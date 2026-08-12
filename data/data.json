@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T17:45:33.449Z",
+  "exportedAt": "2026-08-12T17:45:40.608Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14419,15 +14419,15 @@
       "id": "r_1786556730286_sn5t",
       "title": "תכנון התקופה הקרובה",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 60,
-      "date": "2026-08-12",
+      "date": "",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-08-12T17:45:30.286Z",
-      "updatedAt": "2026-08-12T17:45:30.286Z"
+      "updatedAt": "2026-08-12T17:45:37.549Z"
     }
   ],
   "suggestions": {
@@ -15933,7 +15933,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T17:45:33.449Z"
+    "ts": "2026-08-12T17:45:40.608Z"
   },
   "settings": {
     "autoSync": true
