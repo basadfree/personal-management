@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T19:07:29.688Z",
+  "exportedAt": "2026-08-12T19:31:53.001Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14428,6 +14428,20 @@
       "sourceId": null,
       "createdAt": "2026-08-12T17:45:30.286Z",
       "updatedAt": "2026-08-12T17:45:37.549Z"
+    },
+    {
+      "id": "r_1786563109724_qm86",
+      "title": "להדפיס שוב תמונה ציבעונית של התעודה מזוהה. אולי אפשר בבית אל.",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-12T19:31:49.724Z",
+      "updatedAt": "2026-08-12T19:31:49.724Z"
     }
   ],
   "suggestions": {
@@ -15933,7 +15947,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T19:07:29.688Z"
+    "ts": "2026-08-12T19:31:53.001Z"
   },
   "settings": {
     "autoSync": true
