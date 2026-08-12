@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T21:11:51.238Z",
+  "exportedAt": "2026-08-12T21:18:53.224Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14470,6 +14470,22 @@
       "sourceId": null,
       "createdAt": "2026-08-12T21:11:44.534Z",
       "updatedAt": "2026-08-12T21:11:44.535Z"
+    },
+    {
+      "id": "r_1786569529371_bltb",
+      "title": "להוסיף 100 ש''ח דמי כיס אבא",
+      "description": "",
+      "time": "09:00",
+      "duration": 5,
+      "date": "2026-08-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "monthly"
+      },
+      "sourceId": null,
+      "createdAt": "2026-08-12T21:18:49.372Z",
+      "updatedAt": "2026-08-12T21:18:49.372Z"
     }
   ],
   "suggestions": {
@@ -15975,7 +15991,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-12T21:11:51.238Z"
+    "ts": "2026-08-12T21:18:53.224Z"
   },
   "settings": {
     "autoSync": true
