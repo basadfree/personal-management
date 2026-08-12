@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T21:03:22.687Z",
+  "exportedAt": "2026-08-12T21:04:04.662Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14442,6 +14442,20 @@
       "sourceId": null,
       "createdAt": "2026-08-12T19:31:49.724Z",
       "updatedAt": "2026-08-12T19:31:49.724Z"
+    },
+    {
+      "id": "r_1786568641472_7n15",
+      "title": "אורות התשובה",
+      "description": "לקחת מאלחנן",
+      "time": "",
+      "duration": 30,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-12T21:04:01.472Z",
+      "updatedAt": "2026-08-12T21:04:01.473Z"
     }
   ],
   "suggestions": {
@@ -15947,7 +15961,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-12T21:03:22.687Z"
+    "ts": "2026-08-12T21:04:04.662Z"
   },
   "settings": {
     "autoSync": true
