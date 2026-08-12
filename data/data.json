@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T17:40:52.385Z",
+  "exportedAt": "2026-08-12T17:41:04.778Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14981,10 +14981,10 @@
       "startDate": "",
       "endDate": "",
       "description": "26 כרטיסיות בהחוזר, זה יוצא בממוצע כרטיסייה אחת ליומיים, ללא ימי שבת. במוצאי שבת אפשר להשלים אם צריך.",
-      "status": "in_progress",
+      "status": "completed",
       "single": false,
       "id": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-10T01:24:07.718Z"
+      "updatedAt": "2026-08-12T17:41:01.588Z"
     },
     {
       "name": "תנ\"ך",
@@ -15926,7 +15926,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-12T17:40:52.385Z"
+    "ts": "2026-08-12T17:41:04.778Z"
   },
   "settings": {
     "autoSync": true
