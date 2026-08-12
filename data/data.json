@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T21:04:32.957Z",
+  "exportedAt": "2026-08-12T21:11:51.238Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14456,6 +14456,20 @@
       "sourceId": null,
       "createdAt": "2026-08-12T21:04:01.472Z",
       "updatedAt": "2026-08-12T21:04:01.473Z"
+    },
+    {
+      "id": "r_1786569104533_460r",
+      "title": "לשים לב לגמרות",
+      "description": "",
+      "time": "",
+      "duration": 20,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-12T21:11:44.534Z",
+      "updatedAt": "2026-08-12T21:11:44.535Z"
     }
   ],
   "suggestions": {
@@ -15961,7 +15975,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-12T21:04:32.957Z"
+    "ts": "2026-08-12T21:11:51.238Z"
   },
   "settings": {
     "autoSync": true
