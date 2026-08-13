@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-13T04:53:13.437Z",
+  "exportedAt": "2026-08-13T04:53:44.748Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -16992,6 +16992,204 @@
       "sourceId": null,
       "createdAt": "2026-08-13T04:53:10.299Z",
       "updatedAt": "2026-08-13T04:53:10.300Z"
+    },
+    {
+      "id": "r_1786596798634_hf1x",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_gme2",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_fd4i",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_wykg",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_fiqo",
+      "title": "תכנון",
+      "description": "",
+      "time": "07:00",
+      "duration": 15,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785266363579_zvqg",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_av2i",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_m1ns",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_trbl",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_fpr1",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_64b3",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_eugu",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_ofmg",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782474961808_oqv9",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596798634_nhxn",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-13T04:53:18.634Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
+    },
+    {
+      "id": "r_1786596821401_y9el",
+      "title": "התכתבויות ופגישה כפולה 🔥🔥",
+      "description": "",
+      "time": "21:30",
+      "duration": 20,
+      "date": "2026-08-31",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-08-13T04:53:41.401Z",
+      "updatedAt": "2026-08-13T04:53:41.401Z"
     }
   ],
   "suggestions": {
@@ -18497,7 +18695,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-13T04:53:13.437Z"
+    "ts": "2026-08-13T04:53:44.748Z"
   },
   "settings": {
     "autoSync": true
