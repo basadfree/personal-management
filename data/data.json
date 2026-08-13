@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-13T04:29:49.050Z",
+  "exportedAt": "2026-08-13T04:30:08.624Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -11101,17 +11101,17 @@
     },
     {
       "id": "r_1785300459066_n36r",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
-      "date": "2026-08-09",
+      "date": "2026-08-13",
       "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-29T04:47:39.066Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1785300473955_tsnb",
@@ -11525,7 +11525,7 @@
     },
     {
       "id": "r_1785458903342_gif7",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -11535,7 +11535,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-31T00:48:23.342Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1785458903342_safa",
@@ -11665,7 +11665,7 @@
     },
     {
       "id": "r_1785458911852_vop5",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -11675,7 +11675,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-07-31T00:48:31.852Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1785458911852_grvo",
@@ -12446,12 +12446,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-13",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:29:50.676Z"
     },
     {
       "id": "r_1786093767741_xttt",
@@ -12502,12 +12502,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-13",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:29:50.676Z"
     },
     {
       "id": "r_1786093767741_t8gk",
@@ -12525,7 +12525,7 @@
     },
     {
       "id": "r_1786093767741_xgh7",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -12535,7 +12535,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1786093767741_4s9s",
@@ -12563,7 +12563,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-13T04:29:45.860Z"
+      "updatedAt": "2026-08-13T04:29:50.676Z"
     },
     {
       "id": "r_1786093767741_i126",
@@ -12577,7 +12577,7 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-13T04:29:45.860Z"
+      "updatedAt": "2026-08-13T04:29:50.676Z"
     },
     {
       "id": "r_1786093767741_b2ks",
@@ -12619,7 +12619,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-13T04:29:45.860Z"
+      "updatedAt": "2026-08-13T04:29:50.676Z"
     },
     {
       "id": "r_1786093771100_ztrj",
@@ -13773,7 +13773,7 @@
     },
     {
       "id": "r_1786119636486_2eao",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -13783,7 +13783,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1786119636486_3y1k",
@@ -13969,7 +13969,7 @@
     },
     {
       "id": "r_1786211943321_3dhx",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -13979,7 +13979,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-08T17:59:03.321Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1786211943321_ugpu",
@@ -14067,7 +14067,7 @@
     },
     {
       "id": "r_1786211950389_c0lv",
-      "title": "פגישה",
+      "title": "התכתבויות ופגישה כפולה",
       "description": "",
       "time": "21:00",
       "duration": 15,
@@ -14077,7 +14077,7 @@
       "recurrence": null,
       "sourceId": "r_1785300459066_n36r",
       "createdAt": "2026-08-08T17:59:10.389Z",
-      "updatedAt": "2026-08-08T22:59:04.058Z"
+      "updatedAt": "2026-08-13T04:30:05.613Z"
     },
     {
       "id": "r_1786211950389_t482",
@@ -16425,7 +16425,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-13T04:29:49.050Z"
+    "ts": "2026-08-13T04:30:08.624Z"
   },
   "settings": {
     "autoSync": true
