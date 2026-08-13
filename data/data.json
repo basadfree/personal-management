@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-13T04:10:06.535Z",
+  "exportedAt": "2026-08-13T04:11:26.629Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12487,13 +12487,13 @@
       "description": "",
       "time": "13:00",
       "duration": 20,
-      "date": "2026-08-13",
+      "date": "2026-08-15",
       "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783322993928_ckcd",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:11:23.605Z"
     },
     {
       "id": "r_1786093767741_gkvo",
@@ -14514,6 +14514,19 @@
       "sourceId": null,
       "createdAt": "2026-08-13T00:15:53.951Z",
       "updatedAt": "2026-08-13T00:15:53.952Z"
+    },
+    {
+      "id": "r_1786594283632_91ga",
+      "title": "מעקב חזק על המטרות והיעדים",
+      "description": "",
+      "time": "13:00",
+      "duration": 20,
+      "date": "2026-08-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783322993928_ckcd",
+      "createdAt": "2026-08-13T04:11:23.632Z"
     }
   ],
   "suggestions": {
@@ -16019,7 +16032,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-13T04:10:06.535Z"
+    "ts": "2026-08-13T04:11:26.629Z"
   },
   "settings": {
     "autoSync": true
