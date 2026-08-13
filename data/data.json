@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-12T21:52:31.179Z",
+  "exportedAt": "2026-08-13T00:15:57.569Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14500,6 +14500,20 @@
       "sourceId": null,
       "createdAt": "2026-08-12T21:39:01.546Z",
       "updatedAt": "2026-08-12T21:39:01.546Z"
+    },
+    {
+      "id": "r_1786580153951_ywrs",
+      "title": "ציפורניים ידיים",
+      "description": "",
+      "time": "09:00",
+      "duration": 10,
+      "date": "2026-08-13",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-13T00:15:53.951Z",
+      "updatedAt": "2026-08-13T00:15:53.952Z"
     }
   ],
   "suggestions": {
@@ -16005,7 +16019,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-12T21:52:31.180Z"
+    "ts": "2026-08-13T00:15:57.569Z"
   },
   "settings": {
     "autoSync": true
