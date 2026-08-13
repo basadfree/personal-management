@@ -2875,33 +2875,22 @@ function saveTask(updateAll) {
       if (updateAll) {
         const sourceId = state.results[idx].sourceId || state.results[idx].id;
         const editId = state.results[idx].id;
-        const todayStr = getDateStr(new Date());
-        if (dateStr === '') {
-          state.results = state.results.filter(r =>
-            r.id === editId || !(r.sourceId === sourceId && (!r.date || r.date >= todayStr))
-          );
-          if (oldDate && oldDate !== '') removedFromDate.add(oldDate + '|' + sourceId);
-        } else {
-          state.results.forEach(r => {
-            if (r.id === sourceId) {
-              r.title = title; r.description = description;
-              r.time = time; r.duration = duration;
-              r.recurrence = recurrence;
-            } else if (r.sourceId === sourceId && r.id !== state.results[idx].id) {
-              if (r.date && r.date < todayStr) return;
-              r.title = title; r.description = description;
-              r.time = time; r.duration = duration;
-            }
-          });
-        }
-        // Update the source task fields in all cases (even when dateStr='' it's already set above on line 2528)
+        state.results.forEach(r => {
+          if (r.id === sourceId) {
+            r.title = title; r.description = description;
+            r.time = time; r.duration = duration;
+            r.recurrence = recurrence;
+          } else if (r.sourceId === sourceId && r.id !== editId) {
+            r.title = title; r.description = description;
+            r.time = time; r.duration = duration;
+          }
+        });
         const srcIdx = state.results.findIndex(r => r.id === sourceId);
         if (srcIdx >= 0) {
           state.results[srcIdx].title = title;
           state.results[srcIdx].description = description;
           state.results[srcIdx].time = time;
           state.results[srcIdx].duration = duration;
-          if (dateStr === '') state.results[srcIdx].date = '';
           state.results[srcIdx].recurrence = recurrence;
         }
         toast('🔄 כל העותקים עודכנו', 'success');
