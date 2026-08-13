@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-13T04:29:33.401Z",
+  "exportedAt": "2026-08-13T04:29:49.050Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12558,12 +12558,12 @@
       "time": "15:00",
       "duration": 15,
       "date": "2026-08-13",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:29:45.860Z"
     },
     {
       "id": "r_1786093767741_i126",
@@ -12572,12 +12572,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-13",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:29:45.860Z"
     },
     {
       "id": "r_1786093767741_b2ks",
@@ -12614,12 +12614,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-13",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-07T09:09:27.741Z",
-      "updatedAt": "2026-08-07T09:39:03.398Z"
+      "updatedAt": "2026-08-13T04:29:45.860Z"
     },
     {
       "id": "r_1786093771100_ztrj",
@@ -13671,7 +13671,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-07T16:04:50.387Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786119636486_wut2",
@@ -14527,7 +14527,7 @@
       "recurrence": null,
       "sourceId": "r_1783322993928_ckcd",
       "createdAt": "2026-08-13T04:11:23.632Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_mn2i",
@@ -14541,7 +14541,7 @@
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_br62",
@@ -14555,7 +14555,7 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_gi11",
@@ -14569,7 +14569,7 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_cvfk",
@@ -14583,7 +14583,7 @@
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_ypgy",
@@ -14597,7 +14597,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_s1nx",
@@ -14611,7 +14611,7 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_u2z4",
@@ -14625,7 +14625,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_ymt7",
@@ -14639,7 +14639,7 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_tkh5",
@@ -14653,7 +14653,7 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_bbk3",
@@ -14667,7 +14667,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_3uk7",
@@ -14681,7 +14681,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595361622_do2u",
@@ -14695,7 +14695,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-13T04:29:21.622Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_et84",
@@ -14709,7 +14709,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_03lf",
@@ -14723,7 +14723,7 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_sorf",
@@ -14737,7 +14737,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_c1zk",
@@ -14751,7 +14751,7 @@
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_5g1m",
@@ -14765,7 +14765,7 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_c0t6",
@@ -14779,7 +14779,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_tqjv",
@@ -14793,7 +14793,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_2xa8",
@@ -14807,7 +14807,7 @@
       "recurrence": null,
       "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595364517_1lae",
@@ -14821,7 +14821,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_uz2h",
@@ -14835,7 +14835,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_uvgo",
@@ -14849,7 +14849,7 @@
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_txa8",
@@ -14863,7 +14863,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_n2e0",
@@ -14877,7 +14877,7 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_74ab",
@@ -14891,7 +14891,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_1dwa",
@@ -14905,7 +14905,7 @@
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     },
     {
       "id": "r_1786595366877_3bk9",
@@ -14919,7 +14919,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-13T04:29:26.877Z",
-      "updatedAt": "2026-08-13T04:29:32.644Z"
+      "updatedAt": "2026-08-13T04:29:34.812Z"
     }
   ],
   "suggestions": {
@@ -16425,7 +16425,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-13T04:29:33.401Z"
+    "ts": "2026-08-13T04:29:49.050Z"
   },
   "settings": {
     "autoSync": true
