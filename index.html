@@ -2886,7 +2886,7 @@ function saveTask(updateAll) {
             if (r.id === sourceId) {
               r.title = title; r.description = description;
               r.time = time; r.duration = duration;
-              r.date = dateStr; r.recurrence = recurrence;
+              r.recurrence = recurrence;
             } else if (r.sourceId === sourceId && r.id !== state.results[idx].id) {
               if (r.date && r.date < todayStr) return;
               r.title = title; r.description = description;
@@ -2901,7 +2901,7 @@ function saveTask(updateAll) {
           state.results[srcIdx].description = description;
           state.results[srcIdx].time = time;
           state.results[srcIdx].duration = duration;
-          state.results[srcIdx].date = dateStr;
+          if (dateStr === '') state.results[srcIdx].date = '';
           state.results[srcIdx].recurrence = recurrence;
         }
         toast('🔄 כל העותקים עודכנו', 'success');
