@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-13T04:54:14.765Z",
+  "exportedAt": "2026-08-15T22:48:14.722Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14516,6 +14516,162 @@
       "updatedAt": "2026-08-13T04:29:15.836Z"
     },
     {
+      "id": "r_1786832974344_bjz0",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-08-15T22:29:34.344Z"
+    },
+    {
+      "id": "r_1786832974344_vgn2",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-08-15T22:29:34.344Z"
+    },
+    {
+      "id": "r_1786832974344_trid",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-08-15T22:29:34.344Z"
+    },
+    {
+      "id": "r_1786832974344_z4rm",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-08-15T22:29:34.344Z"
+    },
+    {
+      "id": "r_1786832974344_45df",
+      "title": "תכנון",
+      "description": "",
+      "time": "07:00",
+      "duration": 15,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785266363579_zvqg",
+      "createdAt": "2026-08-15T22:29:34.344Z"
+    },
+    {
+      "id": "r_1786832974345_do40",
+      "title": "פל\"נ",
+      "description": "",
+      "time": "12:10",
+      "duration": 30,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785303136675_j5h7",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_iyh2",
+      "title": "החוזר",
+      "description": "",
+      "time": "15:00",
+      "duration": 15,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1785458889750_e3y6",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_t2wy",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_ybkl",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_jc2u",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_rgxl",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
+      "id": "r_1786832974345_85ek",
+      "title": "נגינה - 2 מנגינות",
+      "description": "",
+      "time": "17:00",
+      "duration": 60,
+      "date": "2026-08-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786097275695_hidv",
+      "createdAt": "2026-08-15T22:29:34.345Z"
+    },
+    {
       "id": "r_1786594283632_91ga",
       "title": "מעקב חזק על המטרות והיעדים",
       "description": "",
@@ -19380,8 +19536,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-13T04:54:14.765Z"
+    "deviceId": "dev_msine8q1_vjryu0",
+    "ts": "2026-08-15T22:48:14.722Z"
   },
   "settings": {
     "autoSync": true
