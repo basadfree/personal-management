@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-15T22:48:14.722Z",
+  "exportedAt": "2026-08-15T22:49:24.323Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -14526,7 +14526,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
-      "createdAt": "2026-08-15T22:29:34.344Z"
+      "createdAt": "2026-08-15T22:29:34.344Z",
+      "updatedAt": "2026-08-15T22:29:34.344Z"
     },
     {
       "id": "r_1786832974344_vgn2",
@@ -14539,7 +14540,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
-      "createdAt": "2026-08-15T22:29:34.344Z"
+      "createdAt": "2026-08-15T22:29:34.344Z",
+      "updatedAt": "2026-08-15T22:29:34.344Z"
     },
     {
       "id": "r_1786832974344_trid",
@@ -14552,7 +14554,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-08-15T22:29:34.344Z"
+      "createdAt": "2026-08-15T22:29:34.344Z",
+      "updatedAt": "2026-08-15T22:29:34.344Z"
     },
     {
       "id": "r_1786832974344_z4rm",
@@ -14565,7 +14568,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-08-15T22:29:34.344Z"
+      "createdAt": "2026-08-15T22:29:34.344Z",
+      "updatedAt": "2026-08-15T22:29:34.344Z"
     },
     {
       "id": "r_1786832974344_45df",
@@ -14578,7 +14582,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
-      "createdAt": "2026-08-15T22:29:34.344Z"
+      "createdAt": "2026-08-15T22:29:34.344Z",
+      "updatedAt": "2026-08-15T22:29:34.344Z"
     },
     {
       "id": "r_1786832974345_do40",
@@ -14591,7 +14596,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_iyh2",
@@ -14604,7 +14610,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_t2wy",
@@ -14617,7 +14624,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_ybkl",
@@ -14630,7 +14638,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_jc2u",
@@ -14643,7 +14652,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_rgxl",
@@ -14656,7 +14666,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786832974345_85ek",
@@ -14669,7 +14680,8 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
-      "createdAt": "2026-08-15T22:29:34.345Z"
+      "createdAt": "2026-08-15T22:29:34.345Z",
+      "updatedAt": "2026-08-15T22:29:34.345Z"
     },
     {
       "id": "r_1786594283632_91ga",
@@ -18032,6 +18044,20 @@
       "sourceId": "r_1786596821401_y9el",
       "createdAt": "2026-08-13T04:53:56.378Z",
       "updatedAt": "2026-08-13T04:54:11.354Z"
+    },
+    {
+      "id": "r_1786834156500_om1o",
+      "title": "לעשות מיומנות מיוחדת על איך לבנות אתר אישי",
+      "description": "",
+      "time": "",
+      "duration": 15,
+      "date": "",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-08-15T22:49:16.500Z",
+      "updatedAt": "2026-08-15T22:49:16.501Z"
     }
   ],
   "suggestions": {
@@ -19537,7 +19563,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-15T22:48:14.722Z"
+    "ts": "2026-08-15T22:49:24.323Z"
   },
   "settings": {
     "autoSync": true
