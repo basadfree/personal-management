@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:58:09.295Z",
+  "exportedAt": "2026-08-18T19:59:38.075Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -19992,6 +19992,15 @@
       "status": "in_progress",
       "id": "gp_1782463458192_i8vh",
       "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "name": "אלול התשפ\"ו - תשרי התשפ\"ז",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "status": "active",
+      "id": "gp_1787083174442_ymbd",
+      "updatedAt": "2026-08-18T19:59:34.442Z"
     }
   ],
   "goalTypes": [
@@ -21085,7 +21094,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:58:09.295Z"
+    "ts": "2026-08-18T19:59:38.075Z"
   },
   "settings": {
     "autoSync": true
