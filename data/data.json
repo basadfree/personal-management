@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:34:50.071Z",
+  "exportedAt": "2026-08-18T19:35:00.471Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -6223,7 +6223,7 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:46:53.231Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:50.978Z"
     },
     {
       "id": "r_1785264413231_6wfn",
@@ -12373,15 +12373,15 @@
       "id": "r_1785266242398_d5z5",
       "title": "ספר תנאים - 102 ע\"מ",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 130,
-      "date": "2026-08-17",
-      "completed": true,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-07-28T19:17:22.398Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:55.602Z"
     },
     {
       "id": "r_1786085002926_1o50",
@@ -13223,7 +13223,7 @@
       "recurrence": null,
       "sourceId": "r_1785782295260_lxz7",
       "createdAt": "2026-08-07T14:46:29.498Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:50.978Z"
     },
     {
       "id": "r_1786114010339_ha41",
@@ -14709,7 +14709,7 @@
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:50.978Z"
     },
     {
       "id": "r_1786595364517_03lf",
@@ -14765,7 +14765,7 @@
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:50.978Z"
     },
     {
       "id": "r_1786595364517_c0t6",
@@ -14779,7 +14779,7 @@
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:29:24.517Z",
-      "updatedAt": "2026-08-18T19:34:49.170Z"
+      "updatedAt": "2026-08-18T19:34:50.978Z"
     },
     {
       "id": "r_1786595364517_tqjv",
@@ -21435,7 +21435,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:34:50.071Z"
+    "ts": "2026-08-18T19:35:00.471Z"
   },
   "settings": {
     "autoSync": true
