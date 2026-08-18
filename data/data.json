@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:21:01.598Z",
+  "exportedAt": "2026-08-18T20:21:10.303Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -21208,7 +21208,17 @@
       "builtIn": true
     }
   ],
-  "habitLogs": [],
+  "habitLogs": [
+    {
+      "id": "h_1787084463036_w2ph",
+      "habitId": "sleep",
+      "date": "2026-08-18",
+      "sleepTime": "2026-08-18T20:21:05.448Z",
+      "wakeTime": null,
+      "createdAt": "2026-08-18T20:21:03.036Z",
+      "updatedAt": "2026-08-18T20:21:05.448Z"
+    }
+  ],
   "_removedFromDate": [
     "2026-07-28|r_1782442504473_daqb",
     "2026-07-29|r_1782442504473_daqb",
@@ -21612,7 +21622,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msz3xojk_dfyzyi",
-    "ts": "2026-08-18T20:21:01.598Z"
+    "ts": "2026-08-18T20:21:10.303Z"
   },
   "settings": {
     "autoSync": true
