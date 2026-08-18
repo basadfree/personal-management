@@ -1376,6 +1376,200 @@ body {
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 
+/* ===== HABITS ===== */
+.habit-hero {
+  background: linear-gradient(135deg, var(--primary), #4b42d6);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+.habit-hero-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.habit-hero-title {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.habit-hero-emoji { font-size: 24px; }
+.habit-builtin-tag {
+  background: rgba(255,255,255,0.2);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.habit-hero-status {
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.habit-status-empty {
+  font-size: 14px;
+  opacity: 0.95;
+}
+.habit-status-empty span { display: block; font-size: 12px; opacity: 0.75; }
+.habit-status-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.habit-badge {
+  background: rgba(255,255,255,0.18);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 13px;
+}
+.habit-badge b { font-size: 15px; }
+.habit-hint { font-size: 13px; opacity: 0.9; }
+.habit-hero-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.habit-btn-big {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.35);
+}
+.habit-btn-big:hover { background: rgba(255,255,255,0.28); box-shadow: none; }
+.habit-btn-wake {
+  background: rgba(45,212,160,0.3);
+  border-color: rgba(45,212,160,0.6);
+}
+.habit-edit-today {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.35);
+  width: 44px;
+  height: 44px;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.habit-edit-today:hover { background: rgba(255,255,255,0.28); color: #fff; border-color: rgba(255,255,255,0.5); }
+.habit-card {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-sm);
+}
+.habit-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.habit-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+.habit-period-switch {
+  display: flex;
+  background: var(--surface-hover);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+  gap: 2px;
+}
+.habit-period-btn {
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  padding: 5px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text2);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.habit-period-btn.active { background: var(--primary); color: #fff; }
+.habit-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.habit-stat {
+  background: var(--surface-hover);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  text-align: center;
+}
+.habit-stat-label { font-size: 12px; color: var(--text3); margin-bottom: 4px; }
+.habit-stat-value { font-size: 17px; font-weight: 700; color: var(--text); }
+.habit-chart-wrap {
+  background: var(--surface-hover);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+  overflow-x: auto;
+}
+.habit-chart { min-width: 480px; }
+.habit-chart svg { display: block; width: 100%; height: auto; }
+.habit-chart-empty {
+  text-align: center;
+  color: var(--text3);
+  font-size: 14px;
+  padding: 30px 10px;
+}
+.habit-empty {
+  text-align: center;
+  color: var(--text3);
+  font-size: 14px;
+  padding: 16px 10px;
+}
+.habit-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 4px;
+  border-bottom: 1px solid var(--card-border);
+  flex-wrap: wrap;
+}
+.habit-row:last-child { border-bottom: none; }
+.habit-row-date { font-weight: 600; color: var(--text); min-width: 90px; }
+.habit-row-info { flex: 1; color: var(--text2); font-size: 14px; min-width: 160px; }
+.habit-hist-dur { color: var(--primary); font-weight: 600; }
+.habit-row-actions { display: flex; gap: 4px; }
+.habit-row-actions .btn-icon { width: 30px; height: 30px; font-size: 14px; }
+.habit-row-actions .btn-icon.danger { color: var(--danger); }
+.habit-edit-form {
+  flex: 1 1 100%;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+.habit-edit-field { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 150px; }
+.habit-edit-field label { font-size: 12px; color: var(--text3); }
+.habit-edit-field input {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 14px;
+}
+.habit-edit-actions { display: flex; gap: 6px; }
+@media (max-width: 480px) {
+  .habit-btn-big { flex: 1 1 100%; }
+}
+
 /* ===== GOALS ===== */
 .goals-header-actions {
   display: flex;
@@ -1671,6 +1865,7 @@ body {
   <div class="tab-bar">
     <button class="tab-btn active" id="tabTasks" onclick="switchTab('tasks')">📋 ניהול זמנים</button>
     <button class="tab-btn" id="tabGoals" onclick="switchTab('goals')">🎯 מטרות ויעדים</button>
+    <button class="tab-btn" id="tabHabits" onclick="switchTab('habits')">😴 מעקב הרגלים</button>
   </div>
 
   <!-- ===== TASKS TAB ===== -->
@@ -1807,6 +2002,44 @@ body {
     <div id="goalsContainer"></div>
 
   </div><!-- /tabContentGoals -->
+
+  <!-- ===== HABITS TAB ===== -->
+  <div class="tab-content" id="tabContentHabits">
+
+    <div class="habit-hero">
+      <div class="habit-hero-header">
+        <div class="habit-hero-title"><span class="habit-hero-emoji">😴</span> שינה וקימה</div>
+        <span class="habit-builtin-tag">הרגל מובנה</span>
+      </div>
+      <div class="habit-hero-status" id="habitStatus"></div>
+      <div class="habit-hero-actions">
+        <button class="btn btn-primary habit-btn-big" onclick="logSleep()">😴 אני יישן</button>
+        <button class="btn habit-btn-big habit-btn-wake" onclick="logWake()">🌅 קמתי</button>
+        <button class="btn btn-icon habit-edit-today" id="habitEditTodayBtn" onclick="editTodayLog()" title="ערוך את זמני הלילה" style="display:none">✏️</button>
+      </div>
+    </div>
+
+    <div class="habit-card">
+      <div class="habit-card-head">
+        <div class="habit-card-title">📊 ממוצעים וגרף</div>
+        <div class="habit-period-switch" id="habitPeriodSwitch">
+          <button class="habit-period-btn active" data-period="week" onclick="setHabitPeriod('week')">שבוע</button>
+          <button class="habit-period-btn" data-period="month" onclick="setHabitPeriod('month')">חודש</button>
+          <button class="habit-period-btn" data-period="year" onclick="setHabitPeriod('year')">שנה</button>
+        </div>
+      </div>
+      <div class="habit-stats" id="habitStats"></div>
+      <div class="habit-chart-wrap">
+        <div id="habitChart" class="habit-chart"></div>
+      </div>
+    </div>
+
+    <div class="habit-card">
+      <div class="habit-card-title">📜 היסטוריית לילות</div>
+      <div id="habitHistory"></div>
+    </div>
+
+  </div><!-- /tabContentHabits -->
 </div>
 
 <!-- Batch Action Bar -->
@@ -2079,6 +2312,8 @@ let state = {
   goalTypes: [],
   goals: [],
   objectives: [],
+  habits: [],
+  habitLogs: [],
   settings: {
     autoSync: true,
     githubToken: '',
@@ -2140,6 +2375,11 @@ function loadState() {
       state.goalTypes = data.goalTypes || [];
       state.goals = data.goals || [];
       state.objectives = data.objectives || [];
+      state.habits = data.habits || [];
+      state.habitLogs = data.habitLogs || [];
+      if (!state.habits.find(h => h.id === 'sleep')) {
+        state.habits.unshift({ id: 'sleep', name: 'שינה וקימה', emoji: '😴', builtIn: true });
+      }
       if (data.settings) Object.assign(state.settings, data.settings);
       if (data.settings && data.settings.privacyBlur === undefined) state.settings.privacyBlur = false;
       if (!state.settings.privacySections) state.settings.privacySections = { results: true, goals: true, objectives: true, goalTypes: true, goalPeriods: true };
@@ -2158,7 +2398,7 @@ function loadState() {
 
 function backfillTimestamps() {
   const now = new Date().toISOString();
-  ['results','goalPeriods','goalTypes','goals','objectives'].forEach(col => {
+  ['results','goalPeriods','goalTypes','goals','objectives','habitLogs'].forEach(col => {
     state[col].forEach(rec => {
       if (!rec.updatedAt) rec.updatedAt = rec.createdAt || now;
     });
@@ -2172,7 +2412,8 @@ function buildBaseline() {
     goalPeriods: map(state.goalPeriods),
     goalTypes: map(state.goalTypes),
     goals: map(state.goals),
-    objectives: map(state.objectives)
+    objectives: map(state.objectives),
+    habitLogs: map(state.habitLogs)
   };
 }
 
@@ -2184,7 +2425,7 @@ function resetStampBaseline() {
 function stampChanged() {
   const now = new Date().toISOString();
   const cur = buildBaseline();
-  const cols = ['results','goalPeriods','goalTypes','goals','objectives'];
+  const cols = ['results','goalPeriods','goalTypes','goals','objectives','habitLogs'];
   if (lastStamp) {
     cols.forEach(col => {
       cur[col].forEach((ser, id) => {
@@ -2278,6 +2519,8 @@ function buildBackupJson() {
     goalTypes: state.goalTypes,
     goals: state.goals,
     objectives: state.objectives,
+    habits: state.habits,
+    habitLogs: state.habitLogs,
     _removedFromDate: Object.keys(removedFromDateTs),
     _removedFromDateTs: removedFromDateTs,
     _tombstones: tombstones,
@@ -2386,7 +2629,7 @@ function mergeIntoLocal(cloud) {
     if (!tombstones[id] || cts > tombstones[id]) tombstones[id] = cts;
   });
 
-  const cols = ['results','goalPeriods','goalTypes','goals','objectives'];
+  const cols = ['results','goalPeriods','goalTypes','goals','objectives','habits','habitLogs'];
   cols.forEach(col => {
     const cloudArr = cloud[col];
     if (!Array.isArray(cloudArr)) return;
@@ -2436,6 +2679,9 @@ function mergeIntoLocal(cloud) {
     removedFromDate = new Set(Object.keys(removedFromDateTs));
   }
   state.suggestions = state.suggestions || {};
+  if (!state.habits.find(h => h.id === 'sleep')) {
+    state.habits.unshift({ id: 'sleep', name: 'שינה וקימה', emoji: '😴', builtIn: true });
+  }
 }
 
 function afterMergeRender() {
@@ -2443,6 +2689,7 @@ function afterMergeRender() {
   renderDay();
   renderUnscheduledTasks();
   renderGoalsView();
+  renderHabitsView();
 }
 
 async function refreshLastRemoteCommit() {
@@ -2583,6 +2830,11 @@ function mergeCloudData(cloud, replaceLocal) {
   merge(state.goalTypes, cloud.goalTypes);
   merge(state.goals, cloud.goals);
   merge(state.objectives, cloud.objectives);
+  merge(state.habits, cloud.habits);
+  merge(state.habitLogs, cloud.habitLogs);
+  if (!state.habits.find(h => h.id === 'sleep')) {
+    state.habits.unshift({ id: 'sleep', name: 'שינה וקימה', emoji: '😴', builtIn: true });
+  }
   if (cloud.suggestions) {
     for (const date in cloud.suggestions) {
       if (!state.suggestions[date]) state.suggestions[date] = {};
@@ -3642,6 +3894,320 @@ function escHtml(str) {
   return div.innerHTML;
 }
 
+// ===== HABITS TRACKER =====
+let habitPeriod = 'week';
+let habitEditingId = null;
+
+function ensureSleepHabit() {
+  if (!state.habits.find(h => h.id === 'sleep')) {
+    state.habits.unshift({ id: 'sleep', name: 'שינה וקימה', emoji: '😴', builtIn: true });
+  }
+}
+
+function getTodaySleepLog() {
+  return state.habitLogs.find(l => l.habitId === 'sleep' && l.date === getDateStr(new Date()));
+}
+
+function newHabitLogId() { return 'h_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6); }
+
+function pad2(n) { return String(n).padStart(2, '0'); }
+
+function formatClockTime(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return pad2(d.getHours()) + ':' + pad2(d.getMinutes());
+}
+
+function isoToLocalInput(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}T${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+}
+
+function sleepMinutesOf(d) { const m = d.getHours() * 60 + d.getMinutes(); return m < 720 ? m + 1440 : m; }
+function wakeMinutesOf(d) { return d.getHours() * 60 + d.getMinutes(); }
+
+function formatMinutesClock(mins) {
+  let m = Math.round(mins);
+  m = ((m % 1440) + 1440) % 1440;
+  return pad2(Math.floor(m / 60)) + ':' + pad2(m % 60);
+}
+
+function formatSleepDurationOf(log) {
+  if (!log || !log.sleepTime || !log.wakeTime) return '';
+  const mins = Math.round((new Date(log.wakeTime) - new Date(log.sleepTime)) / 60000);
+  if (mins <= 0 || mins > 2880) return '';
+  const h = Math.floor(mins / 60), m = mins % 60;
+  if (h > 0 && m > 0) return `${h} שע' ו-${m} דק'`;
+  if (h > 0) return `${h} שע'`;
+  return `${m} דק'`;
+}
+
+function logSleep() {
+  ensureSleepHabit();
+  const now = new Date().toISOString();
+  let log = getTodaySleepLog();
+  if (!log) {
+    log = { id: newHabitLogId(), habitId: 'sleep', date: getDateStr(new Date()), sleepTime: now, wakeTime: null, createdAt: now, updatedAt: now };
+    state.habitLogs.push(log);
+  } else {
+    log.sleepTime = now;
+    log.updatedAt = now;
+  }
+  saveState();
+  renderHabitsView();
+  toast('😴 נרשמה שעת שינה: ' + formatClockTime(now), 'success');
+}
+
+function logWake() {
+  ensureSleepHabit();
+  const now = new Date().toISOString();
+  let log = getTodaySleepLog();
+  if (!log) {
+    log = { id: newHabitLogId(), habitId: 'sleep', date: getDateStr(new Date()), sleepTime: null, wakeTime: now, createdAt: now, updatedAt: now };
+    state.habitLogs.push(log);
+  } else {
+    log.wakeTime = now;
+    log.updatedAt = now;
+  }
+  saveState();
+  renderHabitsView();
+  toast('🌅 נרשמה שעת קימה: ' + formatClockTime(now), 'success');
+}
+
+function renderHabitsView() {
+  const tab = document.getElementById('tabContentHabits');
+  if (!tab || !tab.classList.contains('active')) return;
+  ensureSleepHabit();
+  renderHabitStatus();
+  renderHabitStats();
+  renderHabitChart();
+  renderHabitHistory();
+}
+
+function renderHabitStatus() {
+  const log = getTodaySleepLog();
+  const el = document.getElementById('habitStatus');
+  const editBtn = document.getElementById('habitEditTodayBtn');
+  if (!el || !editBtn) return;
+  if (!log || (!log.sleepTime && !log.wakeTime)) {
+    el.innerHTML = '<div class="habit-status-empty">עדיין לא נרשמה שינה להיום<span>לחץ על "אני יישן" כשאתה הולך לישון, ועל "קמתי" כשאתה מתעורר</span></div>';
+    editBtn.style.display = 'none';
+    return;
+  }
+  editBtn.style.display = '';
+  const badges = [];
+  if (log.sleepTime) badges.push(`<span class="habit-badge">😴 שינה: <b>${formatClockTime(log.sleepTime)}</b></span>`);
+  if (log.wakeTime) badges.push(`<span class="habit-badge">🌅 קימה: <b>${formatClockTime(log.wakeTime)}</b></span>`);
+  const dur = formatSleepDurationOf(log);
+  if (dur) badges.push(`<span class="habit-badge">⏱️ ${dur}</span>`);
+  let html = '<div class="habit-status-row">' + badges.join('') + '</div>';
+  if (log.sleepTime && !log.wakeTime) html += '<div class="habit-hint">💤 ישנת… כשתקום לחץ על "קמתי" 😄</div>';
+  el.innerHTML = html;
+}
+
+function getHabitRange() {
+  const today = new Date();
+  const days = habitPeriod === 'week' ? 7 : habitPeriod === 'month' ? 30 : 365;
+  const startDate = addDays(today, -(days - 1));
+  const startStr = getDateStr(startDate);
+  const endStr = getDateStr(today);
+  const logs = state.habitLogs
+    .filter(l => l.habitId === 'sleep' && l.date >= startStr && l.date <= endStr)
+    .sort((a, b) => a.date.localeCompare(b.date));
+  return { days, startDate, startStr, endStr, logs };
+}
+
+function renderHabitStats() {
+  const { logs } = getHabitRange();
+  const el = document.getElementById('habitStats');
+  if (!el) return;
+  const sleepArr = [], wakeArr = [], durArr = [];
+  logs.forEach(l => {
+    if (l.sleepTime) sleepArr.push(sleepMinutesOf(new Date(l.sleepTime)));
+    if (l.wakeTime) wakeArr.push(wakeMinutesOf(new Date(l.wakeTime)));
+    if (l.sleepTime && l.wakeTime) {
+      const mins = Math.round((new Date(l.wakeTime) - new Date(l.sleepTime)) / 60000);
+      if (mins > 0 && mins < 2880) durArr.push(mins);
+    }
+  });
+  const avg = arr => arr.length ? formatMinutesClock(arr.reduce((a, b) => a + b, 0) / arr.length) : '—';
+  const avgDur = arr => {
+    if (!arr.length) return '—';
+    const avgM = arr.reduce((a, b) => a + b, 0) / arr.length;
+    const h = Math.floor(avgM / 60), m = Math.round(avgM % 60);
+    if (h > 0 && m > 0) return `${h} שע' ${m} דק'`;
+    if (h > 0) return `${h} שע'`;
+    return `${m} דק'`;
+  };
+  el.innerHTML = `
+    <div class="habit-stat"><div class="habit-stat-label">😴 שעת שינה ממוצעת</div><div class="habit-stat-value">${avg(sleepArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label">🌅 שעת קימה ממוצעת</div><div class="habit-stat-value">${avg(wakeArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label">⏱️ משך שינה ממוצע</div><div class="habit-stat-value">${avgDur(durArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label">🌙 לילות נרשמו</div><div class="habit-stat-value">${logs.length}</div></div>`;
+}
+
+function renderHabitChart() {
+  const wrap = document.getElementById('habitChart');
+  if (!wrap) return;
+  const { days, startDate, logs } = getHabitRange();
+  const W = 720, H = 300, ml = 48, mr = 16, mt = 26, mb = 34;
+  const pw = W - ml - mr, ph = H - mt - mb;
+  const X = i => ml + (i / (days - 1)) * pw;
+  const Y = m => mt + ph - (Math.max(0, Math.min(1440, m)) / 1440) * ph;
+
+  let points = [];
+  if (habitPeriod === 'year') {
+    const byMonth = {};
+    logs.forEach(l => {
+      const key = l.date.slice(0, 7);
+      if (!byMonth[key]) byMonth[key] = { sleep: [], wake: [] };
+      if (l.sleepTime) byMonth[key].sleep.push(sleepMinutesOf(new Date(l.sleepTime)));
+      if (l.wakeTime) byMonth[key].wake.push(wakeMinutesOf(new Date(l.wakeTime)));
+    });
+    const keys = Object.keys(byMonth).sort();
+    keys.forEach((k, i) => {
+      const b = byMonth[k];
+      points.push({
+        x: X(keys.length === 1 ? 0 : (i / (keys.length - 1)) * (days - 1)),
+        label: MONTH_NAMES[parseInt(k.slice(5)) - 1],
+        sleep: b.sleep.length ? b.sleep.reduce((a, c) => a + c, 0) / b.sleep.length : null,
+        wake: b.wake.length ? b.wake.reduce((a, c) => a + c, 0) / b.wake.length : null
+      });
+    });
+  } else {
+    const byDay = {};
+    logs.forEach(l => {
+      const idx = Math.round((new Date(l.date) - startDate) / 86400000);
+      if (idx < 0 || idx >= days) return;
+      if (!byDay[idx]) byDay[idx] = { sleep: null, wake: null };
+      if (l.sleepTime) byDay[idx].sleep = sleepMinutesOf(new Date(l.sleepTime));
+      if (l.wakeTime) byDay[idx].wake = wakeMinutesOf(new Date(l.wakeTime));
+    });
+    Object.keys(byDay).map(Number).sort((a, b) => a - b).forEach(idx => {
+      const d = addDays(startDate, idx);
+      points.push({ x: X(idx), label: String(d.getDate()), sleep: byDay[idx].sleep, wake: byDay[idx].wake });
+    });
+  }
+
+  if (!points.length) {
+    wrap.innerHTML = '<div class="habit-chart-empty">אין נתונים בתקופה הזו<br>התחל לרשום את השינה שלך עם הכפתורים למעלה 😊</div>';
+    return;
+  }
+
+  const line = (key, color) => {
+    const coords = points.filter(p => p[key] != null).map(p => p.x.toFixed(1) + ',' + Y(p[key]).toFixed(1));
+    if (!coords.length) return '';
+    if (coords.length === 1) {
+      const [cx, cy] = coords[0].split(',');
+      return `<circle cx="${cx}" cy="${cy}" r="4" fill="${color}"/>`;
+    }
+    return `<polyline points="${coords.join(' ')}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+  };
+  const dots = (key, color) => points.filter(p => p[key] != null).map(p =>
+    `<circle cx="${p.x.toFixed(1)}" cy="${Y(p[key]).toFixed(1)}" r="3.5" fill="${color}" stroke="#fff" stroke-width="1.2"/>`).join('');
+
+  let grid = '';
+  [0, 360, 720, 1080, 1439].forEach(m => {
+    const y = Y(m);
+    grid += `<line x1="${ml}" y1="${y.toFixed(1)}" x2="${W - mr}" y2="${y.toFixed(1)}" stroke="rgba(120,120,140,0.18)" stroke-width="1"/>`;
+    grid += `<text x="${ml - 6}" y="${(y + 3).toFixed(1)}" text-anchor="end" font-size="10" fill="#8a8f9c">${formatMinutesClock(m)}</text>`;
+  });
+
+  let xlabels = '';
+  const labelEvery = points.length > 14 ? Math.ceil(points.length / 8) : 1;
+  points.forEach((p, i) => {
+    if (i % labelEvery === 0) {
+      xlabels += `<text x="${p.x.toFixed(1)}" y="${H - 12}" text-anchor="middle" font-size="10" fill="#8a8f9c">${escHtml(p.label)}</text>`;
+    }
+  });
+
+  const legend = `<text x="${ml}" y="15" font-size="11" fill="#8a8f9c"><tspan fill="#6c63ff">●</tspan> שינה <tspan dx="12" fill="#f59e0b">●</tspan> קימה</text>`;
+
+  wrap.innerHTML = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${legend}${grid}${xlabels}${line('sleep', '#6c63ff')}${dots('sleep', '#6c63ff')}${line('wake', '#f59e0b')}${dots('wake', '#f59e0b')}</svg>`;
+}
+
+function renderHabitHistory() {
+  const el = document.getElementById('habitHistory');
+  if (!el) return;
+  const logs = state.habitLogs
+    .filter(l => l.habitId === 'sleep')
+    .sort((a, b) => b.date.localeCompare(a.date) || String(b.createdAt || '').localeCompare(String(a.createdAt || '')))
+    .slice(0, 14);
+  if (!logs.length) {
+    el.innerHTML = '<div class="habit-empty">אין עדיין לילות מוקלטים</div>';
+    return;
+  }
+  el.innerHTML = logs.map(l => {
+    if (habitEditingId === l.id) {
+      return `<div class="habit-row" data-id="${l.id}">
+        <div class="habit-row-date">${escHtml(formatDateDisplay(l.date))}</div>
+        <div class="habit-edit-form">
+          <div class="habit-edit-field"><label>😴 שעת שינה</label><input type="datetime-local" class="habit-edit-sleep" value="${isoToLocalInput(l.sleepTime)}"></div>
+          <div class="habit-edit-field"><label>🌅 שעת קימה</label><input type="datetime-local" class="habit-edit-wake" value="${isoToLocalInput(l.wakeTime)}"></div>
+          <div class="habit-edit-actions">
+            <button class="btn btn-sm btn-primary" onclick="saveHabitEdit('${l.id}')">💾 שמור</button>
+            <button class="btn btn-sm btn-outline" onclick="cancelHabitEdit()">ביטול</button>
+          </div>
+        </div>
+      </div>`;
+    }
+    const parts = [];
+    if (l.sleepTime) parts.push(`😴 ${formatClockTime(l.sleepTime)}`);
+    if (l.wakeTime) parts.push(`🌅 ${formatClockTime(l.wakeTime)}`);
+    const dur = formatSleepDurationOf(l);
+    return `<div class="habit-row" data-id="${l.id}">
+      <div class="habit-row-date">${escHtml(formatDateDisplay(l.date))}</div>
+      <div class="habit-row-info">${parts.join(' &nbsp;•&nbsp; ')}${dur ? ` <span class="habit-hist-dur">• ⏱️ ${dur}</span>` : ''}</div>
+      <div class="habit-row-actions">
+        <button class="btn btn-icon" onclick="editHabitLog('${l.id}')" title="ערוך">✏️</button>
+        <button class="btn btn-icon danger" onclick="deleteHabitLog('${l.id}')" title="מחק">🗑️</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function setHabitPeriod(p) {
+  habitPeriod = p;
+  document.querySelectorAll('#habitPeriodSwitch .habit-period-btn').forEach(b => b.classList.toggle('active', b.dataset.period === p));
+  renderHabitStats();
+  renderHabitChart();
+}
+
+function editTodayLog() {
+  const log = getTodaySleepLog();
+  if (!log) return;
+  habitEditingId = log.id;
+  renderHabitHistory();
+}
+
+function editHabitLog(id) { habitEditingId = id; renderHabitHistory(); }
+function cancelHabitEdit() { habitEditingId = null; renderHabitHistory(); }
+
+function saveHabitEdit(id) {
+  const row = document.querySelector(`.habit-row[data-id="${id}"]`);
+  const log = state.habitLogs.find(l => l.id === id);
+  if (!row || !log) return;
+  const sEl = row.querySelector('.habit-edit-sleep');
+  const wEl = row.querySelector('.habit-edit-wake');
+  const s = sEl ? sEl.value : '';
+  const w = wEl ? wEl.value : '';
+  if (s) log.sleepTime = new Date(s).toISOString();
+  if (w) log.wakeTime = new Date(w).toISOString();
+  log.updatedAt = new Date().toISOString();
+  saveState();
+  habitEditingId = null;
+  renderHabitsView();
+  toast('✅ הזמנים עודכנו', 'success');
+}
+
+function deleteHabitLog(id) {
+  if (!confirm('למחוק את רישום הלילה הזה?')) return;
+  state.habitLogs = state.habitLogs.filter(l => l.id !== id);
+  saveState();
+  renderHabitsView();
+}
+
 // ===== GOALS & OBJECTIVES =====
 
 // ---- Helpers ----
@@ -3668,6 +4234,7 @@ function switchTab(tab) {
   document.getElementById('tab' + tab.charAt(0).toUpperCase() + tab.slice(1)).classList.add('active');
   document.getElementById('tabContent' + tab.charAt(0).toUpperCase() + tab.slice(1)).classList.add('active');
   if (tab === 'goals') renderGoalsView();
+  if (tab === 'habits') renderHabitsView();
 }
 
 // ---- Goal Type CRUD ----
