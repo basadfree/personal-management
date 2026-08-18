@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:57:47.012Z",
+  "exportedAt": "2026-08-18T19:57:57.050Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -15278,12 +15278,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
+      "updatedAt": "2026-08-18T19:57:53.303Z"
     },
     {
       "id": "r_1786595964011_hys7",
@@ -15320,12 +15320,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
+      "updatedAt": "2026-08-18T19:57:53.303Z"
     },
     {
       "id": "r_1786595964011_69xb",
@@ -15367,7 +15367,7 @@
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-18T19:57:46.364Z"
+      "updatedAt": "2026-08-18T19:57:48.803Z"
     },
     {
       "id": "r_1786595964011_2tiv",
@@ -15376,12 +15376,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
+      "updatedAt": "2026-08-18T19:57:48.803Z"
     },
     {
       "id": "r_1786595964011_htlc",
@@ -15418,12 +15418,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
+      "updatedAt": "2026-08-18T19:57:53.303Z"
     },
     {
       "id": "r_1786595964011_ntas",
@@ -15437,7 +15437,7 @@
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-18T19:57:46.364Z"
+      "updatedAt": "2026-08-18T19:57:48.803Z"
     },
     {
       "id": "r_1786595965626_swm4",
@@ -16034,12 +16034,12 @@
       "time": "21:30",
       "duration": 20,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786596002304_2eyw",
       "createdAt": "2026-08-13T04:40:07.248Z",
-      "updatedAt": "2026-08-13T04:41:11.048Z"
+      "updatedAt": "2026-08-18T19:57:53.303Z"
     },
     {
       "id": "r_1786596008624_wcn9",
@@ -21437,7 +21437,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:57:47.012Z"
+    "ts": "2026-08-18T19:57:57.050Z"
   },
   "settings": {
     "autoSync": true
