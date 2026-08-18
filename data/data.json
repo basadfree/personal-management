@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:37:15.914Z",
+  "exportedAt": "2026-08-18T20:41:17.614Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20680,6 +20680,18 @@
       "single": false,
       "id": "g_1787084866486_8gtj",
       "updatedAt": "2026-08-18T20:27:46.486Z"
+    },
+    {
+      "name": "אורות ישראל ואורות התשובה",
+      "periodId": "gp_1787083174442_ymbd",
+      "typeId": "gt_1782463932659_pw5v",
+      "startDate": "",
+      "endDate": "",
+      "description": "לסיום הספרים: שליש פרק ליום.",
+      "status": "active",
+      "single": false,
+      "id": "g_1787085674091_twd2",
+      "updatedAt": "2026-08-18T20:41:14.091Z"
     }
   ],
   "objectives": [
@@ -21769,7 +21781,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:37:15.914Z"
+    "ts": "2026-08-18T20:41:17.614Z"
   },
   "settings": {
     "autoSync": true
