@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:36:40.285Z",
+  "exportedAt": "2026-08-18T20:37:15.914Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -17826,12 +17826,12 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-18T20:36:31.522Z"
+      "updatedAt": "2026-08-18T20:36:40.488Z"
     },
     {
       "id": "r_1786596899379_cxfz",
@@ -20358,9 +20358,9 @@
       "startDate": "2026-06-16",
       "endDate": "2026-08-13",
       "description": "בין הזמנים, בין ישיבת בני צבי לבין שיעור א' בישיבת בית אל המעטירה. בשם השם נעשה ונצליח.",
-      "status": "in_progress",
+      "status": "completed",
       "id": "gp_1782463458192_i8vh",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
+      "updatedAt": "2026-08-18T20:37:12.375Z"
     },
     {
       "name": "אלול התשפ\"ו - תשרי התשפ\"ז",
@@ -21769,7 +21769,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:36:40.285Z"
+    "ts": "2026-08-18T20:37:15.914Z"
   },
   "settings": {
     "autoSync": true
