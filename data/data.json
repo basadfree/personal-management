@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:35:57.258Z",
+  "exportedAt": "2026-08-18T20:36:06.657Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12049,15 +12049,15 @@
       "id": "r_1782475457864_tvpb",
       "title": "ספר ידידים 170 ע\"מ",
       "description": "מטרת ההרגלים והידידים.",
-      "time": "07:30",
+      "time": "",
       "duration": 150,
-      "date": "2026-08-18",
+      "date": "",
       "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T12:04:17.864Z",
-      "updatedAt": "2026-08-07T10:01:08.463Z"
+      "updatedAt": "2026-08-18T20:36:05.398Z"
     },
     {
       "id": "r_1784903796230_42lp",
@@ -19688,12 +19688,12 @@
       "time": "07:45",
       "duration": 15,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:05.398Z"
     },
     {
       "id": "r_1787084441992_mumg",
@@ -19758,12 +19758,12 @@
       "time": "08:00",
       "duration": 30,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782448199626_eqz2",
       "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
+      "updatedAt": "2026-08-18T20:36:05.398Z"
     },
     {
       "id": "r_1787084441993_dt3z",
@@ -21769,7 +21769,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:35:57.258Z"
+    "ts": "2026-08-18T20:36:06.657Z"
   },
   "settings": {
     "autoSync": true
