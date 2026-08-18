@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:36:13.781Z",
+  "exportedAt": "2026-08-18T20:36:24.120Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -19618,12 +19618,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:23.858Z"
     },
     {
       "id": "r_1787084441992_regb",
@@ -19637,7 +19637,7 @@
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:36:13.658Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441992_cfdz",
@@ -19646,12 +19646,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:23.858Z"
     },
     {
       "id": "r_1787084441992_maaa",
@@ -19702,12 +19702,12 @@
       "time": "10:30",
       "duration": 30,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430450460_6zm1",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441992_49ly",
@@ -19716,12 +19716,12 @@
       "time": "16:00",
       "duration": 25,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430911505_pfrp",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441992_v5jn",
@@ -19744,12 +19744,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
+      "updatedAt": "2026-08-18T20:36:23.858Z"
     },
     {
       "id": "r_1787084441993_w1jb",
@@ -19791,7 +19791,7 @@
       "recurrence": null,
       "sourceId": "r_1782475457864_tvpb",
       "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:36:13.658Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441993_l7ng",
@@ -19805,7 +19805,7 @@
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:36:13.658Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441993_kh2t",
@@ -19814,12 +19814,12 @@
       "time": "13:30",
       "duration": 30,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782897700268_p7ax",
       "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
+      "updatedAt": "2026-08-18T20:36:16.423Z"
     },
     {
       "id": "r_1787084441993_zgix",
@@ -19842,12 +19842,12 @@
       "time": "16:00",
       "duration": 25,
       "date": "2026-08-18",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1784439329110_e867",
       "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
+      "updatedAt": "2026-08-18T20:36:23.858Z"
     }
   ],
   "suggestions": {
@@ -21769,7 +21769,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:36:13.781Z"
+    "ts": "2026-08-18T20:36:24.120Z"
   },
   "settings": {
     "autoSync": true
