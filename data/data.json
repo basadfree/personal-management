@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:59:38.075Z",
+  "exportedAt": "2026-08-18T20:00:57.778Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20227,6 +20227,18 @@
       "single": false,
       "id": "g_1782473583130_yn0k",
       "updatedAt": "2026-08-10T03:55:31.113Z"
+    },
+    {
+      "name": "פעילות גופנית",
+      "periodId": "gp_1787083174442_ymbd",
+      "typeId": "gt_1782464093186_vudl",
+      "startDate": "",
+      "endDate": "",
+      "description": "מתח: 40 - \nשכ\"ס: 45. - \nפלאנק: 6:00\n(להמשיך: סקוואט: 30). -",
+      "status": "active",
+      "single": false,
+      "id": "g_1787083253608_ffxl",
+      "updatedAt": "2026-08-18T20:00:53.608Z"
     }
   ],
   "objectives": [
@@ -21094,7 +21106,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:59:38.075Z"
+    "ts": "2026-08-18T20:00:57.778Z"
   },
   "settings": {
     "autoSync": true
