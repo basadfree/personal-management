@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:16:28.729Z",
+  "exportedAt": "2026-08-18T20:16:43.841Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20282,17 +20282,17 @@
       "id": "o_1782465511117_bbmn",
       "name": "ויקרא + החוזר",
       "derech": "21 פרקים.",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782466079400_w4mv",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:16:42.747Z"
     },
     {
       "id": "o_1782465533534_pyl4",
       "name": "במדבר + החוזר",
       "derech": "36 פרקים.",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782466079400_w4mv",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:16:42.747Z"
     },
     {
       "id": "o_1782465563205_v08s",
@@ -21198,7 +21198,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:16:28.729Z"
+    "ts": "2026-08-18T20:16:43.841Z"
   },
   "settings": {
     "autoSync": true
