@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:26:06.143Z",
+  "exportedAt": "2026-08-18T20:27:18.520Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20663,11 +20663,11 @@
       "typeId": "gt_1782463932659_pw5v",
       "startDate": "",
       "endDate": "",
-      "description": "סיום הספר: כל יום חצי פרק.",
+      "description": "סיום הספר: כל יום שליש פרק.",
       "status": "active",
       "single": false,
       "id": "g_1787084450352_dpyy",
-      "updatedAt": "2026-08-18T20:20:50.353Z"
+      "updatedAt": "2026-08-18T20:27:14.753Z"
     }
   ],
   "objectives": [
@@ -21748,7 +21748,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:26:06.143Z"
+    "ts": "2026-08-18T20:27:18.520Z"
   },
   "settings": {
     "autoSync": true
