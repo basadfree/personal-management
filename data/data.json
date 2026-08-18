@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:27:50.427Z",
+  "exportedAt": "2026-08-18T20:35:26.745Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -21356,6 +21356,15 @@
       "updatedAt": "2026-08-18T20:20:41.988Z"
     }
   ],
+  "habits": [
+    {
+      "id": "sleep",
+      "name": "שינה וקימה",
+      "emoji": "😴",
+      "builtIn": true
+    }
+  ],
+  "habitLogs": [],
   "_removedFromDate": [
     "2026-07-28|r_1782442504473_daqb",
     "2026-07-29|r_1782442504473_daqb",
@@ -21760,7 +21769,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:27:50.427Z"
+    "ts": "2026-08-18T20:35:26.745Z"
   },
   "settings": {
     "autoSync": true
