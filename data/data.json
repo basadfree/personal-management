@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:57:57.050Z",
+  "exportedAt": "2026-08-18T19:58:09.295Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -12001,15 +12001,13 @@
       "description": "",
       "time": "05:50",
       "duration": 60,
-      "date": "2026-06-26",
+      "date": "",
       "completed": true,
       "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
+      "recurrence": null,
       "sourceId": null,
       "createdAt": "2026-06-26T02:55:04.473Z",
-      "updatedAt": "2026-06-26T02:55:04.473Z"
+      "updatedAt": "2026-08-18T19:58:05.499Z"
     },
     {
       "id": "r_1782442551153_zpl2",
@@ -14024,20 +14022,6 @@
       "updatedAt": "2026-08-08T17:59:37.286Z"
     },
     {
-      "id": "r_1786211943321_zo74",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-21",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-08T17:59:03.321Z",
-      "updatedAt": "2026-08-08T17:59:37.286Z"
-    },
-    {
       "id": "r_1786211943321_288n",
       "title": "מנחה וערבית",
       "description": "",
@@ -14104,20 +14088,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
-      "createdAt": "2026-08-08T17:59:10.389Z",
-      "updatedAt": "2026-08-08T17:59:37.286Z"
-    },
-    {
-      "id": "r_1786211950389_6erd",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-28",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-08T17:59:10.389Z",
       "updatedAt": "2026-08-08T17:59:37.286Z"
     },
@@ -14992,20 +14962,6 @@
       "updatedAt": "2026-08-13T04:31:20.780Z"
     },
     {
-      "id": "r_1786595413133_lewi",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-16",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:30:13.133Z",
-      "updatedAt": "2026-08-13T04:31:20.780Z"
-    },
-    {
       "id": "r_1786595413133_7wp9",
       "title": "מנחה וערבית",
       "description": "",
@@ -15184,20 +15140,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:30:19.934Z",
-      "updatedAt": "2026-08-13T04:31:20.780Z"
-    },
-    {
-      "id": "r_1786595419934_orha",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-14",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:30:19.934Z",
       "updatedAt": "2026-08-13T04:31:20.780Z"
     },
@@ -15398,20 +15340,6 @@
       "updatedAt": "2026-08-18T19:40:48.105Z"
     },
     {
-      "id": "r_1786595964011_gg6n",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-18",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:39:24.011Z",
-      "updatedAt": "2026-08-18T19:40:48.105Z"
-    },
-    {
       "id": "r_1786595964011_kh6l",
       "title": "מנחה וערבית",
       "description": "",
@@ -15510,20 +15438,6 @@
       "updatedAt": "2026-08-13T04:40:02.304Z"
     },
     {
-      "id": "r_1786595965626_5u1n",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-20",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:39:25.626Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
-    },
-    {
       "id": "r_1786595965626_vmpw",
       "title": "מנחה וערבית",
       "description": "",
@@ -15604,20 +15518,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:39:28.104Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
-    },
-    {
-      "id": "r_1786595968104_7kyb",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:39:28.104Z",
       "updatedAt": "2026-08-13T04:40:02.304Z"
     },
@@ -15776,20 +15676,6 @@
       "updatedAt": "2026-08-13T04:40:02.304Z"
     },
     {
-      "id": "r_1786595971936_du4g",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:39:31.936Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
-    },
-    {
       "id": "r_1786595971936_s2jp",
       "title": "מנחה וערבית",
       "description": "",
@@ -15940,20 +15826,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:39:33.503Z",
-      "updatedAt": "2026-08-13T04:40:02.304Z"
-    },
-    {
-      "id": "r_1786595973503_555q",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-10-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:39:33.503Z",
       "updatedAt": "2026-08-13T04:40:02.304Z"
     },
@@ -16196,20 +16068,6 @@
       "updatedAt": "2026-08-13T04:40:23.463Z"
     },
     {
-      "id": "r_1786596011144_qvli",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-27",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:40:11.144Z",
-      "updatedAt": "2026-08-13T04:40:23.463Z"
-    },
-    {
       "id": "r_1786596011144_lj6r",
       "title": "מנחה וערבית",
       "description": "",
@@ -16276,20 +16134,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
-      "createdAt": "2026-08-13T04:40:12.664Z",
-      "updatedAt": "2026-08-13T04:40:23.463Z"
-    },
-    {
-      "id": "r_1786596012664_3aq5",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-29",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:40:12.664Z",
       "updatedAt": "2026-08-13T04:40:23.463Z"
     },
@@ -16448,20 +16292,6 @@
       "updatedAt": "2026-08-13T04:40:23.463Z"
     },
     {
-      "id": "r_1786596016416_1vos",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-11-13",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:40:16.416Z",
-      "updatedAt": "2026-08-13T04:40:23.463Z"
-    },
-    {
       "id": "r_1786596016416_ba1r",
       "title": "מנחה וערבית",
       "description": "",
@@ -16598,20 +16428,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:52:18.314Z",
-      "updatedAt": "2026-08-13T04:53:10.300Z"
-    },
-    {
-      "id": "r_1786596738314_nko8",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-04",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:52:18.314Z",
       "updatedAt": "2026-08-13T04:53:10.300Z"
     },
@@ -16770,20 +16586,6 @@
       "updatedAt": "2026-08-13T04:53:10.300Z"
     },
     {
-      "id": "r_1786596741346_arce",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-01",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:52:21.346Z",
-      "updatedAt": "2026-08-13T04:53:10.300Z"
-    },
-    {
       "id": "r_1786596741346_dwba",
       "title": "מנחה וערבית",
       "description": "",
@@ -16934,20 +16736,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:52:33.985Z",
-      "updatedAt": "2026-08-13T04:53:10.300Z"
-    },
-    {
-      "id": "r_1786596753985_gsus",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-30",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:52:33.985Z",
       "updatedAt": "2026-08-13T04:53:10.300Z"
     },
@@ -17116,20 +16904,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:53:18.634Z",
-      "updatedAt": "2026-08-13T04:53:41.401Z"
-    },
-    {
-      "id": "r_1786596798634_64b3",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-31",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:53:18.634Z",
       "updatedAt": "2026-08-13T04:53:41.401Z"
     },
@@ -17332,20 +17106,6 @@
       "updatedAt": "2026-08-13T04:54:11.354Z"
     },
     {
-      "id": "r_1786596829099_h72a",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-02",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:53:49.099Z",
-      "updatedAt": "2026-08-13T04:54:11.354Z"
-    },
-    {
       "id": "r_1786596829099_zcl1",
       "title": "מנחה וערבית",
       "description": "",
@@ -17514,20 +17274,6 @@
       "updatedAt": "2026-08-13T04:54:11.354Z"
     },
     {
-      "id": "r_1786596830434_ctci",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-05",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:53:50.434Z",
-      "updatedAt": "2026-08-13T04:54:11.354Z"
-    },
-    {
       "id": "r_1786596830434_lubj",
       "title": "מנחה וערבית",
       "description": "",
@@ -17622,20 +17368,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:53:52.282Z",
-      "updatedAt": "2026-08-13T04:54:11.354Z"
-    },
-    {
-      "id": "r_1786596832282_9vfn",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-11",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:53:52.282Z",
       "updatedAt": "2026-08-13T04:54:11.354Z"
     },
@@ -17822,20 +17554,6 @@
       "updatedAt": "2026-08-13T04:54:11.354Z"
     },
     {
-      "id": "r_1786596836378_k4h4",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:53:56.378Z",
-      "updatedAt": "2026-08-13T04:54:11.354Z"
-    },
-    {
       "id": "r_1786596836378_j152",
       "title": "מנחה וערבית",
       "description": "",
@@ -18008,19 +17726,6 @@
       "createdAt": "2026-08-13T04:54:48.674Z"
     },
     {
-      "id": "r_1786596888674_2n05",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:54:48.674Z"
-    },
-    {
       "id": "r_1786596888674_6doa",
       "title": "מנחה וערבית",
       "description": "",
@@ -18083,19 +17788,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
-      "createdAt": "2026-08-13T04:54:50.178Z"
-    },
-    {
-      "id": "r_1786596890178_r7ew",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:54:50.178Z"
     },
     {
@@ -18177,19 +17869,6 @@
       "createdAt": "2026-08-13T04:54:59.379Z"
     },
     {
-      "id": "r_1786596899379_nvyz",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-19",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:54:59.379Z"
-    },
-    {
       "id": "r_1786596899379_lvli",
       "title": "מנחה וערבית",
       "description": "",
@@ -18252,19 +17931,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:21.354Z"
-    },
-    {
-      "id": "r_1786596921354_rz5c",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-03",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:21.354Z"
     },
     {
@@ -18369,19 +18035,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:23.459Z"
-    },
-    {
-      "id": "r_1786596923459_8iqf",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-24",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:23.459Z"
     },
     {
@@ -18538,19 +18191,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:25.579Z"
-    },
-    {
-      "id": "r_1786596925579_46ah",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-09-25",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:25.579Z"
     },
     {
@@ -18736,19 +18376,6 @@
       "createdAt": "2026-08-13T04:55:30.250Z"
     },
     {
-      "id": "r_1786596930250_7n4h",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-10-08",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:55:30.250Z"
-    },
-    {
       "id": "r_1786596930250_ksyp",
       "title": "מנחה וערבית",
       "description": "",
@@ -18902,19 +18529,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:32.770Z"
-    },
-    {
-      "id": "r_1786596932770_tgno",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-11-06",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:32.770Z"
     },
     {
@@ -19074,19 +18688,6 @@
       "createdAt": "2026-08-13T04:55:35.859Z"
     },
     {
-      "id": "r_1786596935859_2vqj",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-12-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:55:35.859Z"
-    },
-    {
       "id": "r_1786596935859_nqe2",
       "title": "מנחה וערבית",
       "description": "",
@@ -19136,19 +18737,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:38.538Z"
-    },
-    {
-      "id": "r_1786596938538_cw69",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2027-01-15",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:38.538Z"
     },
     {
@@ -19318,19 +18906,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:41.491Z"
-    },
-    {
-      "id": "r_1786596941491_d2an",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2027-02-12",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:41.491Z"
     },
     {
@@ -19516,19 +19091,6 @@
       "createdAt": "2026-08-13T04:55:42.962Z"
     },
     {
-      "id": "r_1786596942962_6pip",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2027-02-10",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-13T04:55:42.962Z"
-    },
-    {
       "id": "r_1786596942962_gcd2",
       "title": "מנחה וערבית",
       "description": "",
@@ -19695,19 +19257,6 @@
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-13T04:55:47.916Z"
-    },
-    {
-      "id": "r_1786596947916_iscx",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2027-04-23",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-13T04:55:47.916Z"
     },
     {
@@ -21246,7 +20795,40 @@
     "2026-08-10|r_1782426191371_mn4b",
     "2026-08-11|r_1782428106322_wws8",
     "2026-08-11|r_1785266100851_jlkk",
-    "2026-08-17|r_1785782295260_lxz7"
+    "2026-08-17|r_1785782295260_lxz7",
+    "2026-08-21|r_1782442504473_daqb",
+    "2026-08-28|r_1782442504473_daqb",
+    "2026-09-16|r_1782442504473_daqb",
+    "2026-09-14|r_1782442504473_daqb",
+    "2026-08-18|r_1782442504473_daqb",
+    "2026-08-20|r_1782442504473_daqb",
+    "2026-09-18|r_1782442504473_daqb",
+    "2026-09-30|r_1782442504473_daqb",
+    "2026-10-03|r_1782442504473_daqb",
+    "2026-08-27|r_1782442504473_daqb",
+    "2026-08-29|r_1782442504473_daqb",
+    "2026-11-13|r_1782442504473_daqb",
+    "2026-09-04|r_1782442504473_daqb",
+    "2026-09-01|r_1782442504473_daqb",
+    "2026-08-30|r_1782442504473_daqb",
+    "2026-08-31|r_1782442504473_daqb",
+    "2026-09-02|r_1782442504473_daqb",
+    "2026-09-05|r_1782442504473_daqb",
+    "2026-09-11|r_1782442504473_daqb",
+    "2026-09-26|r_1782442504473_daqb",
+    "2026-08-24|r_1782442504473_daqb",
+    "2026-08-25|r_1782442504473_daqb",
+    "2026-08-19|r_1782442504473_daqb",
+    "2026-09-03|r_1782442504473_daqb",
+    "2026-09-24|r_1782442504473_daqb",
+    "2026-09-25|r_1782442504473_daqb",
+    "2026-10-08|r_1782442504473_daqb",
+    "2026-11-06|r_1782442504473_daqb",
+    "2026-12-26|r_1782442504473_daqb",
+    "2027-01-15|r_1782442504473_daqb",
+    "2027-02-12|r_1782442504473_daqb",
+    "2027-02-10|r_1782442504473_daqb",
+    "2027-04-23|r_1782442504473_daqb"
   ],
   "_removedFromDateTs": {
     "2026-07-28|r_1782442504473_daqb": "2026-08-07T06:33:11.756Z",
@@ -21381,7 +20963,40 @@
     "2026-08-10|r_1782426191371_mn4b": "2026-08-10T14:04:37.436Z",
     "2026-08-11|r_1782428106322_wws8": "2026-08-10T22:59:46.321Z",
     "2026-08-11|r_1785266100851_jlkk": "2026-08-11T10:07:39.548Z",
-    "2026-08-17|r_1785782295260_lxz7": "2026-08-18T19:35:03.196Z"
+    "2026-08-17|r_1785782295260_lxz7": "2026-08-18T19:35:03.196Z",
+    "2026-08-21|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-28|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-16|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-14|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-18|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-20|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-18|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-30|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-10-03|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-27|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-29|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-11-13|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-04|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-01|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-30|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-31|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-02|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-05|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-11|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-26|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-24|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-25|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-08-19|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-03|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-24|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-09-25|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-10-08|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-11-06|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2026-12-26|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2027-01-15|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2027-02-12|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2027-02-10|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z",
+    "2027-04-23|r_1782442504473_daqb": "2026-08-18T19:58:05.499Z"
   },
   "_tombstones": {
     "r_1786085002927_6x7d": "2026-08-07T09:40:17.976Z",
@@ -21432,12 +21047,45 @@
     "o_1782473246769_8luu": "2026-08-10T03:55:19.816Z",
     "o_1782473251295_20tr": "2026-08-10T03:55:19.816Z",
     "o_1782473260552_o8g8": "2026-08-10T03:55:19.816Z",
-    "o_1782473362146_nn06": "2026-08-12T17:43:06.251Z"
+    "o_1782473362146_nn06": "2026-08-12T17:43:06.251Z",
+    "r_1786211943321_zo74": "2026-08-18T19:58:05.499Z",
+    "r_1786211950389_6erd": "2026-08-18T19:58:05.499Z",
+    "r_1786595413133_lewi": "2026-08-18T19:58:05.499Z",
+    "r_1786595419934_orha": "2026-08-18T19:58:05.499Z",
+    "r_1786595964011_gg6n": "2026-08-18T19:58:05.499Z",
+    "r_1786595965626_5u1n": "2026-08-18T19:58:05.499Z",
+    "r_1786595968104_7kyb": "2026-08-18T19:58:05.499Z",
+    "r_1786595971936_du4g": "2026-08-18T19:58:05.499Z",
+    "r_1786595973503_555q": "2026-08-18T19:58:05.499Z",
+    "r_1786596011144_qvli": "2026-08-18T19:58:05.499Z",
+    "r_1786596012664_3aq5": "2026-08-18T19:58:05.499Z",
+    "r_1786596016416_1vos": "2026-08-18T19:58:05.499Z",
+    "r_1786596738314_nko8": "2026-08-18T19:58:05.499Z",
+    "r_1786596741346_arce": "2026-08-18T19:58:05.499Z",
+    "r_1786596753985_gsus": "2026-08-18T19:58:05.499Z",
+    "r_1786596798634_64b3": "2026-08-18T19:58:05.499Z",
+    "r_1786596829099_h72a": "2026-08-18T19:58:05.499Z",
+    "r_1786596830434_ctci": "2026-08-18T19:58:05.499Z",
+    "r_1786596832282_9vfn": "2026-08-18T19:58:05.499Z",
+    "r_1786596836378_k4h4": "2026-08-18T19:58:05.499Z",
+    "r_1786596888674_2n05": "2026-08-18T19:58:05.499Z",
+    "r_1786596890178_r7ew": "2026-08-18T19:58:05.499Z",
+    "r_1786596899379_nvyz": "2026-08-18T19:58:05.499Z",
+    "r_1786596921354_rz5c": "2026-08-18T19:58:05.499Z",
+    "r_1786596923459_8iqf": "2026-08-18T19:58:05.499Z",
+    "r_1786596925579_46ah": "2026-08-18T19:58:05.499Z",
+    "r_1786596930250_7n4h": "2026-08-18T19:58:05.499Z",
+    "r_1786596932770_tgno": "2026-08-18T19:58:05.499Z",
+    "r_1786596935859_2vqj": "2026-08-18T19:58:05.499Z",
+    "r_1786596938538_cw69": "2026-08-18T19:58:05.499Z",
+    "r_1786596941491_d2an": "2026-08-18T19:58:05.499Z",
+    "r_1786596942962_6pip": "2026-08-18T19:58:05.499Z",
+    "r_1786596947916_iscx": "2026-08-18T19:58:05.499Z"
   },
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:57:57.050Z"
+    "ts": "2026-08-18T19:58:09.295Z"
   },
   "settings": {
     "autoSync": true
