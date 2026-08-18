@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:27:18.520Z",
+  "exportedAt": "2026-08-18T20:27:50.427Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20668,6 +20668,18 @@
       "single": false,
       "id": "g_1787084450352_dpyy",
       "updatedAt": "2026-08-18T20:27:14.753Z"
+    },
+    {
+      "name": "מוסר אביך ומידות הראי\"ה",
+      "periodId": "gp_1787083174442_ymbd",
+      "typeId": "gt_1782463932659_pw5v",
+      "startDate": "",
+      "endDate": "",
+      "description": "סיום הספר: כל יום שליש פרק.",
+      "status": "active",
+      "single": false,
+      "id": "g_1787084866486_8gtj",
+      "updatedAt": "2026-08-18T20:27:46.486Z"
     }
   ],
   "objectives": [
@@ -21748,7 +21760,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:27:18.520Z"
+    "ts": "2026-08-18T20:27:50.427Z"
   },
   "settings": {
     "autoSync": true
