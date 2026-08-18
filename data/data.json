@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T19:33:10.341Z",
+  "exportedAt": "2026-08-18T19:33:26.560Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -13680,12 +13680,12 @@
       "time": "10:30",
       "duration": 60,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_a14q",
@@ -13694,12 +13694,12 @@
       "time": "16:20",
       "duration": 20,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782431119274_jv12",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_8ero",
@@ -13722,12 +13722,12 @@
       "time": "06:50",
       "duration": 10,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782447269820_2z90",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_qr84",
@@ -13736,12 +13736,12 @@
       "time": "09:00",
       "duration": 30,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_qf46",
@@ -13764,12 +13764,12 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_2eao",
@@ -13792,12 +13792,12 @@
       "time": "12:10",
       "duration": 30,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_uj0h",
@@ -13806,12 +13806,12 @@
       "time": "15:00",
       "duration": 15,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_6p7v",
@@ -13820,12 +13820,12 @@
       "time": "07:45",
       "duration": 15,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_x723",
@@ -13834,12 +13834,12 @@
       "time": "05:50",
       "duration": 60,
       "date": "2026-08-14",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442504473_daqb",
       "createdAt": "2026-08-07T16:20:36.486Z",
-      "updatedAt": "2026-08-07T16:20:36.486Z"
+      "updatedAt": "2026-08-18T19:33:22.857Z"
     },
     {
       "id": "r_1786119636486_8b8z",
@@ -21435,7 +21435,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T19:33:10.341Z"
+    "ts": "2026-08-18T19:33:26.560Z"
   },
   "settings": {
     "autoSync": true
