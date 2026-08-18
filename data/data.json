@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:25:53.102Z",
+  "exportedAt": "2026-08-18T20:26:01.205Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -8,7 +8,7 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-06-26",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": {
         "type": "specific",
@@ -69,18 +69,58 @@
       "updatedAt": "2026-06-25T22:02:43.521Z"
     },
     {
+      "id": "r_1782425136551_sb8q",
+      "title": "ארוחת ערב",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T22:05:36.551Z",
+      "updatedAt": "2026-06-25T22:05:36.551Z"
+    },
+    {
       "id": "r_1782425247021_u699",
-      "title": "ק\"ש + מקלחת",
+      "title": "ק\"ש + פגישה + מקלחת.",
       "time": "21:30",
-      "duration": 15,
-      "date": "2026-07-29",
+      "duration": 35,
+      "date": "2026-06-26",
       "completed": true,
       "archived": false,
-      "recurrence": null,
+      "recurrence": {
+        "type": "daily"
+      },
       "sourceId": null,
       "createdAt": "2026-06-25T22:07:27.021Z",
       "description": "מטרת השינה והקימה.",
       "updatedAt": "2026-06-25T22:07:27.021Z"
+    },
+    {
+      "id": "r_1782425388805_mmgm",
+      "title": "תנ\"ך",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-06-26",
+      "completed": true,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T22:09:48.805Z",
+      "description": "מטרת התנ\"ך.",
+      "updatedAt": "2026-06-25T22:09:48.805Z"
     },
     {
       "id": "r_1782425511489_knps",
@@ -182,6 +222,22 @@
       "updatedAt": "2026-06-25T23:17:15.433Z"
     },
     {
+      "id": "r_1782430450460_6zm1",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-06-26",
+      "completed": true,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-25T23:34:10.460Z",
+      "updatedAt": "2026-06-25T23:34:10.460Z"
+    },
+    {
       "id": "r_1782430560894_yyvu",
       "title": "העברת כל הטיוטות מהטלפון למחשב. כולל טיפול.",
       "description": "",
@@ -256,6 +312,36 @@
       "updatedAt": "2026-06-26T00:00:56.813Z"
     },
     {
+      "id": "r_1782442504473_daqb",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-26T02:55:04.473Z",
+      "updatedAt": "2026-08-18T19:58:05.499Z"
+    },
+    {
+      "id": "r_1782442551153_zpl2",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-06-26",
+      "completed": true,
+      "archived": false,
+      "recurrence": {
+        "type": "daily"
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T02:55:51.153Z",
+      "updatedAt": "2026-06-26T02:55:51.153Z"
+    },
+    {
       "id": "r_1782442708026_qijm",
       "title": "מלווה מלכה",
       "description": "",
@@ -308,7 +394,7 @@
       "time": "09:00",
       "duration": 30,
       "date": "2026-08-03",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -330,6 +416,26 @@
       "updatedAt": "2026-06-26T09:40:45.150Z"
     },
     {
+      "id": "r_1782474961808_oqv9",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
+      "time": "09:00",
+      "duration": 15,
+      "date": "2026-06-26",
+      "completed": false,
+      "archived": false,
+      "recurrence": {
+        "type": "specific",
+        "days": [
+          1,
+          3
+        ]
+      },
+      "sourceId": null,
+      "createdAt": "2026-06-26T11:56:01.808Z",
+      "updatedAt": "2026-06-26T11:56:01.808Z"
+    },
+    {
       "id": "r_1782475095107_v9zu",
       "title": "מעיין\\טיול",
       "description": "קביעת מעיין\\טיול עם מייזלס\\אלבו\\חבר\\חברים לפני\\אחרי השבת סיום.",
@@ -342,6 +448,20 @@
       "sourceId": null,
       "createdAt": "2026-06-26T11:58:15.107Z",
       "updatedAt": "2026-06-26T11:58:15.107Z"
+    },
+    {
+      "id": "r_1782475457864_tvpb",
+      "title": "ספר ידידים 170 ע\"מ",
+      "description": "מטרת ההרגלים והידידים.",
+      "time": "07:30",
+      "duration": 150,
+      "date": "2026-08-18",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": null,
+      "createdAt": "2026-06-26T12:04:17.864Z",
+      "updatedAt": "2026-08-07T10:01:08.463Z"
     },
     {
       "id": "r_1782481023495_ombr",
@@ -398,6 +518,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-26T15:26:49.919Z",
       "updatedAt": "2026-06-26T15:26:49.919Z"
+    },
+    {
+      "id": "r_1782487610929_s459",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-06-27",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-26T15:26:50.929Z",
+      "updatedAt": "2026-06-26T15:26:50.929Z"
     },
     {
       "id": "r_1782487611471_ijhi",
@@ -580,6 +714,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-27T20:20:20.739Z",
       "updatedAt": "2026-06-27T20:20:20.739Z"
+    },
+    {
+      "id": "r_1782591621313_ysma",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "11:10",
+      "duration": 15,
+      "date": "2026-06-28",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-27T20:20:21.313Z",
+      "updatedAt": "2026-06-27T20:20:21.313Z"
     },
     {
       "id": "r_1782591621518_c8qb",
@@ -904,6 +1052,20 @@
       "updatedAt": "2026-06-30T10:53:53.544Z"
     },
     {
+      "id": "r_1782816834118_ben9",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "21:40",
+      "duration": 20,
+      "date": "2026-06-30",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-30T10:53:54.118Z",
+      "updatedAt": "2026-06-30T10:53:54.118Z"
+    },
+    {
       "id": "r_1782816836346_itao",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1070,6 +1232,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-06-30T10:54:10.065Z",
       "updatedAt": "2026-06-30T10:54:10.065Z"
+    },
+    {
+      "id": "r_1782816850199_vrsf",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-06-29",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-06-30T10:54:10.199Z",
+      "updatedAt": "2026-06-30T10:54:10.199Z"
     },
     {
       "id": "r_1782816850389_wr7z",
@@ -1271,10 +1447,10 @@
       "id": "r_1782821092733_2e9z",
       "title": "העברת כל הטיוטות מהטלפון למחשב. כולל טיפול.",
       "description": "",
-      "time": "10:30",
+      "time": "",
       "duration": 60,
-      "date": "2026-07-29",
-      "completed": true,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782430560894_yyvu",
@@ -1285,10 +1461,10 @@
       "id": "r_1782821126863_q601",
       "title": "סידור וארגון בגדים מחדש",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 20,
-      "date": "2026-08-03",
-      "completed": true,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782481023495_ombr",
@@ -1422,6 +1598,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-01T09:21:39.618Z",
       "updatedAt": "2026-07-01T09:21:39.618Z"
+    },
+    {
+      "id": "r_1782897699874_z5v6",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-01",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-01T09:21:39.874Z",
+      "updatedAt": "2026-07-01T09:21:39.874Z"
     },
     {
       "id": "r_1782897700042_h5bb",
@@ -1662,6 +1852,20 @@
       "updatedAt": "2026-07-01T22:17:20.707Z"
     },
     {
+      "id": "r_1782944241179_frm6",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "20:40",
+      "duration": 15,
+      "date": "2026-07-02",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-01T22:17:21.179Z",
+      "updatedAt": "2026-07-01T22:17:21.179Z"
+    },
+    {
       "id": "r_1782944241701_fyp2",
       "title": "ארוחת בוקר",
       "description": "",
@@ -1884,6 +2088,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-06T06:08:10.728Z",
       "updatedAt": "2026-07-06T06:08:10.728Z"
+    },
+    {
+      "id": "r_1783318090905_aun3",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "10:10",
+      "duration": 15,
+      "date": "2026-07-06",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-06T06:08:10.905Z",
+      "updatedAt": "2026-07-06T06:08:10.905Z"
     },
     {
       "id": "r_1783318091093_to1i",
@@ -2139,10 +2357,10 @@
       "id": "r_1783344968561_k2gi",
       "title": "הוכחה לאמא על בלוטוס",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 5,
-      "date": "2026-07-29",
-      "completed": true,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -2235,12 +2453,12 @@
     },
     {
       "id": "r_1783595720379_c4wt",
-      "title": "=== הרגלים וידידים - 11 פעמים.",
+      "title": "=== הרגלים וידידים - 17 פעמים.",
       "description": "",
-      "time": "21:00",
-      "duration": 60,
-      "date": "2026-07-18",
-      "completed": true,
+      "time": "",
+      "duration": 100,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -2316,6 +2534,20 @@
       "sourceId": "r_1782425348703_9vkn",
       "createdAt": "2026-07-10T09:18:38.007Z",
       "updatedAt": "2026-07-10T09:18:38.007Z"
+    },
+    {
+      "id": "r_1783675118707_95fb",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "16:45",
+      "duration": 10,
+      "date": "2026-07-10",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-10T09:18:38.707Z",
+      "updatedAt": "2026-07-10T09:18:38.707Z"
     },
     {
       "id": "r_1783675123715_lxn4",
@@ -2570,6 +2802,20 @@
       "updatedAt": "2026-07-12T04:11:28.988Z"
     },
     {
+      "id": "r_1783829489442_mpoi",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "08:00",
+      "duration": 15,
+      "date": "2026-07-12",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-12T04:11:29.442Z",
+      "updatedAt": "2026-07-12T04:11:29.442Z"
+    },
+    {
       "id": "r_1783829494701_3r17",
       "title": "ארוחת בוקר",
       "description": "",
@@ -2766,6 +3012,20 @@
       "updatedAt": "2026-07-13T12:40:52.928Z"
     },
     {
+      "id": "r_1783946454400_t99s",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-07-13",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-13T12:40:54.400Z",
+      "updatedAt": "2026-07-13T12:40:54.400Z"
+    },
+    {
       "id": "r_1783946459943_lmpu",
       "title": "נגינה",
       "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
@@ -2853,7 +3113,7 @@
       "id": "r_1784303159984_x1z5",
       "title": "מעקב חזק על המטרות והיעדים",
       "description": "",
-      "time": "13:00",
+      "time": "10:30",
       "duration": 20,
       "date": "2026-07-19",
       "completed": true,
@@ -2921,7 +3181,7 @@
     },
     {
       "id": "r_1784439312805_zkcb",
-      "title": "×©××\"×ª",
+      "title": "שמו\"ת",
       "description": "",
       "time": "19:30",
       "duration": 15,
@@ -2935,8 +3195,8 @@
     },
     {
       "id": "r_1784439313480_mf3g",
-      "title": "××××",
-      "description": "×××¨××ª ××××××ª ×××§×©×¨×× ××¢×¡×§×××.\n×¢×¨××¥, ×××××¨, ××\"×.",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
       "time": "09:30",
       "duration": 60,
       "date": "2026-07-19",
@@ -2949,7 +3209,7 @@
     },
     {
       "id": "r_1784439317958_ffvz",
-      "title": "××¨×××ª ×¢×¨× + ×¤×\"× .",
+      "title": "ארוחת ערב + פל\"נ.",
       "description": "",
       "time": "18:00",
       "duration": 30,
@@ -2963,8 +3223,8 @@
     },
     {
       "id": "r_1784439318639_xcca",
-      "title": "×§\"×© + ×¤×××©× + ××§×××ª.",
-      "description": "×××¨×ª ××©×× × ×××§×××.",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
       "time": "21:30",
       "duration": 35,
       "date": "2026-07-19",
@@ -2977,7 +3237,7 @@
     },
     {
       "id": "r_1784439326968_776v",
-      "title": "××¨×××ª ×××§×¨ --> × ×××× + ×¤×\"× .",
+      "title": "ארוחת בוקר --> נבטים + פל\"נ.",
       "description": "",
       "time": "09:30",
       "duration": 30,
@@ -2991,7 +3251,7 @@
     },
     {
       "id": "r_1784439330428_wr9g",
-      "title": "×©××¨××ª",
+      "title": "שחרית",
       "description": "",
       "time": "05:50",
       "duration": 60,
@@ -3005,7 +3265,7 @@
     },
     {
       "id": "r_1784439368954_00vm",
-      "title": "×× ×× ××¢×¨×××ª",
+      "title": "מנחה וערבית",
       "description": "",
       "time": "19:15",
       "duration": 75,
@@ -3019,8 +3279,8 @@
     },
     {
       "id": "r_1784439378015_gq4b",
-      "title": "×ª××× ×",
-      "description": "×××¨×ª ××ª××× ×. ×××× ×××.",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
       "time": "09:00",
       "duration": 30,
       "date": "2026-07-19",
@@ -3033,7 +3293,7 @@
     },
     {
       "id": "r_1784439379164_09ul",
-      "title": "××¨×××ª ×¦××¨××× + ×¤×\"× ",
+      "title": "ארוחת צהריים + פל\"נ",
       "description": "",
       "time": "13:30",
       "duration": 30,
@@ -3047,7 +3307,7 @@
     },
     {
       "id": "r_1784439379599_5265",
-      "title": "×× ××××ª ××××××",
+      "title": "אנגלית ולמידה",
       "description": "",
       "time": "20:50",
       "duration": 40,
@@ -3061,8 +3321,8 @@
     },
     {
       "id": "r_1784555877103_fq3q",
-      "title": "×××× - ×××¦×¨ ××××××× ×××× ××©××××§, ×××× ×ª×©×××××.",
-      "description": "×××¨××ª ××××××ª ×××§×©×¨×× ××¢×¡×§×××.\n×¢×¨××¥, ×××××¨, ××\"×.",
+      "title": "מהלך - מוצר דיגיטלי מוכן לשיווק, כולל תשלומים.",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
       "time": "17:50",
       "duration": 40,
       "date": "2026-07-20",
@@ -3075,7 +3335,7 @@
     },
     {
       "id": "r_1784555878504_h9rm",
-      "title": "××¨×××ª ×¢×¨× + ×¤×\"× ",
+      "title": "ארוחת ערב + פל\"נ",
       "description": "",
       "time": "18:30",
       "duration": 30,
@@ -3089,8 +3349,8 @@
     },
     {
       "id": "r_1784555879047_548k",
-      "title": "×§\"×© + ×¤×××©× + ××§×××ª.",
-      "description": "×××¨×ª ××©×× × ×××§×××.",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
       "time": "21:30",
       "duration": 35,
       "date": "2026-07-20",
@@ -3103,8 +3363,8 @@
     },
     {
       "id": "r_1784555880512_n5go",
-      "title": "×××¨×",
-      "description": "×××¨×ª ××××¨×.",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
       "time": "17:20",
       "duration": 30,
       "date": "2026-07-20",
@@ -3116,8 +3376,22 @@
       "updatedAt": "2026-07-20T13:58:00.512Z"
     },
     {
+      "id": "r_1784555881992_lwvr",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "18:30",
+      "duration": 15,
+      "date": "2026-07-20",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-07-20T13:58:01.992Z",
+      "updatedAt": "2026-07-20T13:58:01.992Z"
+    },
+    {
       "id": "r_1784555882591_c9vp",
-      "title": "××¨×××ª ×××§×¨",
+      "title": "ארוחת בוקר",
       "description": "",
       "time": "10:30",
       "duration": 30,
@@ -3131,7 +3405,7 @@
     },
     {
       "id": "r_1784555883824_41od",
-      "title": "×©××¨××ª",
+      "title": "שחרית",
       "description": "",
       "time": "05:50",
       "duration": 60,
@@ -3145,7 +3419,7 @@
     },
     {
       "id": "r_1784555884207_esnp",
-      "title": "×× ×× ××¢×¨×××ª",
+      "title": "מנחה וערבית",
       "description": "",
       "time": "19:15",
       "duration": 75,
@@ -3159,8 +3433,8 @@
     },
     {
       "id": "r_1784555886311_nuz1",
-      "title": "×× ×××¤×",
-      "description": "×××¨×ª ××× ×××¤×",
+      "title": "חד אופן",
+      "description": "מטרת החד אופן",
       "time": "21:00",
       "duration": 15,
       "date": "2026-07-20",
@@ -3173,8 +3447,8 @@
     },
     {
       "id": "r_1784555887447_ob90",
-      "title": "×ª× ×× ××ª× ×××",
-      "description": "×××¨×ª ××ª× ×× ×××ª× ×××.",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
       "time": "20:20",
       "duration": 20,
       "date": "2026-07-20",
@@ -3187,8 +3461,8 @@
     },
     {
       "id": "r_1784555887832_afnn",
-      "title": "××¨×××× ×××××××",
-      "description": "×××¨×ª ×××¨×××× ××××××××. 7 + 6 ×¢\"×.",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
       "time": "20:40",
       "duration": 40,
       "date": "2026-07-20",
@@ -3201,8 +3475,8 @@
     },
     {
       "id": "r_1784555889112_19mn",
-      "title": "×ª××× ×",
-      "description": "×××¨×ª ××ª××× ×. ×××× ×××.",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
       "time": "09:00",
       "duration": 30,
       "date": "2026-07-20",
@@ -3215,7 +3489,7 @@
     },
     {
       "id": "r_1784555889560_tww3",
-      "title": "×¤×\"× ",
+      "title": "פל\"נ",
       "description": "",
       "time": "13:30",
       "duration": 30,
@@ -3229,7 +3503,7 @@
     },
     {
       "id": "r_1784555890119_1834",
-      "title": "×× ××××ª ××××××",
+      "title": "אנגלית ולמידה",
       "description": "",
       "time": "20:30",
       "duration": 40,
@@ -3243,8 +3517,8 @@
     },
     {
       "id": "r_1784555890607_7wut",
-      "title": "×¤×\"× ",
-      "description": "×××¨×ª ××¤×\"× .\n××ª×, ×©×\"×¡, ×¤××× ×§, ××¡×§××××.",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
       "time": "16:00",
       "duration": 25,
       "date": "2026-07-20",
@@ -3257,7 +3531,7 @@
     },
     {
       "id": "r_1784557192767_m6vd",
-      "title": "×ª××§ ×××¡×× ××××××¨",
+      "title": "תיק לוסיד וחיבור",
       "description": "",
       "time": "21:00",
       "duration": 30,
@@ -3271,12 +3545,12 @@
     },
     {
       "id": "r_1784557333670_w2xe",
-      "title": "×©××¤××¨ ×× ×××× ××××©×",
+      "title": "שיפור הניהול האישי",
       "description": "",
       "time": "09:00",
       "duration": 30,
       "date": "2026-07-26",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": {
         "type": "monthly"
@@ -3287,7 +3561,7 @@
     },
     {
       "id": "r_1784895274408_22nb",
-      "title": "×ª×× ××",
+      "title": "תכנון",
       "description": "",
       "time": "07:00",
       "duration": 10,
@@ -3301,7 +3575,7 @@
     },
     {
       "id": "r_1784895449872_wf74",
-      "title": "××¢×§× ×××§ ×¢× ××××¨××ª ××××¢×××",
+      "title": "מעקב חזק על המטרות והיעדים",
       "description": "",
       "time": "13:00",
       "duration": 20,
@@ -3315,8 +3589,8 @@
     },
     {
       "id": "r_1784895490992_8fnk",
-      "title": "××§×××ª ××××× ×©××ª",
-      "description": "×××× ×¦××¤××¨× ×××.",
+      "title": "מקלחת לכבוד שבת",
+      "description": "כולל ציפורניים.",
       "time": "16:20",
       "duration": 20,
       "date": "2026-07-24",
@@ -3329,8 +3603,8 @@
     },
     {
       "id": "r_1784895491560_3gb6",
-      "title": "×××ª××× × ××©××ª",
-      "description": "----------------------------------\n=×××× - ×××©×, ×¡×××××, ××× ×, |×××× ×, ××¨×§ ×¢××£ [20]\n=× ×××× ×××©× [5]\n\n=_×¡××××¨ [25]:_\n=×©×××× [6]\n=×××¨ [7]\n=×¡××× [7]\n=×¡××××¨ ×× [5]\n\n_×ª××××¨××ª [15]:_\n=×ª× [5]\n×©×¢×× ××¢××¨×¨ [1]\n××§×¨×¨[1]\n×××¨××ª ×× ××× [2]\n××\"×¦ [5]\n×¢××× [1]\n\n----------------------------------\n\n----------------------------------\n×××× - ×××©×, ××× ×, ×××× ×, ××¨×§ ×¢××£ [25]\n× ×××× ×××©× [5]\n\n_×¡××××¨ [25]:_\n×©×××× [6]\n×××¨ [7]\n×¡××× [7]\n×¡××××¨ ×× [5]\n\n_×ª××××¨××ª [15]:_\n×ª× [5]\n×©×¢×× ××¢××¨×¨ [1]\n××§×¨×¨[1]\n×××¨××ª ×× ××× [2]\n××\"×¦ [5]\n×¢××× [1]\n\n----------------------------------",
+      "title": "להתכונן לשבת",
+      "description": "----------------------------------\n=אוכל - מושט, סלומון, טונה, |טחינה, מרק עוף [20]\n=ניהול אישי [5]\n\n=_סידור [25]:_\n=שולחן [6]\n=חדר [7]\n=סלון [7]\n=סידור גג [5]\n\n_תזכורות [15]:_\n=תה [5]\nשעון מעורר [1]\nמקרר[1]\nאורות בניין [2]\nגב\"צ [5]\nעוגה [1]\n\n----------------------------------\n\n----------------------------------\nאוכל - מושט, טונה, טחינה, מרק עוף [25]\nניהול אישי [5]\n\n_סידור [25]:_\nשולחן [6]\nחדר [7]\nסלון [7]\nסידור גג [5]\n\n_תזכורות [15]:_\nתה [5]\nשעון מעורר [1]\nמקרר[1]\nאורות בניין [2]\nגב\"צ [5]\nעוגה [1]\n\n----------------------------------",
       "time": "16:40",
       "duration": 50,
       "date": "2026-07-24",
@@ -3343,12 +3617,12 @@
     },
     {
       "id": "r_1784897486830_y158",
-      "title": "דג",
+      "title": "=== תנאים - 17.",
       "description": "",
-      "time": "09:00",
+      "time": "",
       "duration": 40,
-      "date": "2026-07-28",
-      "completed": true,
+      "date": "",
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": null,
@@ -3356,18 +3630,270 @@
       "updatedAt": "2026-07-24T12:51:26.830Z"
     },
     {
+      "id": "r_1784903796230_42lp",
+      "title": "×××ª××× × ××©××ª",
+      "description": "----------------------------------\n=52=\n=×××× - |××× × (××¡×£), |×××× × (×××), ××¨×§×× |×¢××£ ×|×××××× [1 + 1 + 7 + 6 = 15]\n=× ×××× ×××©× [5]\n=×©×××× [5]\n=×××¨ [5]\n=×¡××× [5]\n=×¡××××¨ ×× [5]\n=×ª× [4]\n=×©×¢×× ××¢××¨×¨ [1]\n=××§×¨×¨ [1]\n=×××¨××ª ×× ××× [2]\n=××\"×¦ [3]\n=×¢××× [1]\n\n----------------------------------\n\n\n----------------------------------\n××§×××ª (+ ×¦×¤×¨× ×××) [25]\n×××× - ××××, ××× ×, ×××× ×, ××¨×§ ×¢××£ [40]\n× ×××× ×××©× [5]\n×¡××××¨:\n×©×××× [7]\n×××¨ [7]\n×¡××× [7]\n×¡××××¨ ×× [7]\n×ª××××¨××ª:\n×ª× [5]\n×©×¢×× ××¢××¨×¨ [1]\n××§×¨×¨[1]\n×××¨××ª ×× ××× [2]\n××\"×¦ [5]\n×¢××× [1]\n\n----------------------------------",
+      "time": "16:40",
+      "duration": 50,
+      "date": "2026-07-31",
+      "completed": true,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782431382446_52ch",
+      "createdAt": "2026-07-24T14:36:36.230Z",
+      "updatedAt": "2026-08-07T14:44:26.858Z"
+    },
+    {
       "id": "r_1785003047719_1y1w",
-      "title": "××××× ××××",
+      "title": "מלווה מלכה",
       "description": "",
       "time": "22:20",
       "duration": 10,
       "date": "2026-07-25",
-      "completed": true,
+      "completed": false,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442708026_qijm",
       "createdAt": "2026-07-25T18:10:47.719Z",
       "updatedAt": "2026-07-25T18:10:47.719Z"
+    },
+    {
+      "id": "r_1787084441992_qx3h",
+      "title": "שמו\"ת",
+      "description": "",
+      "time": "19:30",
+      "duration": 15,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782423817363_xrim",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_regb",
+      "title": "מהלך",
+      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
+      "time": "10:30",
+      "duration": 60,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782424741865_yg34",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_cfdz",
+      "title": "ארוחת ערב",
+      "description": "",
+      "time": "18:00",
+      "duration": 30,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425136551_sb8q",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_maaa",
+      "title": "ק\"ש + פגישה + מקלחת.",
+      "description": "מטרת השינה והקימה.",
+      "time": "21:30",
+      "duration": 35,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425247021_u699",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_3uiy",
+      "title": "גמרא",
+      "description": "מטרת הגמרא.",
+      "time": "07:00",
+      "duration": 40,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425348703_9vkn",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_ws4p",
+      "title": "תנ\"ך",
+      "description": "מטרת התנ\"ך.",
+      "time": "07:45",
+      "duration": 15,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782425388805_mmgm",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_mumg",
+      "title": "ארוחת בוקר",
+      "description": "",
+      "time": "10:30",
+      "duration": 30,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430450460_6zm1",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_49ly",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782430911505_pfrp",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_v5jn",
+      "title": "שחרית",
+      "description": "",
+      "time": "05:50",
+      "duration": 60,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442504473_daqb",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441992_46mt",
+      "title": "מנחה וערבית",
+      "description": "",
+      "time": "19:15",
+      "duration": 75,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782442551153_zpl2",
+      "createdAt": "2026-08-18T20:20:41.992Z",
+      "updatedAt": "2026-08-18T20:20:41.992Z"
+    },
+    {
+      "id": "r_1787084441993_w1jb",
+      "title": "נגינה",
+      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
+      "time": "08:00",
+      "duration": 30,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782448199626_eqz2",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_dt3z",
+      "title": "תניא ותנאים",
+      "description": "מטרת התניא והתנאים.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475371337_oek7",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_uk0r",
+      "title": "הרגלים וידידים",
+      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
+      "time": "09:00",
+      "duration": 40,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782475457864_tvpb",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_l7ng",
+      "title": "תזונה",
+      "description": "מטרת התזונה. אוכל אמא.",
+      "time": "09:00",
+      "duration": 30,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782821159911_fqcb",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_kh2t",
+      "title": "ארוחת צהריים",
+      "description": "",
+      "time": "13:30",
+      "duration": 30,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1782897700268_p7ax",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_zgix",
+      "title": "אנגלית ולמידה",
+      "description": "",
+      "time": "20:30",
+      "duration": 40,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1783339677824_0nx8",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
+    },
+    {
+      "id": "r_1787084441993_u7bp",
+      "title": "פל\"נ",
+      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
+      "time": "16:00",
+      "duration": 25,
+      "date": "2026-08-18",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1784439329110_e867",
+      "createdAt": "2026-08-18T20:20:41.993Z",
+      "updatedAt": "2026-08-18T20:20:41.993Z"
     },
     {
       "id": "r_1785214515975_jxvx",
@@ -8790,160 +9316,6 @@
       "updatedAt": "2026-07-28T19:19:23.579Z"
     },
     {
-      "id": "r_1782487610929_s459",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-27",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-26T15:26:50.929Z",
-      "updatedAt": "2026-06-26T15:26:50.929Z"
-    },
-    {
-      "id": "r_1782591621313_ysma",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "11:10",
-      "duration": 15,
-      "date": "2026-06-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-27T20:20:21.313Z",
-      "updatedAt": "2026-06-27T20:20:21.313Z"
-    },
-    {
-      "id": "r_1782816834118_ben9",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "21:40",
-      "duration": 20,
-      "date": "2026-06-30",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:53:54.118Z",
-      "updatedAt": "2026-06-30T10:53:54.118Z"
-    },
-    {
-      "id": "r_1782816850199_vrsf",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-29",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-06-30T10:54:10.199Z",
-      "updatedAt": "2026-06-30T10:54:10.199Z"
-    },
-    {
-      "id": "r_1782897699874_z5v6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-01",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T09:21:39.874Z",
-      "updatedAt": "2026-07-01T09:21:39.874Z"
-    },
-    {
-      "id": "r_1782944241179_frm6",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "20:40",
-      "duration": 15,
-      "date": "2026-07-02",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-01T22:17:21.179Z",
-      "updatedAt": "2026-07-01T22:17:21.179Z"
-    },
-    {
-      "id": "r_1783318090905_aun3",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "10:10",
-      "duration": 15,
-      "date": "2026-07-06",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-06T06:08:10.905Z",
-      "updatedAt": "2026-07-06T06:08:10.905Z"
-    },
-    {
-      "id": "r_1783675118707_95fb",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "16:45",
-      "duration": 10,
-      "date": "2026-07-10",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-10T09:18:38.707Z",
-      "updatedAt": "2026-07-10T09:18:38.707Z"
-    },
-    {
-      "id": "r_1783829489442_mpoi",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "08:00",
-      "duration": 15,
-      "date": "2026-07-12",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-12T04:11:29.442Z",
-      "updatedAt": "2026-07-12T04:11:29.442Z"
-    },
-    {
-      "id": "r_1783946454400_t99s",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-07-13",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-13T12:40:54.400Z",
-      "updatedAt": "2026-07-13T12:40:54.400Z"
-    },
-    {
-      "id": "r_1784555881992_lwvr",
-      "title": "×ª× \"×",
-      "description": "×××¨×ª ××ª× \"×.",
-      "time": "18:30",
-      "duration": 15,
-      "date": "2026-07-20",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-07-20T13:58:01.992Z",
-      "updatedAt": "2026-07-20T13:58:01.992Z"
-    },
-    {
       "id": "r_1785253004914_bid9",
       "title": "ארוחת ערב",
       "description": "",
@@ -11942,136 +12314,6 @@
       "sourceId": "r_1785773192650_unbg",
       "createdAt": "2026-08-06T12:31:16.589Z",
       "updatedAt": "2026-08-07T14:48:18.587Z"
-    },
-    {
-      "id": "r_1782425136551_sb8q",
-      "title": "ארוחת ערב",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          4,
-          3,
-          2,
-          1,
-          0
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:05:36.551Z",
-      "updatedAt": "2026-06-25T22:05:36.551Z"
-    },
-    {
-      "id": "r_1782425388805_mmgm",
-      "title": "תנ\"ך",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-25T22:09:48.805Z",
-      "description": "מטרת התנ\"ך.",
-      "updatedAt": "2026-06-25T22:09:48.805Z"
-    },
-    {
-      "id": "r_1782430450460_6zm1",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-07-28",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-25T23:34:10.460Z",
-      "updatedAt": "2026-06-25T23:34:10.460Z"
-    },
-    {
-      "id": "r_1782442504473_daqb",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:04.473Z",
-      "updatedAt": "2026-08-18T19:58:05.499Z"
-    },
-    {
-      "id": "r_1782442551153_zpl2",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-06-26",
-      "completed": true,
-      "archived": false,
-      "recurrence": {
-        "type": "daily"
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-26T02:55:51.153Z",
-      "updatedAt": "2026-06-26T02:55:51.153Z"
-    },
-    {
-      "id": "r_1782474961808_oqv9",
-      "title": "חד אופן",
-      "description": "מטרת החד אופן",
-      "time": "09:00",
-      "duration": 15,
-      "date": "2026-06-26",
-      "completed": false,
-      "archived": false,
-      "recurrence": {
-        "type": "specific",
-        "days": [
-          1,
-          3
-        ]
-      },
-      "sourceId": null,
-      "createdAt": "2026-06-26T11:56:01.808Z",
-      "updatedAt": "2026-06-26T11:56:01.808Z"
-    },
-    {
-      "id": "r_1782475457864_tvpb",
-      "title": "ספר ידידים 170 ע\"מ",
-      "description": "מטרת ההרגלים והידידים.",
-      "time": "07:30",
-      "duration": 150,
-      "date": "2026-08-18",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": null,
-      "createdAt": "2026-06-26T12:04:17.864Z",
-      "updatedAt": "2026-08-07T10:01:08.463Z"
-    },
-    {
-      "id": "r_1784903796230_42lp",
-      "title": "×××ª××× × ××©××ª",
-      "description": "----------------------------------\n=52=\n=×××× - |××× × (××¡×£), |×××× × (×××), ××¨×§×× |×¢××£ ×|×××××× [1 + 1 + 7 + 6 = 15]\n=× ×××× ×××©× [5]\n=×©×××× [5]\n=×××¨ [5]\n=×¡××× [5]\n=×¡××××¨ ×× [5]\n=×ª× [4]\n=×©×¢×× ××¢××¨×¨ [1]\n=××§×¨×¨ [1]\n=×××¨××ª ×× ××× [2]\n=××\"×¦ [3]\n=×¢××× [1]\n\n----------------------------------\n\n\n----------------------------------\n××§×××ª (+ ×¦×¤×¨× ×××) [25]\n×××× - ××××, ××× ×, ×××× ×, ××¨×§ ×¢××£ [40]\n× ×××× ×××©× [5]\n×¡××××¨:\n×©×××× [7]\n×××¨ [7]\n×¡××× [7]\n×¡××××¨ ×× [7]\n×ª××××¨××ª:\n×ª× [5]\n×©×¢×× ××¢××¨×¨ [1]\n××§×¨×¨[1]\n×××¨××ª ×× ××× [2]\n××\"×¦ [5]\n×¢××× [1]\n\n----------------------------------",
-      "time": "16:40",
-      "duration": 50,
-      "date": "2026-07-31",
-      "completed": true,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782431382446_52ch",
-      "createdAt": "2026-07-24T14:36:36.230Z",
-      "updatedAt": "2026-08-07T14:44:26.858Z"
     },
     {
       "id": "r_1785266794927_m5uk",
@@ -19610,244 +19852,6 @@
       "sourceId": null,
       "createdAt": "2026-08-15T22:49:16.500Z",
       "updatedAt": "2026-08-15T22:49:16.501Z"
-    },
-    {
-      "id": "r_1787084441992_qx3h",
-      "title": "שמו\"ת",
-      "description": "",
-      "time": "19:30",
-      "duration": 15,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782423817363_xrim",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_regb",
-      "title": "מהלך",
-      "description": "מטרות היזמות והקשרים העסקיים.\nערוץ, החוזר, ממ\"א.",
-      "time": "10:30",
-      "duration": 60,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782424741865_yg34",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_cfdz",
-      "title": "ארוחת ערב",
-      "description": "",
-      "time": "18:00",
-      "duration": 30,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425136551_sb8q",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_maaa",
-      "title": "ק\"ש + פגישה + מקלחת.",
-      "description": "מטרת השינה והקימה.",
-      "time": "21:30",
-      "duration": 35,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425247021_u699",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_3uiy",
-      "title": "גמרא",
-      "description": "מטרת הגמרא.",
-      "time": "07:00",
-      "duration": 40,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425348703_9vkn",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_ws4p",
-      "title": "תנ\"ך",
-      "description": "מטרת התנ\"ך.",
-      "time": "07:45",
-      "duration": 15,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782425388805_mmgm",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_mumg",
-      "title": "ארוחת בוקר",
-      "description": "",
-      "time": "10:30",
-      "duration": 30,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430450460_6zm1",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_49ly",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782430911505_pfrp",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_v5jn",
-      "title": "שחרית",
-      "description": "",
-      "time": "05:50",
-      "duration": 60,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442504473_daqb",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441992_46mt",
-      "title": "מנחה וערבית",
-      "description": "",
-      "time": "19:15",
-      "duration": 75,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782442551153_zpl2",
-      "createdAt": "2026-08-18T20:20:41.992Z",
-      "updatedAt": "2026-08-18T20:20:41.992Z"
-    },
-    {
-      "id": "r_1787084441993_w1jb",
-      "title": "נגינה",
-      "description": "מטרת הנגינה.\n\n11.\n12. יהא רעוא קדמך\n13. יהא רעוא קדמך\n14. יהא רעוא קדמך\n=15. אנא בכח.",
-      "time": "08:00",
-      "duration": 30,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782448199626_eqz2",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_dt3z",
-      "title": "תניא ותנאים",
-      "description": "מטרת התניא והתנאים.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475371337_oek7",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_uk0r",
-      "title": "הרגלים וידידים",
-      "description": "מטרת ההרגלים והידידים. 7 + 6 ע\"מ.",
-      "time": "09:00",
-      "duration": 40,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782475457864_tvpb",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_l7ng",
-      "title": "תזונה",
-      "description": "מטרת התזונה. אוכל אמא.",
-      "time": "09:00",
-      "duration": 30,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782821159911_fqcb",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_kh2t",
-      "title": "ארוחת צהריים",
-      "description": "",
-      "time": "13:30",
-      "duration": 30,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1782897700268_p7ax",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_zgix",
-      "title": "אנגלית ולמידה",
-      "description": "",
-      "time": "20:30",
-      "duration": 40,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1783339677824_0nx8",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
-    },
-    {
-      "id": "r_1787084441993_u7bp",
-      "title": "פל\"נ",
-      "description": "מטרת הפל\"נ.\nמתח, שכ\"ס, פלאנק, וסקוואט.",
-      "time": "16:00",
-      "duration": 25,
-      "date": "2026-08-18",
-      "completed": false,
-      "archived": false,
-      "recurrence": null,
-      "sourceId": "r_1784439329110_e867",
-      "createdAt": "2026-08-18T20:20:41.993Z",
-      "updatedAt": "2026-08-18T20:20:41.993Z"
     }
   ],
   "suggestions": {
@@ -19855,6 +19859,7 @@
       "r_1782423817363_xrim": "accepted",
       "r_1782459904340_fof6": "deleted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19863,8 +19868,7 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782475457864_tvpb": "accepted"
     },
     "2026-06-27": {
       "r_1782424741865_yg34": "accepted",
@@ -19883,6 +19887,7 @@
       "r_1782448199626_eqz2": "accepted",
       "r_1782425437297_hvxz": "deleted",
       "r_1782423817363_xrim": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19891,12 +19896,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782474961808_oqv9": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782475457864_tvpb": "accepted"
     },
     "2026-06-30": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19906,12 +19911,12 @@
       "r_1782442551153_zpl2": "accepted",
       "r_1782448199626_eqz2": "accepted",
       "r_1782475371337_oek7": "accepted",
-      "r_1782475457864_tvpb": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782475457864_tvpb": "accepted"
     },
     "2026-07-01": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19922,13 +19927,13 @@
       "r_1782474961808_oqv9": "accepted",
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
-      "r_1782821159911_fqcb": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782821159911_fqcb": "accepted"
     },
     "2026-07-06": {
       "r_1782816851054_gr7q": "deleted",
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19940,8 +19945,7 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782897700268_p7ax": "accepted"
     },
     "2026-07-03": {
       "r_1782821159911_fqcb": "postponed"
@@ -19949,6 +19953,7 @@
     "2026-07-02": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -19960,12 +19965,12 @@
       "r_1782475371337_oek7": "accepted",
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
-      "r_1782897700268_p7ax": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1782897700268_p7ax": "accepted"
     },
     "2026-07-05": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -19977,13 +19982,13 @@
       "r_1782475371337_oek7": "dismissed",
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
-      "r_1782897700268_p7ax": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1782897700268_p7ax": "dismissed"
     },
     "2026-07-08": {
       "r_1782431181923_8u0g": "deleted",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -19993,12 +19998,12 @@
       "r_1782448199626_eqz2": "dismissed",
       "r_1782474961808_oqv9": "dismissed",
       "r_1782475371337_oek7": "dismissed",
-      "r_1782475457864_tvpb": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1782475457864_tvpb": "dismissed"
     },
     "2026-07-07": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20011,12 +20016,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-09": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20029,8 +20034,7 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-10": {
       "r_1782424741865_yg34": "accepted",
@@ -20069,6 +20073,7 @@
     "2026-07-12": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -20081,12 +20086,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1783339677824_0nx8": "accepted"
     },
     "2026-07-13": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -20099,12 +20104,12 @@
       "r_1782475457864_tvpb": "accepted",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-14": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20117,12 +20122,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-15": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20135,12 +20140,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-16": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20154,8 +20159,7 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783322993928_ckcd": "accepted",
-      "r_1783339677824_0nx8": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783339677824_0nx8": "dismissed"
     },
     "2026-07-17": {
       "r_1782424741865_yg34": "dismissed",
@@ -20194,6 +20198,7 @@
     "2026-07-19": {
       "r_1782423817363_xrim": "accepted",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782425388805_mmgm": "dismissed",
@@ -20206,12 +20211,12 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
-      "r_1783339677824_0nx8": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1783339677824_0nx8": "accepted"
     },
     "2026-07-20": {
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "accepted",
+      "r_1782425136551_sb8q": "accepted",
       "r_1782425247021_u699": "accepted",
       "r_1782425348703_9vkn": "accepted",
       "r_1782425388805_mmgm": "accepted",
@@ -20225,8 +20230,7 @@
       "r_1782821159911_fqcb": "accepted",
       "r_1782897700268_p7ax": "accepted",
       "r_1783339677824_0nx8": "accepted",
-      "r_1784439329110_e867": "accepted",
-      "r_1782425136551_sb8q": "accepted"
+      "r_1784439329110_e867": "accepted"
     },
     "2026-07-21": {
       "r_1782425388805_mmgm": "dismissed",
@@ -20234,6 +20238,7 @@
       "r_1782475457864_tvpb": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782425348703_9vkn": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
@@ -20244,8 +20249,7 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782448199626_eqz2": "dismissed",
       "r_1782442551153_zpl2": "dismissed",
-      "r_1782442504473_daqb": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1782442504473_daqb": "dismissed"
     },
     "2026-07-22": {
       "r_1782425388805_mmgm": "dismissed",
@@ -20254,6 +20258,7 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782442504473_daqb": "dismissed",
@@ -20263,8 +20268,7 @@
       "r_1782821159911_fqcb": "dismissed",
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
-      "r_1784439329110_e867": "dismissed",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1784439329110_e867": "dismissed"
     },
     "2026-07-23": {
       "r_1782425388805_mmgm": "dismissed",
@@ -20273,6 +20277,7 @@
       "r_1782425348703_9vkn": "dismissed",
       "r_1782423817363_xrim": "dismissed",
       "r_1782424741865_yg34": "dismissed",
+      "r_1782425136551_sb8q": "dismissed",
       "r_1782425247021_u699": "dismissed",
       "r_1782430450460_6zm1": "dismissed",
       "r_1782430911505_pfrp": "dismissed",
@@ -20283,8 +20288,7 @@
       "r_1782897700268_p7ax": "dismissed",
       "r_1783339677824_0nx8": "dismissed",
       "r_1784439329110_e867": "dismissed",
-      "r_1783322993928_ckcd": "accepted",
-      "r_1782425136551_sb8q": "dismissed"
+      "r_1783322993928_ckcd": "accepted"
     },
     "2026-07-24": {
       "r_1782425388805_mmgm": "dismissed",
@@ -20672,6 +20676,46 @@
   ],
   "objectives": [
     {
+      "id": "o_1782464170723_n9ls",
+      "name": "11",
+      "derech": "(11)",
+      "status": "active",
+      "goalId": "g_1782464506024_rqnb",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782464413659_qgbm",
+      "name": "21",
+      "derech": "10",
+      "status": "active",
+      "goalId": "g_1782464506024_rqnb",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782464938087_blxm",
+      "name": "31",
+      "derech": "10",
+      "status": "active",
+      "goalId": "g_1782464506024_rqnb",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782464965758_khd2",
+      "name": "41",
+      "derech": "10",
+      "status": "active",
+      "goalId": "g_1782464506024_rqnb",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782464972026_tji9",
+      "name": "51",
+      "derech": "10",
+      "status": "active",
+      "goalId": "g_1782464506024_rqnb",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
       "id": "o_1782465511117_bbmn",
       "name": "ויקרא + החוזר",
       "derech": "21 פרקים.",
@@ -20912,20 +20956,84 @@
       "updatedAt": "2026-08-18T20:20:41.988Z"
     },
     {
-      "id": "o_1782469481128_ct3h",
-      "name": "כללי - לקנות כלי רחצה ולנסות למכור לפני בריכות או חופים. להיזהר מהקמת דוכן. אולי כדאי להתמקד במוצר אחד.",
+      "id": "o_1782469729088_r61s",
+      "name": "מתח: 40.",
       "derech": "",
       "status": "active",
-      "goalId": "g_1782468454184_2z52",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
     },
     {
-      "id": "o_1782471052723_cb98",
-      "name": "5 חתיכות ניוקי (פחמימה).",
+      "id": "o_1782469743186_umzh",
+      "name": "שכ",
       "derech": "",
       "status": "active",
-      "goalId": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469749046_nw98",
+      "name": "פלאנק: 6:00 דק'.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469754899_12px",
+      "name": "מתח: 32.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469764485_ga5u",
+      "name": "מתח: 36.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469773041_b3s0",
+      "name": "שכ",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469784303_56az",
+      "name": "שכ",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469790350_3e2e",
+      "name": "שכ",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469813558_a8zl",
+      "name": "פלאנק: 4:00 דק'.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469828251_l1n0",
+      "name": "פלאנק: 5:00 דק'.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782469659686_wrr1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
     },
     {
       "id": "o_1782471053455_zqug",
@@ -20934,38 +21042,6 @@
       "status": "active",
       "goalId": "g_1782470509226_idcs",
       "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782471054164_l1i6",
-      "name": "30 אגוזי קשיו.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
-    },
-    {
-      "id": "o_1782471054704_tfr9",
-      "name": "30 אגוזי פיסטוק.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
-    },
-    {
-      "id": "o_1782471055169_bilg",
-      "name": "30 שקדים.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
-    },
-    {
-      "id": "o_1782471076420_dav7",
-      "name": "40 חתיחות מלפפונים.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782470509226_idcs",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
     },
     {
       "id": "o_1782472899447_zw3u",
@@ -21048,8 +21124,48 @@
       "updatedAt": "2026-08-18T20:20:41.988Z"
     },
     {
+      "id": "o_1782473246769_8luu",
+      "name": "17",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782473251295_20tr",
+      "name": "25",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782473260552_o8g8",
+      "name": "30",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473267471_rqz1",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
       "id": "o_1782473356646_0xmx",
       "name": "5",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473439798_u6in",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782473362146_nn06",
+      "name": "10",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782473439798_u6in",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782473363926_xgz0",
+      "name": "15",
       "derech": "",
       "status": "active",
       "goalId": "g_1782473439798_u6in",
@@ -21112,6 +21228,70 @@
       "updatedAt": "2026-08-18T20:20:41.988Z"
     },
     {
+      "id": "o_1784458421027_t395",
+      "name": "ממ",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782468454184_2z52",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1784458474017_nmlr",
+      "name": "רווח 1000",
+      "derech": "",
+      "status": "completed",
+      "goalId": "g_1782468454184_2z52",
+      "updatedAt": "2026-08-18T20:20:41.988Z"
+    },
+    {
+      "id": "o_1782469481128_ct3h",
+      "name": "כללי - לקנות כלי רחצה ולנסות למכור לפני בריכות או חופים. להיזהר מהקמת דוכן. אולי כדאי להתמקד במוצר אחד.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782468454184_2z52",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "id": "o_1782471052723_cb98",
+      "name": "5 חתיכות ניוקי (פחמימה).",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "id": "o_1782471054164_l1i6",
+      "name": "30 אגוזי קשיו.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "id": "o_1782471054704_tfr9",
+      "name": "30 אגוזי פיסטוק.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "id": "o_1782471055169_bilg",
+      "name": "30 שקדים.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
+      "id": "o_1782471076420_dav7",
+      "name": "40 חתיחות מלפפונים.",
+      "derech": "",
+      "status": "active",
+      "goalId": "g_1782470509226_idcs",
+      "updatedAt": "2026-08-07T06:43:22.909Z"
+    },
+    {
       "id": "o_1787083403616_y84q",
       "name": "מסחר: מודל מסחר מתאים.",
       "derech": "",
@@ -21166,182 +21346,25 @@
       "status": "active",
       "goalId": "g_1787083714375_bv8f",
       "updatedAt": "2026-08-18T20:08:34.375Z"
-    },
+    }
+  ],
+  "habits": [
     {
-      "id": "o_1782464170723_n9ls",
-      "name": "11",
-      "derech": "(11)",
-      "status": "active",
-      "goalId": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
+      "id": "sleep",
+      "name": "שינה וקימה",
+      "emoji": "😴",
+      "builtIn": true
+    }
+  ],
+  "habitLogs": [
     {
-      "id": "o_1782464413659_qgbm",
-      "name": "21",
-      "derech": "10",
-      "status": "active",
-      "goalId": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782464938087_blxm",
-      "name": "31",
-      "derech": "10",
-      "status": "active",
-      "goalId": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782464965758_khd2",
-      "name": "41",
-      "derech": "10",
-      "status": "active",
-      "goalId": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782464972026_tji9",
-      "name": "51",
-      "derech": "10",
-      "status": "active",
-      "goalId": "g_1782464506024_rqnb",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469729088_r61s",
-      "name": "מתח: 40.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469743186_umzh",
-      "name": "שכ",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469749046_nw98",
-      "name": "פלאנק: 6:00 דק'.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469754899_12px",
-      "name": "מתח: 32.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469764485_ga5u",
-      "name": "מתח: 36.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469773041_b3s0",
-      "name": "שכ",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469784303_56az",
-      "name": "שכ",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469790350_3e2e",
-      "name": "שכ",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469813558_a8zl",
-      "name": "פלאנק: 4:00 דק'.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782469828251_l1n0",
-      "name": "פלאנק: 5:00 דק'.",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782469659686_wrr1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782473246769_8luu",
-      "name": "17",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782473267471_rqz1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782473251295_20tr",
-      "name": "25",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782473267471_rqz1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782473260552_o8g8",
-      "name": "30",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782473267471_rqz1",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782473362146_nn06",
-      "name": "10",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782473439798_u6in",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1782473363926_xgz0",
-      "name": "15",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782473439798_u6in",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1784458421027_t395",
-      "name": "ממ",
-      "derech": "",
-      "status": "active",
-      "goalId": "g_1782468454184_2z52",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
-    },
-    {
-      "id": "o_1784458474017_nmlr",
-      "name": "רווח 1000",
-      "derech": "",
-      "status": "completed",
-      "goalId": "g_1782468454184_2z52",
-      "updatedAt": "2026-08-18T20:20:41.988Z"
+      "id": "h_1787084650196_gs9g",
+      "habitId": "sleep",
+      "date": "2026-08-18",
+      "sleepTime": "2026-08-17T19:00:00.000Z",
+      "wakeTime": "2026-08-18T20:24:00.000Z",
+      "createdAt": "2026-08-18T20:24:10.196Z",
+      "updatedAt": "2026-08-18T20:24:20.813Z"
     }
   ],
   "_removedFromDate": [
@@ -21747,8 +21770,8 @@
   },
   "_sync": {
     "format": 2,
-    "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:25:53.102Z"
+    "deviceId": "dev_msz3xojk_dfyzyi",
+    "ts": "2026-08-18T20:26:01.205Z"
   },
   "settings": {
     "autoSync": true
