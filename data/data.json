@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:08:39.416Z",
+  "exportedAt": "2026-08-18T20:09:02.391Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -20570,33 +20570,33 @@
       "id": "o_1782473062618_f42b",
       "name": "1",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:09:00.747Z"
     },
     {
       "id": "o_1782473065987_0nbd",
       "name": "2",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:09:00.747Z"
     },
     {
       "id": "o_1782473068240_2pdu",
       "name": "3",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:09:00.747Z"
     },
     {
       "id": "o_1782473073607_mpw2",
       "name": "4",
       "derech": "",
-      "status": "active",
+      "status": "completed",
       "goalId": "g_1782473125865_44f2",
-      "updatedAt": "2026-08-07T06:43:22.909Z"
+      "updatedAt": "2026-08-18T20:09:00.747Z"
     },
     {
       "id": "o_1782473076504_y99d",
@@ -21174,7 +21174,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msikj3bh_qa4id3",
-    "ts": "2026-08-18T20:08:39.416Z"
+    "ts": "2026-08-18T20:09:02.391Z"
   },
   "settings": {
     "autoSync": true
