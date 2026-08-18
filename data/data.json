@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-18T20:24:14.227Z",
+  "exportedAt": "2026-08-18T20:24:25.800Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -21361,10 +21361,10 @@
       "id": "h_1787084650196_gs9g",
       "habitId": "sleep",
       "date": "2026-08-18",
-      "sleepTime": "2026-08-18T20:24:10.235Z",
-      "wakeTime": "2026-08-18T20:24:12.835Z",
+      "sleepTime": "2026-08-17T19:00:00.000Z",
+      "wakeTime": "2026-08-18T20:24:00.000Z",
       "createdAt": "2026-08-18T20:24:10.196Z",
-      "updatedAt": "2026-08-18T20:24:12.835Z"
+      "updatedAt": "2026-08-18T20:24:20.813Z"
     }
   ],
   "_removedFromDate": [
@@ -21771,7 +21771,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msz3xojk_dfyzyi",
-    "ts": "2026-08-18T20:24:14.227Z"
+    "ts": "2026-08-18T20:24:25.800Z"
   },
   "settings": {
     "autoSync": true
