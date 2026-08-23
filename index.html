@@ -211,6 +211,22 @@ body {
   border-color: var(--primary);
 }
 
+/* ===== ICONS ===== */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  vertical-align: -0.125em;
+}
+.icon-sm { width: 14px; height: 14px; }
+.icon-md { width: 18px; height: 18px; }
+.icon-lg { width: 24px; height: 24px; }
+.icon-xs { width: 12px; height: 12px; }
+.icon-inline { vertical-align: middle; }
+
 /* ===== WEEK NAV ===== */
 .week-nav {
   display: flex;
@@ -1816,8 +1832,12 @@ body {
   .header-actions .btn-icon { width: 32px; height: 32px; font-size: 15px; }
   .sync-status { gap: 4px; }
   .sync-status #syncStatusText { font-size: 11px; white-space: nowrap; }
-  .week-day { min-width: 40px; padding: 4px 6px; }
-  .week-day .day-num { font-size: 14px; }
+  .week-day { min-width: 36px; padding: 4px 4px; }
+  .week-day .day-num { font-size: 13px; }
+  .week-day .day-name { font-size: 10px; }
+  .week-nav-btn { width: 32px; height: 32px; font-size: 16px; }
+  .today-btn { padding: 5px 10px; font-size: 12px; }
+  .week-nav { gap: 6px; padding: 10px 12px; }
   .form-row { flex-direction: column; }
   .form-group { min-width: 100%; }
   .batch-bar { padding: 10px 12px; gap: 6px; }
@@ -1831,6 +1851,17 @@ body {
   .header { padding: 8px 10px; gap: 6px; flex-wrap: nowrap; }
   .header-icon { width: 24px; height: 24px; }
   .header-title { font-size: 14px; }
+  .search-input { width: 72px !important; padding: 4px 8px; }
+  .search-input:focus { width: 100px !important; }
+  .sync-status #syncStatusText { display: none; }
+  .header-actions .btn-icon { width: 30px; height: 30px; }
+  .week-day { min-width: 32px; padding: 3px 3px; }
+  .week-day .day-num { font-size: 12px; }
+  .week-day .day-name { font-size: 9px; }
+  .week-nav-btn { width: 28px; height: 28px; font-size: 14px; }
+  .today-btn { padding: 4px 8px; font-size: 11px; }
+  .week-nav { gap: 4px; padding: 8px 10px; }
+}
   .search-input { width: 72px !important; }
   .search-input:focus { width: 100px !important; }
   .sync-status #syncStatusText { display: none; }
@@ -1839,6 +1870,248 @@ body {
 </style>
 </head>
 <body>
+
+<!-- Custom SVG Icon System -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;" aria-hidden="true">
+  <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </symbol>
+  <symbol id="icon-settings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3"></circle>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+  </symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+    <line x1="16" y1="2" x2="16" y2="6"></line>
+    <line x1="8" y1="2" x2="8" y2="6"></line>
+    <line x1="3" y1="10" x2="21" y2="10"></line>
+  </symbol>
+  <symbol id="icon-tasks" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 11l3 3L22 4"></path>
+    <path d="M22 4H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path>
+  </symbol>
+  <symbol id="icon-goals" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <line x1="12" y1="8" x2="12" y2="12"></line>
+    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+  </symbol>
+  <symbol id="icon-habits" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 7V4h16v3"></path>
+    <path d="M9 20h6"></path>
+    <path d="M12 4v16"></path>
+    <path d="M8 12h8"></path>
+    <path d="M8 12a4 4 0 0 1-4-4V4"></path>
+    <path d="M16 12a4 4 0 0 0 4-4V4"></path>
+  </symbol>
+  <symbol id="icon-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="10 18 15 12 10 6"></polyline>
+  </symbol>
+  <symbol id="icon-chevron-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="14 18 9 12 14 6"></polyline>
+  </symbol>
+  <symbol id="icon-save" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+    <polyline points="17 21 17 13 7 13 7 21"></polyline>
+    <polyline points="7 3 7 8 15 8"></polyline>
+  </symbol>
+  <symbol id="icon-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="23 4 23 10 17 10"></polyline>
+    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+  </symbol>
+  <symbol id="icon-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="3 6 5 6 21 6"></polyline>
+    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+  </symbol>
+  <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+    <polyline points="7 10 12 15 17 10"></polyline>
+    <line x1="12" y1="15" x2="12" y2="3"></line>
+  </symbol>
+  <symbol id="icon-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 18h6"></path>
+    <path d="M10.29 6.09a1.54 1.54 0 0 1 1.38 0 1.54 1.54 0 0 0 1.38 0 1.54 1.54 0 0 1 1.38 0 1.54 1.54 0 0 0 1.38 0 1.54 1.54 0 0 1 1.38 0"></path>
+    <path d="M17.18 14.56a6 6 0 0 1-12.36 0"></path>
+    <path d="M12 18v3"></path>
+    <path d="M12 3v3"></path>
+  </symbol>
+  <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle>
+    <line x1="12" y1="1" x2="12" y2="3"></line>
+    <line x1="12" y1="21" x2="12" y2="23"></line>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+    <line x1="1" y1="12" x2="3" y2="12"></line>
+    <line x1="21" y1="12" x2="23" y2="12"></line>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+  </symbol>
+  <symbol id="icon-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+  </symbol>
+  <symbol id="icon-reschedule" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="1 4 1 10 7 10"></polyline>
+    <polyline points="23 20 23 14 17 14"></polyline>
+    <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4L23 14"></path>
+  </symbol>
+  <symbol id="icon-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="20" x2="18" y2="10"></line>
+    <line x1="12" y1="20" x2="12" y2="4"></line>
+    <line x1="6" y1="20" x2="6" y2="14"></line>
+  </symbol>
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="20 6 9 17 4 12"></polyline>
+  </symbol>
+  <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+  </symbol>
+  <symbol id="icon-z" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="5" x2="21" y2="5"></line>
+    <line x1="21" y1="5" x2="3" y2="19"></line>
+    <line x1="3" y1="19" x2="21" y2="19"></line>
+  </symbol>
+  <symbol id="icon-history" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="12 6 12 12 16 14"></polyline>
+  </symbol>
+  <symbol id="icon-timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="12 6 12 12 16 14"></polyline>
+  </symbol>
+  <symbol id="icon-note" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+    <polyline points="14 2 14 8 20 8"></polyline>
+    <line x1="16" y1="13" x2="8" y2="13"></line>
+    <line x1="16" y1="17" x2="8" y2="17"></line>
+    <polyline points="10 9 9 9 8 9"></polyline>
+  </symbol>
+  <symbol id="icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+  </symbol>
+  <symbol id="icon-calendar-alt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+    <line x1="16" y1="2" x2="16" y2="6"></line>
+    <line x1="8" y1="2" x2="8" y2="6"></line>
+    <line x1="3" y1="10" x2="21" y2="10"></line>
+  </symbol>
+  <symbol id="icon-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+  </symbol>
+  <symbol id="icon-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+    <circle cx="12" cy="10" r="3"></circle>
+  </symbol>
+  <symbol id="icon-ruler" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="21" x2="3" y2="3"></line>
+    <line x1="7" y1="21" x2="7" y2="9"></line>
+    <line x1="11" y1="21" x2="11" y2="3"></line>
+    <line x1="15" y1="21" x2="15" y2="15"></line>
+    <line x1="19" y1="21" x2="19" y2="9"></line>
+    <line x1="21" y1="21" x2="3" y2="21"></line>
+  </symbol>
+  <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+  </symbol>
+  <symbol id="icon-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+    <circle cx="12" cy="12" r="3"></circle>
+  </symbol>
+  <symbol id="icon-triangle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+    <line x1="12" y1="9" x2="12" y2="13"></line>
+    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+  </symbol>
+  <symbol id="icon-paperclip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21.44 11.05a1 1 0 0 1 0 1.41l-2.34 2.34a2.5 2.5 0 0 1 0 3.12l-3.12 3.12a2.5 2.5 0 0 1-3.12 0L7.66 12.7a2.5 2.5 0 0 1 0-3.12L10.78 9.58a1 1 0 0 1 1.41 0l2.34 2.34a1 1 0 0 1 0 1.41"></path>
+  </symbol>
+  <symbol id="icon-scissors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="4" cy="4" r="2"></circle>
+    <circle cx="20" cy="20" r="2"></circle>
+    <path d="M4 4c5.5-1.5 11-1.5 16 0"></path>
+    <path d="M16 16c1.5 5.5 1.5 11 0 16"></path>
+  </symbol>
+  <symbol id="icon-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+  </symbol>
+  <symbol id="icon-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+    <path d="M4 22h16"></path>
+    <path d="M10 14.66V17c0 .55-.47.98-.98.98H4.98a.98.98 0 0 1-.98-.98v-2.34c0-.55.47-.98.98-.98h10.04a.98.98 0 0 1 .98.98z"></path>
+  </symbol>
+  <symbol id="icon-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="13.5" cy="6.5" r="2.5"></circle>
+    <circle cx="18" cy="12" r="2"></circle>
+    <circle cx="12" cy="18" r="2.5"></circle>
+    <circle cx="6" cy="12" r="2"></circle>
+    <circle cx="9" cy="6" r="2.5"></circle>
+    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.64-.74 1.64-1.64 0-.43-.17-.83-.46-1.13l-3.21-3.21a3 3 0 0 1 0-4.24l3.21-3.21c.3-.29.7-.46 1.13-.46A1.64 1.64 0 0 1 12 4.36a1.64 1.64 0 0 1 1.64 1.64c0 .43.17.83.46 1.13l3.21 3.21c.29.3.46.7.46 1.13 0 .9-.74 1.64-1.64 1.64-.92 0-1.64.74-1.64 1.64 0 .43-.17.83-.46 1.13l-3.21 3.21a3 3 0 0 1 0 4.24l3.21 3.21c.29.29.46.7.46 1.13 0 .9-.74 1.64-1.64 1.64C6.5 22 2 17.5 2 12S6.5 2 12 2z"></path>
+  </symbol>
+  <symbol id="icon-trending-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+    <polyline points="17 6 23 6 23 12"></polyline>
+  </symbol>
+  <symbol id="icon-trending-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline>
+    <polyline points="17 18 23 18 23 12"></polyline>
+  </symbol>
+  <symbol id="icon-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+  </symbol>
+  <symbol id="icon-duplicate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+  </symbol>
+  <symbol id="icon-move" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="5 9 2 12 5 15"></polyline>
+    <polyline points="9 5 12 2 15 5"></polyline>
+    <polyline points="15 19 12 22 9 19"></polyline>
+    <polyline points="19 9 22 12 19 15"></polyline>
+    <line x1="2" y1="12" x2="22" y2="12"></line>
+    <line x1="12" y1="2" x2="12" y2="22"></line>
+  </symbol>
+  <symbol id="icon-sync" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="23 4 23 10 17 10"></polyline>
+    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+    <polyline points="1 20 1 14 7 14"></polyline>
+    <path d="M3.51 9a9 9 0 1 1 2.12 9.36L1 14"></path>
+  </symbol>
+  <symbol id="icon-export" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+    <polyline points="17 8 12 3 7 8"></polyline>
+    <line x1="12" y1="3" x2="12" y2="15"></line>
+  </symbol>
+  <symbol id="icon-import" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+    <polyline points="17 8 12 3 7 8"></polyline>
+    <line x1="12" y1="3" x2="12" y2="15"></line>
+  </symbol>
+  <symbol id="icon-filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+  </symbol>
+  <symbol id="icon-archive" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="21 8 21 21 3 21 3 8"></polyline>
+    <rect x="1" y="3" width="22" height="5"></rect>
+    <line x1="10" y1="12" x2="14" y2="12"></line>
+  </symbol>
+  <symbol id="icon-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+  </symbol>
+  <symbol id="icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="6 9 12 15 18 9"></polyline>
+  </symbol>
+  <symbol id="icon-chevron-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </symbol>
+</svg>
 
 <div class="app" id="app">
   <!-- Header -->
@@ -1849,23 +2122,23 @@ body {
     </div>
     <div class="header-actions">
       <div class="search-box" id="searchBox">
-        <input type="text" class="search-input" id="searchInput" placeholder="🔍 חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()" autocomplete="off">
+        <input type="text" class="search-input" id="searchInput" placeholder="<svg class='icon icon-sm icon-inline'><use href='#icon-search'></use></svg> חפש בכל הנתונים..." oninput="doSearch(this.value)" onfocus="if(this.value)doSearch(this.value)" onkeydown="if(event.key==='Escape')closeSearch()" autocomplete="off">
         <div class="search-results" id="searchResults"></div>
       </div>
       <div class="sync-status" id="syncStatusIndicator" title="לחץ לסנכרון ידני" onclick="syncToGitHub(true)" style="cursor:pointer;">
         <span class="sync-status-dot"></span>
         <span id="syncStatusText">מקומי</span>
       </div>
-      <button class="btn-icon" onclick="openSettings()" title="הגדרות">⚙️</button>
-      <button class="btn-icon" onclick="showDatePicker()" title="בחר תאריך">📅</button>
+      <button class="btn-icon" onclick="openSettings()" title="הגדרות"><svg class="icon icon-md"><use href="#icon-settings"></use></svg></button>
+      <button class="btn-icon" onclick="showDatePicker()" title="בחר תאריך"><svg class="icon icon-md"><use href="#icon-calendar"></use></svg></button>
     </div>
   </header>
 
   <!-- Tab Bar -->
   <div class="tab-bar">
-    <button class="tab-btn active" id="tabTasks" onclick="switchTab('tasks')">📋 ניהול זמנים</button>
-    <button class="tab-btn" id="tabGoals" onclick="switchTab('goals')">🎯 מטרות ויעדים</button>
-    <button class="tab-btn" id="tabHabits" onclick="switchTab('habits')">😴 מעקב הרגלים</button>
+    <button class="tab-btn active" id="tabTasks" onclick="switchTab('tasks')"><svg class="icon icon-md icon-inline"><use href="#icon-tasks"></use></svg> ניהול זמנים</button>
+    <button class="tab-btn" id="tabGoals" onclick="switchTab('goals')"><svg class="icon icon-md icon-inline"><use href="#icon-goals"></use></svg> מטרות ויעדים</button>
+    <button class="tab-btn" id="tabHabits" onclick="switchTab('habits')"><svg class="icon icon-md icon-inline"><use href="#icon-habits"></use></svg> מעקב הרגלים</button>
   </div>
 
   <!-- ===== TASKS TAB ===== -->
@@ -1873,9 +2146,9 @@ body {
 
   <!-- Week Nav -->
   <div class="week-nav">
-    <button class="week-nav-btn" onclick="moveWeek(-1)" title="שבוע קודם">▶</button>
+    <button class="week-nav-btn" onclick="moveWeek(-1)" title="שבוע קודם"><svg class="icon icon-md"><use href="#icon-chevron-right"></use></svg></button>
     <div class="week-days" id="weekDays"></div>
-    <button class="week-nav-btn" onclick="moveWeek(1)" title="שבוע הבא">◀</button>
+    <button class="week-nav-btn" onclick="moveWeek(1)" title="שבוע הבא"><svg class="icon icon-md"><use href="#icon-chevron-left"></use></svg></button>
     <button class="today-btn" onclick="goToToday()">היום</button>
   </div>
 
@@ -1949,11 +2222,11 @@ body {
       </div>
     </div>
     <div class="form-actions" style="position:relative">
-      <button class="btn btn-primary" onclick="saveTask()">💾 שמור תוצאה</button>
+      <button class="btn btn-primary" onclick="saveTask()"><svg class="icon icon-md icon-inline"><use href="#icon-save"></use></svg> שמור תוצאה</button>
       <button class="btn btn-icon" id="editAllMenuBtn" onclick="event.stopPropagation();toggleEditAllMenu()" title="אפשרויות נוספות" style="display:none;font-size:18px;">⋮</button>
       <div class="reschedule-popup" id="editAllMenu" style="left:auto;right:0;min-width:180px;">
-        <button class="reschedule-option" onclick="saveTask(true)">🔄 עדכן את כל העותקים</button>
-        <button class="reschedule-option" onclick="deleteAllCopies()" style="color:var(--danger);">🗑️ מחק את כל העותקים</button>
+        <button class="reschedule-option" onclick="saveTask(true)"><svg class="icon icon-sm icon-inline"><use href="#icon-refresh"></use></svg> עדכן את כל העותקים</button>
+        <button class="reschedule-option" onclick="deleteAllCopies()" style="color:var(--danger);"><svg class="icon icon-sm icon-inline"><use href="#icon-trash"></use></svg> מחק את כל העותקים</button>
       </div>
       <button class="btn btn-outline" onclick="toggleTaskForm()">ביטול</button>
     </div>
@@ -1966,7 +2239,7 @@ body {
   </div>
   <div class="task-list" id="taskList">
     <div class="task-list-empty">
-      <div class="empty-icon">📋</div>
+      <div class="empty-icon"><svg class="icon icon-lg"><use href="#icon-tasks"></use></svg></div>
       <div>אין תוצאות להיום<br><span style="font-size:13px;color:var(--text3)">לחץ על "הוסף תוצאה חדשה" כדי להתחיל</span></div>
     </div>
   </div>
@@ -1974,13 +2247,13 @@ body {
   <!-- Unscheduled Tasks -->
   <div class="unscheduled-section" id="unscheduledSection">
     <button class="unscheduled-header" id="unscheduledToggle" onclick="toggleUnscheduled()">
-      <span>📥 מאגר תוצאות ללא תאריך</span>
+      <span><svg class="icon icon-sm icon-inline"><use href="#icon-download"></use></svg> מאגר תוצאות ללא תאריך</span>
       <span class="unscheduled-count" id="unscheduledCount">0</span>
-      <span class="arrow">▶</span>
+      <span class="arrow"><svg class="icon icon-sm"><use href="#icon-chevron-left"></use></svg></span>
     </button>
     <div class="unscheduled-body" id="unscheduledBody">
       <div class="unscheduled-sort">
-        <label class="unscheduled-sort-label">📥 סדר:
+        <label class="unscheduled-sort-label"><svg class="icon icon-sm icon-inline"><use href="#icon-download"></use></svg> סדר:
           <button class="btn btn-sm btn-outline" id="unscheduledSortBtn" onclick="toggleUnscheduledSort()">סדר רגיל</button>
         </label>
       </div>
@@ -1994,9 +2267,9 @@ body {
   <div class="tab-content" id="tabContentGoals">
 
     <div class="goals-header-actions">
-      <button class="btn btn-primary" onclick="showGoalPeriodForm()">📅 תקופת מטרות חדשה</button>
-      <button class="btn btn-outline" onclick="showGoalForm()">🎯 מטרה חדשה</button>
-      <button class="btn btn-outline btn-sm" onclick="showGoalTypeForm()">➕ סוג מטרה חדש</button>
+      <button class="btn btn-primary" onclick="showGoalPeriodForm()"><svg class="icon icon-md icon-inline"><use href="#icon-calendar"></use></svg> תקופת מטרות חדשה</button>
+      <button class="btn btn-outline" onclick="showGoalForm()"><svg class="icon icon-md icon-inline"><use href="#icon-goals"></use></svg> מטרה חדשה</button>
+      <button class="btn btn-outline btn-sm" onclick="showGoalTypeForm()"><svg class="icon icon-md icon-inline"><use href="#icon-tag"></use></svg> סוג מטרה חדש</button>
     </div>
 
     <div id="goalsContainer"></div>
@@ -2008,20 +2281,20 @@ body {
 
     <div class="habit-hero">
       <div class="habit-hero-header">
-        <div class="habit-hero-title"><span class="habit-hero-emoji">😴</span> שינה וקימה</div>
+        <div class="habit-hero-title"><span class="habit-hero-emoji"><svg class="icon icon-lg"><use href="#icon-habits"></use></svg></span> שינה וקימה</div>
         <span class="habit-builtin-tag">הרגל מובנה</span>
       </div>
       <div class="habit-hero-status" id="habitStatus"></div>
       <div class="habit-hero-actions">
-        <button class="btn btn-primary habit-btn-big" onclick="logSleep()">😴 אני יישן</button>
-        <button class="btn habit-btn-big habit-btn-wake" onclick="logWake()">🌅 קמתי</button>
-        <button class="btn btn-icon habit-edit-today" id="habitEditTodayBtn" onclick="editTodayLog()" title="ערוך את זמני הלילה" style="display:none">✏️</button>
+        <button class="btn btn-primary habit-btn-big" onclick="logSleep()"><svg class="icon icon-md icon-inline"><use href="#icon-habits"></use></svg> אני יישן</button>
+        <button class="btn habit-btn-big habit-btn-wake" onclick="logWake()"><svg class="icon icon-md icon-inline"><use href="#icon-sun"></use></svg> קמתי</button>
+        <button class="btn btn-icon habit-edit-today" id="habitEditTodayBtn" onclick="editTodayLog()" title="ערוך את זמני הלילה" style="display:none"><svg class="icon icon-md"><use href="#icon-edit"></use></svg></button>
       </div>
     </div>
 
     <div class="habit-card">
       <div class="habit-card-head">
-        <div class="habit-card-title">📊 ממוצעים וגרף</div>
+        <div class="habit-card-title"><svg class="icon icon-md icon-inline"><use href="#icon-chart"></use></svg> ממוצעים וגרף</div>
         <div class="habit-period-switch" id="habitPeriodSwitch">
           <button class="habit-period-btn active" data-period="week" onclick="setHabitPeriod('week')">שבוע</button>
           <button class="habit-period-btn" data-period="month" onclick="setHabitPeriod('month')">חודש</button>
@@ -2035,7 +2308,7 @@ body {
     </div>
 
     <div class="habit-card">
-      <div class="habit-card-title">📜 היסטוריית לילות</div>
+      <div class="habit-card-title"><svg class="icon icon-md icon-inline"><use href="#icon-history"></use></svg> היסטוריית לילות</div>
       <div id="habitHistory"></div>
     </div>
 
@@ -2045,10 +2318,10 @@ body {
 <!-- Batch Action Bar -->
 <div class="batch-bar" id="batchBar">
   <span class="batch-count" id="batchCount">נבחרו 0</span>
-  <button class="batch-btn danger" onclick="batchDelete()">🗑️ מחק</button>
-  <button class="batch-btn" onclick="batchDuplicate()">📋 שכפל</button>
-  <button class="batch-btn" onclick="batchMoveDate()">📅 העבר לתאריך</button>
-  <button class="batch-btn" onclick="batchShiftTime()">⏰ דחה ב־</button>
+  <button class="batch-btn danger" onclick="batchDelete()"><svg class="icon icon-sm icon-inline"><use href="#icon-trash"></use></svg> מחק</button>
+  <button class="batch-btn" onclick="batchDuplicate()"><svg class="icon icon-sm icon-inline"><use href="#icon-duplicate"></use></svg> שכפל</button>
+  <button class="batch-btn" onclick="batchMoveDate()"><svg class="icon icon-sm icon-inline"><use href="#icon-move"></use></svg> העבר לתאריך</button>
+  <button class="batch-btn" onclick="batchShiftTime()"><svg class="icon icon-sm icon-inline"><use href="#icon-timer"></use></svg> דחה ב־</button>
   <input class="batch-shift-input" type="number" id="shiftMinutes" value="30" min="1" max="1440" title="דקות">
   <span style="font-size:13px;color:var(--text2)">דקות</span>
 </div>
@@ -2056,15 +2329,15 @@ body {
 <!-- Settings Modal -->
 <div class="modal-overlay" id="settingsModal">
   <div class="modal" style="position:relative">
-    <button class="modal-close" onclick="closeSettings()">✕</button>
-    <h2>⚙️ הגדרות</h2>
+    <button class="modal-close" onclick="closeSettings()"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
+    <h2><svg class="icon icon-md icon-inline"><use href="#icon-settings"></use></svg> הגדרות</h2>
     <div class="modal-body">
       <div class="settings-group">
-        <h3>☁️ סנכרון גיטאב</h3>
+        <h3><svg class="icon icon-sm icon-inline"><use href="#icon-sync"></use></svg> סנכרון גיטאב</h3>
         <div class="settings-row" style="flex-direction:column;align-items:stretch;gap:8px;">
           <div style="display:flex;align-items:center;gap:8px;">
             <input type="password" id="githubToken" placeholder="טוקן גיטאב (ghp_...)" autocomplete="new-password" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:14px;direction:ltr;text-align:left;" onchange="setGithubToken(this.value)">
-            <button class="btn btn-sm btn-outline" onclick="const i=document.getElementById('githubToken');i.type=i.type==='password'?'text':'password'" style="font-size:16px;">👁️</button>
+            <button class="btn btn-sm btn-outline" onclick="const i=document.getElementById('githubToken');i.type=i.type==='password'?'text':'password'"><svg class="icon icon-sm"><use href="#icon-eye"></use></svg></button>
           </div>
           <div style="display:flex;align-items:center;gap:8px;">
             <input type="text" id="githubRepo" placeholder="בעל-אתר/שם-המאגר" autocomplete="off" style="flex:1;padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:13px;direction:ltr;text-align:left;" onchange="setGithubRepo(this.value)">
@@ -2090,19 +2363,19 @@ body {
           <span id="syncStatus" style="font-size:13px;color:var(--text2)">לא מסונכרן</span>
         </div>
         <div style="display:flex;gap:8px;margin-top:4px;">
-  <button class="btn btn-primary" onclick="syncToGitHub(true)" style="flex:1;justify-content:center;">☁️ סנכרן עכשיו</button>
-  <button class="btn btn-outline" onclick="pullFromGitHub(true, true)" style="flex:1;justify-content:center;">📥 משוך מהענן</button>
+  <button class="btn btn-primary" onclick="syncToGitHub(true)" style="flex:1;justify-content:center;"><svg class="icon icon-sm icon-inline"><use href="#icon-sync"></use></svg> סנכרן עכשיו</button>
+  <button class="btn btn-outline" onclick="pullFromGitHub(true, true)" style="flex:1;justify-content:center;"><svg class="icon icon-sm icon-inline"><use href="#icon-download"></use></svg> משוך מהענן</button>
 </div>
       </div>
       <div class="settings-group">
-        <h3>📦 נתונים</h3>
-        <button class="btn btn-outline" onclick="markAllPastDone()" style="width:100%;justify-content:center;margin-bottom:8px;">✅ סמן את כל התוצאות של היום ושל לפניו כבוצעו</button>
-        <button class="btn btn-outline" onclick="exportData()" style="width:100%;justify-content:center;margin-bottom:8px;">📥 ייצא נתונים</button>
-        <button class="btn btn-outline" onclick="document.getElementById('importInput').click()" style="width:100%;justify-content:center;">📥 ייבא נתונים</button>
+        <h3><svg class="icon icon-sm icon-inline"><use href="#icon-folder"></use></svg> נתונים</h3>
+        <button class="btn btn-outline" onclick="markAllPastDone()" style="width:100%;justify-content:center;margin-bottom:8px;"><svg class="icon icon-sm icon-inline"><use href="#icon-check"></use></svg> סמן את כל התוצאות של היום ושל לפניו כבוצעו</button>
+        <button class="btn btn-outline" onclick="exportData()" style="width:100%;justify-content:center;margin-bottom:8px;"><svg class="icon icon-sm icon-inline"><use href="#icon-export"></use></svg> ייצא נתונים</button>
+        <button class="btn btn-outline" onclick="document.getElementById('importInput').click()" style="width:100%;justify-content:center;"><svg class="icon icon-sm icon-inline"><use href="#icon-import"></use></svg> ייבא נתונים</button>
         <input type="file" id="importInput" accept=".json" style="display:none" onchange="importData(event)">
       </div>
       <div class="settings-group">
-        <h3>🔒 טשטוש טקסטים רגישים</h3>
+        <h3><svg class="icon icon-sm icon-inline"><use href="#icon-lock"></use></svg> טשטוש טקסטים רגישים</h3>
         <div class="settings-row">
           <div>
             <div class="label">הפעל טשטוש</div>
@@ -2129,18 +2402,18 @@ body {
 <!-- Date Picker Modal -->
 <div class="modal-overlay date-picker-modal" id="datePickerModal">
   <div class="modal" style="position:relative;text-align:center;">
-    <button class="modal-close" onclick="closeDatePicker()">✕</button>
+    <button class="modal-close" onclick="closeDatePicker()"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
     <div class="date-picker-header">
-      <button class="date-picker-nav" onclick="navigatePickerMonth(-1)">▶</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(-1)"><svg class="icon icon-md"><use href="#icon-chevron-right"></use></svg></button>
       <span class="month-year" id="pickerMonthYear"></span>
-      <button class="date-picker-nav" onclick="navigatePickerMonth(1)">◀</button>
+      <button class="date-picker-nav" onclick="navigatePickerMonth(1)"><svg class="icon icon-md"><use href="#icon-chevron-left"></use></svg></button>
     </div>
     <div class="date-picker-grid" id="datePickerGrid"></div>
     <div id="pickerTimeRow" style="display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--card-border);">
       <label style="font-size:13px;font-weight:600;color:var(--text2);display:block;margin-bottom:6px;">שעה</label>
       <input type="time" id="pickerTimeInput" value="09:00" style="padding:8px 12px;border:1px solid var(--card-border);border-radius:var(--radius-sm);font-family:inherit;font-size:14px;direction:ltr;text-align:left;width:140px;">
       <div style="margin-top:8px;display:flex;gap:6px;justify-content:center;">
-        <button class="btn btn-primary btn-sm" onclick="confirmPickerWithTime()">✅ אשר תאריך ושעה</button>
+        <button class="btn btn-primary btn-sm" onclick="confirmPickerWithTime()"><svg class="icon icon-sm icon-inline"><use href="#icon-check"></use></svg> אשר תאריך ושעה</button>
         <button class="btn btn-outline btn-sm" onclick="closeDatePicker()">ביטול</button>
       </div>
     </div>
@@ -2150,8 +2423,8 @@ body {
 <!-- Goal Period Modal -->
 <div class="modal-overlay" id="goalPeriodModal">
   <div class="modal" style="position:relative">
-    <button class="modal-close" onclick="closeGoalPeriodForm()">✕</button>
-    <h2 id="goalPeriodModalTitle">📅 תקופת מטרות חדשה</h2>
+    <button class="modal-close" onclick="closeGoalPeriodForm()"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
+    <h2 id="goalPeriodModalTitle"><svg class="icon icon-md icon-inline"><use href="#icon-calendar"></use></svg> תקופת מטרות חדשה</h2>
     <div class="modal-body">
       <div class="goal-form-group">
         <label>שם התקופה</label>
@@ -2186,7 +2459,7 @@ body {
         </label>
       </div>
       <div class="form-actions" style="margin-top:16px;">
-        <button class="btn btn-primary" onclick="saveGoalPeriod()">💾 שמור תקופה</button>
+        <button class="btn btn-primary" onclick="saveGoalPeriod()"><svg class="icon icon-md icon-inline"><use href="#icon-save"></use></svg> שמור תקופה</button>
         <button class="btn btn-outline" onclick="closeGoalPeriodForm()">ביטול</button>
       </div>
     </div>
@@ -2196,8 +2469,8 @@ body {
 <!-- Goal Modal -->
 <div class="modal-overlay" id="goalModal">
   <div class="modal" style="position:relative">
-    <button class="modal-close" onclick="closeGoalForm()">✕</button>
-    <h2 id="goalModalTitle">🎯 מטרה חדשה</h2>
+    <button class="modal-close" onclick="closeGoalForm()"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
+    <h2 id="goalModalTitle"><svg class="icon icon-md icon-inline"><use href="#icon-goals"></use></svg> מטרה חדשה</h2>
     <div class="modal-body">
       <div class="goal-form-group">
         <label>שם המטרה</label>
@@ -2258,7 +2531,7 @@ body {
         <div class="objectives-list-form" id="gObjectivesList"></div>
       </div>
       <div class="form-actions" style="margin-top:16px;">
-        <button class="btn btn-primary" onclick="saveGoal()">💾 שמור מטרה</button>
+        <button class="btn btn-primary" onclick="saveGoal()"><svg class="icon icon-md icon-inline"><use href="#icon-save"></use></svg> שמור מטרה</button>
         <button class="btn btn-outline" onclick="closeGoalForm()">ביטול</button>
       </div>
     </div>
@@ -2268,8 +2541,8 @@ body {
 <!-- Goal Type Modal -->
 <div class="modal-overlay" id="goalTypeModal">
   <div class="modal" style="position:relative">
-    <button class="modal-close" onclick="closeGoalTypeForm()">✕</button>
-    <h2 id="goalTypeModalTitle">➕ סוג מטרה חדש</h2>
+    <button class="modal-close" onclick="closeGoalTypeForm()"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
+    <h2 id="goalTypeModalTitle"><svg class="icon icon-md icon-inline"><use href="#icon-tag"></use></svg> סוג מטרה חדש</h2>
     <div class="modal-body">
       <div class="goal-form-group">
         <label>שם הסוג</label>
@@ -2284,7 +2557,7 @@ body {
         <select id="gtParentId"><option value="">ללא (סוג ראשי)</option></select>
       </div>
       <div class="form-actions" style="margin-top:16px;">
-        <button class="btn btn-primary" onclick="saveGoalType()">💾 שמור סוג</button>
+        <button class="btn btn-primary" onclick="saveGoalType()"><svg class="icon icon-md icon-inline"><use href="#icon-save"></use></svg> שמור סוג</button>
         <button class="btn btn-outline" onclick="closeGoalTypeForm()">ביטול</button>
       </div>
     </div>
@@ -2538,19 +2811,19 @@ async function syncToGitHub(showToast = true) {
   const path = getGithubPath();
   const parts = repo.split('/');
   if (parts.length !== 2 || !parts[0] || !parts[1]) {
-    if (showToast) toast('❌ פורמט מאגר לא תקין. השתמש: בעל-אתר/שם-המאגר', 'error');
+    if (showToast) toast(' פורמט מאגר לא תקין. השתמש: בעל-אתר/שם-המאגר', 'error');
     setSyncStatus('error', 'שגיאה');
     return false;
   }
   const [owner, repoName] = parts;
 
   if (!token) {
-    if (showToast) toast('❌ לא הוגדר טוקן גיטאב. הגדר בהגדרות.', 'error');
+    if (showToast) toast(' לא הוגדר טוקן גיטאב. הגדר בהגדרות.', 'error');
     setSyncStatus('', 'מקומי');
     return false;
   }
   setSyncStatus('syncing', 'מסנכרן…');
-  if (showToast) toast('☁️ מסנכרן עם הענן...', 'info');
+  if (showToast) toast('️ מסנכרן עם הענן...', 'info');
   isSyncing = true;
 
   const baseUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${path}`;
@@ -2591,7 +2864,7 @@ async function syncToGitHub(showToast = true) {
         resetStampBaseline();
         afterMergeRender();
         refreshLastRemoteCommit();
-        if (showToast) toast('✅ הנתונים סונכרנו!', 'success');
+        if (showToast) toast(' הנתונים סונכרנו!', 'success');
         document.getElementById('syncStatus').textContent = 'מסונכרן: ' + new Date().toLocaleString('he-IL');
         setSyncStatus('synced', 'נשמר בענן'); isSyncing = false; return true;
       }
@@ -2599,19 +2872,19 @@ async function syncToGitHub(showToast = true) {
       // conflict -> re-read & re-merge on next attempt
       if (putRes.status === 409 && attempt < 3) { await sleep(400); continue; }
 
-      if (putRes.status === 403 && putData.message?.includes('rate limit')) toast('❌ חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
-      else if (putRes.status === 401) toast('❌ טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
-      else if (putRes.status === 404) toast('❌ הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
-      else toast(`❌ שגיאת סנכרון (${putRes.status}): ${putData.message || 'לא ידוע'}`, 'error');
+      if (putRes.status === 403 && putData.message?.includes('rate limit')) toast(' חריגת קצב GitHub API. נסה שוב בעוד דקה.', 'error');
+      else if (putRes.status === 401) toast(' טוקן GitHub לא תקין. עדכן בהגדרות.', 'error');
+      else if (putRes.status === 404) toast(' הנתיב/מאגר לא נמצא ב-GitHub. בדוק הגדרות.', 'error');
+      else toast(`שגיאת סנכרון (${putRes.status}): ${putData.message || 'לא ידוע'}`, 'error');
       setSyncStatus('error', 'שגיאה'); isSyncing = false; return false;
     }
     setSyncStatus('error', 'שגיאה'); isSyncing = false;
-    if (showToast) toast('❌ לא הצלחנו לסנכרן לאחר מספר ניסיונות', 'error');
+    if (showToast) toast(' לא הצלחנו לסנכרן לאחר מספר ניסיונות', 'error');
     return false;
   } catch (e) {
     console.error('sync: fetch exception', e);
     setSyncStatus('error', 'שגיאה');
-    if (showToast) toast(`❌ שגיאת סנכרון: ${e.message}`, 'error');
+    if (showToast) toast(`שגיאת סנכרון: ${e.message}`, 'error');
     isSyncing = false;
     return false;
   }
@@ -2766,34 +3039,34 @@ async function pullFromGitHub(showToast = true, replaceLocal) {
   const repo = getGithubRepo();
   const path = getGithubPath();
   if (!token || !repo) {
-    if (showToast) toast('❌ לא הוגדר טוקן או מאגר GitHub', 'error');
+    if (showToast) toast(' לא הוגדר טוקן או מאגר GitHub', 'error');
     return false;
   }
   setSyncStatus('syncing', 'מוריד…');
-  if (showToast) toast('☁️ מוריד נתונים מהענן...', 'info');
+  if (showToast) toast('️ מוריד נתונים מהענן...', 'info');
   try {
     const res = await fetch(`https://api.github.com/repos/${repo}/contents/${path}?ref=master`, {
       headers: { 'Authorization': `Bearer ${token}` }
     });
     if (!res.ok) {
       if (res.status === 404) {
-        if (showToast) toast('☁️ אין נתונים בענן עדיין. סנכרן קודם.', 'info');
+        if (showToast) toast('️ אין נתונים בענן עדיין. סנכרן קודם.', 'info');
       } else {
-        if (showToast) toast(`❌ שגיאה בהורדה (${res.status})`, 'error');
+        if (showToast) toast(`שגיאה בהורדה (${res.status})`, 'error');
       }
       setSyncStatus('error', 'שגיאה');
       return false;
     }
     const data = await res.json();
     if (!data.content) {
-      if (showToast) toast('☁️ אין תוכן בענן', 'info');
+      if (showToast) toast('️ אין תוכן בענן', 'info');
       setSyncStatus('', 'מקומי');
       return false;
     }
     const decoded = JSON.parse(decodeURIComponent(escape(atob(data.content))));
     if (data.sha) setSha(data.sha);
     if (!decoded.results && !decoded.goals) {
-      if (showToast) toast('❌ פורמט לא תקין בענן', 'error');
+      if (showToast) toast(' פורמט לא תקין בענן', 'error');
       return false;
     }
     mergeIntoLocal(decoded);
@@ -2804,12 +3077,12 @@ async function pullFromGitHub(showToast = true, replaceLocal) {
     renderUnscheduledTasks();
     renderGoalsView();
     setSyncStatus('synced', 'מסונכרן');
-    if (showToast) toast('✅ נתונים יובאו מהענן!', 'success');
+    if (showToast) toast(' נתונים יובאו מהענן!', 'success');
     return true;
   } catch (e) {
     console.error('pullFromGitHub error:', e);
     setSyncStatus('error', 'שגיאה');
-    if (showToast) toast(`❌ שגיאה: ${e.message}`, 'error');
+    if (showToast) toast(`שגיאה: ${e.message}`, 'error');
     return false;
   }
 }
@@ -3084,7 +3357,7 @@ document.addEventListener('click', (e) => {
 function saveTask(updateAll) {
   const title = document.getElementById('taskTitle').value.trim();
   if (!title) {
-    toast('❌ נא להזין כותרת לתוצאה', 'error');
+    toast(' נא להזין כותרת לתוצאה', 'error');
     return;
   }
 
@@ -3100,7 +3373,7 @@ function saveTask(updateAll) {
   let recurrence = null;
   if (recurrenceType) {
     if (recurrenceType === 'specific' && recurrenceDays.length === 0) {
-      toast('❌ בחר ימים לחזרה', 'error');
+      toast(' בחר ימים לחזרה', 'error');
       return;
     }
     recurrence = { type: recurrenceType };
@@ -3145,11 +3418,11 @@ function saveTask(updateAll) {
           state.results[srcIdx].duration = duration;
           state.results[srcIdx].recurrence = recurrence;
         }
-        toast('🔄 כל העותקים עודכנו', 'success');
+        toast(' כל העותקים עודכנו', 'success');
       }
     }
     editingId = null;
-    toast('✅ התוצאה עודכנה', 'success');
+    toast(' התוצאה עודכנה', 'success');
   } else {
     if (noDate) recurrence = null;
     const result = {
@@ -3166,7 +3439,7 @@ function saveTask(updateAll) {
       createdAt: new Date().toISOString()
     };
     state.results.push(result);
-    toast('✅ התוצאה נוספה!', 'success');
+    toast(' התוצאה נוספה!', 'success');
   }
 
   saveState();
@@ -3208,7 +3481,7 @@ function deleteAllCopies() {
   renderWeek();
   renderDay();
   renderUnscheduledTasks();
-  toast(`🗑️ ${instCount} עותקים נמחקו`, 'success');
+  toast(`${instCount} עותקים נמחקו`, 'success');
 }
 
 function toggleComplete(id) {
@@ -3305,7 +3578,7 @@ function renderDay() {
   if (results.length === 0) {
     container.innerHTML = `
       <div class="task-list-empty">
-        <div class="empty-icon">📋</div>
+<div class="empty-icon"><svg class="icon icon-lg"><use href="#icon-tasks"></use></svg></div>
         <div>אין תוצאות להיום<br><span style="font-size:13px;color:var(--text3)">לחץ על "הוסף תוצאה חדשה" כדי להתחיל</span></div>
       </div>
     `;
@@ -3315,8 +3588,8 @@ function renderDay() {
       const timeDisplay = r.time ? r.time.slice(0, 5) : '--:--';
       const dur = r.duration || 0;
       const durClass = dur <= 15 ? 'duration-xs' : dur <= 30 ? 'duration-sm' : dur <= 60 ? 'duration-md' : 'duration-lg';
-      const recurringBadge = r.recurrence ? `<span class="task-tag recurring">🔄 ${getRecurrenceLabel(r.recurrence)}</span>` : '';
-      const suggestionBadge = r.sourceId ? `<span class="task-tag">💡 הוצע</span>` : '';
+      const recurringBadge = r.recurrence ? `<span class="task-tag recurring"><svg class="icon icon-xs icon-inline"><use href="#icon-refresh"></use></svg> ${getRecurrenceLabel(r.recurrence)}</span>` : '';
+      const suggestionBadge = r.sourceId ? `<span class="task-tag"><svg class="icon icon-xs icon-inline"><use href="#icon-bulb"></use></svg> הוצע</span>` : '';
       const descHtml = r.description ? `<div class="task-desc">${escHtml(r.description)}</div>` : '';
       const durationLabel = formatDuration(r.duration);
       return `
@@ -3338,17 +3611,17 @@ function renderDay() {
           </div>
           <div class="task-complete">
             <button class="task-complete-btn ${r.completed ? 'done' : ''}" onclick="toggleComplete('${r.id}')" title="${r.completed ? 'סמן כטרם בוצע' : 'סמן כבוצע'}">
-              ${r.completed ? '✓' : ''}
+              ${r.completed ? '<svg class="icon icon-sm"><use href="#icon-check"></use></svg>' : ''}
             </button>
           </div>
           <div class="task-edit">
-            <button class="task-edit-btn" onclick="event.stopPropagation();editTask('${r.id}')" title="ערוך תוצאה">✏️</button>
+            <button class="task-edit-btn" onclick="event.stopPropagation();editTask('${r.id}')" title="ערוך תוצאה"><svg class="icon icon-sm"><use href="#icon-edit"></use></svg></button>
           </div>
           <div class="task-reschedule" style="position:relative">
-            <button class="task-reschedule-btn" onclick="event.stopPropagation();toggleReschedule('${r.id}')" title="תזמן ליום אחר">↻</button>
+            <button class="task-reschedule-btn" onclick="event.stopPropagation();toggleReschedule('${r.id}')" title="תזמן ליום אחר"><svg class="icon icon-sm"><use href="#icon-reschedule"></use></svg></button>
             <div class="reschedule-popup" id="reschedule_${r.id}">
-              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','tomorrow')">📅 מחר</button>
-              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','picker')">📅 בחר תאריך</button>
+              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','tomorrow')"><svg class="icon icon-sm icon-inline"><use href="#icon-calendar"></use></svg> מחר</button>
+              <button class="reschedule-option" onclick="scheduleForDate('${r.id}','picker')"><svg class="icon icon-sm icon-inline"><use href="#icon-calendar"></use></svg> בחר תאריך</button>
             </div>
           </div>
         </div>
@@ -3394,7 +3667,7 @@ function batchDelete() {
   saveState();
   renderWeek();
   renderDay();
-  toast(`🗑️ ${selectedIds.size} תוצאות נמחקו`, 'info');
+  toast(`${selectedIds.size} תוצאות נמחקו`, 'info');
 }
 
 function batchDuplicate() {
@@ -3422,7 +3695,7 @@ function batchDuplicate() {
   selectedIds.clear();
   saveState();
   renderDay();
-  toast(`📋 ${toDuplicate.length} תוצאות שוכפלו`, 'success');
+  toast(`${toDuplicate.length} תוצאות שוכפלו`, 'success');
 }
 
 function batchMoveDate() {
@@ -3450,7 +3723,7 @@ function handleDatePickForMove(dateStr) {
   saveState();
   renderWeek();
   renderDay();
-  toast(`📅 ${toMove.length} תוצאות הועברו ל־${formatDateDisplay(dateStr)}`, 'success');
+  toast(`${toMove.length} תוצאות הועברו ל־${formatDateDisplay(dateStr)}`, 'success');
 }
 
 function batchShiftTime() {
@@ -3514,7 +3787,7 @@ function scheduleForDate(id, when) {
     state.results.push(newResult);
     saveState();
     renderDay();
-    toast(`📅 התוצאה תוזמנה למחר (${formatDateDisplay(newDateStr)})`, 'success');
+    toast(`התוצאה תוזמנה למחר (${formatDateDisplay(newDateStr)})`, 'success');
   } else if (when === 'picker') {
     movePending = true;
     pendingRescheduleSourceId = id;
@@ -3537,10 +3810,10 @@ function toggleUnscheduled() {
 function toggleUnscheduledSort() {
   state.settings.unscheduledSortNewest = !state.settings.unscheduledSortNewest;
   const btn = document.getElementById('unscheduledSortBtn');
-  if (btn) btn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה ✓' : 'חדש כמקרה';
+  if (btn) btn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה <svg class="icon icon-xs"><use href="#icon-check"></use></svg>' : 'חדש כמקרה';
   saveState();
   renderUnscheduledTasks();
-  if (state.settings.unscheduledSortNewest) toast('📥 מיון: החדש ביותר למעלה', 'info');
+  if (state.settings.unscheduledSortNewest) toast(' מיון: החדש ביותר למעלה', 'info');
 }
 
 function renderUnscheduledTasks() {
@@ -3553,7 +3826,7 @@ function renderUnscheduledTasks() {
   const countEl = document.getElementById('unscheduledCount');
   countEl.textContent = results.length;
   const sBtn = document.getElementById('unscheduledSortBtn');
-  if (sBtn) sBtn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה ✓' : 'סדר רגיל';
+  if (sBtn) sBtn.textContent = state.settings.unscheduledSortNewest ? 'חדש למעלה <svg class="icon icon-xs"><use href="#icon-check"></use></svg>' : 'סדר רגיל';
 
   if (results.length === 0) {
     section.style.display = 'none';
@@ -3582,8 +3855,8 @@ function renderUnscheduledTasks() {
           ${descHtml}
         </div>
         <div class="reschedule-popup" id="unschedMenu_${r.id}">
-          <button class="reschedule-option" onclick="closeUnscheduledMenu();startEdit('${r.id}')">✏️ עריכה</button>
-          <button class="reschedule-option" onclick="assignUnscheduledDate('${r.id}')">📅 בחירת תאריך ושעה</button>
+          <button class="reschedule-option" onclick="closeUnscheduledMenu();startEdit('${r.id}')"><svg class="icon icon-sm icon-inline"><use href="#icon-edit"></use></svg> עריכה</button>
+          <button class="reschedule-option" onclick="assignUnscheduledDate('${r.id}')"><svg class="icon icon-sm icon-inline"><use href="#icon-calendar"></use></svg> בחירת תאריך ושעה</button>
         </div>
       </div>
     `;
@@ -3662,8 +3935,8 @@ function togglePrivacyBlur(enabled) {
   state.settings.privacyBlur = !!enabled;
   saveState();
   applyPrivacy();
-  if (enabled) toast('🔒 טשטוש הופעל', 'success');
-  else toast('🔓 הטשטוש הוסר', 'info');
+  if (enabled) toast(' טשטוש הופעל', 'success');
+  else toast(' הטשטוש הוסר', 'info');
 }
 
 function togglePrivacySection(sec, checked) {
@@ -3683,12 +3956,12 @@ function markAllPastDone() {
       count++;
     }
   });
-  if (count === 0) { toast('✅ כל התוצאות כבר מסומנות כבוצעו', 'success'); return; }
+  if (count === 0) { toast(' כל התוצאות כבר מסומנות כבוצעו', 'success'); return; }
   saveState();
   renderWeek();
   renderDay();
   renderUnscheduledTasks();
-  toast(`✅ ${count} תוצאות סומנו כבוצעו`, 'success');
+  toast(`${count} תוצאות סומנו כבוצעו`, 'success');
 }
 
 function exportData() {
@@ -3700,7 +3973,7 @@ function exportData() {
   a.download = `personal-manager-backup-${getDateStr(new Date())}.json`;
   a.click();
   URL.revokeObjectURL(url);
-  toast('📥 נתונים יוצאו', 'success');
+  toast(' נתונים יוצאו', 'success');
 }
 
 function importData(event) {
@@ -3716,12 +3989,12 @@ function importData(event) {
         saveState();
         renderWeek();
         renderDay();
-        toast('📥 נתונים יובאו בהצלחה!', 'success');
+        toast(' נתונים יובאו בהצלחה!', 'success');
       } else {
-        toast('❌ פורמט קובץ לא תקין', 'error');
+        toast(' פורמט קובץ לא תקין', 'error');
       }
     } catch(err) {
-      toast('❌ שגיאה בייבוא הקובץ', 'error');
+      toast(' שגיאה בייבוא הקובץ', 'error');
     }
   };
   reader.readAsText(file);
@@ -3755,12 +4028,12 @@ function closeDatePicker() {
 function confirmPickerWithTime() {
   const time = document.getElementById('pickerTimeInput').value;
   if (!time) {
-    toast('❌ נא להזין שעה', 'error');
+    toast(' נא להזין שעה', 'error');
     return;
   }
   const dayCells = document.querySelectorAll('.day-cell.selected');
   if (dayCells.length === 0) {
-    toast('❌ נא לבחור תאריך בלוח', 'error');
+    toast(' נא לבחור תאריך בלוח', 'error');
     return;
   }
   const selectedDate = new Date(pickerYear, pickerMonth, parseInt(dayCells[0].textContent));
@@ -3773,7 +4046,7 @@ function confirmPickerWithTime() {
         // Unscheduled → update source
         source.date = fullDateStr;
         source.time = time;
-        toast(`📅 התוצאה שובצה ל־${formatDateDisplay(fullDateStr)} ב־${time}`, 'success');
+        toast(`התוצאה שובצה ל־${formatDateDisplay(fullDateStr)} ב־${time}`, 'success');
       } else {
         // Reschedule → create a copy
         const newResult = {
@@ -3790,7 +4063,7 @@ function confirmPickerWithTime() {
           createdAt: new Date().toISOString()
         };
         state.results.push(newResult);
-        toast(`📅 התוצאה תוזמנה ל־${formatDateDisplay(fullDateStr)} ב־${time}`, 'success');
+        toast(`התוצאה תוזמנה ל־${formatDateDisplay(fullDateStr)} ב־${time}`, 'success');
       }
       saveState();
       renderDay();
@@ -3956,7 +4229,7 @@ function logSleep() {
   }
   saveState();
   renderHabitsView();
-  toast('😴 נרשמה שעת שינה: ' + formatClockTime(now), 'success');
+  toast(' נרשמה שעת שינה: ' + formatClockTime(now), 'success');
 }
 
 function logWake() {
@@ -3972,7 +4245,7 @@ function logWake() {
   }
   saveState();
   renderHabitsView();
-  toast('🌅 נרשמה שעת קימה: ' + formatClockTime(now), 'success');
+  toast(' נרשמה שעת קימה: ' + formatClockTime(now), 'success');
 }
 
 function renderHabitsView() {
@@ -3997,12 +4270,11 @@ function renderHabitStatus() {
   }
   editBtn.style.display = '';
   const badges = [];
-  if (log.sleepTime) badges.push(`<span class="habit-badge">😴 שינה: <b>${formatClockTime(log.sleepTime)}</b></span>`);
-  if (log.wakeTime) badges.push(`<span class="habit-badge">🌅 קימה: <b>${formatClockTime(log.wakeTime)}</b></span>`);
-  const dur = formatSleepDurationOf(log);
-  if (dur) badges.push(`<span class="habit-badge">⏱️ ${dur}</span>`);
+if (log.sleepTime) badges.push(`<span class="habit-badge"><svg class="icon icon-xs icon-inline"><use href="#icon-habits"></use></svg> שינה: <b>${formatClockTime(log.sleepTime)}</b></span>`);
+  if (log.wakeTime) badges.push(`<span class="habit-badge"><svg class="icon icon-xs icon-inline"><use href="#icon-sun"></use></svg> קימה: <b>${formatClockTime(log.wakeTime)}</b></span>`);
+  if (dur) badges.push(`<span class="habit-badge"><svg class="icon icon-xs icon-inline"><use href="#icon-timer"></use></svg> ${dur}</span>`);
   let html = '<div class="habit-status-row">' + badges.join('') + '</div>';
-  if (log.sleepTime && !log.wakeTime) html += '<div class="habit-hint">💤 ישנת… כשתקום לחץ על "קמתי" 😄</div>';
+  if (log.sleepTime && !log.wakeTime) html += '<div class="habit-hint"><svg class="icon icon-xs icon-inline"><use href="#icon-z"></use></svg> ישנת… כשתקום לחץ על "קמתי" <svg class="icon icon-xs icon-inline"><use href="#icon-smile"></use></svg></div>';
   el.innerHTML = html;
 }
 
@@ -4041,10 +4313,10 @@ function renderHabitStats() {
     return `${m} דק'`;
   };
   el.innerHTML = `
-    <div class="habit-stat"><div class="habit-stat-label">😴 שעת שינה ממוצעת</div><div class="habit-stat-value">${avg(sleepArr)}</div></div>
-    <div class="habit-stat"><div class="habit-stat-label">🌅 שעת קימה ממוצעת</div><div class="habit-stat-value">${avg(wakeArr)}</div></div>
-    <div class="habit-stat"><div class="habit-stat-label">⏱️ משך שינה ממוצע</div><div class="habit-stat-value">${avgDur(durArr)}</div></div>
-    <div class="habit-stat"><div class="habit-stat-label">🌙 לילות נרשמו</div><div class="habit-stat-value">${logs.length}</div></div>`;
+    <div class="habit-stat"><div class="habit-stat-label"><svg class="icon icon-xs icon-inline"><use href="#icon-habits"></use></svg> שעת שינה ממוצעת</div><div class="habit-stat-value">${avg(sleepArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label"><svg class="icon icon-xs icon-inline"><use href="#icon-sun"></use></svg> שעת קימה ממוצעת</div><div class="habit-stat-value">${avg(wakeArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label"><svg class="icon icon-xs icon-inline"><use href="#icon-timer"></use></svg> משך שינה ממוצע</div><div class="habit-stat-value">${avgDur(durArr)}</div></div>
+    <div class="habit-stat"><div class="habit-stat-label"><svg class="icon icon-xs icon-inline"><use href="#icon-history"></use></svg> לילות נרשמו</div><div class="habit-stat-value">${logs.length}</div></div>`;
 }
 
 function renderHabitChart() {
@@ -4091,7 +4363,7 @@ function renderHabitChart() {
   }
 
   if (!points.length) {
-    wrap.innerHTML = '<div class="habit-chart-empty">אין נתונים בתקופה הזו<br>התחל לרשום את השינה שלך עם הכפתורים למעלה 😊</div>';
+    wrap.innerHTML = '<div class="habit-chart-empty">אין נתונים בתקופה הזו<br>התחל לרשום את השינה שלך עם הכפתורים למעלה <svg class="icon icon-xs icon-inline"><use href="#icon-smile"></use></svg></div>';
     return;
   }
 
@@ -4143,10 +4415,10 @@ function renderHabitHistory() {
       return `<div class="habit-row" data-id="${l.id}">
         <div class="habit-row-date">${escHtml(formatDateDisplay(l.date))}</div>
         <div class="habit-edit-form">
-          <div class="habit-edit-field"><label>😴 שעת שינה</label><input type="datetime-local" class="habit-edit-sleep" value="${isoToLocalInput(l.sleepTime)}"></div>
-          <div class="habit-edit-field"><label>🌅 שעת קימה</label><input type="datetime-local" class="habit-edit-wake" value="${isoToLocalInput(l.wakeTime)}"></div>
+          <div class="habit-edit-field"><label><svg class="icon icon-xs icon-inline"><use href="#icon-habits"></use></svg> שעת שינה</label><input type="datetime-local" class="habit-edit-sleep" value="${isoToLocalInput(l.sleepTime)}"></div>
+          <div class="habit-edit-field"><label><svg class="icon icon-xs icon-inline"><use href="#icon-sun"></use></svg> שעת קימה</label><input type="datetime-local" class="habit-edit-wake" value="${isoToLocalInput(l.wakeTime)}"></div>
           <div class="habit-edit-actions">
-            <button class="btn btn-sm btn-primary" onclick="saveHabitEdit('${l.id}')">💾 שמור</button>
+            <button class="btn btn-sm btn-primary" onclick="saveHabitEdit('${l.id}')"><svg class="icon icon-sm icon-inline"><use href="#icon-save"></use></svg> שמור</button>
             <button class="btn btn-sm btn-outline" onclick="cancelHabitEdit()">ביטול</button>
           </div>
         </div>
@@ -4154,14 +4426,14 @@ function renderHabitHistory() {
     }
     const parts = [];
     if (l.sleepTime) parts.push(`😴 ${formatClockTime(l.sleepTime)}`);
-    if (l.wakeTime) parts.push(`🌅 ${formatClockTime(l.wakeTime)}`);
+    if (l.wakeTime) parts.push(`<svg class="icon icon-xs icon-inline"><use href="#icon-sun"></use></svg> ${formatClockTime(l.wakeTime)}`);
     const dur = formatSleepDurationOf(l);
     return `<div class="habit-row" data-id="${l.id}">
       <div class="habit-row-date">${escHtml(formatDateDisplay(l.date))}</div>
       <div class="habit-row-info">${parts.join(' &nbsp;•&nbsp; ')}${dur ? ` <span class="habit-hist-dur">• ⏱️ ${dur}</span>` : ''}</div>
       <div class="habit-row-actions">
-        <button class="btn btn-icon" onclick="editHabitLog('${l.id}')" title="ערוך">✏️</button>
-        <button class="btn btn-icon danger" onclick="deleteHabitLog('${l.id}')" title="מחק">🗑️</button>
+        <button class="btn btn-icon" onclick="editHabitLog('${l.id}')" title="ערוך"><svg class="icon icon-sm"><use href="#icon-edit"></use></svg></button>
+        <button class="btn btn-icon danger" onclick="deleteHabitLog('${l.id}')" title="מחק"><svg class="icon icon-sm"><use href="#icon-trash"></use></svg></button>
       </div>
     </div>`;
   }).join('');
@@ -4198,7 +4470,7 @@ function saveHabitEdit(id) {
   saveState();
   habitEditingId = null;
   renderHabitsView();
-  toast('✅ הזמנים עודכנו', 'success');
+  toast(' הזמנים עודכנו', 'success');
 }
 
 function deleteHabitLog(id) {
@@ -4251,13 +4523,13 @@ function showGoalTypeForm(editId) {
   if (editId) {
     const t = state.goalTypes.find(x => x.id === editId);
     if (!t) return;
-    document.getElementById('goalTypeModalTitle').textContent = '✏️ עריכת סוג מטרה';
+    document.getElementById('goalTypeModalTitle').innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-edit"></use></svg> עריכת סוג מטרה';
     document.getElementById('gtName').value = t.name || '';
     document.getElementById('gtColor').value = t.color || '#6c63ff';
     document.getElementById('gtParentId').value = t.parentId || '';
     modal.dataset.editId = editId;
   } else {
-    document.getElementById('goalTypeModalTitle').textContent = '➕ סוג מטרה חדש';
+    document.getElementById('goalTypeModalTitle').innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-tag"></use></svg> סוג מטרה חדש';
     document.getElementById('gtName').value = '';
     document.getElementById('gtColor').value = '#6c63ff';
     document.getElementById('gtParentId').value = '';
@@ -4302,7 +4574,7 @@ function saveGoalType() {
   saveState();
   closeGoalTypeForm();
   renderGoalsView();
-  toast(editId ? '✅ סוג עודכן' : '✅ סוג מטרה נוסף');
+  toast(editId ? 'סוג עודכן' : 'סוג מטרה נוסף');
 }
 
 function deleteGoalType(id) {
@@ -4321,7 +4593,7 @@ function deleteGoalType(id) {
   state.goals.forEach(g => { if (idsToRemove.has(g.typeId)) g.typeId = ''; });
   saveState();
   renderGoalsView();
-  toast('🗑️ סוג(י) מטרה נמחקו');
+  toast('סוג(י) מטרה נמחקו');
 }
 
 // ---- Goal Period CRUD ----
@@ -4332,7 +4604,7 @@ function showGoalPeriodForm(editId) {
   if (editId) {
     const p = getGoalPeriod(editId);
     if (!p) return;
-    titleEl.textContent = '✏️ עריכת תקופה';
+    titleEl.innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-edit"></use></svg> עריכת תקופה';
     document.getElementById('gpName').value = p.name || '';
     document.getElementById('gpStart').value = p.startDate || '';
     document.getElementById('gpEnd').value = p.endDate || '';
@@ -4341,7 +4613,7 @@ function showGoalPeriodForm(editId) {
     document.getElementById('gpInProgress').checked = p.status === 'in_progress';
     modal.dataset.editId = editId;
   } else {
-    titleEl.textContent = '📅 תקופת מטרות חדשה';
+    titleEl.innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-calendar"></use></svg> תקופת מטרות חדשה';
     document.getElementById('gpName').value = '';
     document.getElementById('gpStart').value = '';
     document.getElementById('gpEnd').value = '';
@@ -4382,7 +4654,7 @@ function saveGoalPeriod() {
   saveState();
   closeGoalPeriodForm();
   renderGoalsView();
-  toast(editId ? '✅ תקופה עודכנה' : '✅ תקופה נוספה');
+  toast(editId ? 'תקופה עודכנה' : 'תקופה נוספה');
 }
 
 function deleteGoalPeriod(id) {
@@ -4392,7 +4664,7 @@ function deleteGoalPeriod(id) {
   state.goals.forEach(g => { if (g.periodId === id) g.periodId = ''; });
   saveState();
   renderGoalsView();
-  toast('🗑️ תקופה נמחקה');
+  toast('️ תקופה נמחקה');
 }
 
 // ---- Goal CRUD ----
@@ -4410,7 +4682,7 @@ function showGoalForm(editId) {
   if (editId) {
     const g = getGoal(editId);
     if (!g) return;
-    document.getElementById('goalModalTitle').textContent = '✏️ עריכת מטרה';
+    document.getElementById('goalModalTitle').innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-edit"></use></svg> עריכת מטרה';
     document.getElementById('gName').value = g.name || '';
     document.getElementById('gPeriodId').value = g.periodId || '';
     document.getElementById('gTypeId').value = g.typeId || '';
@@ -4425,7 +4697,7 @@ function showGoalForm(editId) {
     // load objectives
     renderGoalFormObjectives(editId);
   } else {
-    document.getElementById('goalModalTitle').textContent = '🎯 מטרה חדשה';
+    document.getElementById('goalModalTitle').innerHTML = '<svg class="icon icon-md icon-inline"><use href="#icon-goals"></use></svg> מטרה חדשה';
     document.getElementById('gName').value = '';
     document.getElementById('gPeriodId').value = '';
     document.getElementById('gTypeId').value = '';
@@ -4459,7 +4731,7 @@ function addObjectiveFormItem(obj) {
       <input type="checkbox" class="obj-completed" ${obj && obj.status === 'completed' ? 'checked' : ''}>
       הושלם
     </label>
-    <button class="btn-icon" onclick="removeObjectiveFormItem(this)" title="הסר">✕</button>
+    <button class="btn-icon" onclick="removeObjectiveFormItem(this)" title="הסר"><svg class="icon icon-md"><use href="#icon-x"></use></svg></button>
   `;
   list.appendChild(div);
 }
@@ -4538,7 +4810,7 @@ function saveGoal() {
   saveState();
   closeGoalForm();
   renderGoalsView();
-  toast(editId ? '✅ מטרה עודכנה' : '✅ מטרה נוספה');
+  toast(editId ? ' מטרה עודכנה' : ' מטרה נוספה');
 }
 
 function toggleGoalStatus(goalId) {
@@ -4557,7 +4829,7 @@ function deleteGoal(id) {
   state.objectives = state.objectives.filter(o => o.goalId !== id);
   saveState();
   renderGoalsView();
-  toast('🗑️ מטרה נמחקה');
+  toast('️ מטרה נמחקה');
 }
 
 // ---- Objective Toggle ----
@@ -4575,7 +4847,7 @@ function renderGoalsView() {
 
   if (state.goals.length === 0) {
     container.innerHTML = `<div class="goals-empty">
-      <div class="goals-empty-icon">🎯</div>
+      <div class="goals-empty-icon"><svg class="icon icon-lg"><use href="#icon-goals"></use></svg></div>
       <div>עדיין אין מטרות ויעדים<br><span style="font-size:13px;color:var(--text3)">צור תקופת מטרות או מטרה חדשה כדי להתחיל</span></div>
     </div>`;
     return;
@@ -4605,8 +4877,8 @@ function renderGoalsView() {
       html += `<span class="type-tag" style="background:${t.color}22;color:${t.color};border:1px solid ${t.color}44;display:inline-flex;align-items:center;gap:3px;${isParent ? 'cursor:pointer;' : ''}" ${isParent ? `onclick="event.stopPropagation();document.getElementById('${wrapId}').classList.toggle('hidden');this.querySelector('.type-bar-toggle').classList.toggle('open')"` : ''}>
         ${isParent ? `<span class="type-bar-toggle">▶</span>` : ''}
         <span ${isParent ? '' : `onclick="showGoalTypeForm('${t.id}')" style="cursor:pointer;"`} class="type-tag-name">${escHtml(t.name)} (${count})</span>
-        <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="ערוך">✏️</span>
-        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="מחק">✕</span>
+        <span onclick="event.stopPropagation();showGoalTypeForm('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="ערוך"><svg class="icon icon-xs"><use href="#icon-edit"></use></svg></span>
+        <span onclick="event.stopPropagation();deleteGoalType('${t.id}')" style="cursor:pointer;opacity:0.4;font-size:11px;" title="מחק"><svg class="icon icon-md"><use href="#icon-x"></use></svg></span>
       </span>`;
       if (isParent) {
         html += `<div id="${wrapId}" class="type-children hidden">${renderTypeBar(t.id)}</div>`;
@@ -4615,7 +4887,7 @@ function renderGoalsView() {
     return html;
   }
   html += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">${renderTypeBar('')}`;
-  html += `<span class="type-tag" style="background:#eee;color:#666;border:1px solid #ddd;cursor:pointer;" onclick="showGoalTypeForm()">➕</span>`;
+  html += `<span class="type-tag" style="background:#eee;color:#666;border:1px solid #ddd;cursor:pointer;" onclick="showGoalTypeForm()"><svg class="icon icon-sm"><use href="#icon-tag"></use></svg></span>`;
   html += `</div>`;
 
   // Group goals by period
@@ -4672,11 +4944,11 @@ function renderPeriodSection(p, goals, typeMap) {
   const completed = p.status === 'completed';
   let html = `<div class="goals-section" style="${completed ? 'opacity:0.6;' : ''}">
     <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open')">
-      <span class="period-name">📅 ${escHtml(p.name)}</span>
+      <span class="period-name"><svg class="icon icon-xs icon-inline"><use href="#icon-calendar"></use></svg> ${escHtml(p.name)}</span>
       <span class="period-card-status ${p.status}">${goalStatusLabel(p.status)}</span>
       <span class="period-actions" onclick="event.stopPropagation();">
-        <button class="btn-icon" onclick="showGoalPeriodForm('${p.id}')" title="ערוך">✏️</button>
-        <button class="btn-icon" onclick="deleteGoalPeriod('${p.id}')" title="מחק">🗑️</button>
+        <button class="btn-icon" onclick="showGoalPeriodForm('${p.id}')" title="ערוך"><svg class="icon icon-sm"><use href="#icon-edit"></use></svg></button>
+        <button class="btn-icon" onclick="deleteGoalPeriod('${p.id}')" title="מחק">️</button>
       </span>
       <span class="arrow">▶</span>
     </div>
@@ -4702,7 +4974,7 @@ function renderPeriodSection(p, goals, typeMap) {
   if (noTypeGoals.length > 0) {
     html += `<div class="type-block" style="border-right:4px solid #bbb;border-color:#e0e0e0;">
       <div class="type-block-header" style="border-bottom-color:#e0e0e0;">
-        <span class="type-block-name" style="color:#999;">📋 ללא סוג</span>
+        <span class="type-block-name" style="color:#999;"><svg class="icon icon-xs icon-inline"><use href="#icon-tag"></use></svg> ללא סוג</span>
         <span class="type-block-count" style="color:#bbb;">${noTypeGoals.length}</span>
       </div>`;
     noTypeGoals.forEach(g => html += renderGoalCard(g, '#999'));
@@ -4730,7 +5002,7 @@ function renderNoPeriodSection(goals, typeMap) {
 
   let html = `<div class="goals-section">
     <div class="goals-section-header open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');this.querySelector('.arrow').classList.toggle('open')">
-      <span>📥 מטרות ללא תקופה</span>
+      <span><svg class="icon icon-sm icon-inline"><use href="#icon-download"></use></svg> מטרות ללא תקופה</span>
       <span class="arrow">▶</span>
     </div>
     <div class="goals-section-body open">`;
@@ -4749,7 +5021,7 @@ function renderNoPeriodSection(goals, typeMap) {
   if (noTypeGoals.length > 0) {
     html += `<div class="type-block" style="border-right:4px solid #bbb;border-color:#e0e0e0;">
       <div class="type-block-header" style="border-bottom-color:#e0e0e0;">
-        <span class="type-block-name" style="color:#999;">📋 ללא סוג</span>
+        <span class="type-block-name" style="color:#999;"><svg class="icon icon-xs icon-inline"><use href="#icon-tag"></use></svg> ללא סוג</span>
         <span class="type-block-count" style="color:#bbb;">${noTypeGoals.length}</span>
       </div>`;
     noTypeGoals.forEach(g => html += renderGoalCard(g, '#999'));
@@ -4800,9 +5072,9 @@ function renderGoalCard(g, typeColor) {
       <span class="goal-card-status ${g.status}">${goalStatusLabel(g.status)}</span>
       ${!g.single && objs.length > 0 ? `<span style="font-size:11px;color:var(--text3);background:var(--surface-hover);padding:1px 8px;border-radius:8px;">${completedObjs}/${objs.length}</span>` : ''}
       <span class="goal-actions" onclick="event.stopPropagation();">
-        <button class="btn-icon" onclick="toggleGoalStatus('${g.id}')" title="החלף סטטוס">🔄</button>
-        <button class="btn-icon" onclick="showGoalForm('${g.id}')" title="ערוך">✏️</button>
-        <button class="btn-icon" onclick="deleteGoal('${g.id}')" title="מחק">🗑️</button>
+        <button class="btn-icon" onclick="toggleGoalStatus('${g.id}')" title="החלף סטטוס"><svg class="icon icon-sm"><use href="#icon-refresh"></use></svg></button>
+        <button class="btn-icon" onclick="showGoalForm('${g.id}')" title="ערוך"><svg class="icon icon-sm"><use href="#icon-edit"></use></svg></button>
+        <button class="btn-icon" onclick="deleteGoal('${g.id}')" title="מחק">️</button>
       </span>
       ${hasBody ? '<span class="arrow" style="font-size:10px;color:var(--text3);transition:transform 0.2s;">▶</span>' : ''}
     </div>`;
@@ -4847,7 +5119,7 @@ function doSearch(query) {
       const inDesc = r.description && r.description.toLowerCase().includes(q);
       if (inTitle) score = 3;
       else if (inDesc) score = 1;
-      if (score > 0) results.push({ type: 'task', typeLabel: '📋 תוצאה', id: r.id, title: r.title, context: r.description || '', score, date: r.date });
+      if (score > 0) results.push({ type: 'task', typeLabel: '<svg class="icon icon-xs icon-inline"><use href="#icon-tag"></use></svg> תוצאה', id: r.id, title: r.title, context: r.description || '', score, date: r.date });
     });
 
     // Search goal periods
@@ -4855,7 +5127,7 @@ function doSearch(query) {
       let score = 0;
       if (p.name.toLowerCase().includes(q)) score = 2;
       else if (p.description && p.description.toLowerCase().includes(q)) score = 1;
-      if (score > 0) results.push({ type: 'period', typeLabel: '📅 תקופה', id: p.id, title: p.name, context: p.description || '', score });
+      if (score > 0) results.push({ type: 'period', typeLabel: '<svg class="icon icon-xs icon-inline"><use href="#icon-calendar"></use></svg> תקופה', id: p.id, title: p.name, context: p.description || '', score });
     });
 
     // Search goals
@@ -4867,7 +5139,7 @@ function doSearch(query) {
       else if (inDesc) score = 1;
       if (score > 0) {
         const periodName = g.periodId ? (state.goalPeriods.find(p => p.id === g.periodId)?.name || '') : '';
-        results.push({ type: 'goal', typeLabel: '🎯 מטרה', id: g.id, title: g.name, context: g.description || periodName ? `תקופה: ${periodName}` : '', score, goalId: g.id });
+        results.push({ type: 'goal', typeLabel: '<svg class="icon icon-xs icon-inline"><use href="#icon-goals"></use></svg> מטרה', id: g.id, title: g.name, context: g.description || periodName ? `תקופה: ${periodName}` : '', score, goalId: g.id });
       }
     });
 
@@ -4880,14 +5152,14 @@ function doSearch(query) {
       else if (inDerech) score = 1;
       if (score > 0) {
         const goalName = state.goals.find(g => g.id === o.goalId)?.name || '';
-        results.push({ type: 'objective', typeLabel: '🎯 יעד', id: o.id, title: o.name, context: o.derech ? `דרך: ${o.derech}` : goalName ? `מטרה: ${goalName}` : '', score, goalId: o.goalId });
+        results.push({ type: 'objective', typeLabel: '<svg class="icon icon-xs icon-inline"><use href="#icon-goals"></use></svg> יעד', id: o.id, title: o.name, context: o.derech ? `דרך: ${o.derech}` : goalName ? `מטרה: ${goalName}` : '', score, goalId: o.goalId });
       }
     });
 
     results.sort((a, b) => b.score - a.score);
 
     if (results.length === 0) {
-      resultsEl.innerHTML = '<div class="search-empty">😕 לא נמצאו תוצאות</div>';
+      resultsEl.innerHTML = '<div class="search-empty"><svg class="icon icon-md icon-inline"><use href="#icon-search"></use></svg> לא נמצאו תוצאות</div>';
       resultsEl.classList.add('open');
       return;
     }
