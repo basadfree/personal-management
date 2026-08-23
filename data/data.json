@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-23T05:54:02.145Z",
+  "exportedAt": "2026-08-23T05:54:21.481Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -6217,12 +6217,12 @@
       "time": "19:30",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782423817363_xrim",
       "createdAt": "2026-07-28T18:47:14.735Z",
-      "updatedAt": "2026-07-28T18:47:14.735Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1785264434735_z6aq",
@@ -6231,12 +6231,12 @@
       "time": "10:30",
       "duration": 60,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782424741865_yg34",
       "createdAt": "2026-07-28T18:47:14.735Z",
-      "updatedAt": "2026-07-28T18:47:14.735Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1785264434735_zx0p",
@@ -6245,12 +6245,12 @@
       "time": "21:30",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425247021_u699",
       "createdAt": "2026-07-28T18:47:14.735Z",
-      "updatedAt": "2026-07-28T18:47:14.735Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1785264434735_o3a3",
@@ -6259,12 +6259,12 @@
       "time": "09:00",
       "duration": 30,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782821159911_fqcb",
       "createdAt": "2026-07-28T18:47:14.735Z",
-      "updatedAt": "2026-07-28T18:47:14.735Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1785264434735_aiv0",
@@ -6273,12 +6273,12 @@
       "time": "20:30",
       "duration": 40,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1783339677824_0nx8",
       "createdAt": "2026-07-28T18:47:14.735Z",
-      "updatedAt": "2026-07-28T18:47:14.735Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1785264438087_8lcx",
@@ -14746,12 +14746,12 @@
       "time": "07:00",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785266363579_zvqg",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-18T20:36:40.488Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_cxfz",
@@ -14760,12 +14760,12 @@
       "time": "12:10",
       "duration": 30,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785303136675_j5h7",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_t1bx",
@@ -14774,12 +14774,12 @@
       "time": "15:00",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1785458889750_e3y6",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_7bu8",
@@ -14788,12 +14788,12 @@
       "time": "18:00",
       "duration": 30,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425136551_sb8q",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_d08p",
@@ -14802,12 +14802,12 @@
       "time": "07:45",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782425388805_mmgm",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_lvli",
@@ -14816,12 +14816,12 @@
       "time": "19:15",
       "duration": 75,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782442551153_zpl2",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_7zer",
@@ -14830,12 +14830,12 @@
       "time": "09:00",
       "duration": 15,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1782474961808_oqv9",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596899379_zy67",
@@ -14844,12 +14844,12 @@
       "time": "17:00",
       "duration": 60,
       "date": "2026-08-19",
-      "completed": false,
+      "completed": true,
       "archived": false,
       "recurrence": null,
       "sourceId": "r_1786097275695_hidv",
       "createdAt": "2026-08-13T04:54:59.379Z",
-      "updatedAt": "2026-08-13T04:54:59.379Z"
+      "updatedAt": "2026-08-23T05:54:17.014Z"
     },
     {
       "id": "r_1786596921354_j580",
@@ -18379,7 +18379,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-23T05:54:02.145Z"
+    "ts": "2026-08-23T05:54:21.481Z"
   },
   "settings": {
     "autoSync": true
