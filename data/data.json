@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-24T04:18:40.130Z",
+  "exportedAt": "2026-08-24T04:18:47.929Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -16953,7 +16953,7 @@
       "sleepTime": "2026-08-23T21:30:00.000Z",
       "wakeTime": "2026-08-24T04:00:00.000Z",
       "createdAt": "2026-08-24T04:17:56.496Z",
-      "updatedAt": "2026-08-24T04:18:38.913Z"
+      "updatedAt": "2026-08-24T04:18:45.005Z"
     }
   ],
   "_removedFromDate": [
@@ -18353,7 +18353,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-24T04:18:40.130Z"
+    "ts": "2026-08-24T04:18:47.929Z"
   },
   "settings": {
     "autoSync": true
