@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "exportedAt": "2026-08-30T08:45:14.124Z",
+  "exportedAt": "2026-09-16T00:42:02.702Z",
   "results": [
     {
       "id": "r_1782423817363_xrim",
@@ -15212,6 +15212,19 @@
       "sourceId": null,
       "createdAt": "2026-08-23T02:55:58.510Z",
       "updatedAt": "2026-08-23T02:55:58.510Z"
+    },
+    {
+      "id": "r_1789519309326_ynjk",
+      "title": "התכתבויות ופגישה כפולה 🔥🔥🔥🔥🔥🔥",
+      "description": "",
+      "time": "21:30",
+      "duration": 20,
+      "date": "2026-09-16",
+      "completed": false,
+      "archived": false,
+      "recurrence": null,
+      "sourceId": "r_1786596821401_y9el",
+      "createdAt": "2026-09-16T00:41:49.326Z"
     }
   ],
   "suggestions": {
@@ -18217,7 +18230,7 @@
   "_sync": {
     "format": 2,
     "deviceId": "dev_msine8q1_vjryu0",
-    "ts": "2026-08-30T08:45:14.124Z"
+    "ts": "2026-09-16T00:42:02.702Z"
   },
   "settings": {
     "autoSync": true
